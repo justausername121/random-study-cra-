@@ -486,6 +486,99 @@ body {
 .tf-row.graded-correct { border-color: var(--green); background: #f2ffe8; }
 .tf-row.graded-incorrect { border-color: var(--red); background: #fff1f1; }
 
+/* ---------- Bubble-pop option style ---------- */
+
+.options-bubbles {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+  padding: 10px 0;
+}
+.options-bubbles .option-btn {
+  border-radius: 999px;
+  text-align: center;
+  width: 44%;
+  transform: rotate(var(--bubble-rot, 0deg));
+  box-shadow: 0 4px 0 0 var(--border);
+}
+.options-bubbles .option-btn:hover:not(:disabled) { transform: rotate(var(--bubble-rot, 0deg)) scale(1.04); }
+.options-bubbles .option-btn.correct { animation: bubble-confirm 0.4s ease; }
+.options-bubbles .option-btn.incorrect { animation: bubble-pop 0.4s ease forwards; }
+@keyframes bubble-confirm {
+  0% { transform: rotate(var(--bubble-rot, 0deg)) scale(1); }
+  50% { transform: rotate(var(--bubble-rot, 0deg)) scale(1.15); }
+  100% { transform: rotate(var(--bubble-rot, 0deg)) scale(1); }
+}
+@keyframes bubble-pop {
+  0% { transform: rotate(var(--bubble-rot, 0deg)) scale(1); opacity: 1; }
+  60% { transform: rotate(var(--bubble-rot, 0deg)) scale(1.2); opacity: 0.7; }
+  100% { transform: rotate(var(--bubble-rot, 0deg)) scale(0.85); opacity: 0.5; }
+}
+
+/* ---------- True/False sort-into-columns style ---------- */
+
+.tf-sort-columns { display: flex; gap: 12px; margin-bottom: 14px; }
+.tf-sort-col {
+  flex: 1;
+  border: 2px dashed var(--border);
+  border-radius: 14px;
+  padding: 10px;
+  min-height: 70px;
+}
+.tf-sort-true { border-color: color-mix(in srgb, var(--green) 40%, var(--border)); background: color-mix(in srgb, var(--green) 5%, white); }
+.tf-sort-false { border-color: color-mix(in srgb, var(--red) 40%, var(--border)); background: color-mix(in srgb, var(--red) 5%, white); }
+.tf-sort-label { font-size: 12px; font-weight: 800; margin-bottom: 8px; display: flex; align-items: center; gap: 4px; }
+.tf-sort-label svg { width: 14px; height: 14px; }
+.tf-sort-true .tf-sort-label { color: #2d6a00; }
+.tf-sort-false .tf-sort-label { color: #b80000; }
+.tf-sort-drop { display: flex; flex-direction: column; gap: 6px; min-height: 20px; }
+.tf-chip-pool { display: flex; flex-direction: column; gap: 8px; margin-bottom: 8px; }
+.tf-chip {
+  text-align: left;
+  padding: 10px 12px;
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  background: white;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  line-height: 1.4;
+}
+.tf-chip-true { border-color: var(--green); background: #eaffd6; }
+.tf-chip-false { border-color: var(--red); background: #ffe4e4; }
+.tf-chip.graded-correct { border-color: var(--green); background: #d7ffb8; }
+.tf-chip.graded-incorrect { border-color: var(--red); background: #ffdfe0; }
+.tf-chip:disabled { cursor: default; }
+.tf-sort-hint { font-size: 11.5px; color: var(--ink-light); text-align: center; }
+
+/* ---------- Match-up (Wordwall-style) ---------- */
+
+.match-columns { display: flex; gap: 14px; }
+.match-col { flex: 1; display: flex; flex-direction: column; gap: 8px; }
+.match-chip {
+  padding: 12px 10px;
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  background: white;
+  font-size: 13.5px;
+  font-weight: 700;
+  cursor: pointer;
+  line-height: 1.35;
+  text-align: left;
+  transition: transform 0.1s;
+}
+.match-chip:hover:not(:disabled) { border-color: var(--lesson-accent, var(--blue)); }
+.match-chip.selected { background: color-mix(in srgb, var(--lesson-accent, var(--blue)) 18%, white); border-color: var(--lesson-accent, var(--blue)); }
+.match-chip.match-locked { background: #d7ffb8; border-color: var(--green); color: #2d6a00; cursor: default; opacity: 0.85; }
+.match-chip.match-wrong { background: #ffdfe0; border-color: var(--red); animation: match-shake 0.3s ease; }
+@keyframes match-shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+.match-progress { text-align: center; font-size: 12.5px; font-weight: 700; color: var(--ink-light); margin-top: 12px; }
+
 .footer-bar {
   border-top: 2px solid var(--border);
   padding: 14px 20px;

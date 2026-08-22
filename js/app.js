@@ -525,6 +525,10 @@ function renderCard() {
   const cd = chuDeById(session.subjectId, session.chuDeId);
   const accent = cd ? cd.color : null;
 
+  if ((card.kind === "mcq" || card.kind === "gloss" || card.kind === "tf") && card._style === undefined) {
+    card._style = Math.random() < 0.5 ? (card.kind === "tf" ? "sort" : "bubbles") : (card.kind === "tf" ? "toggle" : "list");
+  }
+
   let bodyHtml = "";
   if (card.kind === "concept") {
     bodyHtml = renderConceptCard(card);
@@ -534,6 +538,8 @@ function renderCard() {
     bodyHtml = renderTfCard(card);
   } else if (card.kind === "short") {
     bodyHtml = renderShortCard(card);
+  } else if (card.kind === "match") {
+    bodyHtml = renderMatchCard(card);
   }
 
   els.app.innerHTML = `
@@ -568,14 +574,16 @@ function renderConceptCard(card) {
 
 function renderMcqCard(card) {
   const optKeys = card.kind === "mcq" ? ["A", "B", "C", "D"] : card.options.map((_, i) => i);
+  const bubbles = card._style === "bubbles";
   return `
     <div class="q-prompt">${card.kind === "mcq" ? card.question : card.prompt}</div>
-    <div class="options">
+    <div class="options ${bubbles ? "options-bubbles" : ""}">
       ${optKeys
         .map((k, i) => {
           const text = card.kind === "mcq" ? card.options[k] : card.options[i];
           const label = card.kind === "mcq" ? k : String.fromCharCode(65 + i);
-          return `<button class="option-btn" data-key="${k}"><b>${label}.</b> ${text}</button>`;
+          const rot = bubbles ? Math.round((Math.random() - 0.5) * 12) : 0;
+          return `<button class="option-btn" data-key="${k}" style="${bubbles ? `--bubble-rot:${rot}deg` : ""}"><b>${label}.</b> ${text}</button>`;
         })
         .join("")}
     </div>
@@ -583,6 +591,24 @@ function renderMcqCard(card) {
 }
 
 function renderTfCard(card) {
+  if (card._style === "sort") {
+    return `
+      ${card.stimulus ? `<div class="q-stimulus">${card.stimulus}</div>` : ""}
+      <div class="q-prompt" style="font-size:16px">Xếp mỗi ý vào đúng cột:</div>
+      <div class="tf-sort-columns">
+        <div class="tf-sort-col tf-sort-true">
+          <div class="tf-sort-label">${icon("check")} ĐÚNG</div>
+          <div class="tf-sort-drop" id="tf-drop-true"></div>
+        </div>
+        <div class="tf-sort-col tf-sort-false">
+          <div class="tf-sort-label">${icon("x")} SAI</div>
+          <div class="tf-sort-drop" id="tf-drop-false"></div>
+        </div>
+      </div>
+      <div class="tf-chip-pool" id="tf-chip-pool"></div>
+      <div class="tf-sort-hint">Chạm vào 1 ý để xếp Đúng, chạm lần nữa để chuyển sang Sai, chạm lần 3 để bỏ ra.</div>
+    ` + footerCheck();
+  }
   return `
     ${card.stimulus ? `<div class="q-stimulus">${card.stimulus}</div>` : ""}
     <div class="q-prompt" style="font-size:16px">Mỗi ý dưới đây là Đúng hay Sai?</div>
@@ -601,6 +627,22 @@ function renderTfCard(card) {
         .join("")}
     </div>
   ` + footerCheck();
+}
+
+function renderMatchCard(card) {
+  const defOrder = card.defOrder.map((key) => card.pairs.find((p) => p.key === key));
+  return `
+    <div class="q-prompt" style="font-size:16px">Ghép mỗi khái niệm với đúng định nghĩa của nó:</div>
+    <div class="match-columns">
+      <div class="match-col" id="match-terms">
+        ${card.pairs.map((p) => `<button class="match-chip match-term" data-key="${p.key}">${p.term}</button>`).join("")}
+      </div>
+      <div class="match-col" id="match-defs">
+        ${defOrder.map((p) => `<button class="match-chip match-def" data-key="${p.key}">${p.definition}</button>`).join("")}
+      </div>
+    </div>
+    <div class="match-progress" id="match-progress">Đã ghép: 0/${card.pairs.length}</div>
+  `;
 }
 
 function renderShortCard(card) {
@@ -646,6 +688,11 @@ function wireCardInteractions(card) {
     return;
   }
 
+  if (card.kind === "tf" && card._style === "sort") {
+    wireTfSort(card);
+    return;
+  }
+
   if (card.kind === "tf") {
     const answers = {};
     document.querySelectorAll(".tf-row").forEach((row) => {
@@ -668,6 +715,11 @@ function wireCardInteractions(card) {
     return;
   }
 
+  if (card.kind === "match") {
+    wireMatchCard(card);
+    return;
+  }
+
   if (card.kind === "short") {
     const input = document.getElementById("short-input");
     const checkBtn = document.getElementById("btn-check");
@@ -682,6 +734,102 @@ function wireCardInteractions(card) {
       gradeShort(card, input);
     });
   }
+}
+
+function wireTfSort(card) {
+  const answers = {};
+  function renderChips() {
+    const trueZone = document.getElementById("tf-drop-true");
+    const falseZone = document.getElementById("tf-drop-false");
+    const pool = document.getElementById("tf-chip-pool");
+    trueZone.innerHTML = "";
+    falseZone.innerHTML = "";
+    pool.innerHTML = "";
+    card.statements.forEach((st) => {
+      const chip = document.createElement("button");
+      chip.className = "tf-chip";
+      chip.setAttribute("data-key", st.key);
+      chip.innerHTML = `<b>${st.key})</b> ${st.text}`;
+      chip.addEventListener("click", () => {
+        if (session.answered) return;
+        const current = answers[st.key];
+        if (current === undefined) answers[st.key] = true;
+        else if (current === true) answers[st.key] = false;
+        else delete answers[st.key];
+        renderChips();
+        document.getElementById("btn-check").disabled = Object.keys(answers).length < card.statements.length;
+      });
+      const state = answers[st.key];
+      if (state === true) {
+        chip.classList.add("tf-chip-true");
+        trueZone.appendChild(chip);
+      } else if (state === false) {
+        chip.classList.add("tf-chip-false");
+        falseZone.appendChild(chip);
+      } else {
+        pool.appendChild(chip);
+      }
+    });
+  }
+  renderChips();
+  document.getElementById("btn-check").addEventListener("click", () => {
+    if (session.answered) return;
+    gradeTf(card, answers);
+  });
+}
+
+function wireMatchCard(card) {
+  let selectedTerm = null;
+  const matched = new Set();
+  const wrongTerm = new Set();
+  document.querySelectorAll(".match-term").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      if (matched.has(btn.getAttribute("data-key"))) return;
+      document.querySelectorAll(".match-term").forEach((b) => b.classList.remove("selected"));
+      btn.classList.add("selected");
+      selectedTerm = btn;
+    });
+  });
+  document.querySelectorAll(".match-def").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      if (!selectedTerm || matched.has(btn.getAttribute("data-key"))) return;
+      const termKey = selectedTerm.getAttribute("data-key");
+      const defKey = btn.getAttribute("data-key");
+      if (termKey === defKey) {
+        matched.add(termKey);
+        selectedTerm.classList.remove("selected");
+        selectedTerm.classList.add("match-locked");
+        btn.classList.add("match-locked");
+        selectedTerm.disabled = true;
+        btn.disabled = true;
+        playCorrect();
+        selectedTerm = null;
+        document.getElementById("match-progress").textContent = `Đã ghép: ${matched.size}/${card.pairs.length}`;
+        if (matched.size === card.pairs.length) gradeMatch(card, wrongTerm);
+      } else {
+        wrongTerm.add(termKey);
+        btn.classList.add("match-wrong");
+        selectedTerm.classList.add("match-wrong");
+        playIncorrect();
+        setTimeout(() => {
+          btn.classList.remove("match-wrong");
+          if (selectedTerm) selectedTerm.classList.remove("match-wrong", "selected");
+        }, 400);
+        selectedTerm = null;
+      }
+    });
+  });
+}
+
+function gradeMatch(card, wrongTerm) {
+  session.answered = true;
+  const correctCount = card.pairs.filter((p) => !wrongTerm.has(p.key)).length;
+  session.correctUnits += correctCount;
+  session.xpEarned += correctCount * 5;
+  if (correctCount < card.pairs.length) loseSessionHeart();
+  const allCorrect = correctCount === card.pairs.length;
+  allCorrect ? playComplete() : playCorrect();
+  showFeedback(allCorrect, `Bạn ghép đúng ${correctCount}/${card.pairs.length} cặp ngay lần đầu.`);
 }
 
 function parseNumericInput(raw) {
@@ -732,17 +880,31 @@ function gradeMcq(card, selectedKey, btns) {
 function gradeTf(card, answers) {
   session.answered = true;
   let correctCount = 0;
+  card.statements.forEach((st) => {
+    if (answers[st.key] === st.answer) correctCount += 1;
+  });
+
+  // Toggle-row style feedback
   document.querySelectorAll(".tf-row").forEach((row) => {
     const key = row.getAttribute("data-key");
     const st = card.statements.find((s) => s.key === key);
     const ok = answers[key] === st.answer;
-    if (ok) correctCount += 1;
     row.classList.add(ok ? "graded-correct" : "graded-incorrect");
     row.querySelectorAll(".tf-btn").forEach((b) => (b.disabled = true));
   });
+  // Sort-chip style feedback
+  document.querySelectorAll(".tf-chip[data-key]").forEach((chip) => {
+    const key = chip.getAttribute("data-key");
+    const st = card.statements.find((s) => s.key === key);
+    if (!st) return;
+    const ok = answers[key] === st.answer;
+    chip.classList.add(ok ? "graded-correct" : "graded-incorrect");
+    chip.disabled = true;
+  });
+
   session.correctUnits += correctCount;
   session.xpEarned += correctCount * 5;
-  if (correctCount < card.statements.length) loseHeart(S);
+  if (correctCount < card.statements.length) loseSessionHeart();
   const allCorrect = correctCount === card.statements.length;
   allCorrect ? playCorrect() : playIncorrect();
   showFeedback(allCorrect, `Bạn đúng ${correctCount}/${card.statements.length} ý.`);

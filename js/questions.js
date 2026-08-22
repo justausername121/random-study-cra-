@@ -37,6 +37,22 @@ function buildGlossaryCards(glossary, count) {
   });
 }
 
+// A Wordwall-style "match up" round: pick up to 4 glossary pairs, shuffle
+// the definitions, and let the player click a term then its definition.
+function buildMatchCard(glossary) {
+  if (!glossary || glossary.length < 3) return null;
+  const count = Math.min(4, glossary.length);
+  const chosen = pick(glossary, count);
+  const pairs = chosen.map((g, i) => ({ key: String.fromCharCode(97 + i), term: g.term, definition: g.definition }));
+  const shuffledDefs = shuffle(pairs.map((p) => p.key));
+  return {
+    kind: "match",
+    id: `match-${chosen.map((g) => g.term).join("-")}`,
+    pairs,
+    defOrder: shuffledDefs,
+  };
+}
+
 function questionPoolFromQuiz(quiz) {
   const mcq = (quiz.mcq || []).map((q) => ({ kind: "mcq", ...q }));
   const tf = (quiz.trueFalse || []).map((q) => ({ kind: "tf", ...q }));
@@ -73,7 +89,9 @@ function buildLessonQueue(lesson, quiz, seenSet, opts = {}) {
     example: s.example || null,
   }));
 
-  const glossCards = buildGlossaryCards(lesson.glossary || [], 2);
+  const glossary = lesson.glossary || [];
+  const matchCard = buildMatchCard(glossary);
+  const glossCards = matchCard ? [matchCard] : buildGlossaryCards(glossary, 2);
 
   let practice = [];
   if (quiz) {
@@ -98,6 +116,7 @@ function totalScoreUnits(queue) {
   for (const q of queue) {
     if (q.kind === "mcq" || q.kind === "gloss" || q.kind === "short") n += 1;
     else if (q.kind === "tf") n += q.statements.length;
+    else if (q.kind === "match") n += q.pairs.length;
   }
   return n;
 }
