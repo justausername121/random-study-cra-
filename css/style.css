@@ -156,7 +156,7 @@ body {
   display: flex;
 }
 .icon-btn:hover { background: #eee; color: var(--ink); }
-.icon-btn svg { width: 20px; height: 20px; }
+.icon-btn svg { width: 20px; height: 20px; display: block; flex-shrink: 0; }
 
 .stat-pill {
   display: flex;
@@ -166,12 +166,13 @@ body {
   font-size: 15px;
   position: relative;
 }
-.stat-pill svg { width: 22px; height: 22px; }
+.stat-pill svg { width: 22px; height: 22px; display: block; flex-shrink: 0; }
+.stat-pill span { display: flex; align-items: center; }
 .stat-group { display: flex; gap: 16px; align-items: center; }
 .stat-fire { color: var(--gold); }
 .stat-heart { color: var(--red); }
-.stat-gem { color: var(--blue); }
-.stat-coin { color: #d99b00; }
+.stat-xp { color: var(--blue); }
+.stat-coin { color: #e63950; }
 .freeze-badge {
   font-size: 10px;
   color: var(--blue);
@@ -259,8 +260,10 @@ body {
   border: none;
   cursor: pointer;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 1px;
   font-size: 26px;
   font-weight: 900;
   color: white;
@@ -268,6 +271,8 @@ body {
   position: relative;
   transition: transform 0.08s ease;
 }
+.node-icon { width: 26px; height: 26px; display: block; }
+.node-num { font-size: 13px; font-weight: 800; line-height: 1; }
 .node:active { transform: translateY(3px); box-shadow: none; }
 .node.locked {
   background: #e5e5e5 !important;
@@ -669,6 +674,8 @@ body {
 
 .summary-screen { position: relative; }
 .summary-screen .mascot { width: 120px; height: 120px; margin-bottom: 8px; }
+.summary-screen .btn-block + .btn-block { margin-top: 10px; }
+.fail-screen h1 { color: var(--red); }
 
 /* ---------- Narrow / phone screens ---------- */
 
@@ -678,6 +685,8 @@ body {
   .path { padding: 6px 14px 16px; gap: 20px 14px; }
   .node-wrap { width: 96px; }
   .node { width: 62px; height: 62px; font-size: 22px; }
+  .node-icon { width: 20px; height: 20px; }
+  .node-num { font-size: 11px; }
   .node.boss { width: 74px; height: 74px; font-size: 26px; }
   .hero { padding: 14px 16px 4px; }
   .unit-banner { margin: 16px 12px 22px; }

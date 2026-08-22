@@ -10,8 +10,15 @@ const SHOP_ITEMS = [
   { id: "theme_ocean", type: "theme", name: "Giao diện Đại dương", price: 60, green: "#1cb0f6", blue: "#2b70c9" },
   { id: "theme_forest", type: "theme", name: "Giao diện Rừng xanh", price: 60, green: "#2b9348", blue: "#58cc02" },
   { id: "streak_freeze", type: "consumable", name: "Bảo vệ chuỗi", desc: "Giữ chuỗi ngày nếu lỡ quên học 1 ngày", price: 50, icon: "snowflake" },
-  { id: "heart_refill", type: "consumable", name: "Làm đầy tim", desc: "Đầy lại 5 tim ngay lập tức", price: 30, icon: "heart" },
+  { id: "max_heart", type: "upgrade", name: "Tăng tối đa tim", desc: "Có thêm 1 tim mỗi khi vào bài học", icon: "heart" },
 ];
+
+const MAX_HEART_BASE_PRICE = 60;
+const MAX_HEART_PRICE_STEP = 40;
+
+function maxHeartPrice(s) {
+  return MAX_HEART_BASE_PRICE + (s.maxHeartsBonus || 0) * MAX_HEART_PRICE_STEP;
+}
 
 function ownsItem(s, itemId) {
   return !!s.owned[itemId];
@@ -20,15 +27,19 @@ function ownsItem(s, itemId) {
 function buyItem(s, itemId) {
   const item = SHOP_ITEMS.find((i) => i.id === itemId);
   if (!item) return { ok: false, reason: "notfound" };
+  if (item.type === "upgrade") {
+    if ((s.maxHeartsBonus || 0) >= MAX_HEARTS_BONUS_CAP) return { ok: false, reason: "maxed" };
+    const price = maxHeartPrice(s);
+    if (s.currency < price) return { ok: false, reason: "poor" };
+    s.currency -= price;
+    s.maxHeartsBonus = (s.maxHeartsBonus || 0) + 1;
+    return { ok: true, item };
+  }
   if (item.type !== "consumable" && ownsItem(s, itemId)) return { ok: false, reason: "owned" };
   if (s.currency < item.price) return { ok: false, reason: "poor" };
   s.currency -= item.price;
   if (item.type === "consumable") {
     if (item.id === "streak_freeze") s.streakFreezes += 1;
-    if (item.id === "heart_refill") {
-      s.hearts = 5;
-      s.heartsRefillAt = null;
-    }
   } else {
     s.owned[itemId] = true;
     if (item.type === "cap") s.equipped.cap = itemId;

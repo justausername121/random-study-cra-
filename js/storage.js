@@ -1,7 +1,9 @@
 // All persistence lives in localStorage under one namespaced key.
-// Hearts/XP/currency/streak/missions are GLOBAL (shared across subjects -
-// one student, one set of lives/energy). Lesson/boss completion and question
-// rotation memory are PER-SUBJECT.
+// XP/currency/streak/missions are GLOBAL (shared across subjects). Lesson/
+// boss completion and question rotation memory are PER-SUBJECT. Hearts are
+// NOT persisted at all - they only exist on the in-memory session object,
+// reset to the current max every time a lesson/boss round starts (see
+// app.js). Only the permanent max-hearts upgrade (maxHeartsBonus) persists.
 
 const STORAGE_KEY = "study-app-progress-v2";
 const OLD_STORAGE_KEY = "ktpl12-progress-v1"; // v1 was ktpl12-only; migrated below
@@ -32,8 +34,7 @@ function defaultState() {
     streak: 0,
     streakFreezes: 0,
     lastActiveDate: null,
-    hearts: 5,
-    heartsRefillAt: null,
+    maxHeartsBonus: 0,
     currentSubjectId: "ktpl12",
     subjects: {},
     equipped: { cap: null }, // cosmetic slot -> shop item id
@@ -50,8 +51,6 @@ function migrateOldState(s) {
     s.xp = old.xp || 0;
     s.streak = old.streak || 0;
     s.lastActiveDate = old.lastActiveDate || null;
-    s.hearts = old.hearts != null ? old.hearts : 5;
-    s.heartsRefillAt = old.heartsRefillAt || null;
     s.subjects.ktpl12 = {
       completedBai: old.completedBai || {},
       completedBoss: old.completedBoss || {},
@@ -81,7 +80,6 @@ function loadState() {
     if (!s.subjects[id]) s.subjects[id] = defaultSubjectState();
   }
   applyStreakDecay(s);
-  applyHeartRegen(s);
   return s;
 }
 
@@ -108,24 +106,11 @@ function applyStreakDecay(s) {
   }
 }
 
-const HEART_REGEN_MINUTES = 30;
-const MAX_HEARTS = 5;
+const BASE_MAX_HEARTS = 5;
+const MAX_HEARTS_BONUS_CAP = 3;
 
-function applyHeartRegen(s) {
-  if (s.hearts >= MAX_HEARTS) {
-    s.heartsRefillAt = null;
-    return;
-  }
-  if (!s.heartsRefillAt) {
-    s.heartsRefillAt = Date.now() + HEART_REGEN_MINUTES * 60000;
-    return;
-  }
-  const now = Date.now();
-  if (now >= s.heartsRefillAt) {
-    const elapsedRegens = Math.floor((now - s.heartsRefillAt) / (HEART_REGEN_MINUTES * 60000)) + 1;
-    s.hearts = Math.min(MAX_HEARTS, s.hearts + elapsedRegens);
-    s.heartsRefillAt = s.hearts >= MAX_HEARTS ? null : now + HEART_REGEN_MINUTES * 60000;
-  }
+function effectiveMaxHearts(s) {
+  return BASE_MAX_HEARTS + (s.maxHeartsBonus || 0);
 }
 
 function markActiveToday(s) {
@@ -140,15 +125,6 @@ function markActiveToday(s) {
     s.streak = 1;
   }
   s.lastActiveDate = t;
-}
-
-function loseHeart(s) {
-  if (s.hearts > 0) {
-    s.hearts -= 1;
-    if (s.hearts < MAX_HEARTS && !s.heartsRefillAt) {
-      s.heartsRefillAt = Date.now() + HEART_REGEN_MINUTES * 60000;
-    }
-  }
 }
 
 function addXp(s, amount) {

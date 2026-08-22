@@ -110,6 +110,7 @@ function wireTabBar() {
 // ---------------- Rendering: top bar ----------------
 
 function renderTopbar(showBack) {
+  const inSession = !!session;
   return `
     <div class="topbar">
       ${showBack ? `<button class="back-btn" id="btn-back">${ICONS.back}</button>` : `<div class="topbar-actions">
@@ -119,9 +120,9 @@ function renderTopbar(showBack) {
       <div class="stat-group">
         <button class="icon-btn" id="btn-sound" title="${S.soundOn ? "Tắt âm thanh" : "Bật âm thanh"}">${icon(S.soundOn ? "soundOn" : "soundOff")}</button>
         <span class="stat-pill stat-fire">${icon("fire")}${S.streak}${S.streakFreezes > 0 ? `<sup class="freeze-badge">x${S.streakFreezes}</sup>` : ""}</span>
-        <span class="stat-pill stat-heart">${icon("heart")}${S.hearts}</span>
-        <span class="stat-pill stat-coin">${icon("coin")}${S.currency}</span>
-        <span class="stat-pill stat-gem">${icon("gem")}${S.xp}</span>
+        ${inSession ? `<span class="stat-pill stat-heart">${icon("heart")}${session.hearts}</span>` : ""}
+        <span class="stat-pill stat-coin">${icon("gem")}${S.currency}</span>
+        <span class="stat-pill stat-xp">${icon("flash")}${S.xp}</span>
       </div>
     </div>
   `;
@@ -179,7 +180,7 @@ function renderHome() {
       const available = isBaiAvailable(subjectId, b.id);
       const isNext = globalIndex === nextIndex;
       let cls = "node";
-      let inner = `${b.baiNumber}`;
+      let inner = `${icon("book", "node-icon")}<span class="node-num">${b.baiNumber}</span>`;
       let clickable = false;
       if (completed) {
         inner = icon("check");
@@ -307,7 +308,7 @@ function renderMissionsScreen() {
                 <div class="mission-progress-bar"><div class="mission-progress-fill" style="width:${(m.progress / m.target) * 100}%"></div></div>
                 <div class="mission-progress-text">${m.progress}/${m.target}</div>
               </div>
-              <div class="mission-reward">${icon("coin")}+${m.xu}</div>
+              <div class="mission-reward">${icon("gem")}+${m.xu}</div>
             </div>
           `
             )
@@ -324,6 +325,7 @@ function renderMissionsScreen() {
 
 function renderShopScreen() {
   const groups = [
+    { type: "upgrade", title: "Nâng cấp" },
     { type: "cap", title: "Mũ cho Cú Thông Thái" },
     { type: "theme", title: "Giao diện màu" },
     { type: "consumable", title: "Vật phẩm hỗ trợ" },
@@ -367,20 +369,32 @@ function renderShopItem(item) {
   else if (item.type === "theme") preview = `<div class="shop-preview theme-swatch"><span style="background:${item.green}"></span><span style="background:${item.blue}"></span></div>`;
   else preview = `<div class="shop-preview consumable-preview">${icon(item.icon)}</div>`;
 
+  let name = item.name;
+  let desc = item.desc || "";
   let actionHtml;
-  if (item.type === "consumable") {
-    actionHtml = `<button class="btn btn-primary btn-small" data-buy="${item.id}" ${S.currency < item.price ? "disabled" : ""}>${icon("coin")} ${item.price}</button>`;
+  if (item.type === "upgrade") {
+    const bonus = S.maxHeartsBonus || 0;
+    const maxed = bonus >= MAX_HEARTS_BONUS_CAP;
+    name = `${item.name} (${BASE_MAX_HEARTS + bonus} tim)`;
+    if (maxed) {
+      actionHtml = `<button class="btn btn-secondary btn-small" disabled>Đã tối đa</button>`;
+    } else {
+      const price = maxHeartPrice(S);
+      actionHtml = `<button class="btn btn-primary btn-small" data-buy="${item.id}" ${S.currency < price ? "disabled" : ""}>${icon("gem")} ${price}</button>`;
+    }
+  } else if (item.type === "consumable") {
+    actionHtml = `<button class="btn btn-primary btn-small" data-buy="${item.id}" ${S.currency < item.price ? "disabled" : ""}>${icon("gem")} ${item.price}</button>`;
   } else if (owned) {
     actionHtml = `<button class="btn ${equipped ? "btn-primary" : "btn-secondary"} btn-small" data-equip="${item.id}">${equipped ? "Đang dùng" : "Sử dụng"}</button>`;
   } else {
-    actionHtml = `<button class="btn btn-primary btn-small" data-buy="${item.id}" ${S.currency < item.price ? "disabled" : ""}>${icon("coin")} ${item.price}</button>`;
+    actionHtml = `<button class="btn btn-primary btn-small" data-buy="${item.id}" ${S.currency < item.price ? "disabled" : ""}>${icon("gem")} ${item.price}</button>`;
   }
 
   return `
     <div class="shop-card">
       ${preview}
-      <div class="shop-card-name">${item.name}</div>
-      ${item.desc ? `<div class="shop-card-desc">${item.desc}</div>` : ""}
+      <div class="shop-card-name">${name}</div>
+      ${desc ? `<div class="shop-card-desc">${desc}</div>` : ""}
       ${actionHtml}
     </div>
   `;
@@ -430,6 +444,7 @@ function startBaiSession(baiId) {
     totalUnits: totalScoreUnits(queue),
     correctUnits: 0,
     xpEarned: 0,
+    hearts: effectiveMaxHearts(S),
     usedIds: queue.filter((q) => q.kind === "mcq" || q.kind === "tf" || q.kind === "short").map((q) => q.id),
   };
   clearInterval(homeRefreshTimer);
@@ -453,6 +468,7 @@ function startBossSession(chuDeId) {
     totalUnits: totalScoreUnits(queue),
     correctUnits: 0,
     xpEarned: 0,
+    hearts: effectiveMaxHearts(S),
     usedIds: [],
   };
   clearInterval(homeRefreshTimer);
@@ -647,7 +663,7 @@ function gradeShort(card, input) {
     session.correctUnits += 1;
     session.xpEarned += 10;
   } else {
-    loseHeart(S);
+    loseSessionHeart();
   }
   const answerText = `${card.answer}${card.unit ? " " + card.unit : ""}`;
   showFeedback(isCorrect, isCorrect ? null : `Đáp án đúng: ${answerText}`);
@@ -668,7 +684,7 @@ function gradeMcq(card, selectedKey, btns) {
     session.correctUnits += 1;
     session.xpEarned += 10;
   } else {
-    loseHeart(S);
+    loseSessionHeart();
   }
   showFeedback(isCorrect, null);
 }
@@ -736,18 +752,51 @@ function showFeedback(isCorrect, detail) {
   `;
   document.querySelector(".lesson-screen").appendChild(div);
   document.getElementById("btn-next").addEventListener("click", advanceCard);
-  document.querySelector(".stat-heart").innerHTML = `${icon("heart")}${S.hearts}`;
-  document.querySelector(".stat-gem").innerHTML = `${icon("gem")}${S.xp + session.xpEarned}`;
+  const heartEl = document.querySelector(".stat-heart");
+  if (heartEl) heartEl.innerHTML = `${icon("heart")}${session.hearts}`;
+  document.querySelector(".stat-xp").innerHTML = `${icon("flash")}${S.xp + session.xpEarned}`;
+}
+
+function loseSessionHeart() {
+  session.hearts = Math.max(0, session.hearts - 1);
 }
 
 function advanceCard() {
   session.answered = false;
+  if (session.hearts <= 0) {
+    renderFailScreen();
+    return;
+  }
   session.index += 1;
   if (session.index >= session.queue.length) {
     finishSession();
   } else {
     renderCard();
   }
+}
+
+function renderFailScreen() {
+  playFail();
+  els.app.innerHTML = `
+    <div class="summary-screen pop-in fail-screen">
+      ${mascot("sad", "", currentCapColor(S))}
+      <h1>Hết tim rồi!</h1>
+      <div class="sub">${session.lessonTitle} - đừng lo, thử lại là qua thôi!</div>
+      <div class="summary-stats">
+        <div class="summary-stat"><div class="val">${session.correctUnits}</div><div class="lbl">Câu đúng</div></div>
+      </div>
+      <button class="btn btn-primary btn-block" id="btn-retry">Thử lại</button>
+      <button class="btn btn-secondary btn-block" id="btn-fail-home">Về trang chủ</button>
+    </div>
+  `;
+  document.getElementById("btn-retry").addEventListener("click", () => {
+    if (session.mode === "lesson") startBaiSession(session.baiId);
+    else startBossSession(session.chuDeId);
+  });
+  document.getElementById("btn-fail-home").addEventListener("click", () => {
+    session = null;
+    switchToHome();
+  });
 }
 
 function finishSession() {
@@ -810,7 +859,7 @@ function renderSummary(accuracy, toasts) {
       </div>
       ${
         toasts && toasts.length
-          ? `<div class="mission-toast">${toasts.map((t) => `${icon("target")} Hoàn thành nhiệm vụ: <b>${t.text(t.target)}</b> ${icon("coin")}+${t.xu}`).join("<br/>")}</div>`
+          ? `<div class="mission-toast">${toasts.map((t) => `${icon("target")} Hoàn thành nhiệm vụ: <b>${t.text(t.target)}</b> ${icon("gem")}+${t.xu}`).join("<br/>")}</div>`
           : ""
       }
       <button class="btn btn-primary btn-block" id="btn-done">Tiếp tục</button>

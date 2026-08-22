@@ -47,6 +47,11 @@ function playIncorrect() {
   tone(196, 0.1, 0.24, "sawtooth", 0.12);
 }
 
+function playFail() {
+  if (!soundEnabled()) return;
+  [392, 349.2, 293.7, 246.9].forEach((f, i) => tone(f, i * 0.13, 0.28, "sawtooth", 0.16));
+}
+
 function playComplete() {
   if (!soundEnabled()) return;
   [523.25, 659.25, 783.99, 1046.5].forEach((f, i) => tone(f, i * 0.1, 0.22, "sine", 0.2));
