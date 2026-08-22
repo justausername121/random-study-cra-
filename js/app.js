@@ -466,6 +466,8 @@ function currentCard() {
 function renderCard() {
   const card = currentCard();
   const progressPct = Math.round((session.index / session.queue.length) * 100);
+  const cd = chuDeById(session.subjectId, session.chuDeId);
+  const accent = cd ? cd.color : null;
 
   let bodyHtml = "";
   if (card.kind === "concept") {
@@ -479,7 +481,7 @@ function renderCard() {
   }
 
   els.app.innerHTML = `
-    <div class="lesson-screen">
+    <div class="lesson-screen" style="${accent ? `--lesson-accent:${accent}` : ""}">
       ${renderTopbar(true)}
       <div class="progress-bar"><div class="progress-bar-fill" style="width:${progressPct}%"></div></div>
       <div class="card-area pop-in" id="card-area">${bodyHtml}</div>
@@ -648,7 +650,7 @@ function gradeShort(card, input) {
     loseHeart(S);
   }
   const answerText = `${card.answer}${card.unit ? " " + card.unit : ""}`;
-  showFeedback(isCorrect, isCorrect ? "Chính xác!" : `Đáp án đúng: ${answerText}`);
+  showFeedback(isCorrect, isCorrect ? null : `Đáp án đúng: ${answerText}`);
 }
 
 function gradeMcq(card, selectedKey, btns) {
@@ -668,7 +670,7 @@ function gradeMcq(card, selectedKey, btns) {
   } else {
     loseHeart(S);
   }
-  showFeedback(isCorrect, isCorrect ? "Chính xác!" : "Chưa đúng rồi.");
+  showFeedback(isCorrect, null);
 }
 
 function gradeTf(card, answers) {
@@ -690,14 +692,47 @@ function gradeTf(card, answers) {
   showFeedback(allCorrect, `Bạn đúng ${correctCount}/${card.statements.length} ý.`);
 }
 
-function showFeedback(isCorrect, text) {
+const CORRECT_QUOTES = [
+  "Chuẩn không cần chỉnh!",
+  "Đỉnh của chóp!",
+  "Não to dữ vậy!",
+  "Xịn xò ghê ta ơi!",
+  "Cú tui phải chắp cánh vái chào!",
+  "Auto đúng, khỏi bàn!",
+  "Học vậy điểm 10 chạy đâu cho thoát!",
+  "Giỏi như này thi cử nhẹ tênh!",
+];
+
+const WRONG_QUOTES = [
+  "Ui, hụt xíu à nha!",
+  "Cú tui đây còn sai nữa là...",
+  "Không sao, sai một lần nhớ cả đời!",
+  "Gần đúng rồi, nhưng chưa phải!",
+  "Học là phải có vài lần vấp chứ!",
+  "Đáp án đang trốn ở chỗ khác kìa!",
+  "Cố lên, lần sau đúng chóc!",
+  "Cú tui buồn ngủ gật xíu, thử lại nha!",
+];
+
+function randomQuote(isCorrect) {
+  const pool = isCorrect ? CORRECT_QUOTES : WRONG_QUOTES;
+  return pool[Math.floor(Math.random() * pool.length)];
+}
+
+function showFeedback(isCorrect, detail) {
   const bar = document.querySelector(".footer-bar");
   if (bar) bar.remove();
   const div = document.createElement("div");
   div.className = `feedback-banner ${isCorrect ? "correct" : "incorrect"}`;
   div.innerHTML = `
-    <span class="fb-text">${icon(isCorrect ? "check" : "x")} ${text}</span>
-    <button class="btn btn-primary" id="btn-next">Tiếp tục</button>
+    <div class="fb-left">
+      ${mascot(isCorrect ? "celebrate" : "sad", "fb-mascot", currentCapColor(S))}
+      <div class="fb-text-wrap">
+        <span class="fb-quote">${icon(isCorrect ? "check" : "x")} ${randomQuote(isCorrect)}</span>
+        ${detail ? `<span class="fb-detail">${detail}</span>` : ""}
+      </div>
+    </div>
+    <button class="btn ${isCorrect ? "btn-primary" : "btn-danger"}" id="btn-next">Tiếp tục</button>
   `;
   document.querySelector(".lesson-screen").appendChild(div);
   document.getElementById("btn-next").addEventListener("click", advanceCard);
