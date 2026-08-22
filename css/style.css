@@ -103,9 +103,10 @@ body {
   white-space: nowrap;
   position: relative;
   top: 1px;
-  transition: background 0.12s;
+  transition: background 0.12s, transform 0.08s ease;
 }
 .chrome-tab:hover { background: #ddd; }
+.chrome-tab:active { transform: scale(0.96); }
 .chrome-tab.active {
   background: var(--bg);
   color: var(--ink);
@@ -453,9 +454,10 @@ body {
   font-size: 16px;
   font-weight: 700;
   cursor: pointer;
-  transition: background 0.1s, border-color 0.1s;
+  transition: background 0.1s, border-color 0.1s, transform 0.08s ease;
 }
 .option-btn:hover:not(:disabled) { background: color-mix(in srgb, var(--lesson-accent, var(--blue)) 8%, white); border-color: var(--lesson-accent, var(--blue)); }
+.option-btn:active:not(:disabled) { transform: scale(0.96); }
 .option-btn.selected { background: color-mix(in srgb, var(--lesson-accent, var(--blue)) 15%, white); border-color: var(--lesson-accent, var(--blue)); }
 .option-btn.correct { background: #d7ffb8; border-color: var(--green); color: #2d6a00; }
 .option-btn.incorrect { background: #ffdfe0; border-color: var(--red); color: #b80000; }
@@ -480,7 +482,9 @@ body {
   font-weight: 800;
   font-size: 13px;
   cursor: pointer;
+  transition: transform 0.08s ease;
 }
+.tf-btn:active:not(:disabled) { transform: scale(0.94); }
 .tf-btn.active-true.selected { background: #d7ffb8; border-color: var(--green); }
 .tf-btn.active-false.selected { background: #ffdfe0; border-color: var(--red); }
 .tf-row.graded-correct { border-color: var(--green); background: #f2ffe8; }
@@ -503,6 +507,7 @@ body {
   box-shadow: 0 4px 0 0 var(--border);
 }
 .options-bubbles .option-btn:hover:not(:disabled) { transform: rotate(var(--bubble-rot, 0deg)) scale(1.04); }
+.options-bubbles .option-btn:active:not(:disabled) { transform: rotate(var(--bubble-rot, 0deg)) scale(0.92); }
 .options-bubbles .option-btn.correct { animation: bubble-confirm 0.4s ease; }
 .options-bubbles .option-btn.incorrect { animation: bubble-pop 0.4s ease forwards; }
 @keyframes bubble-confirm {
@@ -544,7 +549,9 @@ body {
   font-weight: 600;
   cursor: pointer;
   line-height: 1.4;
+  transition: transform 0.08s ease;
 }
+.tf-chip:active:not(:disabled) { transform: scale(0.96); }
 .tf-chip-true { border-color: var(--green); background: #eaffd6; }
 .tf-chip-false { border-color: var(--red); background: #ffe4e4; }
 .tf-chip.graded-correct { border-color: var(--green); background: #d7ffb8; }
@@ -569,6 +576,7 @@ body {
   transition: transform 0.1s;
 }
 .match-chip:hover:not(:disabled) { border-color: var(--lesson-accent, var(--blue)); }
+.match-chip:active:not(:disabled) { transform: scale(0.95); }
 .match-chip.selected { background: color-mix(in srgb, var(--lesson-accent, var(--blue)) 18%, white); border-color: var(--lesson-accent, var(--blue)); }
 .match-chip.match-locked { background: #d7ffb8; border-color: var(--green); color: #2d6a00; cursor: default; opacity: 0.85; }
 .match-chip.match-wrong { background: #ffdfe0; border-color: var(--red); animation: match-shake 0.3s ease; }
@@ -884,6 +892,27 @@ body {
 @keyframes confetti-fall {
   0% { transform: translateY(0) rotate(0deg); opacity: 1; }
   100% { transform: translateY(420px) rotate(540deg); opacity: 0; }
+}
+
+/* ---------- Global click ripple ---------- */
+
+.click-ripple {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  width: 12px;
+  height: 12px;
+  margin-left: -6px;
+  margin-top: -6px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 70%);
+  transform: scale(0);
+  opacity: 0.9;
+  animation: click-ripple-anim 0.45s ease-out forwards;
+}
+@keyframes click-ripple-anim {
+  0% { transform: scale(0); opacity: 0.85; }
+  100% { transform: scale(8); opacity: 0; }
 }
 
 .summary-screen { position: relative; }

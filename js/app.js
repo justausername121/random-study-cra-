@@ -1129,6 +1129,21 @@ function renderLoadingScreen() {
   `;
 }
 
+function wireClickEffects() {
+  document.addEventListener("pointerdown", (e) => {
+    const btn = e.target.closest("button:not(:disabled)");
+    if (!btn) return;
+    const ripple = document.createElement("span");
+    ripple.className = "click-ripple";
+    ripple.style.left = `${e.clientX}px`;
+    ripple.style.top = `${e.clientY}px`;
+    document.body.appendChild(ripple);
+    ripple.addEventListener("animationend", () => ripple.remove());
+    setTimeout(() => ripple.remove(), 600);
+  });
+}
+wireClickEffects();
+
 async function boot() {
   renderLoadingScreen();
   const start = Date.now();
