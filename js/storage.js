@@ -41,6 +41,7 @@ function defaultState() {
     owned: {}, // shop item id -> true
     missions: { date: null, counters: {}, claimed: {}, activeIds: [] },
     soundOn: true,
+    notes: "",
   };
 }
 

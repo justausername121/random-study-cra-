@@ -113,10 +113,13 @@ function renderTopbar(showBack) {
   const inSession = !!session;
   return `
     <div class="topbar">
-      ${showBack ? `<button class="back-btn" id="btn-back">${ICONS.back}</button>` : `<div class="topbar-actions">
+      <div class="topbar-actions">
+        ${showBack ? `<button class="back-btn" id="btn-back">${ICONS.back}</button>` : `
           <button class="icon-btn" id="btn-missions" title="Nhiệm vụ hằng ngày">${icon("target")}</button>
-          <button class="icon-btn" id="btn-shop" title="Cửa hàng">${icon("bag")}</button>
-        </div>`}
+          <button class="icon-btn" id="btn-shop" title="Cửa hàng">${icon("bag")}</button>`}
+        <button class="icon-btn" id="btn-calc" title="Máy tính">${icon("calculator")}</button>
+        <button class="icon-btn" id="btn-notes" title="Ghi chú">${icon("notes")}</button>
+      </div>
       <div class="stat-group">
         <button class="icon-btn" id="btn-sound" title="${S.soundOn ? "Tắt âm thanh" : "Bật âm thanh"}">${icon(S.soundOn ? "soundOn" : "soundOff")}</button>
         <span class="stat-pill stat-fire">${icon("fire")}${S.streak}${S.streakFreezes > 0 ? `<sup class="freeze-badge">x${S.streakFreezes}</sup>` : ""}</span>
@@ -133,6 +136,8 @@ function wireTopbarExtras() {
   const sBtn = document.getElementById("btn-shop");
   if (mBtn) mBtn.addEventListener("click", renderMissionsScreen);
   if (sBtn) sBtn.addEventListener("click", renderShopScreen);
+  document.getElementById("btn-calc").addEventListener("click", openCalculator);
+  document.getElementById("btn-notes").addEventListener("click", openNotes);
   wireSoundToggle();
 }
 
@@ -333,7 +338,7 @@ function renderMissionsScreen() {
     </div>
   `;
   document.getElementById("btn-back").addEventListener("click", renderHome);
-  wireSoundToggle();
+  wireTopbarExtras();
 }
 
 // ---------------- Rendering: shop screen ----------------
@@ -372,7 +377,7 @@ function renderShopScreen() {
     </div>
   `;
   document.getElementById("btn-back").addEventListener("click", renderHome);
-  wireSoundToggle();
+  wireTopbarExtras();
   wireShopButtons();
 }
 
@@ -524,7 +529,7 @@ function renderCard() {
     session = null;
     switchToHome();
   });
-  wireSoundToggle();
+  wireTopbarExtras();
 
   wireCardInteractions(card);
 }
