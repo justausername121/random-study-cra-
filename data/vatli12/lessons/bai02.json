@@ -1,0 +1,53 @@
+{
+  "id": "bai02",
+  "chuDeId": "vlc1",
+  "chuDeTitle": "Vật lí nhiệt",
+  "baiNumber": 2,
+  "title": "Nội năng. Định luật I của nhiệt động lực học",
+  "objectives": [
+    "Dùng mô hình động học phân tử giải thích được một số hiện tượng liên quan đến sự chuyển thể của các chất.",
+    "Dùng khái niệm nội năng và định luật I của nhiệt động lực học để giải thích một số hiện tượng đơn giản như sự chuyển hoá năng lượng trong các quá trình chuyển thể, nguyên tắc hoạt động của động cơ nhiệt (máy hơi nước, động cơ đốt trong)."
+  ],
+  "sections": [
+    {
+      "heading": "I. Khái niệm nội năng",
+      "summary": "Vì các phân tử luôn chuyển động nên chúng có động năng phân tử; vì các phân tử tương tác với nhau nên chúng có thế năng phân tử (thế năng tương tác phân tử). Tổng động năng và thế năng của các phân tử cấu tạo nên vật gọi là nội năng của vật, kí hiệu U, đơn vị jun (J). Nội năng của một vật phụ thuộc vào nhiệt độ và thể tích của vật.",
+      "keyPoints": [
+        "Động năng phân tử phụ thuộc vào tốc độ chuyển động của phân tử.",
+        "Thế năng phân tử phụ thuộc vào khoảng cách giữa các phân tử.",
+        "Nội năng U = tổng động năng + thế năng của các phân tử cấu tạo nên vật; đơn vị: jun (J).",
+        "Nội năng của một vật phụ thuộc vào nhiệt độ và thể tích của vật.",
+        "Vì số phân tử trong vật rất lớn và chuyển động hỗn loạn, không thể xác định chính xác giá trị nội năng tuyệt đối; vật lí học chủ yếu quan tâm đến độ biến thiên nội năng (ΔU) của vật."
+      ],
+      "example": null
+    },
+    {
+      "heading": "II. Định luật I của nhiệt động lực học",
+      "summary": "Có hai cách làm thay đổi nội năng của vật: thực hiện công và truyền nhiệt. Định luật I của nhiệt động lực học là sự vận dụng định luật bảo toàn năng lượng vào các quá trình thay đổi nội năng: độ biến thiên nội năng của vật bằng tổng công và nhiệt lượng mà vật nhận được, ΔU = A + Q, với quy ước về dấu của A và Q.",
+      "keyPoints": [
+        "Hai cách làm thay đổi nội năng: thực hiện công (ví dụ cọ xát) và truyền nhiệt (ví dụ tiếp xúc với nguồn nhiệt).",
+        "Định luật I của nhiệt động lực học: ΔU = A + Q (2.1) (ΔU: độ biến thiên nội năng (J), A: công vật nhận được (J), Q: nhiệt lượng vật nhận được (J)).",
+        "Quy ước dấu: Q > 0 vật nhận nhiệt lượng; Q < 0 vật truyền nhiệt lượng cho vật khác; A > 0 vật nhận công; A < 0 vật thực hiện công lên vật khác.",
+        "Nhiệt lượng là số đo nội năng được truyền từ vật này sang vật khác trong quá trình truyền nhiệt; nếu không có quá trình truyền nhiệt thì không có nhiệt lượng.",
+        "Nội năng là một dạng năng lượng; mọi vật luôn có nội năng."
+      ],
+      "example": "Thí nghiệm của Joule (1844-1854): công A mà nước nhận được từ vật nặng rơi làm quay cánh cản khiến nước nóng lên (nội năng nước tăng) có độ lớn tương đương độ tăng nội năng của nước, là cơ sở thực nghiệm cho định luật I của nhiệt động lực học."
+    },
+    {
+      "heading": "Ứng dụng: Động cơ nhiệt",
+      "summary": "Động cơ nhiệt là động cơ hoạt động dựa trên nguyên tắc biến nội năng của nhiên liệu thành cơ năng. Mỗi động cơ nhiệt có ba bộ phận chính: nguồn nóng cung cấp nhiệt lượng, bộ phận phát động (tác nhân nhận nhiệt và giãn nở sinh công), và nguồn lạnh nhận nhiệt lượng do động cơ toả ra.",
+      "keyPoints": [
+        "Ba bộ phận chính của động cơ nhiệt: nguồn nóng (nhiệt độ T1) cung cấp nhiệt lượng Q1; bộ phận phát động, nơi tác nhân nhận nhiệt và giãn nở sinh công A; nguồn lạnh (nhiệt độ T2 < T1) nhận nhiệt lượng Q2 do động cơ toả ra.",
+        "Máy hơi nước: nồi súp de (nguồn nóng) - xi lanh và pit-tông - bình ngưng hơi (nguồn lạnh).",
+        "Động cơ đốt trong: xi lanh, pit-tông, bu-gi tạo tia lửa điện đốt cháy hỗn hợp nhiên liệu và không khí."
+      ],
+      "example": null
+    }
+  ],
+  "glossary": [
+    {"term": "Nội năng (U)", "definition": "Tổng động năng và thế năng của các phân tử cấu tạo nên vật; đơn vị jun (J); phụ thuộc nhiệt độ và thể tích của vật."},
+    {"term": "Nhiệt lượng (Q)", "definition": "Số đo nội năng được truyền từ vật này sang vật khác trong quá trình truyền nhiệt."},
+    {"term": "Định luật I của nhiệt động lực học", "definition": "Độ biến thiên nội năng của vật bằng tổng công và nhiệt lượng mà vật nhận được: ΔU = A + Q."},
+    {"term": "Động cơ nhiệt", "definition": "Động cơ hoạt động dựa trên nguyên tắc biến nội năng của nhiên liệu thành cơ năng, gồm nguồn nóng, bộ phận phát động, nguồn lạnh."}
+  ]
+}

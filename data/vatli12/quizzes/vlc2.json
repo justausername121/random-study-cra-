@@ -1,0 +1,575 @@
+{
+  "chuDeId": "vlc2",
+  "chuDeTitle": "Khí lí tưởng",
+  "mcq": [
+    {
+      "id": "vlc2-mcq-01",
+      "question": "Tính chất nào sau đây không phải của chất ở thể khí?",
+      "options": {
+        "A": "Khối lượng riêng rất nhỏ so với khi ở thể lỏng và rắn.",
+        "B": "Hình dạng thay đổi theo bình chứa.",
+        "C": "Gây áp suất lên thành bình chứa theo mọi hướng.",
+        "D": "Các phân tử chuyển động hỗn loạn không ngừng và luôn tương tác với nhau."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "vlc2-mcq-02",
+      "question": "Tính chất nào sau đây không phải của phân tử khí lí tưởng?",
+      "options": {
+        "A": "Chuyển động hỗn loạn không ngừng.",
+        "B": "Quỹ đạo chuyển động gồm những đoạn thẳng.",
+        "C": "Khi va chạm với nhau thì động năng không được bảo toàn.",
+        "D": "Được coi là các chất điểm."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "vlc2-mcq-03",
+      "question": "Đối với khí lí tưởng, có thể bỏ qua đại lượng nào sau đây?",
+      "options": {
+        "A": "Khối lượng của phân tử.",
+        "B": "Tốc độ chuyển động của phân tử.",
+        "C": "Kích thước của phân tử.",
+        "D": "Cả ba đại lượng trên."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "vlc2-mcq-04",
+      "question": "Phân tử khí lí tưởng có",
+      "options": {
+        "A": "động năng bằng 0.",
+        "B": "thế năng bằng 0.",
+        "C": "động lượng bằng 0.",
+        "D": "khối lượng bằng 0."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "vlc2-mcq-05",
+      "question": "Mô hình động học phân tử chất khí (phương pháp mô hình dùng để tìm hiểu các tính chất của vật thật, gồm mô hình vật chất, mô hình lí thuyết và mô hình toán học):",
+      "options": {
+        "A": "là mô hình vật chất.",
+        "B": "là mô hình lí thuyết.",
+        "C": "là mô hình toán học.",
+        "D": "có tính chất của tất cả các mô hình trên."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "vlc2-mcq-06",
+      "question": "Quá trình nào sau đây là đẳng quá trình?",
+      "options": {
+        "A": "Khí được đun nóng trong một bình kín.",
+        "B": "Khí trong một xi lanh được đun nóng đẩy pit-tông chuyển động.",
+        "C": "Không khí trong quả bóng bay được phơi ra nắng.",
+        "D": "Khí trong quả bóng thám không khi đang bay lên cao."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "vlc2-mcq-07",
+      "question": "Hệ thức nào sau đây là của định luật Boyle?",
+      "options": {
+        "A": "p1V2 = p2V1.",
+        "B": "pV = hằng số.",
+        "C": "p/V = hằng số.",
+        "D": "V/p = hằng số."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "vlc2-mcq-08",
+      "question": "Hình 9.1 vẽ 4 đường biểu diễn trong hệ tọa độ (V, p): đường 1 là đường cong hyperbol đi xuống (p giảm dần khi V tăng); đường 2 là đường thẳng nằm ngang (p không đổi khi V tăng); đường 3 là đường thẳng đi qua gốc tọa độ (p tỉ lệ thuận với V); đường 4 là đường cong đi lên càng lúc càng dốc (p tăng nhanh khi V tăng). Đường biểu diễn nào biểu diễn mối liên hệ giữa thể tích V và áp suất p của một lượng khí xác định trong quá trình đẳng nhiệt?",
+      "options": {
+        "A": "Chỉ đường 1.",
+        "B": "Đường 1, 2 và 3.",
+        "C": "Đường 2, 3 và 4.",
+        "D": "Đường 1, 3 và 4."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "vlc2-mcq-09",
+      "question": "Hình 9.2 là đồ thị biểu diễn đường đẳng nhiệt của một lượng khí lí tưởng trong hệ tọa độ (p, V): từ một điểm B trên đường cong, kẻ đường vuông góc xuống trục hoành tại C và sang trục tung tại A, tạo thành hình chữ nhật OABC (diện tích S1); từ một điểm E khác trên đường cong (xa gốc tọa độ hơn), kẻ đường vuông góc xuống trục hoành tại F và sang trục tung tại D, tạo thành hình chữ nhật ODEF (diện tích S2). Sự so sánh nào sau đây giữa S1 và S2 là đúng?",
+      "options": {
+        "A": "S1 > S2.",
+        "B": "S1 < S2.",
+        "C": "S1 ≈ S2.",
+        "D": "S1 = S2."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "vlc2-mcq-10",
+      "question": "Để giải thích cơ chế nổi lên và chìm xuống của cá (cá làm bong bóng trong bụng phồng lên hoặc xẹp xuống để lực đẩy Archimede tác dụng lên cá lớn hơn hoặc nhỏ hơn trọng lượng cá):",
+      "options": {
+        "A": "Chỉ cần dùng định luật Boyle.",
+        "B": "Chỉ cần dùng định luật Archimede.",
+        "C": "Chỉ cần dùng tính chất phụ thuộc vào độ sâu của áp suất chất lỏng.",
+        "D": "Cần sử dụng tất cả các nội dung trên."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "vlc2-mcq-11",
+      "question": "Biểu thức nào sau đây không phù hợp với nội dung của định luật Charles?",
+      "options": {
+        "A": "V/T = hằng số.",
+        "B": "V1/T1 = V2/T2.",
+        "C": "V = V0(1 + αt).",
+        "D": "V ~ 1/T."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "vlc2-mcq-12",
+      "question": "Hình 10.1 vẽ 4 đồ thị: A. đồ thị V theo t (°C) là đường thẳng có phần kéo dài (nét đứt) cắt trục hoành ở một điểm bên trái gốc O. B. đồ thị P theo V là đường thẳng nằm ngang (P không đổi khi V tăng). C. đồ thị P theo V là một đoạn thẳng đứng tại một giá trị V cố định (P thay đổi còn V không đổi). D. đồ thị V theo T (K) là đường thẳng đi qua gốc tọa độ O. Đồ thị nào không phù hợp với quá trình đẳng áp?",
+      "options": {
+        "A": "Đồ thị A.",
+        "B": "Đồ thị B.",
+        "C": "Đồ thị C.",
+        "D": "Đồ thị D."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "vlc2-mcq-13",
+      "question": "Trong hiện tượng nào sau đây có quá trình đẳng áp của một lượng khí xác định?",
+      "options": {
+        "A": "Thổi không khí vào một quả bóng bay.",
+        "B": "Quả bóng bàn bị bẹp nhúng vào nước nóng, phồng lên như cũ.",
+        "C": "Không khí trong một xi lanh đặt nằm ngang có áp suất bằng áp suất khí quyển bên ngoài, được đun nóng thì đẩy pit-tông chuyển động không ma sát trong xi lanh.",
+        "D": "Không khí trong một xi lanh đặt thẳng đứng được đun nóng đẩy pit-tông chuyển động nhanh dần."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "vlc2-mcq-14",
+      "question": "Nội dung của câu nào sau đây không phù hợp với định luật Charles?",
+      "options": {
+        "A": "Trong quá trình đẳng áp, thể tích của một lượng khí xác định tỉ lệ với nhiệt độ tuyệt đối.",
+        "B": "Hệ số nở đẳng áp của mọi chất khí đều bằng 1/273.",
+        "C": "Đường biểu diễn quá trình đẳng áp trong hệ toạ độ (V - T) là đường thẳng đi qua gốc toạ độ.",
+        "D": "Trong quá trình đẳng áp, khi nhiệt độ tăng từ 20 °C lên 40 °C thì thể tích khí tăng lên gấp đôi."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "vlc2-mcq-15",
+      "question": "Hiện tượng quả bóng bàn bị bẹp được nhúng vào nước nóng thì phồng lên như cũ liên quan đến đẳng quá trình nào của chất khí?",
+      "options": {
+        "A": "Vì trong hiện tượng này, thể tích khí tăng theo nhiệt độ nên liên quan đến quá trình đẳng áp.",
+        "B": "Vì trong hiện tượng này, áp suất khí tăng theo nhiệt độ nên liên quan đến quá trình đẳng tích.",
+        "C": "Vì trong hiện tượng này có sự thay đổi thể tích và áp suất nên liên quan đến quá trình đẳng nhiệt.",
+        "D": "Hiện tượng này không phải là một đẳng quá trình."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "vlc2-mcq-16",
+      "question": "Trong hiện tượng nào sau đây cả ba thông số trạng thái của một lượng khí đều thay đổi?",
+      "options": {
+        "A": "Không khí bị đun nóng trong một bình kín.",
+        "B": "Không khí bên trong quả bóng bàn bị bẹp được nhúng vào nước nóng phồng lên như cũ.",
+        "C": "Không khí trong một quả bóng bay bị em bé bóp bẹp.",
+        "D": "Cả ba hiện tượng trên."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "vlc2-mcq-17",
+      "question": "Biểu thức nào sau đây phù hợp với phương trình trạng thái của khí lí tưởng?",
+      "options": {
+        "A": "p/V = hằng số.",
+        "B": "pV ~ 1/T.",
+        "C": "pV = nRT.",
+        "D": "pV ~ 1/t."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "vlc2-mcq-18",
+      "question": "Phương trình nào sau đây không phải là phương trình Clapeyron?",
+      "options": {
+        "A": "pV/T = nR.",
+        "B": "pV = (m/M)RT.",
+        "C": "pV/T = hằng số.",
+        "D": "pV = nRT."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "vlc2-mcq-19",
+      "question": "Bóng thám không vô tuyến (radiosonde) được bơm khí H2 hoặc He, vỏ bóng mỏng dần khi bay lên cao. Bóng thám không chỉ có thể bay lên được trong điều kiện nào sau đây?",
+      "options": {
+        "A": "Khi khối lượng riêng của bóng nhỏ hơn khối lượng riêng của không khí bên ngoài.",
+        "B": "Khi khối lượng riêng của khí dùng để bơm bóng nhỏ hơn khối lượng riêng của không khí bên ngoài.",
+        "C": "Khi áp suất do chuyển động nhiệt của các phân tử khí trong vỏ bóng nhỏ hơn áp suất khí quyển bên ngoài.",
+        "D": "Khi áp suất do chuyển động nhiệt của các phân tử khí trong vỏ bóng lớn hơn áp suất khí quyển bên ngoài."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "vlc2-mcq-20",
+      "question": "Công thức nào sau đây không biểu diễn mối quan hệ giữa áp suất chất khí tác dụng lên thành bình và động năng trung bình của các phân tử khí?",
+      "options": {
+        "A": "p = (2/3)(N/V) Ēd.",
+        "B": "p = (2/3)(N/V) m v̄².",
+        "C": "p = (1/3)(N/V) m v̄².",
+        "D": "pV = (2/3) N Ēd."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "vlc2-mcq-21",
+      "question": "Từ các công thức tính áp suất chất khí có thể nói áp suất chất khí là một đại lượng thống kê vì:",
+      "options": {
+        "A": "Công thức chỉ áp dụng được cho một tập hợp vô cùng lớn các phân tử khí.",
+        "B": "Công thức cho thấy áp suất phụ thuộc vào động năng trung bình của các phân tử khí.",
+        "C": "Công thức cho thấy áp suất chất khí không phụ thuộc vào tốc độ của từng phân tử.",
+        "D": "Tất cả các lí do kể trên."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "vlc2-mcq-22",
+      "question": "Phát biểu nào sau đây không phù hợp với bản chất của mối quan hệ giữa động năng trung bình của phân tử và nhiệt độ?",
+      "options": {
+        "A": "Động năng trung bình của các phân tử khí tỉ lệ thuận với nhiệt độ.",
+        "B": "Động năng trung bình của các phân tử khí càng lớn thì nhiệt độ khí càng thấp.",
+        "C": "Nhiệt độ của khí càng cao thì động năng trung bình của các phân tử khí càng lớn.",
+        "D": "Nhiệt độ của khí tỉ lệ với động năng trung bình của các phân tử khí."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "vlc2-mcq-23",
+      "question": "Công thức nào sau đây vừa thể hiện mối quan hệ toán học vừa thể hiện mối quan hệ vật lí giữa đại lượng nhiệt độ tuyệt đối của chất khí và động năng trung bình của các phân tử khí?",
+      "options": {
+        "A": "Ē = (2/3) kT.",
+        "B": "T = 2/(3k) Ēd.",
+        "C": "Ē = (2R)/(3NA) T.",
+        "D": "Cả 3 công thức trên."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "vlc2-mcq-24",
+      "question": "Quan niệm nào sau đây của thuyết động học phân tử chất khí khiến các định luật về chất khí của thuyết này chỉ là các định luật gần đúng?",
+      "options": {
+        "A": "Coi phân tử là hạt cơ bản.",
+        "B": "Dùng các định luật cơ học Newton.",
+        "C": "Bỏ qua thể tích riêng của các phân tử khí.",
+        "D": "Coi các phân tử khí chuyển động hỗn loạn không ngừng."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "vlc2-mcq-25",
+      "question": "Biểu thức nào sau đây về chất khí không được rút ra từ thí nghiệm?",
+      "options": {
+        "A": "V = V0(1 + αΔt).",
+        "B": "V/T = hằng số.",
+        "C": "p = (m/V) v̄².",
+        "D": "pV = hằng số."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "vlc2-mcq-26",
+      "question": "Biểu thức nào sau đây về chất khí được xây dựng dựa trên thí nghiệm kết hợp với lí thuyết?",
+      "options": {
+        "A": "p/T = hằng số.",
+        "B": "pV = nRT.",
+        "C": "p = V0(1 + αΔt).",
+        "D": "Ēd = (3/2) kT."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "vlc2-mcq-27",
+      "question": "Bốn bình có dung tích giống nhau đựng các chất khí khác nhau ở cùng nhiệt độ. Bình nào chịu áp suất khí lớn nhất?",
+      "options": {
+        "A": "Bình chứa 4 g khí hydrogen.",
+        "B": "Bình chứa 22 g khí carbon dioxide.",
+        "C": "Bình chứa 7 g khí nitrogen.",
+        "D": "Bình chứa 4 g khí oxygen."
+      },
+      "answer": "A"
+    }
+  ],
+  "trueFalse": [
+    {
+      "id": "vlc2-tf-01",
+      "stimulus": "Xét các nội dung sau về mô hình khí lí tưởng và mô hình động học phân tử chất khí:",
+      "statements": [
+        {
+          "key": "a",
+          "text": "Trong mô hình khí lí tưởng, các phân tử được coi là các chất điểm chuyển động hỗn loạn không ngừng là dựa trên thí nghiệm về chuyển động Brown trong chất khí và giá trị rất nhỏ của khối lượng riêng chất khí.",
+          "answer": true
+        },
+        {
+          "key": "b",
+          "text": "Mô hình khí lí tưởng phản ánh đầy đủ và chính xác các tính chất và định luật về chất khí.",
+          "answer": false
+        },
+        {
+          "key": "c",
+          "text": "Trong mô hình khí lí tưởng, người ta coi va chạm của các phân tử khí là đàn hồi vì ở trạng thái cân bằng nhiệt các phân tử vẫn không ngừng va chạm với nhau nhưng động năng trung bình của chúng không đổi tức nhiệt độ của khí không đổi.",
+          "answer": true
+        }
+      ]
+    },
+    {
+      "id": "vlc2-tf-02",
+      "stimulus": "Xét các nội dung sau về vai trò của bong bóng cá trong việc giúp cá nổi lên hoặc chìm xuống:",
+      "statements": [
+        {
+          "key": "a",
+          "text": "Bong bóng cá không có tác dụng gì trong việc làm cho cá nổi lên hoặc chìm xuống.",
+          "answer": false
+        },
+        {
+          "key": "b",
+          "text": "Khi cá dùng vây và đuôi để bơi lên thì bong bóng cá phồng lên làm cho lực đẩy Archimede tác dụng lên cá tăng giúp cá bơi lên mạnh hơn. Khi cá dùng vây và đuôi để lặn xuống thì bong bóng cá xẹp xuống làm cho lực đẩy Archimede tác dụng lên cá giảm giúp cá lặn xuống mạnh hơn.",
+          "answer": true
+        },
+        {
+          "key": "c",
+          "text": "Cá chủ động bơi lên hoặc lặn xuống được chủ yếu là nhờ lực của vây và đuôi. Bong bóng cá chỉ có tác dụng hỗ trợ thêm cho việc bơi lên hoặc lặn xuống của cá.",
+          "answer": true
+        }
+      ]
+    },
+    {
+      "id": "vlc2-tf-03",
+      "stimulus": "Xét các nội dung sau về hiện tượng quả bóng bàn bị bẹp được nhúng vào nước nóng thì phồng lên như cũ:",
+      "statements": [
+        {
+          "key": "a",
+          "text": "Định luật Charles là định luật về quá trình biến đổi thể tích của một lượng khí theo nhiệt độ khi áp suất không đổi. Do đó không thể áp dụng định luật này cho chất khí trong quả bóng bàn bẹp nhúng vào nước nóng, phồng lên như cũ.",
+          "answer": true
+        },
+        {
+          "key": "b",
+          "text": "Cả 3 thông số trạng thái p, V và T của lượng khí trong quả bóng bàn ở hiện tượng nêu trên đều thay đổi. Đây là trường hợp mà chúng ta chưa đề cập tới cả trong bài học này lẫn các bài học trước đây về chất khí.",
+          "answer": true
+        }
+      ]
+    },
+    {
+      "id": "vlc2-tf-04",
+      "stimulus": "Xét các nội dung sau về bóng thám không vô tuyến (radiosonde):",
+      "statements": [
+        {
+          "key": "a",
+          "text": "Bóng thám không chỉ có thể bay lên được khi lực đẩy Archimede của không khí xung quanh tác dụng lên bóng lớn hơn trọng lượng bóng.",
+          "answer": true
+        },
+        {
+          "key": "b",
+          "text": "Người ta thường dùng cao su tự nhiên, ít khi dùng cao su tổng hợp để làm bóng mặc dù nó đắt hơn chỉ vì lí do bảo vệ môi trường.",
+          "answer": true
+        },
+        {
+          "key": "c",
+          "text": "Để xác định các thông số trạng thái của khí trong bóng khi bóng đang bay lên không thể dùng phương trình trạng thái của khí lí tưởng pV/T = hằng số.",
+          "answer": false
+        }
+      ]
+    }
+  ],
+  "shortAnswer": [
+    {
+      "id": "vlc2-sa-01",
+      "question": "Một phân tử oxygen chuyển động trong một bình chứa hình cầu đường kính 0,10 m với tốc độ 400 m/s. Hãy ước tính số va chạm của phân tử này với thành bình trong mỗi giây. Coi tốc độ của phân tử là không đổi và phân tử không va chạm với các phân tử khác.",
+      "answer": "4000",
+      "unit": "va chạm/giây",
+      "tolerance": 50
+    },
+    {
+      "id": "vlc2-sa-02",
+      "question": "Dựa vào mô hình động học phân tử chất khí, nếu giảm thể tích của bình chứa khí đi 2 lần thì áp suất chất khí tác dụng lên thành bình chứa sẽ tăng lên bao nhiêu lần?",
+      "answer": "2",
+      "unit": "lần",
+      "tolerance": 0
+    },
+    {
+      "id": "vlc2-sa-03",
+      "question": "Một xi lanh chứa 0,80 dm³ khí nitrogen ở áp suất 1,2 atm. Dùng pit-tông nén chậm khí này để tăng áp suất của nó lên 3,2 atm. Coi quá trình là đẳng nhiệt. Xác định thể tích cuối của khí.",
+      "answer": "0.3",
+      "unit": "dm³",
+      "tolerance": 0.02
+    },
+    {
+      "id": "vlc2-sa-04",
+      "question": "Người ta dùng bơm có pit-tông diện tích 8 cm² và khoảng chạy 25 cm để bơm một bánh xe đạp sao cho khi áp lực của bánh lên mặt đường là 350 N thì diện tích tiếp xúc của bánh với mặt đường là 50 cm². Ban đầu bánh chứa không khí có áp suất p0 = 10^5 Pa và thể tích V0 = 1500 cm³. Giả thiết khi áp suất không khí trong bánh vượt quá 1,5p0 thì thể tích trong của săm là 2000 cm³ và nhiệt độ không khí trong săm không đổi. Phải đẩy bơm tối thiểu bao nhiêu lần?",
+      "answer": "10",
+      "unit": "lần",
+      "tolerance": 0
+    },
+    {
+      "id": "vlc2-sa-05",
+      "question": "Cũng với bơm và bánh xe ở trên (pit-tông diện tích 8 cm², khoảng chạy 25 cm, áp lực tối đa 350 N ứng với diện tích tiếp xúc 50 cm², p0 = 10^5 Pa, V0 = 1500 cm³, thể tích trong của săm khi áp suất vượt quá 1,5p0 là 2000 cm³): nếu do bơm hở nên mỗi lần đẩy bơm chỉ đưa được 100 cm³ không khí vào bánh xe thì phải đẩy bao nhiêu lần?",
+      "answer": "19",
+      "unit": "lần",
+      "tolerance": 0
+    },
+    {
+      "id": "vlc2-sa-06",
+      "question": "Khi tăng nhiệt độ của một lượng khí từ 32 °C lên 117 °C và giữ áp suất khí không đổi thì thể tích khí tăng thêm 1,7 lít. Tính thể tích lượng khí trước khi tăng nhiệt độ.",
+      "answer": "6.1",
+      "unit": "lít",
+      "tolerance": 0.1
+    },
+    {
+      "id": "vlc2-sa-07",
+      "question": "Khi tăng nhiệt độ của một lượng khí từ 32 °C lên 117 °C và giữ áp suất khí không đổi thì thể tích khí tăng thêm 1,7 lít. Tính thể tích lượng khí sau khi tăng nhiệt độ.",
+      "answer": "7.8",
+      "unit": "lít",
+      "tolerance": 0.1
+    },
+    {
+      "id": "vlc2-sa-08",
+      "question": "Một xi lanh đặt nằm ngang chứa 100 cm³ khí ở nhiệt độ 27 °C, dưới áp suất bằng áp suất khí quyển bên ngoài. Người ta đun nóng bình lên đến 57 °C cho xi lanh chuyển động gần như đều. Coi ma sát giữa xi lanh và pit-tông không đáng kể. Tính thể tích khí trong xi lanh ở 57 °C.",
+      "answer": "110",
+      "unit": "cm³",
+      "tolerance": 2
+    },
+    {
+      "id": "vlc2-sa-09",
+      "question": "Xác định khối lượng riêng của không khí trên đỉnh Fansipan cao 3140 m trong dãy Hoàng Liên Sơn, biết mỗi khi lên cao 10 m thì áp suất khí quyển giảm 1 mmHg và nhiệt độ trên đỉnh núi này là 2 °C. Biết khối lượng riêng ở điều kiện chuẩn (0 °C và 760 mmHg) của khí quyển là 1,29 kg/m³.",
+      "answer": "0.75",
+      "unit": "kg/m³",
+      "tolerance": 0.02
+    },
+    {
+      "id": "vlc2-sa-10",
+      "question": "Một bạn bơm một quả bóng bay bằng khí He. Sau khi bơm 0,25 mol khí ở nhiệt độ 298 K vào bóng thì áp suất khí trong bóng là 1,20.10^5 Pa. Biết vỏ bóng chỉ chịu được áp suất tối đa là 1,50.10^5 Pa, và sau khi bơm 0,25 mol khí thì thể tích của bóng không tăng thêm khi tiếp tục bơm thêm khí vào bóng. Tính áp suất khí trong bóng nếu bơm thêm 0,15 mol He ở cùng nhiệt độ trên vào bóng.",
+      "answer": "192000",
+      "unit": "Pa",
+      "tolerance": 3000
+    },
+    {
+      "id": "vlc2-sa-11",
+      "question": "Một tàu ngầm dùng để nghiên cứu biển đang lặn ở độ sâu 100 m. Người ta mở một bình dung tích 60 lít chứa khí ở áp suất 10^7 Pa và nhiệt độ 27 °C để đẩy nước ra khỏi thùng chứa nước ở giữa hai lớp vỏ của tàu làm cho tàu nổi lên. Sau khi khí dãn nở, nhiệt độ của khí là 3 °C. Tính thể tích nước bị đẩy ra khỏi tàu. Coi khối lượng riêng của nước biển là 1000 kg/m³; gia tốc trọng trường là 9,81 m/s²; áp suất khí quyển là 1,013.10^5 Pa.",
+      "answer": "510",
+      "unit": "lít",
+      "tolerance": 10
+    },
+    {
+      "id": "vlc2-sa-12",
+      "question": "Người ta bơm 1000 m³ không khí nóng ở nhiệt độ T = 300 K vào một khinh khí cầu. Nhiệt độ và áp suất của khí quyển lúc này là T0 = 279 K và p0 = 1,00 bar. Khối lượng khí cầu (vỏ) là 240 kg. Khi đó, khinh khí cầu chưa thể bay lên được. Coi đây là quá trình đẳng áp; hằng số khí lí tưởng R = 8,31 J/mol.K; khối lượng mol của không khí MA = 29 g/mol. Tính lượng (số mol) không khí chứa trong khinh khí cầu.",
+      "answer": "40100",
+      "unit": "mol",
+      "tolerance": 500
+    },
+    {
+      "id": "vlc2-sa-13",
+      "question": "Cũng với khinh khí cầu ở trên (1000 m³ không khí nóng ở T = 300 K, khí quyển có T0 = 279 K, p0 = 1,00 bar, khối lượng vỏ khí cầu 240 kg): tính thể tích của khí cầu để nó có thể bắt đầu bay lên (không cần bơm thêm hay lấy bớt không khí, chỉ tăng nhiệt độ khí trong khí cầu).",
+      "answer": "1120",
+      "unit": "m³",
+      "tolerance": 20
+    },
+    {
+      "id": "vlc2-sa-14",
+      "question": "Cũng với khinh khí cầu ở trên (1000 m³ không khí nóng ban đầu ở T = 300 K, khí quyển có T0 = 279 K, p0 = 1,00 bar, khối lượng vỏ khí cầu 240 kg, nhiệt dung riêng đẳng áp của không khí là cmp = 7R/2): tính nhiệt lượng cần cung cấp cho khí cầu để đun nóng không khí tới nhiệt độ cần thiết để khí cầu có thể bắt đầu bay lên.",
+      "answer": "42000000",
+      "unit": "J",
+      "tolerance": 1000000
+    },
+    {
+      "id": "vlc2-sa-15",
+      "question": "Ở nhiệt độ nào các phân tử khí helium có tốc độ trung bình bằng tốc độ trung bình của các phân tử hydrogen ở nhiệt độ 15 °C? (Biết khối lượng mol của helium là 4 g/mol và của hydrogen là 2 g/mol.)",
+      "answer": "576",
+      "unit": "K",
+      "tolerance": 5
+    },
+    {
+      "id": "vlc2-sa-16",
+      "question": "Tính tốc độ toàn phương trung bình (gọi tắt là tốc độ trung bình) của không khí ở nhiệt độ 17 °C nếu coi không khí ở nhiệt độ này là một khí đồng nhất có khối lượng mol là 0,029 kg/mol.",
+      "answer": "499",
+      "unit": "m/s",
+      "tolerance": 5
+    },
+    {
+      "id": "vlc2-sa-17",
+      "question": "Không khí gồm các phân tử oxygen có khối lượng mol 32 g/mol và phân tử nitrogen 28 g/mol. Tính động năng trung bình tịnh tiến của phân tử không khí ở 20 °C.",
+      "answer": "6.1e-21",
+      "unit": "J",
+      "tolerance": 0.2e-21
+    },
+    {
+      "id": "vlc2-sa-18",
+      "question": "Không khí gồm các phân tử oxygen có khối lượng mol 32 g/mol và phân tử nitrogen 28 g/mol, ở 20 °C. Từ động năng trung bình tịnh tiến của phân tử không khí, suy ra tốc độ trung bình của phân tử oxygen.",
+      "answer": "480",
+      "unit": "m/s",
+      "tolerance": 5
+    },
+    {
+      "id": "vlc2-sa-19",
+      "question": "Không khí gồm các phân tử oxygen có khối lượng mol 32 g/mol và phân tử nitrogen 28 g/mol, ở 20 °C. Từ động năng trung bình tịnh tiến của phân tử không khí, suy ra tốc độ trung bình của phân tử nitrogen.",
+      "answer": "510",
+      "unit": "m/s",
+      "tolerance": 5
+    },
+    {
+      "id": "vlc2-sa-20",
+      "question": "Một quả cầu có thể tích 0,1 m³ làm bằng giấy có một lỗ hổng ở dưới để qua đó có thể làm nóng không khí trong quả cầu lên tới 340 K. Biết nhiệt độ của không khí bên ngoài quả cầu là 290 K và áp suất không khí bên trong và bên ngoài quả cầu là 100 kPa. Coi không khí là khối khí đồng nhất có khối lượng riêng là 1,29 kg/m³ ở điều kiện chuẩn. Vỏ quả cầu phải có khối lượng tối đa là bao nhiêu để quả cầu có thể bay lên?",
+      "answer": "17.86",
+      "unit": "g",
+      "tolerance": 0.5
+    },
+    {
+      "id": "vlc2-sa-21",
+      "question": "Một khí cầu có thể tích 336 m³ và khối lượng vỏ 84 kg được bơm không khí nóng tới áp suất bằng áp suất không khí bên ngoài. Không khí nóng phải có nhiệt độ bằng bao nhiêu để khí cầu có thể bắt đầu bay lên? Biết không khí bên ngoài có nhiệt độ 37 °C, áp suất 1 atm và khối lượng mol là 29.10^-3 kg/mol.",
+      "answer": "111",
+      "unit": "°C",
+      "tolerance": 2
+    },
+    {
+      "id": "vlc2-sa-22",
+      "question": "Một quả bóng thám không có dung tích không đổi 1200 lít. Vỏ bóng có khối lượng 1 kg. Bóng được bơm khí hydrogen ở áp suất bằng áp suất khí quyển tại mặt đất (1,013.10^5 Pa) và nhiệt độ 27 °C. Tính lực làm quả bóng rời khỏi mặt đất.",
+      "answer": "3.10",
+      "unit": "N",
+      "tolerance": 0.1
+    },
+    {
+      "id": "vlc2-sa-23",
+      "question": "Cũng với quả bóng thám không ở trên (dung tích không đổi 1200 lít, vỏ 1 kg, bơm khí hydrogen ở áp suất 1,013.10^5 Pa và nhiệt độ 27 °C tại mặt đất): bóng lên tới độ cao h thì dừng lại, tại đó nhiệt độ của khí quyển là 7 °C. Tính áp suất của khí quyển tại độ cao này.",
+      "answer": "73000",
+      "unit": "Pa",
+      "tolerance": 2000
+    },
+    {
+      "id": "vlc2-sa-24",
+      "question": "Một vận động viên leo núi cần hít vào 2 g không khí ở điều kiện chuẩn trong mỗi nhịp thở. Hỏi ở trên núi cao khi không khí có áp suất và nhiệt độ tương ứng là 79,8 kPa và 13 °C thì thể tích không khí người đó phải hít vào trong mỗi nhịp thở bằng bao nhiêu? Biết khối lượng riêng của không khí ở điều kiện chuẩn là 1,29 kg/m³ và coi khối lượng không khí hít vào trong mỗi nhịp thở là bằng nhau.",
+      "answer": "1.87",
+      "unit": "lít",
+      "tolerance": 0.05
+    },
+    {
+      "id": "vlc2-sa-25",
+      "question": "Một bình đựng 10 lít khí hydrogen ở áp suất 50 atm và nhiệt độ 7 °C. Do nắp bình không được vặn thật kín nên khi nhiệt độ của bình bị tăng thêm 10 °C thì tuy có một lượng khí thoát ra ngoài nhưng áp suất khí trong bình vẫn không đổi. Tính khối lượng khí thoát ra ngoài.",
+      "answer": "1.4",
+      "unit": "g",
+      "tolerance": 0.2
+    },
+    {
+      "id": "vlc2-sa-26",
+      "question": "Khối lượng riêng của hỗn hợp khí nitrogen và hydrogen ở nhiệt độ t = 37 °C và áp suất p = 1,96.10^5 Pa là D = 0,30 kg/m³. Biết khối lượng mol của nitrogen và hydrogen lần lượt là M1 = 0,028 kg/mol và M2 = 0,002 kg/mol. Hãy tìm mật độ phân tử của khí nitrogen trong hỗn hợp.",
+      "answer": "3.5e24",
+      "unit": "phân tử/m³",
+      "tolerance": 0.2e24
+    },
+    {
+      "id": "vlc2-sa-27",
+      "question": "Khối lượng riêng của hỗn hợp khí nitrogen và hydrogen ở nhiệt độ t = 37 °C và áp suất p = 1,96.10^5 Pa là D = 0,30 kg/m³. Biết khối lượng mol của nitrogen và hydrogen lần lượt là M1 = 0,028 kg/mol và M2 = 0,002 kg/mol. Hãy tìm mật độ phân tử của khí hydrogen trong hỗn hợp.",
+      "answer": "4.09e25",
+      "unit": "phân tử/m³",
+      "tolerance": 0.2e25
+    }
+  ]
+}

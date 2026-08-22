@@ -1,0 +1,62 @@
+{
+  "id": "bai21",
+  "chuDeId": "vlc4",
+  "chuDeTitle": "Vật lí hạt nhân",
+  "baiNumber": 21,
+  "title": "Cấu trúc hạt nhân",
+  "objectives": [],
+  "sections": [
+    {
+      "heading": "Thí nghiệm tán xạ hạt alpha",
+      "summary": "Năm 1911, Rutherford dùng chùm hạt alpha (chính là hạt nhân He) bắn vào một lá vàng rất mỏng đặt trong hộp chân không, rồi dùng kính hiển vi quan sát các đốm sáng do hạt alpha đập vào màn huỳnh quang. Kết quả cho thấy hầu hết hạt alpha đi thẳng qua lá vàng, chỉ một số rất ít (khoảng 1 trên 10^4) bị lệch hướng mạnh, chứng tỏ điện tích dương và khối lượng của nguyên tử tập trung ở một vùng rất nhỏ gọi là hạt nhân, còn lại là khoảng trống.",
+      "keyPoints": [
+        "Hiện tượng lệch hướng chuyển động của hạt alpha khi đến gần hạt nhân vàng gọi là hiện tượng tán xạ hạt alpha.",
+        "Từ kết quả thí nghiệm, Rutherford đề xuất mô hình hành tinh nguyên tử: hạt nhân mang điện dương ở tâm, electron chuyển động trên quỹ đạo quanh hạt nhân, phần lớn không gian nguyên tử là khoảng trống.",
+        "Kích thước hạt nhân nhỏ hơn kích thước nguyên tử khoảng 10^4 lần."
+      ],
+      "example": "Mô hình nguyên tử đầu tiên (mô hình bánh ngọt có mận khô) coi electron như các mẩu mận khô nằm rải rác trong khối điện tích dương. Sau này Bohr bổ sung các tiên đề lượng tử vào mô hình Rutherford để giải thích quang phổ vạch, còn mô hình hiện đại (đám mây electron) của Schrödinger mô tả electron xuất hiện ở mọi vị trí quanh hạt nhân với một xác suất nào đó."
+    },
+    {
+      "heading": "Nucleon và kích thước hạt nhân",
+      "summary": "Hạt nhân được tạo thành từ hai loại hạt là proton và neutron, gọi chung là nucleon. Proton mang điện tích dương bằng +e, neutron trung hoà về điện; hai hạt có khối lượng xấp xỉ bằng nhau, khoảng 1 amu. Có thể coi hạt nhân như một quả cầu có bán kính phụ thuộc vào số khối A.",
+      "keyPoints": [
+        "Proton (p): khối lượng m_p ≈ 1,67262.10^-27 kg, điện tích q = +e ≈ 1,6.10^-19 C.",
+        "Neutron (n): khối lượng m_n ≈ 1,67493.10^-27 kg, trung hoà về điện.",
+        "Đơn vị khối lượng nguyên tử (amu) bằng 1/12 khối lượng nguyên tử của đồng vị carbon-12: 1 amu ≈ 1,66054.10^-27 kg.",
+        "Bán kính hạt nhân: R = 1,2.10^-15 . A^(1/3) (m), công thức cho kết quả tốt hơn với A > 12.",
+        "Số proton trong hạt nhân bằng Z (số hiệu nguyên tử); tổng số nucleon là A (số khối); số neutron N = A - Z.",
+        "Các nucleon còn được cấu tạo từ các hạt nhỏ hơn gọi là quark."
+      ],
+      "example": "Hạt nhân silicon-28 (28/14 Si) có cấu tạo gồm 14 proton và 14 neutron. Kích thước một số hạt vi mô: nguyên tử cỡ 10^-10 m, hạt nhân cỡ 10^-14 m, proton cỡ 10^-15 m, electron cỡ 10^-18 m."
+    },
+    {
+      "heading": "Kí hiệu hạt nhân",
+      "summary": "Người ta dùng kí hiệu hoá học X của nguyên tố kèm hai số Z và A để kí hiệu hạt nhân, viết dưới dạng A trên, Z dưới, X. Ví dụ hạt nhân carbon có 12 nucleon, 6 proton được kí hiệu là 12/6 C, hoặc viết gọn là ¹²C.",
+      "keyPoints": [
+        "Kí hiệu hạt nhân dạng A/Z X, trong đó X là kí hiệu hoá học nguyên tố, A là số khối, Z là số hiệu nguyên tử (số proton).",
+        "Có thể ghi gọn hơn theo dạng A X, ví dụ ¹²C."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Đồng vị",
+      "summary": "Các hạt nhân đồng vị là những hạt nhân có cùng số proton (cùng Z) nhưng khác số neutron (khác A). Hầu hết các mẫu chất trong tự nhiên là hỗn hợp của nhiều đồng vị, được chia làm đồng vị bền và đồng vị phóng xạ (không bền).",
+      "keyPoints": [
+        "Đồng vị: cùng số Z, khác số A, nghĩa là cùng số proton và khác số neutron.",
+        "Hydrogen có ba đồng vị: hydrogen thường (¹H), deuterium hay hydrogen nặng (²H, kí hiệu D), tritium hay hydrogen siêu nặng (³H, kí hiệu T).",
+        "Carbon có ba đồng vị chính: ¹²C, ¹³C (đồng vị bền, chiếm hơn 99% carbon tự nhiên) và ¹⁴C (đồng vị phóng xạ)."
+      ],
+      "example": null
+    }
+  ],
+  "glossary": [
+    {"term": "Nucleon", "definition": "Tên gọi chung của proton và neutron, hai loại hạt cấu tạo nên hạt nhân nguyên tử."},
+    {"term": "Proton", "definition": "Hạt cấu tạo hạt nhân, mang điện tích q = +e, khối lượng m_p ≈ 1,67262.10^-27 kg."},
+    {"term": "Neutron", "definition": "Hạt cấu tạo hạt nhân, trung hoà về điện, khối lượng m_n ≈ 1,67493.10^-27 kg."},
+    {"term": "Đơn vị khối lượng nguyên tử (amu)", "definition": "Đơn vị bằng 1/12 khối lượng nguyên tử của đồng vị carbon-12; 1 amu ≈ 1,66054.10^-27 kg."},
+    {"term": "Số khối (A)", "definition": "Tổng số nucleon (proton và neutron) trong một hạt nhân."},
+    {"term": "Số hiệu nguyên tử (Z)", "definition": "Số proton trong hạt nhân, cũng là số thứ tự nguyên tố trong bảng tuần hoàn."},
+    {"term": "Đồng vị", "definition": "Các hạt nhân có cùng số proton (cùng Z) nhưng khác số neutron (khác số khối A)."},
+    {"term": "Tán xạ hạt alpha", "definition": "Hiện tượng lệch hướng chuyển động của hạt alpha khi đến gần hạt nhân nguyên tử, dùng để phát hiện sự tồn tại của hạt nhân."}
+  ]
+}

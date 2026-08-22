@@ -1,0 +1,50 @@
+{
+  "id": "bai18",
+  "chuDeId": "vlc3",
+  "chuDeTitle": "Từ trường",
+  "baiNumber": 18,
+  "title": "Ứng dụng hiện tượng cảm ứng điện từ",
+  "objectives": [],
+  "sections": [
+    {
+      "heading": "Máy biến áp",
+      "summary": "Máy biến áp gồm hai cuộn dây có số vòng khác nhau quấn trên cùng một lõi kín (lõi biến áp). Cuộn nối với nguồn điện xoay chiều gọi là cuộn sơ cấp, cuộn nối với tải tiêu thụ gọi là cuộn thứ cấp. Dòng điện xoay chiều chạy trong cuộn sơ cấp tạo ra từ thông biến thiên qua cuộn thứ cấp, làm xuất hiện suất điện động cảm ứng xoay chiều ở cuộn thứ cấp - đó là nguyên tắc hoạt động dựa trên hiện tượng cảm ứng điện từ.",
+      "keyPoints": [
+        "Máy biến áp gồm hai cuộn dây (sơ cấp và thứ cấp) quấn trên một lõi biến áp chung.",
+        "Lõi biến áp làm bằng các lá sắt hoặc thép pha silicon ghép cách điện với nhau để giảm hao phí do dòng điện Foucault.",
+        "Vì hầu như mọi đường sức từ chỉ chạy trong lõi nên từ thông qua mỗi vòng dây ở cả hai cuộn là như nhau, do đó suất điện động cảm ứng trong mỗi vòng dây của hai cuộn bằng nhau.",
+        "Hệ quả (từ định luật Faraday ec = -NΔΦ/Δt): U1/U2 = N1/N2, với U1, U2 là điện áp hiệu dụng hai đầu cuộn sơ cấp và thứ cấp; N1, N2 là số vòng dây tương ứng."
+      ],
+      "example": "Sạc điện thoại không dây hoạt động theo nguyên lý máy biến áp: cuộn dây trong đế sạc nối với dòng điện xoay chiều đóng vai trò cuộn sơ cấp, cuộn dây phía sau điện thoại nối với pin đóng vai trò cuộn thứ cấp. Khi đặt điện thoại lên sạc, hai cuộn dây được đặt cạnh nhau; dòng điện xoay chiều biến thiên qua cuộn sạc sinh ra suất điện động cảm ứng trong cuộn dây của điện thoại để sạc pin."
+    },
+    {
+      "heading": "Đàn ghi ta điện",
+      "summary": "Đàn ghi ta điện có cấu tạo đặc, không có hộp cộng hưởng như đàn ghi ta thường, nhưng vẫn nghe được âm nhờ sáu cuộn dây cảm ứng gắn ngay dưới sáu dây đàn. Mỗi cuộn dây cảm ứng gồm một nam châm vĩnh cửu nhỏ đặt bên trong một cuộn dây, đặt ngay dưới dây đàn.",
+      "keyPoints": [
+        "Dây đàn làm bằng thép nên đoạn dây nằm sát trên nam châm của cuộn cảm ứng bị từ hoá, trở thành một nam châm có cực từ.",
+        "Khi gảy đàn, dây đàn dao động làm từ thông qua cuộn dây cảm ứng (2) biến thiên, sinh ra dòng điện cảm ứng biến đổi cả về chiều và cường độ theo đúng tần số dao động của dây đàn (tức tần số của âm).",
+        "Dòng điện cảm ứng được đưa đến máy tăng âm rồi đến loa, giúp tái tạo lại âm thanh do dây đàn phát ra.",
+        "Gảy dây đàn mạnh hay nhẹ làm biên độ dao động của dây thay đổi, khiến tốc độ biến thiên từ thông (ΔΦ/Δt) thay đổi, theo công thức ec = -NΔΦ/Δt suất điện động và dòng điện cảm ứng thay đổi tương ứng, làm độ to của âm thay đổi theo."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Dòng điện Foucault",
+      "summary": "Khi một khối vật dẫn chuyển động trong từ trường hoặc được đặt trong từ trường biến thiên theo thời gian, trong khối vật dẫn đó xuất hiện dòng điện cảm ứng có tính chất xoáy (các đường cong kín trong khối vật dẫn), gọi là dòng điện Foucault.",
+      "keyPoints": [
+        "Thí nghiệm: một tấm kim loại liền khối dao động trong từ trường giữa hai cực nam châm sẽ dừng lại khá nhanh, vì dòng điện Foucault sinh ra trong tấm có tác dụng ngăn cản chính chuyển động của tấm kim loại đó (phù hợp định luật Lenz).",
+        "Nếu thay tấm kim loại liền khối bằng tấm có rãnh xẻ thì tấm dao động lâu hơn, vì điện trở của tấm đối với dòng điện Foucault tăng lên làm cường độ dòng điện Foucault giảm.",
+        "Ứng dụng của dòng điện Foucault: luyện kim, làm đệm từ trường, chế tạo bếp từ, đồng hồ đo điện, phanh điện từ...",
+        "Tác hại: trong máy biến áp, dòng điện Foucault toả nhiệt làm lõi biến áp nóng lên, gây hao phí điện năng. Để giảm tác hại này, lõi biến áp được ghép từ nhiều lá thép pha silicon mỏng có phủ lớp sơn cách điện, đặt song song với đường sức từ, làm tăng điện trở của lõi đối với dòng điện Foucault."
+      ],
+      "example": null
+    }
+  ],
+  "glossary": [
+    {"term": "Máy biến áp", "definition": "Thiết bị gồm hai cuộn dây có số vòng khác nhau quấn trên cùng một lõi kín, dùng để biến đổi điện áp xoay chiều dựa trên hiện tượng cảm ứng điện từ."},
+    {"term": "Cuộn sơ cấp", "definition": "Cuộn dây của máy biến áp được nối trực tiếp với nguồn điện xoay chiều."},
+    {"term": "Cuộn thứ cấp", "definition": "Cuộn dây của máy biến áp được nối với tải tiêu thụ điện năng."},
+    {"term": "Lõi biến áp", "definition": "Bộ phận bằng các lá sắt hoặc thép pha silicon ghép cách điện, dùng để dẫn từ thông giữa cuộn sơ cấp và cuộn thứ cấp, giảm hao phí do dòng điện Foucault."},
+    {"term": "Dòng điện Foucault", "definition": "Dòng điện cảm ứng có tính chất xoáy, sinh ra trong khối vật dẫn khi vật dẫn chuyển động trong từ trường hoặc được đặt trong từ trường biến thiên theo thời gian."}
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "bai08",
+  "chuDeId": "vlc2",
+  "chuDeTitle": "Khí lí tưởng",
+  "baiNumber": 8,
+  "title": "Mô hình động học phân tử chất khí",
+  "objectives": [
+    "Giải thích vì sao chất khí có một số tính chất vật lí khác so với chính chất đó ở thể lỏng và thể rắn, dựa trên mô hình động học phân tử."
+  ],
+  "sections": [
+    {
+      "heading": "Chuyển động Brown và tốc độ phân tử khí",
+      "summary": "Chuyển động Brown xảy ra cả trong chất khí: các phân tử khí chuyển động hỗn loạn, không ngừng theo mọi hướng. Khi nhiệt độ khí tăng, các phân tử chuyển động càng nhanh. Vì các phân tử va chạm liên tục với nhau nên tốc độ của từng phân tử luôn thay đổi, do đó người ta nói đến tốc độ trung bình có tính thống kê của rất nhiều phân tử.",
+      "keyPoints": [
+        "Tốc độ trung bình của phân tử: v̄ = (v1 + v2 + ... + vn) / n",
+        "Nhiệt độ khí càng cao thì tốc độ chuyển động hỗn loạn của phân tử càng lớn",
+        "Ở điều kiện chuẩn (T = 273 K, p = 1 atm = 10^5 Pa), phân tử khí oxygen có tốc độ trung bình khoảng 400 m/s"
+      ],
+      "example": "Ở điều kiện chuẩn, các phân tử khí oxygen chuyển động với tốc độ trung bình vào khoảng 400 m/s."
+    },
+    {
+      "heading": "Tương tác giữa các phân tử khí",
+      "summary": "Giữa các phân tử khí cũng tồn tại lực hút và lực đẩy, gọi chung là lực liên kết, giống như ở thể lỏng và thể rắn. Tuy nhiên do khoảng cách giữa các phân tử ở thể khí rất lớn so với ở thể lỏng và thể rắn nên lực liên kết giữa các phân tử khí rất yếu.",
+      "keyPoints": [
+        "Lực liên kết giữa các phân tử khí rất yếu so với ở thể lỏng và thể rắn",
+        "Khoảng cách giữa các phân tử khí rất lớn so với khoảng cách giữa các phân tử ở thể lỏng, thể rắn"
+      ],
+      "example": null
+    },
+    {
+      "heading": "Mô hình động học phân tử chất khí",
+      "summary": "Từ các thí nghiệm và thực tế, người ta xây dựng mô hình động học phân tử chất khí gồm ba nội dung chính: kích thước phân tử rất nhỏ so với khoảng cách giữa chúng, các phân tử chuyển động hỗn loạn không ngừng, và khi va chạm với thành bình các phân tử gây ra áp suất lên thành bình.",
+      "keyPoints": [
+        "Chất khí được cấu tạo từ các phân tử có kích thước rất nhỏ so với khoảng cách giữa chúng; lực liên kết giữa các phân tử ở thể khí rất yếu",
+        "Các phân tử khí chuyển động hỗn loạn, không ngừng; chuyển động này càng nhanh thì nhiệt độ của khí càng cao",
+        "Khi chuyển động hỗn loạn, các phân tử khí va chạm với nhau và với thành bình; va chạm với thành bình gây ra áp suất lên thành bình"
+      ],
+      "example": null
+    },
+    {
+      "heading": "Khí lí tưởng",
+      "summary": "Để đơn giản hoá việc nghiên cứu tính chất chất khí, người ta dùng mô hình khí lí tưởng: các phân tử được coi là chất điểm, không tương tác với nhau khi chưa va chạm, và va chạm giữa các phân tử (hoặc với thành bình) là va chạm hoàn toàn đàn hồi. Mô hình này bỏ qua thể tích riêng của phân tử nên làm cho việc mô tả các hiện tượng về chất khí trở nên đơn giản, dễ dàng.",
+      "keyPoints": [
+        "Phân tử khí lí tưởng được coi là chất điểm, không tương tác với nhau khi chưa va chạm",
+        "Va chạm giữa các phân tử khí lí tưởng (kể cả với thành bình) là va chạm hoàn toàn đàn hồi"
+      ],
+      "example": null
+    }
+  ],
+  "glossary": [
+    {"term": "Chuyển động Brown", "definition": "Chuyển động hỗn loạn, không ngừng của các hạt (hoặc phân tử) do va chạm với các phân tử của môi trường xung quanh."},
+    {"term": "Lực liên kết phân tử", "definition": "Lực hút và lực đẩy giữa các phân tử; ở thể khí lực này rất yếu do khoảng cách phân tử rất lớn."},
+    {"term": "Tốc độ trung bình của phân tử", "definition": "Giá trị trung bình cộng tốc độ của rất nhiều phân tử khí, có tính thống kê."},
+    {"term": "Khí lí tưởng", "definition": "Mô hình khí trong đó phân tử được coi là chất điểm, không tương tác khi chưa va chạm và va chạm là hoàn toàn đàn hồi."}
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "bai16",
+  "chuDeId": "cd9",
+  "chuDeTitle": "Một số vấn đề cơ bản của luật quốc tế",
+  "baiNumber": 16,
+  "title": "Nguyên tắc cơ bản của Tổ chức Thương mại thế giới và hợp đồng thương mại quốc tế",
+  "objectives": [
+    "Nêu được nội dung cơ bản của các nguyên tắc cơ bản của Tổ chức Thương mại Thế giới (WTO) và nguyên tắc cơ bản của hợp đồng thương mại quốc tế.",
+    "Phân tích, đánh giá được một số hành vi vi phạm pháp luật Việt Nam và pháp luật quốc tế đơn giản, phổ biến, thường gặp liên quan đến các nguyên tắc này."
+  ],
+  "sections": [
+    {
+      "heading": "Nguyên tắc thương mại không phân biệt đối xử",
+      "summary": "Nguyên tắc này được thể hiện qua hai chế độ pháp lí: đối xử tối huệ quốc và đối xử quốc gia. Theo đó các nước thành viên WTO không được phân biệt đối xử giữa các đối tác thương mại của mình, cũng như giữa hàng hóa, dịch vụ trong nước và nước ngoài.",
+      "keyPoints": [
+        "Đối xử tối huệ quốc (đối xử bình đẳng với các nước khác): nếu một nước thành viên trao cho một nước thành viên khác đặc quyền thương mại nào đó thì phải đối xử tương tự với tất cả các thành viên còn lại, ngay lập tức và không điều kiện; có ngoại lệ cho các hiệp định thương mại tự do như CPTPP, EVFTA.",
+        "Đối xử quốc gia (đối xử bình đẳng giữa sản phẩm trong nước và nước ngoài): sản phẩm, dịch vụ, nhà cung cấp của nước thành viên khác phải được hưởng ưu đãi không kém hơn so với sản phẩm, dịch vụ, nhà cung cấp trong nước; có ngoại lệ đối với mua sắm Chính phủ phục vụ mục đích tiêu dùng của Chính phủ."
+      ],
+      "example": "Theo GATT 1947 (Điều I và III), mọi khoản thuế quan, lợi thế, đặc quyền dành cho sản phẩm của một nước phải được áp dụng ngay lập tức, không điều kiện cho sản phẩm tương tự của mọi bên kí kết khác."
+    },
+    {
+      "heading": "Nguyên tắc mở cửa thị trường",
+      "summary": "Nguyên tắc mở cửa thị trường (tự do hóa thương mại từng bước, bằng con đường đàm phán) yêu cầu các nước thành viên WTO cam kết từng bước xóa bỏ các rào cản trong thương mại quốc tế.",
+      "keyPoints": [
+        "Cấm áp dụng biện pháp hạn chế về số lượng nhập khẩu, xuất khẩu.",
+        "Giảm và tiến tới xóa bỏ hàng rào thuế quan; xóa bỏ hàng rào phi thuế quan.",
+        "Các nước chỉ được hạn chế hàng hóa của nước khác thông qua thuế quan hoặc các khoản thu khác, không được cấm hay hạn chế trực tiếp, trừ trường hợp thật cần thiết và mang tính tạm thời."
+      ],
+      "example": "Từ khi trở thành thành viên WTO, Việt Nam đã tạo điều kiện cho hàng hóa của các nước thành viên WTO được nhập khẩu với số lượng không hạn chế vào thị trường Việt Nam."
+    },
+    {
+      "heading": "Nguyên tắc thương mại công bằng",
+      "summary": "Nguyên tắc thương mại công bằng yêu cầu thương mại quốc tế được tiến hành trong điều kiện cạnh tranh bình đẳng như nhau giữa các thành viên WTO, hạn chế những biện pháp thương mại không lành mạnh nhằm chiếm thị phần.",
+      "keyPoints": [
+        "Bán phá giá là việc bán sản phẩm ra nước ngoài với giá thấp hơn giá thành hoặc giá thị trường nội địa của nhà xuất khẩu.",
+        "Trợ cấp của Chính phủ dành cho hàng xuất khẩu cũng bị coi là hành vi cạnh tranh thương mại không lành mạnh."
+      ],
+      "example": "Nước M đã nhiều lần xem xét đơn kiện của các doanh nghiệp trong nước khi họ cho rằng mặt hàng tôm đông lạnh của nước P, nước A đã bán phá giá, cạnh tranh không công bằng tại thị trường nước M."
+    },
+    {
+      "heading": "Nguyên tắc minh bạch",
+      "summary": "Nguyên tắc minh bạch quy định để tránh sự tùy tiện và có thể dự đoán trước, các nước thành viên WTO phải thông báo, trả lời những thông tin cần thiết về mọi biện pháp có liên quan hoặc tác động đến việc thi hành các hiệp định thương mại quốc tế.",
+      "keyPoints": [
+        "Các thành viên phải nhanh chóng công bố mọi biện pháp có liên quan hoặc tác động đến việc thi hành các hiệp định thương mại, chậm nhất trước khi các biện pháp đó có hiệu lực (trừ trường hợp khẩn cấp).",
+        "Các thành viên phải thông báo cho Hội đồng thương mại dịch vụ ít nhất mỗi năm một lần về văn bản pháp luật mới hoặc sửa đổi có tác động đến thương mại dịch vụ, và trả lời không chậm trễ các yêu cầu cung cấp thông tin từ thành viên khác."
+      ],
+      "example": "Việt Nam hằng năm thực hiện việc thông báo cho các cơ quan giám sát của WTO về những biện pháp mà nước mình áp dụng có ảnh hưởng đến việc thực hiện các hiệp định thương mại quốc tế đã được kí kết."
+    },
+    {
+      "heading": "Nguyên tắc ưu đãi dành cho các nước đang phát triển",
+      "summary": "Để khuyến khích phát triển và cải cách kinh tế đối với các nước đang và chậm phát triển, trong các hiệp định của WTO có nhiều điều khoản dành cho các nước này một số quyền ưu đãi đặc biệt hoặc được đối xử nương nhẹ hơn.",
+      "keyPoints": [
+        "Được hưởng thời gian thực hiện các cam kết dài hơn; được đối xử ưu ái hơn so với các nước phát triển.",
+        "Được miễn thực hiện một số nghĩa vụ trong thời gian nhất định; được trợ giúp về kĩ thuật, hỗ trợ pháp lí từ Ban thư kí WTO, được tham dự các khóa đào tạo về thương mại."
+      ],
+      "example": "Khi tham gia WTO, Việt Nam đã được các chuyên gia của WTO hỗ trợ rất nhiều để xây dựng và hoàn thiện hệ thống pháp luật cho phù hợp với yêu cầu của WTO."
+    },
+    {
+      "heading": "Nguyên tắc tự do hợp đồng",
+      "summary": "Hợp đồng thương mại quốc tế là sự thỏa thuận giữa các bên, trong đó có ít nhất một bên là thương nhân, quốc gia hoặc tổ chức kinh tế, đối tượng là động sản có thể di chuyển qua biên giới các nước. Nguyên tắc tự do hợp đồng cho phép các bên hoàn toàn tự nguyện lựa chọn đối tác, nội dung, hình thức hợp đồng, luật điều chỉnh và cơ quan giải quyết tranh chấp.",
+      "keyPoints": [
+        "Các bên được quyền tự do lựa chọn đối tác, tự do thiết lập điều khoản, thỏa thuận nội dung và hình thức của hợp đồng (trừ trường hợp pháp luật quốc gia hoặc pháp luật quốc tế có quy định về hình thức).",
+        "Các bên được tự do chọn luật điều chỉnh, cơ quan giải quyết tranh chấp.",
+        "Cam kết, thỏa thuận giữa các bên phải không vi phạm điều cấm của luật, không trái đạo đức xã hội, không gây thiệt hại cho bên thứ ba, cho lợi ích công cộng hoặc cho một trong các bên."
+      ],
+      "example": "Công ty X (Nhật Bản) và Công ty V (Việt Nam) đã tự do thỏa thuận giao kết hợp đồng bằng văn bản bán 1.000 xe ô tô, tự chọn luật của Singapore và Trọng tài thương mại Việt Nam để giải quyết tranh chấp thay vì áp dụng Công ước Viên (CISG 1980)."
+    },
+    {
+      "heading": "Nguyên tắc thiện chí và trung thực",
+      "summary": "Nguyên tắc thiện chí và trung thực quy định các bên khi tham gia vào quan hệ hợp đồng thương mại ở tất cả các giai đoạn (xác lập, thực hiện, chấm dứt quyền và nghĩa vụ) đều phải hành động với tinh thần thiện chí và trung thực, không bên nào được lừa dối bên nào.",
+      "keyPoints": [
+        "Nguyên tắc được ghi nhận trong Bộ nguyên tắc hợp đồng thương mại quốc tế PICC năm 2004 (sửa đổi năm 2010, 2016) của UNIDROIT.",
+        "Nguyên tắc cũng được ghi nhận trong Bộ luật Dân sự Việt Nam năm 2015."
+      ],
+      "example": "Khi Công ty K (nước V) gặp khó khăn trong sản xuất kinh doanh, đề nghị kéo dài thời hạn thanh toán, Công ty N (nước D) sau khi kiểm tra tình hình thực tế đã đồng ý kéo dài thời hạn thanh toán thêm 6 tháng trên tinh thần thiện chí."
+    },
+    {
+      "heading": "Nguyên tắc tuân thủ hợp đồng đã giao kết và xử lí việc không thực hiện hợp đồng",
+      "summary": "Hợp đồng thương mại hợp pháp, có hiệu lực thì có giá trị ràng buộc, bắt buộc các bên tham gia kí kết phải tôn trọng và thực hiện. Nếu một bên không thực hiện hợp đồng thì bên bị vi phạm có quyền áp dụng các biện pháp xử lí theo quy định.",
+      "keyPoints": [
+        "Hợp đồng chỉ có thể được thay đổi, chấm dứt hiệu lực từng phần hoặc toàn bộ theo quy định của chính hợp đồng, theo thỏa thuận của các bên hoặc theo quy định pháp luật (trừ trường hợp lừa dối, cưỡng ép hoặc hoàn cảnh thay đổi cơ bản không thể lường trước).",
+        "Không thực hiện hợp đồng là việc một bên không hoàn thành một hoặc nhiều nghĩa vụ, kể cả việc thực hiện không đúng quy cách hoặc chậm so với quy định.",
+        "Bên bị vi phạm có thể yêu cầu: buộc thực hiện đúng hợp đồng; phạt vi phạm hợp đồng; bồi thường thiệt hại; tạm ngừng, đình chỉ hoặc hủy bỏ hợp đồng (trừ những trường hợp được miễn trách nhiệm như sự kiện bất khả kháng)."
+      ],
+      "example": "Công ty D (nước V) kí hợp đồng cung cấp 150 tấn vải thiều cho Công ty H (nước Q), nhưng do cửa khẩu giữa hai nước bị đóng vì dịch bệnh nên Công ty D đã tìm mọi cách nhưng vẫn không thể giao hàng đúng thời hạn theo hợp đồng."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Đối xử tối huệ quốc",
+      "definition": "Chế độ đối xử theo đó một ưu đãi thương mại mà một nước thành viên WTO dành cho nước thành viên khác phải được áp dụng ngay lập tức và vô điều kiện cho tất cả các thành viên còn lại."
+    },
+    {
+      "term": "Đối xử quốc gia",
+      "definition": "Chế độ đối xử theo đó hàng hóa, dịch vụ và nhà cung cấp nước ngoài phải được đối xử không kém ưu đãi hơn so với hàng hóa, dịch vụ, nhà cung cấp tương tự trong nước."
+    },
+    {
+      "term": "Bán phá giá",
+      "definition": "Một khái niệm cơ bản của thương mại quốc tế, được hiểu là việc bán sản phẩm ra nước ngoài với giá thấp hơn giá thông thường của nó, mà trong hầu hết các trường hợp là giá tại thị trường nội địa của nhà xuất khẩu."
+    },
+    {
+      "term": "Mua sắm Chính phủ",
+      "definition": "Việc chi tiêu cho hàng hóa và dịch vụ của Chính phủ một quốc gia. Khoản mua sắm Chính phủ được xác định bằng tổng chi tiêu Chính phủ trừ đi các khoản thanh toán chuyển khoản và trả lãi nợ."
+    },
+    {
+      "term": "Tập quán thương mại quốc tế",
+      "definition": "Những quy tắc, khuôn mẫu xử sự được hình thành trong hoạt động thương mại quốc tế có tính chất lặp đi, lặp lại trong một thời gian dài thành thói quen, được áp dụng thường xuyên. Tập quán thương mại quốc tế thường có ba nhóm: các tập quán có tính chất nguyên tắc, các tập quán chung và các tập quán khu vực."
+    },
+    {
+      "term": "Thuế quan",
+      "definition": "Thuế do hải quan của một quốc gia thu đối với hàng hóa xuất khẩu hoặc nhập khẩu khi vận chuyển qua cửa khẩu của quốc gia đó."
+    },
+    {
+      "term": "WTO",
+      "definition": "Tổ chức Thương mại Thế giới, được thành lập và hoạt động từ 01-01-1995 với mục tiêu thiết lập và duy trì một nền thương mại toàn cầu tự do, thuận lợi và minh bạch. WTO kế thừa và phát triển các quy định của GATT 1947 và là kết quả trực tiếp của Vòng đàm phán Uruguay."
+    },
+    {
+      "term": "Hợp đồng thương mại quốc tế",
+      "definition": "Sự thỏa thuận giữa các bên, trong đó có ít nhất một bên là thương nhân, quốc gia hoặc tổ chức kinh tế; đối tượng là động sản có thể di chuyển được qua biên giới các nước; có trụ sở thương mại tại các quốc gia khác nhau, nhằm xác lập, thay đổi, chấm dứt quyền và nghĩa vụ trong lĩnh vực thương mại quốc tế."
+    }
+  ]
+}

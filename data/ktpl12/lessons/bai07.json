@@ -1,0 +1,83 @@
+{
+  "id": "bai07",
+  "chuDeId": "cd6",
+  "chuDeTitle": "Quản lí thu, chi trong gia đình",
+  "baiNumber": 7,
+  "title": "Quản lí thu, chi trong gia đình",
+  "objectives": [
+    "Nêu được thế nào là quản lí thu, chi trong gia đình.",
+    "Giải thích được sự cần thiết phải quản lí thu, chi trong gia đình.",
+    "Đánh giá được thói quen chi tiêu và các mục tiêu tài chính của gia đình.",
+    "Tham gia lập kế hoạch và thực hiện kế hoạch thu, chi hợp lí trong gia đình."
+  ],
+  "sections": [
+    {
+      "heading": "Quản lí thu, chi và sự cần thiết phải quản lí thu, chi trong gia đình",
+      "summary": "Mỗi gia đình cần một khoản thu nhập ổn định để trang trải chi tiêu. Thu nhập gia đình gồm tiền lương, tiền công và các khoản thu khác như lợi tức gửi ngân hàng, lợi nhuận kinh doanh. Quản lí thu, chi là việc quản lí các khoản thu nhập và chi tiêu sao cho đáp ứng nhu cầu vật chất, tinh thần của các thành viên và phù hợp với thu nhập của gia đình.",
+      "keyPoints": [
+        "Thu nhập gia đình: tiền lương, tiền công, lợi tức tiền gửi ngân hàng, lợi nhuận sản xuất kinh doanh,...",
+        "Quản lí thu nhập là quá trình xác định, theo dõi, tối ưu hoá các nguồn thu nhập để đảm bảo mục tiêu tài chính.",
+        "Chi tiêu gia đình gồm chi phí ăn, mặc, ở, đi lại, giao tiếp xã hội, học tập, giải trí,...",
+        "Quản lí chi tiêu là quá trình quản lí các khoản chi dựa vào thu nhập một cách hợp lí, hiệu quả để đạt mục tiêu đề ra.",
+        "Việc quản lí thu, chi giúp: kiểm soát nguồn thu; điều chỉnh thói quen chi tiêu không tích cực; chủ động thực hiện kế hoạch tài chính; cân bằng tài chính, ứng phó rủi ro; nâng cao chất lượng cuộc sống gia đình."
+      ],
+      "example": "Một số thói quen chi tiêu trong thực tế: chỉ mua khi thực sự cần thiết, tiết kiệm điện nước, bàn bạc thống nhất trước khi chi tiêu (tích cực); chi tiêu tuỳ hứng theo cảm xúc, chi tiêu hết thu nhập không có quỹ dự phòng (chưa tích cực)."
+    },
+    {
+      "heading": "Xây dựng kế hoạch quản lí thu, chi trong gia đình - Bước 1: Xác định mục tiêu tài chính",
+      "summary": "Mục tiêu tài chính giúp gia đình xác định ngân sách để thực hiện các dự định cụ thể trong một khoảng thời gian. Mục tiêu được chia theo thời gian thực hiện: ngắn hạn, trung hạn và dài hạn. Khi xác định mục tiêu cần liệt kê đầy đủ, ưu tiên mục tiêu cấp bách và có sự bàn bạc thống nhất giữa các thành viên.",
+      "keyPoints": [
+        "Mục tiêu tài chính ngắn hạn: đạt được trong 6 tháng đến 1 năm (ví dụ: mua ti vi, tủ lạnh, máy giặt, tổ chức kì nghỉ).",
+        "Mục tiêu tài chính trung hạn: cần 2-5 năm (ví dụ: tiết kiệm để mua xe, chuẩn bị kinh phí sinh con).",
+        "Mục tiêu tài chính dài hạn: từ 5 năm trở lên (ví dụ: kinh phí du học, xây nhà, mua ô tô mới).",
+        "Cần liệt kê tất cả mục tiêu, xác định mức độ ưu tiên và thời hạn hoàn thành, đảm bảo mục tiêu cụ thể, đo lường được, khả thi và có giới hạn thời gian."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Xây dựng kế hoạch quản lí thu, chi trong gia đình - Bước 2: Xác định các nguồn thu nhập",
+      "summary": "Thu nhập gia đình được chia thành hai loại: thu nhập thụ động và thu nhập chủ động. Việc xác định rõ các nguồn thu giúp gia đình nắm được tình hình tài chính hiện tại để xây dựng kế hoạch thu, chi phù hợp.",
+      "keyPoints": [
+        "Thu nhập thụ động: nhận được mà không cần sử dụng sức lao động, ví dụ thừa kế, sở hữu trí tuệ, lãi suất tiền gửi, cho thuê nhà, trúng thưởng.",
+        "Thu nhập chủ động: nhận được từ hao phí sức lao động, ví dụ tiền lương, tiền thưởng, lợi nhuận kinh doanh.",
+        "Cần duy trì thu nhập ổn định, kiểm tra và xem xét ngân sách gia đình thường xuyên để cân đối thu - chi."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Xây dựng kế hoạch quản lí thu, chi trong gia đình - Bước 3, 4: Phân loại và phân chia tỉ lệ các khoản chi",
+      "summary": "Các khoản chi được chia thành chi thiết yếu và chi không thiết yếu, làm căn cứ lập kế hoạch chi tiêu. Sau đó gia đình thống nhất tỉ lệ phân chia giữa chi thiết yếu, chi không thiết yếu và tiết kiệm dựa trên thu nhập và mục tiêu tài chính.",
+      "keyPoints": [
+        "Chi thiết yếu: khoản bắt buộc chi hằng tháng cho ăn, mặc, ở, đi lại, sinh hoạt, học hành, đảm bảo nhu cầu vật chất.",
+        "Chi không thiết yếu: khoản chi cho quan hệ xã hội và mua sắm xa xỉ.",
+        "Nguyên tắc: ưu tiên chi thiết yếu, cân nhắc khoản chi không thiết yếu để cân đối thu - chi và thực hiện tiết kiệm.",
+        "Ví dụ về tỉ lệ phân chia phổ biến (quy tắc 50/30/20): chi thiết yếu 50%, chi không thiết yếu 20%, mục tiêu tài chính (tiết kiệm, đầu tư, dự phòng) 30%; tỉ lệ có thể điều chỉnh tuỳ đặc điểm mỗi gia đình."
+      ],
+      "example": "Ví dụ phân bổ: Chi thiết yếu (nhà ở, ăn uống, sức khoẻ, giáo dục,...): 50%; Chi không thiết yếu (giải trí, mua sắm,...): 20%; Mục tiêu tài chính (tiết kiệm, đầu tư, dự phòng): 30%."
+    },
+    {
+      "heading": "Xây dựng kế hoạch quản lí thu, chi trong gia đình - Bước 5: Thực hiện các khoản thu, chi theo kế hoạch",
+      "summary": "Sau khi lập kế hoạch, gia đình cần thực hiện nghiêm túc bằng cách ghi chép đầy đủ các khoản chi tiêu, đối chiếu với định mức để cân đối và quyết tâm thực hiện mục tiêu. Cần kiểm soát chi tiêu, tránh các khoản chi không hợp lí và điều chỉnh kịp thời khi có biến động.",
+      "keyPoints": [
+        "Ghi chép đầy đủ các khoản chi tiêu, đối chiếu với định mức trong kế hoạch.",
+        "Kiểm soát việc chi tiêu, tránh chi tiêu không hợp lí, thực hiện thói quen tiêu dùng thông minh.",
+        "Nếu chi tiêu vượt mức do lí do đột xuất, cần cắt giảm ngay các khoản chi không cần thiết để bù lại.",
+        "Khi thu nhập gia đình giảm (mất việc, kinh doanh thua lỗ,...) cần điều chỉnh ngay kế hoạch chi tiêu cho tiết kiệm, phù hợp với thu nhập mới."
+      ],
+      "example": null
+    }
+  ],
+  "glossary": [
+    {"term": "Thu nhập gia đình", "definition": "Các khoản đến từ đóng góp của thành viên (tiền lương, tiền công) và các hoạt động có thu khác của gia đình (lợi tức, lợi nhuận kinh doanh)."},
+    {"term": "Quản lí thu nhập", "definition": "Quá trình xác định, theo dõi và tối ưu hoá các nguồn thu nhập nhằm đảm bảo các mục tiêu tài chính."},
+    {"term": "Chi tiêu gia đình", "definition": "Các khoản chi phí nhằm đáp ứng nhu cầu vật chất, tinh thần của các thành viên từ nguồn thu nhập của gia đình."},
+    {"term": "Quản lí chi tiêu", "definition": "Quá trình quản lí các khoản chi tiêu của mọi thành viên dựa vào thu nhập một cách hợp lí, hiệu quả để đạt mục tiêu đề ra."},
+    {"term": "Mục tiêu tài chính ngắn hạn", "definition": "Mục tiêu có thể đạt được trong khoảng 6 tháng đến 1 năm."},
+    {"term": "Mục tiêu tài chính trung hạn", "definition": "Mục tiêu cần khoảng thời gian từ 2 đến 5 năm mới đạt được."},
+    {"term": "Mục tiêu tài chính dài hạn", "definition": "Mục tiêu cần thời gian từ 5 năm trở lên mới đạt được."},
+    {"term": "Thu nhập thụ động", "definition": "Khoản thu nhập nhận được mà không cần sử dụng sức lao động của chính mình, ví dụ lãi tiền gửi, cho thuê nhà, thừa kế."},
+    {"term": "Thu nhập chủ động", "definition": "Khoản thu nhập nhận được từ hao phí sức lao động để tạo ra sản phẩm, dịch vụ, ví dụ tiền lương, tiền thưởng, lợi nhuận kinh doanh."},
+    {"term": "Chi thiết yếu", "definition": "Khoản chi bắt buộc hằng tháng phục vụ nhu cầu ăn, mặc, ở, đi lại, sinh hoạt, học hành."},
+    {"term": "Chi không thiết yếu", "definition": "Khoản chi phục vụ các mối quan hệ xã hội và mua sắm xa xỉ, không bắt buộc."}
+  ]
+}

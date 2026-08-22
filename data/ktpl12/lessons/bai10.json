@@ -1,0 +1,75 @@
+{
+  "id": "bai10",
+  "chuDeId": "cd8",
+  "chuDeTitle": "Quyền và nghĩa vụ của công dân về văn hoá, xã hội",
+  "baiNumber": 10,
+  "title": "Quyền và nghĩa vụ của công dân trong hôn nhân và gia đình",
+  "objectives": [
+    "Nêu được một số quy định cơ bản của pháp luật về quyền và nghĩa vụ của công dân trong hôn nhân và gia đình.",
+    "Tự giác thực hiện các quy định của pháp luật về quyền và nghĩa vụ cơ bản của công dân trong hôn nhân và gia đình bằng những hành vi phù hợp.",
+    "Phân tích, đánh giá được các hành vi vi phạm quyền và nghĩa vụ của công dân trong hôn nhân và gia đình trong một số tình huống đơn giản thường gặp; nhận biết được tác hại, hậu quả của hành vi vi phạm quyền và nghĩa vụ công dân trong hôn nhân và gia đình."
+  ],
+  "sections": [
+    {
+      "heading": "Quyền và nghĩa vụ của công dân trong kết hôn",
+      "summary": "Công dân có quyền tự do kết hôn khi đáp ứng đủ điều kiện luật định: nam từ đủ 20 tuổi, nữ từ đủ 18 tuổi trở lên, việc kết hôn do hai bên tự nguyện quyết định, không ai được ép buộc hay lừa dối. Việc kết hôn phải đăng ký tại cơ quan nhà nước có thẩm quyền thì mới có giá trị pháp lý. Công dân có nghĩa vụ tuân thủ các điều kiện kết hôn, đăng ký kết hôn, nguyên tắc một vợ một chồng, và tôn trọng quyền kết hôn của người khác.",
+      "keyPoints": [
+        "Điều 36 Hiến pháp 2013: Nam, nữ có quyền kết hôn, li hôn; hôn nhân tự nguyện, tiến bộ, một vợ một chồng, vợ chồng bình đẳng, tôn trọng lẫn nhau.",
+        "Nam đủ 20 tuổi, nữ đủ 18 tuổi trở lên mới được kết hôn; việc kết hôn phải do hai bên tự nguyện.",
+        "Việc kết hôn phải đăng ký tại cơ quan nhà nước có thẩm quyền; nếu không đăng ký thì không có giá trị pháp lý.",
+        "Luật Hôn nhân và Gia đình 2014 (Điều 5) cấm: kết hôn giả tạo; tảo hôn, cưỡng ép, lừa dối, cản trở kết hôn; người đang có vợ/chồng mà kết hôn hoặc chung sống như vợ chồng với người khác; kết hôn giữa những người cùng dòng máu trực hệ hoặc có họ trong phạm vi ba đời.",
+        "Người bị cưỡng ép, lừa dối kết hôn hoặc vợ/chồng hợp pháp của người vi phạm có quyền yêu cầu Toà án huỷ việc kết hôn trái pháp luật.",
+        "Bộ luật Hình sự 2015 (Điều 181): cưỡng ép kết hôn có thể bị phạt cảnh cáo, cải tạo không giam giữ đến 3 năm hoặc phạt tù từ 3 tháng đến 3 năm."
+      ],
+      "example": "Anh D lừa dối vợ (chị A) để chung sống như vợ chồng và tổ chức đám cưới với chị O trong khi vẫn đang có hôn nhân hợp pháp với chị A — đây là hành vi vi phạm nguyên tắc một vợ một chồng, có thể bị xử lý theo pháp luật."
+    },
+    {
+      "heading": "Quyền và nghĩa vụ của công dân trong li hôn",
+      "summary": "Khi mục đích hôn nhân không đạt được, công dân có quyền yêu cầu cơ quan nhà nước có thẩm quyền giải quyết li hôn theo quy định pháp luật, có thể do hai bên thuận tình hoặc theo yêu cầu một bên. Tuy nhiên pháp luật hạn chế quyền yêu cầu li hôn của người chồng trong một số trường hợp đặc biệt để bảo vệ vợ và con. Mọi người có nghĩa vụ tuân thủ quy định về li hôn và không được lợi dụng quyền li hôn để xâm phạm lợi ích của người khác.",
+      "keyPoints": [
+        "Việc li hôn có thể do hai bên thuận tình hoặc theo yêu cầu của một bên.",
+        "Khi vợ đang có thai, sinh con hoặc đang nuôi con dưới 12 tháng tuổi thì chồng không có quyền yêu cầu li hôn.",
+        "Nếu một bên vợ/chồng bị bệnh tâm thần hoặc mất khả năng nhận thức, đồng thời là nạn nhân của bạo lực gia đình do người kia gây ra làm ảnh hưởng nghiêm trọng đến tính mạng, sức khoẻ, tinh thần thì cha, mẹ, người thân thích khác có quyền yêu cầu Toà án giải quyết li hôn.",
+        "Không được cản trở, ngăn cấm người khác thực hiện quyền li hôn; không được lợi dụng quyền li hôn để xâm phạm quyền, lợi ích hợp pháp của người khác.",
+        "Bộ luật Hình sự quy định tội cưỡng ép li hôn, cản trở li hôn tự nguyện có thể bị phạt cảnh cáo, cải tạo không giam giữ đến 3 năm hoặc phạt tù từ 3 tháng đến 3 năm."
+      ],
+      "example": "Anh B nhiều lần bạo hành vợ (chị H) khi say rượu; khi chị H muốn li hôn thì bị bố mẹ đẻ ngăn cản và bị chồng đe doạ sẽ làm hại chị cùng con nhỏ — đây là hành vi cản trở quyền li hôn hợp pháp của chị H."
+    },
+    {
+      "heading": "Quyền và nghĩa vụ giữa vợ và chồng",
+      "summary": "Vợ chồng bình đẳng với nhau, có quyền và nghĩa vụ ngang nhau về mọi mặt trong gia đình, thể hiện ở cả quan hệ nhân thân (nơi cư trú, tôn trọng danh dự, tín ngưỡng, tạo điều kiện phát triển) và quan hệ tài sản (tài sản chung, tài sản riêng). Không bên nào được tự ý quyết định mọi việc hay kiểm soát tài chính của người kia mà không có sự bàn bạc, thoả thuận.",
+      "keyPoints": [
+        "Vợ chồng có quyền, nghĩa vụ ngang nhau trong việc lựa chọn nơi cư trú, không bị ràng buộc bởi phong tục, tập quán, địa giới hành chính.",
+        "Vợ chồng có nghĩa vụ thương yêu, chung thuỷ, tôn trọng, quan tâm, chăm sóc, giúp đỡ nhau; tôn trọng danh dự, nhân phẩm, uy tín và quyền tự do tín ngưỡng, tôn giáo của nhau.",
+        "Vợ chồng bình đẳng về quyền, nghĩa vụ trong việc tạo lập, chiếm hữu, sử dụng, định đoạt tài sản chung, không phân biệt lao động trong gia đình và lao động có thu nhập.",
+        "Vợ, chồng đều có quyền chiếm hữu, sử dụng, định đoạt tài sản riêng của mình; có thể nhập hoặc không nhập tài sản riêng vào tài sản chung.",
+        "Việc dùng tài sản chung là nguồn sống duy nhất của gia đình để đầu tư kinh doanh phải được vợ chồng bàn bạc, thoả thuận.",
+        "Người đang có vợ/chồng mà chung sống như vợ chồng với người khác (vi phạm chế độ một vợ một chồng) có thể bị xử phạt hành chính hoặc truy cứu trách nhiệm hình sự (Điều 182 Bộ luật Hình sự)."
+      ],
+      "example": "Anh A tự ý quyết định mọi việc trong nhà, kiểm soát chặt tài chính, bắt chị B phải xin tiền và tra xét từng khoản chi tiêu — đây là hành vi vi phạm quyền bình đẳng giữa vợ và chồng."
+    },
+    {
+      "heading": "Quyền và nghĩa vụ giữa cha mẹ và con, giữa các thành viên khác trong gia đình",
+      "summary": "Cha mẹ có quyền và nghĩa vụ thương yêu, nuôi dưỡng, chăm sóc, giáo dục con; con có quyền được cha mẹ thương yêu, học tập, phát triển và có nghĩa vụ kính trọng, hiếu thảo, chăm sóc, phụng dưỡng cha mẹ. Các thành viên khác như anh chị em, ông bà và cháu cũng có quyền, nghĩa vụ thương yêu, chăm sóc, nuôi dưỡng lẫn nhau trong những trường hợp cần thiết. Không được phân biệt đối xử giữa các con hay xúi giục, ép buộc con làm việc trái pháp luật.",
+      "keyPoints": [
+        "Cha, mẹ có nghĩa vụ và quyền ngang nhau: thương yêu, tôn trọng ý kiến, chăm sóc, nuôi dưỡng, giáo dục con để con phát triển lành mạnh về thể chất, trí tuệ, đạo đức.",
+        "Cha mẹ không được phân biệt đối xử với con trên cơ sở giới hoặc tình trạng hôn nhân của cha mẹ; không được xúi giục, ép buộc con làm việc trái pháp luật, trái đạo đức xã hội.",
+        "Con có quyền được cha mẹ thương yêu, tôn trọng, học tập, phát triển; có bổn phận yêu quý, kính trọng, biết ơn, hiếu thảo, phụng dưỡng cha mẹ.",
+        "Con có nghĩa vụ và quyền chăm sóc, nuôi dưỡng cha mẹ, đặc biệt khi cha mẹ mất năng lực hành vi dân sự, ốm đau, già yếu, khuyết tật; nếu gia đình có nhiều con thì các con phải cùng nhau chăm sóc, nuôi dưỡng cha mẹ.",
+        "Anh, chị, em có quyền, nghĩa vụ thương yêu, chăm sóc, giúp đỡ nhau; có nghĩa vụ nuôi dưỡng nhau khi không còn cha mẹ hoặc cha mẹ không có điều kiện.",
+        "Ông bà nội, ông bà ngoại có quyền, nghĩa vụ trông nom, chăm sóc, giáo dục cháu, nêu gương tốt; cháu có nghĩa vụ kính trọng, chăm sóc, phụng dưỡng ông bà."
+      ],
+      "example": "Ông bà nội của anh A đối xử hà khắc với con gái (cô G) nhưng luôn nuông chiều, cho con trai nhiều quyền lợi hơn — đây là hành vi phân biệt đối xử giữa các con, vi phạm nghĩa vụ của cha mẹ đối với con."
+    }
+  ],
+  "glossary": [
+    {"term": "Kết hôn", "definition": "Việc nam và nữ xác lập quan hệ vợ chồng theo quy định của pháp luật về điều kiện kết hôn và đăng ký kết hôn."},
+    {"term": "Li hôn", "definition": "Việc chấm dứt quan hệ vợ chồng theo bản án, quyết định có hiệu lực pháp luật của Toà án."},
+    {"term": "Tảo hôn", "definition": "Việc lấy vợ, lấy chồng khi một bên hoặc cả hai bên chưa đủ tuổi kết hôn theo quy định của pháp luật."},
+    {"term": "Kết hôn giả tạo", "definition": "Việc lợi dụng kết hôn để đạt được mục đích khác mà không nhằm mục đích xây dựng gia đình."},
+    {"term": "Chế độ một vợ một chồng", "definition": "Nguyên tắc hôn nhân trong đó một người chỉ được có một vợ hoặc một chồng tại một thời điểm."},
+    {"term": "Tài sản chung của vợ chồng", "definition": "Tài sản do vợ chồng tạo lập, thu nhập được trong thời kỳ hôn nhân mà vợ chồng có quyền, nghĩa vụ ngang nhau trong việc chiếm hữu, sử dụng, định đoạt."},
+    {"term": "Tài sản riêng", "definition": "Tài sản thuộc quyền sở hữu riêng của vợ hoặc chồng mà người đó có quyền chiếm hữu, sử dụng, định đoạt."},
+    {"term": "Nghĩa vụ cấp dưỡng/nuôi dưỡng", "definition": "Trách nhiệm của thành viên gia đình (cha mẹ, con, anh chị em, ông bà, cháu) trong việc chăm sóc, nuôi dưỡng lẫn nhau khi cần thiết theo quy định pháp luật."}
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "bai05",
+  "chuDeId": "cd4",
+  "chuDeTitle": "Lập kế hoạch kinh doanh",
+  "baiNumber": 5,
+  "title": "Lập kế hoạch kinh doanh",
+  "objectives": [
+    "Nêu được nội dung cơ bản của kế hoạch kinh doanh.",
+    "Giải thích được sự cần thiết phải lập kế hoạch kinh doanh.",
+    "Diễn giải được các bước lập kế hoạch kinh doanh.",
+    "Lập được kế hoạch kinh doanh và mô tả được kế hoạch kinh doanh của bản thân dưới hình thức bài tập thực hành."
+  ],
+  "sections": [
+    {
+      "heading": "Khái niệm kế hoạch kinh doanh",
+      "summary": "Kế hoạch kinh doanh là một bản trình bày ý tưởng kinh doanh và cách thức hiện thực hoá ý tưởng đó của người kinh doanh, gồm định hướng tương lai, mục tiêu và chiến lược phát triển kinh doanh trong một khoảng thời gian nhất định.",
+      "keyPoints": [
+        "Giúp chủ thể kinh doanh xác định nhiệm vụ cụ thể cùng những khó khăn, thách thức để chủ động tìm cách vượt qua.",
+        "Đảm bảo thực hiện thành công những mục tiêu kinh doanh đã đặt ra."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Tóm tắt kế hoạch kinh doanh",
+      "summary": "Tóm tắt kế hoạch kinh doanh là bức thông điệp ngắn gọn, khái quát về sản phẩm hay dịch vụ mà chủ thể kinh doanh chuẩn bị cung cấp, giúp người đọc có cái nhìn tổng quan, chính xác về hoạt động kinh doanh.",
+      "keyPoints": [
+        "Tên kế hoạch kinh doanh.",
+        "Ý tưởng kinh doanh: giới thiệu nét nổi bật (tính mới, sáng tạo, nổi trội) đảm bảo đem lại kết quả khả quan.",
+        "Mục tiêu kinh doanh: mong muốn của chủ thể như lợi nhuận, đứng vững, thâm nhập thị trường, bảo vệ môi trường, lợi ích cộng đồng.",
+        "Chiến lược kinh doanh: thị trường hướng đến cùng các kế hoạch sản xuất, tiếp thị, bán hàng, nhân sự, tài chính để thực hiện mục tiêu.",
+        "Các điều kiện thực hiện ý tưởng kinh doanh: nhận diện đối thủ cạnh tranh, điểm mạnh, điểm yếu để đánh giá thuận lợi, khó khăn.",
+        "Cơ hội, rủi ro: chỉ ra cơ hội đang tận dụng và rủi ro có thể xảy ra cùng biện pháp giải quyết, ngăn ngừa."
+      ],
+      "example": "Chiến lược kinh doanh của chủ thể A hướng tới thị trường toàn quốc, nhưng bản kế hoạch kinh doanh cho phân khúc thị trường tỉnh H phải thể hiện rõ đặc điểm thị trường địa phương cùng kế hoạch nhân sự, sản xuất phù hợp riêng."
+    },
+    {
+      "heading": "Kế hoạch hoạt động kinh doanh",
+      "summary": "Phần này mô tả chi tiết các hoạt động của doanh nghiệp để triển khai thực hiện ý tưởng kinh doanh, bao gồm nhiều kế hoạch cụ thể ở từng mảng hoạt động.",
+      "keyPoints": [
+        "Kế hoạch tổ chức sản xuất: địa điểm, mặt bằng, kĩ thuật, công nghệ sản xuất, loại hình và quy mô sản xuất.",
+        "Kế hoạch tiếp thị, bán hàng: giải pháp về quảng cáo, khuyến mại, giá cả, xúc tiến, truyền thông, phân phối sản phẩm.",
+        "Kế hoạch phát triển doanh nghiệp: dự kiến phát triển sản phẩm, dịch vụ gắn với mốc thời gian cụ thể.",
+        "Kế hoạch nhân sự: cơ cấu tổ chức, phương thức vận hành, mối quan hệ giữa các bộ phận, cá nhân trong bộ máy quản trị.",
+        "Phân tích rủi ro và biện pháp xử lí: chỉ ra rủi ro về chính trị, kinh tế, công nghệ... và dự kiến biện pháp xử lí.",
+        "Kế hoạch tài chính: thông tin về khả năng tài chính như vốn, đầu tư, tài sản, doanh thu, chi phí, lợi nhuận."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Bước 1: Xác định ý tưởng kinh doanh",
+      "summary": "Ý tưởng kinh doanh có vai trò định hướng, giúp chủ thể xác định kinh doanh mặt hàng gì, đối tượng khách hàng là ai, họ có nhu cầu gì và kinh doanh bằng cách nào. Nguồn ý tưởng có thể xuất phát từ lợi thế nội tại (đam mê, hiểu biết, khả năng huy động nguồn lực) hoặc từ cơ hội bên ngoài (nhu cầu mới, nguồn cung ứng, chính sách ưu đãi).",
+      "keyPoints": [
+        "Ý tưởng kinh doanh cần đảm bảo tính mới, sáng tạo, khả thi và mang lại lợi nhuận trong hoạt động kinh doanh."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Bước 2: Xác định mục tiêu kinh doanh",
+      "summary": "Mục tiêu kinh doanh là định hướng, nhiệm vụ mà doanh nghiệp phải hoàn thành, là cơ sở đánh giá kết quả kinh doanh. Cần xác định mục tiêu ngắn hạn, trung hạn và dài hạn.",
+      "keyPoints": [
+        "Mục tiêu ngắn hạn (1 tháng đến 1 năm): ví dụ doanh số bán hàng, tăng thị phần, đứng vững trên thị trường, có lợi nhuận.",
+        "Mục tiêu trung hạn (2-5 năm): ví dụ phát triển sản phẩm, xây dựng thương hiệu, tăng trưởng doanh số và lợi nhuận.",
+        "Mục tiêu dài hạn (từ 5 năm trở lên): ví dụ khẳng định thương hiệu, tiếp tục mở rộng thị phần, gắn với sứ mệnh, tầm nhìn.",
+        "Mục tiêu kinh doanh cần đảm bảo các tiêu chí: nhất quán, cụ thể, khả thi, tương thích và linh hoạt."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Bước 3: Phân tích các điều kiện thực hiện ý tưởng kinh doanh",
+      "summary": "Để đảm bảo tính khả thi của ý tưởng và có cơ sở xác định chiến lược kinh doanh, cần phân tích đầy đủ các điều kiện: sự phù hợp của sản phẩm/dịch vụ, khách hàng, đối thủ cạnh tranh, điểm mạnh - điểm yếu so với đối thủ, và các yếu tố pháp lí.",
+      "keyPoints": [
+        "Phân tích sản phẩm cần chú ý chất lượng, giá cả, tính năng, điểm vượt trội so với đối thủ cạnh tranh.",
+        "Phân tích khách hàng cần quan tâm nhu cầu, thu nhập, thị hiếu, giới tính, độ tuổi.",
+        "Phân tích điểm mạnh cần chỉ ra ưu thế vượt trội như chất lượng nhân lực, công nghệ, phương thức quản lí."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Bước 4: Xác định chiến lược kinh doanh",
+      "summary": "Chiến lược kinh doanh là nội dung cơ bản của kế hoạch kinh doanh, gồm một chuỗi biện pháp, cách thức nhằm đạt hiệu quả tối ưu, thể hiện mục tiêu chinh phục thị trường cụ thể và tác động trực tiếp đến các kế hoạch cụ thể trong nội bộ đơn vị.",
+      "keyPoints": [
+        "Kế hoạch sản xuất/cung cấp sản phẩm: chuẩn bị đầy đủ yếu tố đầu vào (nhân lực, vốn, thiết bị, nguyên vật liệu, thông tin).",
+        "Kế hoạch bán hàng, tiếp thị, quảng cáo: quảng bá, giới thiệu sản phẩm, tìm hiểu nhu cầu và phân phối tiện lợi cho khách hàng.",
+        "Kế hoạch phát triển kinh doanh: xác định nhân tố thúc đẩy phát triển và các mốc thời gian cụ thể.",
+        "Kế hoạch tài chính: đảm bảo cân đối thu - chi theo các mốc thời gian, thể hiện tính khả thi của phương án kinh doanh."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Bước 5: Đánh giá cơ hội, rủi ro và biện pháp xử lí",
+      "summary": "Trong quá trình lập kế hoạch kinh doanh, chủ thể cần đánh giá cơ hội và rủi ro có thể gặp để đưa ra biện pháp xử lí phù hợp. Cơ hội có thể đến từ sự gia tăng của thị trường, phát triển khoa học công nghệ hoặc do chính chủ thể kinh doanh tạo ra, thường đi kèm thách thức và rủi ro tiềm ẩn.",
+      "keyPoints": [
+        "Rủi ro tiềm ẩn có thể là thiên tai, thay đổi chính sách, rủi ro kĩ thuật, rủi ro về cung cấp đầu vào.",
+        "Giải pháp hạn chế rủi ro: quản trị rủi ro trong các phương án kinh doanh, đa dạng hoá quan hệ kinh doanh, thiết lập nguồn dự trữ cần thiết."
+      ],
+      "example": null
+    }
+  ],
+  "glossary": [
+    { "term": "Kế hoạch kinh doanh", "definition": "Bản trình bày ý tưởng kinh doanh và cách thức hiện thực hoá ý tưởng đó, gồm định hướng, mục tiêu và chiến lược phát triển kinh doanh trong một khoảng thời gian nhất định." },
+    { "term": "Ý tưởng kinh doanh", "definition": "Nội dung khởi đầu xác định kinh doanh mặt hàng gì, cho đối tượng khách hàng nào, bằng cách nào." },
+    { "term": "Mục tiêu kinh doanh", "definition": "Định hướng, nhiệm vụ mà chủ thể kinh doanh cần hoàn thành trong một khoảng thời gian nhất định, là cơ sở đánh giá kết quả kinh doanh." },
+    { "term": "Mục tiêu ngắn hạn", "definition": "Mục tiêu kinh doanh cần đạt được trong khoảng thời gian từ một tháng đến một năm." },
+    { "term": "Mục tiêu trung hạn", "definition": "Mục tiêu kinh doanh cần đạt được trong khoảng thời gian từ 2 đến 5 năm." },
+    { "term": "Mục tiêu dài hạn", "definition": "Mục tiêu kinh doanh cần đạt được trong khoảng thời gian từ 5 năm trở lên, thường gắn với sứ mệnh, tầm nhìn của đơn vị kinh doanh." },
+    { "term": "Chiến lược kinh doanh", "definition": "Một chuỗi các biện pháp, cách thức của chủ thể kinh doanh nhằm đạt được hiệu quả tối ưu, chinh phục thị trường kinh doanh cụ thể." }
+  ]
+}

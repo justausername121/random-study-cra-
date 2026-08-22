@@ -1,0 +1,268 @@
+{
+  "chuDeId": "cd1",
+  "chuDeTitle": "Tăng trưởng và phát triển kinh tế",
+  "mcq": [
+    {
+      "id": "cd1-mcq-01",
+      "question": "Một trong những vai trò của tăng trưởng kinh tế và phát triển kinh tế là",
+      "options": {
+        "A": "kích thích, điều tiết hoạt động sản xuất và tiêu dùng.",
+        "B": "điều tiết quy mô sản xuất giữa các ngành trong nền kinh tế.",
+        "C": "cải thiện chất lượng cuộc sống của người dân.",
+        "D": "kiểm soát, bình ổn hàng hoá, dịch vụ."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "cd1-mcq-02",
+      "question": "Tốc độ tăng trưởng kinh tế phản ánh",
+      "options": {
+        "A": "mức tăng chỉ số HDI của thời kì này so với thời kì trước.",
+        "B": "mức tăng GNI bình quân đầu người của thời kì này so với thời kì trước.",
+        "C": "mức tăng GDP bình quân đầu người của thời kì này so với thời kì trước.",
+        "D": "mức tăng GDP hoặc GNI của thời kì này so với thời kì trước."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd1-mcq-03",
+      "question": "\"Sự tăng lên về thu nhập hay gia tăng giá trị hàng hoá và dịch vụ mà nền kinh tế tạo ra trong một thời kì nhất định\" là nội dung của khái niệm nào sau đây?",
+      "options": {
+        "A": "Phát triển sản xuất.",
+        "B": "Tiến bộ xã hội.",
+        "C": "Phát triển kinh tế.",
+        "D": "Tăng trưởng kinh tế."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd1-mcq-04",
+      "question": "Tổng sản phẩm quốc nội được gọi là",
+      "options": {
+        "A": "GNI.",
+        "B": "GNP.",
+        "C": "GDP.",
+        "D": "GINI."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "cd1-mcq-05",
+      "question": "Tổng thu nhập quốc dân được gọi là",
+      "options": {
+        "A": "GNI.",
+        "B": "GNP.",
+        "C": "GINI.",
+        "D": "GDP."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "cd1-mcq-06",
+      "question": "Sự tăng trưởng kinh tế được so sánh với các năm gốc kế tiếp nhau được gọi là",
+      "options": {
+        "A": "tốc độ tăng thu nhập.",
+        "B": "tốc độ tăng trưởng kinh tế.",
+        "C": "tốc độ gia tăng việc làm.",
+        "D": "tốc độ phát triển xã hội."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "cd1-mcq-07",
+      "question": "Thước đo chủ yếu về sự tiến bộ kinh tế, xã hội trong mỗi giai đoạn phát triển quốc gia là",
+      "options": {
+        "A": "sự giàu có của các quốc gia.",
+        "B": "sự phát triển của khoa học, công nghệ.",
+        "C": "dân số tăng nhanh và ổn định.",
+        "D": "tăng trưởng kinh tế và phát triển kinh tế."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd1-mcq-08",
+      "question": "\"Tổng thu nhập từ hàng hoá và dịch vụ cuối cùng do công dân của một quốc gia tạo nên trong một thời kì nhất định\" là nội dung của khái niệm nào sau đây?",
+      "options": {
+        "A": "Tổng thu nhập quốc dân.",
+        "B": "Tổng thu nhập quốc nội.",
+        "C": "Tổng thu nhập nội địa.",
+        "D": "Tổng thu nhập quốc gia."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "cd1-mcq-09",
+      "question": "Tổng giá trị thị trường của tất cả hàng hoá và dịch vụ cuối cùng được sản xuất ra trên lãnh thổ một nước trong một thời kì nhất định được gọi là",
+      "options": {
+        "A": "tổng sản phẩm quốc nội.",
+        "B": "tổng sản phẩm quốc dân.",
+        "C": "tổng sản phẩm hàng hoá.",
+        "D": "tổng sản phẩm sản xuất."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "cd1-mcq-10",
+      "question": "Sự chuyển dịch cơ cấu ngành kinh tế theo hướng hợp lí, hiện đại thể hiện ở sự gia tăng tỉ trọng của các ngành nào trong GDP?",
+      "options": {
+        "A": "Công nghiệp và nông nghiệp.",
+        "B": "Nông nghiệp và dịch vụ.",
+        "C": "Công nghiệp và dịch vụ.",
+        "D": "Nông nghiệp và thương mại."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "cd1-mcq-11",
+      "question": "Thước đo tổng hợp phản ánh sự phát triển của con người trên các phương diện (sức khoẻ, tri thức, thu nhập) là nói đến chỉ số phát triển",
+      "options": {
+        "A": "quốc gia.",
+        "B": "khu vực.",
+        "C": "kinh tế.",
+        "D": "con người."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd1-mcq-12",
+      "question": "Phát biểu nào sau đây không phải là vai trò của tăng trưởng kinh tế và phát triển kinh tế?",
+      "options": {
+        "A": "Tạo điều kiện giải quyết công ăn việc làm.",
+        "B": "Làm cho mức thu nhập của dân cư tăng.",
+        "C": "Giảm bớt tình trạng đói nghèo.",
+        "D": "Thúc đẩy khoảng cách giàu nghèo trong xã hội."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd1-mcq-13",
+      "question": "Đâu không phải là chỉ tiêu của phát triển kinh tế?",
+      "options": {
+        "A": "Tiến bộ xã hội.",
+        "B": "Tăng trưởng kinh tế.",
+        "C": "Chuyển dịch cơ cấu kinh tế theo hướng hiện đại.",
+        "D": "Kiềm chế được sự gia tăng dân số."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd1-mcq-14",
+      "question": "Phát triển kinh tế là một quá trình tăng tiến về mọi mặt của nền kinh tế trong một thời kì nhất định, bao hàm sự tăng trưởng dài hạn và ổn định về",
+      "options": {
+        "A": "dân số.",
+        "B": "khoa học, công nghệ.",
+        "C": "an ninh, quốc phòng.",
+        "D": "kinh tế."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd1-mcq-15",
+      "question": "Đối với nước ta, một trong những điều kiện tiên quyết để khắc phục sự tụt hậu về kinh tế mà Đảng và Nhà nước phải nỗ lực không ngừng là",
+      "options": {
+        "A": "phát triển văn hoá.",
+        "B": "điều chỉnh chính sách dân số.",
+        "C": "đầu tư cho an ninh, quốc phòng.",
+        "D": "thúc đẩy tăng trưởng kinh tế."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd1-mcq-16",
+      "question": "Để nâng cao chỉ số phát triển con người, nước ta đẩy mạnh sự phát triển của con người thông qua các chỉ số",
+      "options": {
+        "A": "sức khoẻ, thông minh và dân số.",
+        "B": "thông minh, dân số và giới tính.",
+        "C": "sức khoẻ, giáo dục và thu nhập.",
+        "D": "giới tính, thông minh và hạnh phúc."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "cd1-mcq-17",
+      "question": "\"Duy trì tăng trưởng kinh tế bền vững đi đôi với thực hiện tiến bộ, công bằng xã hội và bảo vệ môi trường sinh thái, quản lí và sử dụng hiệu quả tài nguyên, chủ động ứng phó với biến đổi khí hậu\" là nội dung của khái niệm nào sau đây?",
+      "options": {
+        "A": "Tăng trưởng kinh tế.",
+        "B": "Phát triển bền vững.",
+        "C": "Phát triển kinh tế.",
+        "D": "Tiến bộ xã hội."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "cd1-mcq-18",
+      "question": "Chính phủ Việt Nam thường căn cứ vào những số liệu, đánh giá, báo cáo tổng hợp về nền kinh tế của cơ quan nào để đề ra những giải pháp phát triển kinh tế?",
+      "options": {
+        "A": "Tổng cục Dân số.",
+        "B": "Tổng cục Thống kê.",
+        "C": "Hội Bảo vệ người tiêu dùng.",
+        "D": "Mặt trận Tổ quốc Việt Nam."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "cd1-mcq-19",
+      "question": "Đọc thông tin sau và trả lời câu hỏi: \"Phát triển vì con người là mô hình được Đảng và Nhà nước lựa chọn trong quá trình vận hành nền kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam. Theo đó, yêu cầu đặt ra là tăng trưởng và phát triển kinh tế hiệu quả phải gắn với việc phát triển con người. Trong thời gian qua, tăng trưởng kinh tế tuy đã có tác động tích cực đến phát triển con người, nhưng hiệu ứng tác động tích cực đang có xu hướng giảm dần. Do đó, định hướng và những giải pháp cần thiết để hướng thành quả tăng trưởng kinh tế vào phát triển con người một cách hiệu quả nhất là cần thiết hiện nay để nhằm mục tiêu hướng đến các giá trị phát triển con người.\" (Theo: Tạp chí Cộng sản, \"Tác động của phát triển kinh tế đến phát triển con người ở Việt Nam: Vấn đề và giải pháp\", ngày 29/8/2019). Để tạo điều kiện cho mọi người đều có việc làm và thu nhập ổn định, có cuộc sống ấm no, có điều kiện chăm sóc sức khoẻ, nâng cao tuổi thọ..., Nhà nước kiên trì theo đuổi mục tiêu",
+      "options": {
+        "A": "đa phương hoá trong quan hệ quốc tế.",
+        "B": "đẩy mạnh nghiên cứu khoa học, công nghệ.",
+        "C": "ưu tiên, đầu tư phát triển giáo dục và đào tạo.",
+        "D": "tăng trưởng và phát triển kinh tế."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd1-mcq-20",
+      "question": "Đặc trưng của mô hình Phát triển vì con người là hướng thành quả của tăng trưởng kinh tế vào phát triển",
+      "options": {
+        "A": "văn hoá.",
+        "B": "xã hội.",
+        "C": "con người.",
+        "D": "khoa học."
+      },
+      "answer": "C"
+    }
+  ],
+  "trueFalse": [
+    {
+      "id": "cd1-tf-01",
+      "stimulus": "Tăng trưởng kinh tế và phát triển con người là hai mặt của quá trình phát triển nền kinh tế. Trong đó, tăng trưởng kinh tế được thể hiện qua tiêu chí tốc độ tăng trưởng thu nhập quốc dân bình quân đầu người (GNI/người), là điều kiện cần để thực hiện phát triển con người, bao gồm cơ hội phát triển và năng lực phát triển của con người. Phát triển con người được phản ánh qua Chỉ số phát triển con người (HDI) là một trong những mục tiêu cuối cùng của phát triển. Con người càng phát triển, sẽ có tác động ngược trở lại thúc đẩy tăng trưởng kinh tế nhanh. (Theo: Tạp chí Cộng sản, \"Tác động của phát triển kinh tế đến phát triển con người ở Việt Nam: Vấn đề và giải pháp\", ngày 29/8/2019)",
+      "statements": [
+        {"key": "a", "text": "Tổng thu nhập quốc dân bình quân đầu người (GNI/người) là biểu hiện của chỉ tiêu tăng trưởng về con người.", "answer": false},
+        {"key": "b", "text": "Nhà nước tìm cách thúc đẩy tăng trưởng kinh tế nhằm mục đích tăng mức sống trung bình của người dân.", "answer": true},
+        {"key": "c", "text": "Nhà nước căn cứ vào thước đo tổng hợp phản ánh sự phát triển của con người trên các phương diện để đo lường chỉ số phát triển con người.", "answer": true},
+        {"key": "d", "text": "Nâng cao dân trí sẽ tác động thúc đẩy phát triển kinh tế nhanh.", "answer": true}
+      ]
+    },
+    {
+      "id": "cd1-tf-02",
+      "stimulus": "Cơ cấu ngành kinh tế của Việt Nam giai đoạn 1986 – 2022 đã chuyển dịch theo đúng quy luật của chuyển dịch cơ cấu ngành kinh tế trong quá trình công nghiệp hoá, hiện đại hoá. Cụ thể: Tỉ trọng nhóm ngành nông, lâm nghiệp và thuỷ sản trong GDP có xu hướng giảm xuống, từ mức 38,06% năm 1986 giảm xuống còn 24,53% năm 2000 và còn 11,88% vào năm 2022 (bình quân giảm 0,73%/năm); Tỉ trọng nhóm ngành công nghiệp và xây dựng có xu hướng tăng mạnh nhất, từ mức 28,88% năm 1986 lên mức 36,73% năm 2000 và đạt mức 38,26% vào năm 2022 (bình quân tăng 0,26%/năm); Tỉ trọng nhóm ngành dịch vụ cũng có xu hướng tăng lên, từ mức 33,06% năm 1986 lên mức 38,74% năm 2000 và đạt mức 41,33% vào năm 2022 (bình quân tăng 0,23%/năm). Đẩy mạnh chuyển dịch cơ cấu kinh tế là con đường duy nhất để Việt Nam hiện thực hoá mục tiêu trở thành nước công nghiệp hiện đại trong thời gian tới. (Theo: Tạp chí Tài chính, \"Chuyển dịch cơ cấu ngành kinh tế trong bối cảnh công nghiệp hoá, hiện đại hoá ở Việt Nam\", ngày 19/11/2023)",
+      "statements": [
+        {"key": "a", "text": "Trong những năm gần đây, cơ cấu ngành kinh tế của nước ta có sự chuyển biến theo hướng tiến bộ.", "answer": true},
+        {"key": "b", "text": "Việt Nam chuyển dịch cơ cấu kinh tế theo hướng tiến bộ là tăng tỉ trọng của ngành công nghiệp, xây dựng và dịch vụ, giảm tỉ trọng của ngành nông nghiệp.", "answer": true},
+        {"key": "c", "text": "Chuyển dịch cơ cấu ngành kinh tế theo hướng hiện đại, hợp lí để giúp nước ta thu hẹp khoảng cách phát triển với thế giới.", "answer": true},
+        {"key": "d", "text": "Cơ cấu của một nền kinh tế bao gồm cơ cấu ngành kinh tế, cơ cấu vùng kinh tế và cơ cấu xây dựng kinh tế.", "answer": false}
+      ]
+    },
+    {
+      "id": "cd1-tf-03",
+      "stimulus": "Tăng trưởng kinh tế là khái niệm để chỉ sự gia tăng về quy mô sản lượng của nền kinh tế trong một thời kì nhất định và thường được đo bằng chỉ tiêu tổng sản phẩm quốc nội (GDP) hoặc tổng thu nhập quốc dân (GNI). Tăng trưởng kinh tế có ý nghĩa quan trọng đối với sự phát triển của đất nước. Nó là tiền đề vật chất để giải quyết hàng loạt vấn đề, đặc biệt là những vấn đề xã hội như xoá đói giảm nghèo, nâng cao mức sống của nhân dân, đảm bảo công ăn việc làm ổn định cho những người lao động. Tốc độ tăng trưởng nhanh có thể làm cho một quốc gia nghèo đuổi kịp và vượt qua quốc gia giàu có. Trong điều kiện toàn cầu hoá, các nước đang phát triển thường lựa chọn tăng trưởng kinh tế cao là mục tiêu hàng đầu. (Theo: Tạp chí Tuyên giáo, \"Tăng trưởng kinh tế và phân phối công bằng trong nền kinh tế thị trường định hướng xã hội chủ nghĩa\", ngày 12/10/2018)",
+      "statements": [
+        {"key": "a", "text": "Sự gia tăng tổng sản phẩm quốc nội là biểu hiện của nền kinh tế đang suy thoái.", "answer": false},
+        {"key": "b", "text": "Tăng trưởng kinh tế cao và bền vững luôn là một trong những mục tiêu về kinh tế đối với Việt Nam.", "answer": true},
+        {"key": "c", "text": "Để mọi người có thu nhập cao và ổn định, có cuộc sống ấm no và phát triển con người toàn diện thì các quốc gia phải thúc đẩy tăng trưởng kinh tế.", "answer": true},
+        {"key": "d", "text": "Để giải quyết triệt để vấn đề xoá đói giảm nghèo, Đảng và Nhà nước ta đã đề xuất nhiều giải pháp quan trọng nhằm thúc đẩy tăng trưởng kinh tế.", "answer": true}
+      ]
+    },
+    {
+      "id": "cd1-tf-04",
+      "stimulus": "Tăng trưởng kinh tế là sự gia tăng thu nhập của nền kinh tế trong một khoảng thời gian nhất định (thường là một năm). Sự gia tăng được thể hiện ở quy mô và tốc độ. Quy mô tăng trưởng phản ánh sự gia tăng nhiều hay ít, còn tốc độ tăng trưởng được sử dụng với ý nghĩa so sánh tương đối và phản ánh sự gia tăng nhanh hay chậm giữa các thời kì. Thu nhập của nền kinh tế có thể biểu hiện dưới dạng hiện vật hoặc giá trị. Thu nhập bằng giá trị phản ánh qua các chỉ tiêu GDP, GNI và được tính cho toàn thể nền kinh tế hoặc tính bình quân trên đầu người. Ngày nay, yêu cầu tăng trưởng kinh tế được gắn liền với tính bền vững hay việc bảo đảm chất lượng tăng trưởng ngày càng cao. Theo khía cạnh này, điều được nhấn mạnh nhiều hơn là sự gia tăng liên tục, có hiệu quả của chỉ tiêu quy mô và tốc độ tăng thu nhập bình quân đầu người. Hơn thế nữa, quá trình ấy phải được tạo nên bởi nhân tố đóng vai trò quyết định là khoa học, công nghệ và vốn nhân lực trong điều kiện một cơ cấu kinh tế hợp lí. (Theo: Tạp chí Công thương, \"Lí luận tăng trưởng kinh tế và phát triển bền vững nền kinh tế ở Việt Nam\", ngày 20/9/2020)",
+      "statements": [
+        {"key": "a", "text": "Tăng trưởng kinh tế thể hiện thông qua quy mô và tốc độ tăng trưởng của nền kinh tế.", "answer": true},
+        {"key": "b", "text": "Tăng trưởng kinh tế phản ánh sự thay đổi về chất của nền kinh tế.", "answer": false},
+        {"key": "c", "text": "Tổng sản phẩm quốc nội và tổng thu nhập quốc dân là các chỉ tiêu quan trọng của tăng trưởng kinh tế.", "answer": true},
+        {"key": "d", "text": "Tăng trưởng kinh tế là điều kiện cần nhưng chưa đủ để đảm bảo sự phát triển bền vững cho nền kinh tế.", "answer": true}
+      ]
+    }
+  ]
+}

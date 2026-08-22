@@ -1,0 +1,48 @@
+{
+  "id": "bai12",
+  "chuDeId": "vlc2",
+  "chuDeTitle": "Khí lí tưởng",
+  "baiNumber": 12,
+  "title": "Áp suất khí theo mô hình động học phân tử. Quan hệ giữa động năng phân tử và nhiệt độ",
+  "objectives": [
+    "Giải thích áp suất khí phụ thuộc như thế nào vào khối lượng phân tử, tốc độ chuyển động của phân tử, mật độ phân tử và lực liên kết phân tử."
+  ],
+  "sections": [
+    {
+      "heading": "Tác dụng của một phân tử khí lên thành bình",
+      "summary": "Xét một phân tử khối lượng m chuyển động thẳng đều với tốc độ v tới va chạm đàn hồi, trực diện với thành bình rồi bật ngược lại với cùng độ lớn tốc độ. Độ biến thiên động lượng của phân tử do va chạm có độ lớn |Δp| = 2mv. Từ đó, áp dụng công thức xung lượng của lực, có thể tính được lực và áp suất mà một phân tử khí gây ra lên thành bình.",
+      "keyPoints": [
+        "Độ biến thiên động lượng của một phân tử khi va chạm đàn hồi với thành bình: |Δp| = 2mv",
+        "Áp suất do một phân tử khí gây ra lên thành bình: p_m = (m/V)v², với V là thể tích khối khí"
+      ],
+      "example": null
+    },
+    {
+      "heading": "Áp suất khí theo mô hình động học phân tử",
+      "summary": "Vì các phân tử chuyển động hỗn loạn theo mọi hướng nên chỉ một phần ba tổng số phân tử N chuyển động theo mỗi phương để gây áp suất lên một cặp mặt của bình. Kết hợp với việc lấy trung bình bình phương tốc độ của các phân tử (vì chúng có tốc độ khác nhau), ta thu được công thức tính áp suất khí tác dụng lên thành bình.",
+      "keyPoints": [
+        "Áp suất khí: p = (1/3)(Nm/V)v̄² = (1/3)μmv̄², với μ = N/V là mật độ phân tử",
+        "v̄² = (v1² + v2² + ... + vN²)/N là trung bình của các bình phương tốc độ",
+        "p = (2/3)μĒd, với Ēd = (m v̄²)/2 là động năng tịnh tiến trung bình của phân tử"
+      ],
+      "example": null
+    },
+    {
+      "heading": "Mối quan hệ giữa động năng phân tử và nhiệt độ",
+      "summary": "Kết hợp phương trình Clapeyron pV = nRT với công thức áp suất p = (2/3)μĒd, ta rút ra được hệ thức liên hệ giữa động năng tịnh tiến trung bình của phân tử khí và nhiệt độ tuyệt đối: động năng này tỉ lệ thuận với nhiệt độ tuyệt đối và không phụ thuộc vào bản chất của khí.",
+      "keyPoints": [
+        "Ēd = (3/2)kT, với k là hằng số Boltzmann",
+        "k = R/NA = 8,31/(6,02.10^23) ≈ 1,38.10^-23 J/K",
+        "Các khí khác nhau ở cùng một nhiệt độ có động năng phân tử trung bình bằng nhau",
+        "Động năng trung bình của phân tử khí càng lớn thì nhiệt độ của khí càng cao"
+      ],
+      "example": "Căn bậc hai của v̄² được gọi là tốc độ căn quân phương của phân tử; đây không phải là tốc độ trung bình cộng của các phân tử."
+    }
+  ],
+  "glossary": [
+    {"term": "Mật độ phân tử (μ)", "definition": "Số phân tử khí có trong một đơn vị thể tích: μ = N/V."},
+    {"term": "Hằng số Boltzmann (k)", "definition": "Hằng số k = R/NA ≈ 1,38.10^-23 J/K, liên hệ động năng phân tử trung bình với nhiệt độ tuyệt đối."},
+    {"term": "Động năng tịnh tiến trung bình", "definition": "Động năng trung bình ứng với chuyển động tịnh tiến của các phân tử khí: Ēd = (1/2)m v̄² = (3/2)kT."},
+    {"term": "Tốc độ căn quân phương", "definition": "Căn bậc hai của trung bình bình phương tốc độ phân tử, √(v̄²); không phải là tốc độ trung bình cộng của các phân tử."}
+  ]
+}

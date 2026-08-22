@@ -1,0 +1,68 @@
+{
+  "chuDeId": "cd6",
+  "chuDeTitle": "Quản lí thu, chi trong gia đình",
+  "mcq": [
+    {"id": "cd6-mcq-01", "question": "Quản lí thu, chi trong gia đình là sử dụng các khoản thu và chi nhằm đáp ứng nhu cầu vật chất và tinh thần cho", "options": {"A": "mọi thành viên trong xã hội.", "B": "lợi ích của các doanh nghiệp.", "C": "các thành viên trong gia đình.", "D": "các lợi ích chung của cộng đồng."}, "answer": "C"},
+    {"id": "cd6-mcq-02", "question": "Để đáp ứng nhu cầu vật chất, tinh thần của các thành viên trong gia đình sao cho phù hợp với các nguồn thu nhập thì mỗi gia đình cần quan tâm đến việc", "options": {"A": "tiêu xài theo cảm hứng cá nhân.", "B": "chú trọng vào nhu cầu không thiết yếu.", "C": "tập trung vào khoản tiết kiệm.", "D": "quản lí việc thu, chi trong gia đình."}, "answer": "D"},
+    {"id": "cd6-mcq-03", "question": "Phát biểu nào sau đây là sai khi nói đến ý nghĩa của việc quản lí thu chi trong gia đình?", "options": {"A": "Kiểm soát được các nguồn thu, chi trong gia đình.", "B": "Chủ động thực hiện kế hoạch tài chính của gia đình.", "C": "Nâng cao chất lượng cuộc sống của gia đình.", "D": "Tạo ra những áp lực tài chính và các khoản nợ."}, "answer": "D"},
+    {"id": "cd6-mcq-04", "question": "Phát biểu nào sau đây thể hiện sự cần thiết phải quản lí thu, chi trong gia đình?", "options": {"A": "Giúp cân bằng tài chính trong gia đình.", "B": "Tạo ra sự phân hoá giàu – nghèo trong xã hội.", "C": "Giúp hình thành quỹ bí mật cho gia đình.", "D": "Tạo thói quen chi tiêu theo cảm hứng."}, "answer": "A"},
+    {"id": "cd6-mcq-05", "question": "Để lập kế hoạch thu, chi, mỗi gia đình cần lưu ý", "options": {"A": "tạo ra áp lực tài chính và các khoản nợ.", "B": "không theo dõi và ghi chép chi tiêu hằng ngày.", "C": "xác định mục tiêu tài chính trong gia đình.", "D": "tạo thói quen chi tiêu theo cảm hứng."}, "answer": "C"},
+    {"id": "cd6-mcq-06", "question": "Để lập kế hoạch thu, chi, mỗi gia đình cần lưu ý", "options": {"A": "thống nhất các khoản chi thiết yếu, không thiết yếu.", "B": "chỉ xác định khoản tiết kiệm, đầu tư.", "C": "chỉ xác định những khoản chi không thiết yếu.", "D": "chỉ xác định những khoản chi thiết yếu."}, "answer": "A"},
+    {"id": "cd6-mcq-07", "question": "Khi lập kế hoạch thu, chi, mỗi gia đình cần quan tâm đến nội dung nào sau đây để thống nhất tỉ lệ phân chia khoản thu, chi?", "options": {"A": "Phân bổ đồng đều cho chi thiết yếu và không thiết yếu.", "B": "Tuyệt đối không điều chỉnh trong quá trình thực hiện.", "C": "Chủ yếu tập trung cho khoản chi tiết kiệm.", "D": "Phân bổ số tiền cụ thể cho từng khoản chi."}, "answer": "D"},
+    {"id": "cd6-mcq-08", "question": "Khi xác định mục tiêu tài chính trong gia đình, ngoài việc đảm bảo tiêu chí cụ thể, đo lường được, có tính khả thi thì cần có thêm tiêu chí nào sau đây?", "options": {"A": "Linh hoạt thời gian hoàn thành.", "B": "Giới hạn thời gian hoàn thành.", "C": "Không linh hoạt trong mọi hoàn cảnh.", "D": "Có thể điều chỉnh theo cảm hứng."}, "answer": "B"},
+    {"id": "cd6-mcq-09", "question": "Trong kế hoạch thu, chi, các nguồn thu nhập trong gia đình không bao gồm khoản nào sau đây?", "options": {"A": "Tiền thuế.", "B": "Tiền lương.", "C": "Tiền lãi từ đầu tư.", "D": "Thu nhập từ kinh doanh."}, "answer": "A"},
+    {"id": "cd6-mcq-10", "question": "Trong các khoản chi sau, đâu là khoản chi không thiết yếu?", "options": {"A": "Mua sắm trang sức, phụ kiện đắt đỏ.", "B": "Mua nhu yếu phẩm và thanh toán tiền học phí.", "C": "Chi trả tiền thuốc men, chăm sóc sức khoẻ.", "D": "Chi phí nhà ở, tiền điện, nước, tiền xăng."}, "answer": "A"},
+    {"id": "cd6-mcq-11", "question": "Trong kế hoạch thu, chi, khi thống nhất các khoản chi thiết yếu, không thiết yếu cần phải", "options": {"A": "ưu tiên cho những khoản chi thiết yếu.", "B": "chia đều cho cả hai khoản chi này.", "C": "chấp nhận tình trạng chi tiêu không kiểm soát.", "D": "ưu tiên những khoản chi không thiết yếu."}, "answer": "A"},
+    {"id": "cd6-mcq-12", "question": "Đối với kế hoạch thu, chi, mỗi gia đình cần quan tâm đến nội dung nào sau đây khi thống nhất tỉ lệ phân chia khoản thu, chi?", "options": {"A": "Phân bổ số tiền cụ thể cho từng khoản chi.", "B": "Tuyệt đối không điều chỉnh trong quá trình thực hiện.", "C": "Không cần thảo luận, thống nhất trong gia đình.", "D": "Phân bổ đồng đều cho chi thiết yếu và không thiết yếu."}, "answer": "A"},
+    {"id": "cd6-mcq-13", "question": "Trong quá trình thực hiện các khoản thu, chi theo kế hoạch cần", "options": {"A": "không sử dụng các ứng dụng quản lí thu, chi thông minh.", "B": "quyết tâm thực hiện mục tiêu tài chính đã đề ra.", "C": "đặt ra thật nhiều mục tiêu cùng lúc.", "D": "tuyệt đối không điều chỉnh trong quá trình thực hiện."}, "answer": "B"},
+    {"id": "cd6-mcq-14", "question": "Đâu là sai lầm mắc phải trong quá trình lập kế hoạch thu, chi trong gia đình?", "options": {"A": "Xác định mục tiêu tài chính trong gia đình.", "B": "Liệt kê các nguồn thu trong gia đình.", "C": "Cứng nhắc khi thực hiện kế hoạch.", "D": "Thực hiện các khoản thu, chi theo kế hoạch."}, "answer": "C"},
+    {"id": "cd6-mcq-15", "question": "Khi thực hiện kế hoạch thu, chi trong gia đình, vì lí do khách quan nên chị B đã chi tiêu vượt mức so với kế hoạch đã đề ra. Chị B cần phải điều chỉnh kế hoạch thu, chi như thế nào?", "options": {"A": "Cắt giảm khoản chi không thiết yếu.", "B": "Cắt giảm khoản chi thiết yếu.", "C": "Cắt giảm tất cả các khoản chi.", "D": "Cắt khoản tiết kiệm để bù vào."}, "answer": "A"},
+    {"id": "cd6-mcq-16", "question": "Đọc thông tin và trả lời câu hỏi 16, 17, 18: Gia đình anh T có thu nhập khá cao và đang có kế hoạch sau 6 năm nữa sẽ mua một căn hộ trên phố. Tuy nhiên, gia đình anh thường xuyên chi tiêu vượt quá giới hạn đặt ra trong kế hoạch, đặc biệt là trong các hoạt động giải trí và mua sắm đồ xa xỉ. Thói quen chi tiêu này đã khiến khả năng tiết kiệm và đầu tư của gia đình anh bị suy giảm, thậm chí phải đối mặt với áp lực tài chính và nợ nần. Để thực hiện kế hoạch mua nhà sau 6 năm, gia đình anh T cần", "options": {"A": "giảm bớt tất cả các khoản chi.", "B": "công khai tài chính của gia đình.", "C": "lập kế hoạch thu, chi trong gia đình.", "D": "tuyệt đối không tham gia đầu tư."}, "answer": "C"},
+    {"id": "cd6-mcq-17", "question": "Thói quen chi tiêu không hợp lí của gia đình anh T là", "options": {"A": "chi tiêu theo kế hoạch.", "B": "kiểm soát tốt nguồn thu.", "C": "chủ động thực hiện kế hoạch.", "D": "chi tiêu quá mức, lãng phí."}, "answer": "D"},
+    {"id": "cd6-mcq-18", "question": "Để quản lí thu, chi hiệu quả, gia đình anh T cần", "options": {"A": "đặt ra thật nhiều mục tiêu cùng lúc.", "B": "trả hết nợ rồi mới mua sắm theo cảm xúc.", "C": "giảm khoản chi không thiết yếu.", "D": "tạo thêm những áp lực tài chính và các khoản nợ."}, "answer": "C"},
+    {"id": "cd6-mcq-19", "question": "Đọc thông tin và trả lời câu hỏi 19, 20: Gia đình bà H có nguồn thu nhập là 30 triệu đồng/tháng. Gia đình bà đã xây dựng kế hoạch thu, chi trong gia đình. Trong đó, gia đình bà phân chia khoản chi bao gồm: chi thiết yếu, chi không thiết yếu, tiết kiệm lần lượt theo tỉ lệ 50/20/30. Tuy nhiên, khi thực hiện kế hoạch, gia đình bà H đã đi liên hoan với bạn bè vượt mức đề ra 7% của khoản chi không thiết yếu. Gia đình bà H dự kiến tiết kiệm số tiền là bao nhiêu?", "options": {"A": "10 triệu.", "B": "6 triệu.", "C": "9 triệu.", "D": "12 triệu."}, "answer": "C"},
+    {"id": "cd6-mcq-20", "question": "Gia đình bà H cần điều chỉnh các khoản chi theo tỉ lệ nào sau đây cho phù hợp?", "options": {"A": "47/20/26.", "B": "43/20/30.", "C": "50/20/23.", "D": "50/13/30."}, "answer": "D"}
+  ],
+  "trueFalse": [
+    {
+      "id": "cd6-tf-01",
+      "stimulus": "Gia đình chị A và gia đình chị C có cách tiếp cận khác nhau trong việc quản lí thu, chi. Chị A cho rằng gia đình chị có thu nhập cao nên ít khi quan tâm đến việc chi tiêu có kế hoạch. Trong khi đó, chị C luôn có kế hoạch chi tiêu cụ thể, cân nhắc những khoản chi phí cần thiết phục vụ cho gia đình và gia đình chị luôn tuân thủ kế hoạch chi tiêu. Chị A luôn thoải mái mua sắm, có khi còn tiêu hết toàn bộ thu nhập của gia đình, thậm chí có thời điểm phải vay nợ. Thấy chị C duy trì kế hoạch chi tiêu lành mạnh, không lãng phí, không bị thâm hụt, lại còn có tiền tiết kiệm, đầu tư, chị A rất nể phục và tự nhủ cũng sẽ bắt tay vào việc lập kế hoạch quản lí thu, chi cho gia đình mình ngay.",
+      "statements": [
+        {"key": "a", "text": "Việc quản lí thu, chi của chị C sẽ khiến chị và gia đình sống tằn tiện, không dám mua gì vì sợ tốn tiền.", "answer": false},
+        {"key": "b", "text": "Quản lí tốt kế hoạch thu, chi sẽ giúp nâng cao chất lượng cuộc sống của gia đình.", "answer": true},
+        {"key": "c", "text": "Trong mỗi gia đình, việc lập kế hoạch quản lí thu, chi chủ yếu để thực hiện mục tiêu tiết kiệm.", "answer": false},
+        {"key": "d", "text": "Việc lập kế hoạch thu, chi trong gia đình giúp chị C duy trì tình hình tài chính lành mạnh, có tiết kiệm và đầu tư.", "answer": true}
+      ]
+    },
+    {
+      "id": "cd6-tf-02",
+      "stimulus": "Do nhiều lần vỡ kế hoạch tài chính, chị B quyết định lập kế hoạch thu, chi cho gia đình. Trên cơ sở theo dõi mức chi tiêu của gia đình, căn cứ vào nguồn thu và mục tiêu tài chính trong tương lai, chị B áp dụng tỉ lệ 50/30/20. Trong đó, 50% được sử dụng cho nhà ở, ăn uống, đi lại và đóng học phí cho con; 30% sẽ được dùng để giải trí, mua sắm những thứ chị thực sự thích; còn 20% được dùng để tiết kiệm, đầu tư. Nếu gặp những dịp tiêu tiền có kế hoạch như đi chơi, du lịch thì gia đình sẽ trích ngay khoản tiền dành cho du lịch từ đầu tháng. Trước khi mua sắm thêm bất cứ thứ gì chị đều cân nhắc tài chính của mình để phù hợp. Chị cũng luôn để dành khoản tiền cho những trường hợp bất khả kháng như ốm đau.",
+      "statements": [
+        {"key": "a", "text": "Để xây dựng kế hoạch quản lí thu, chi thì nhất định phải chia theo đúng tỉ lệ 50/30/20 mới có khả năng quản lí được tài chính trong gia đình.", "answer": false},
+        {"key": "b", "text": "Một trong những mục đích của quản lí thu, chi trong gia đình là duy trì những thói quen chi tiêu tích cực và hạn chế những thói quen chi tiêu không tích cực.", "answer": true},
+        {"key": "c", "text": "Cứng nhắc, thiếu linh hoạt là một trong những sai lầm dễ mắc phải trong quá trình thực hiện kế hoạch thu, chi trong gia đình.", "answer": true},
+        {"key": "d", "text": "Chỉ khi nào chị B được chi tiêu theo mọi sở thích, thoả mãn mọi nhu cầu của các thành viên trong gia đình thì mới đạt được mục tiêu tự do tài chính.", "answer": false}
+      ]
+    },
+    {
+      "id": "cd6-tf-03",
+      "stimulus": "Đầu năm, vợ chồng anh H đặt mục tiêu tiết kiệm để mua xe máy. Kế hoạch diễn ra thuận lợi trong suốt 6 tháng đầu. Tuy nhiên, hai tháng sau đó anh H bị mất việc, thu nhập gia đình bị giảm sút, kinh tế gia đình eo hẹp, nhưng vợ anh quyết tâm thực hiện mục tiêu tiết kiệm đã đặt ra bằng cách cắt giảm một số khoản chi thiết yếu trong gia đình.",
+      "statements": [
+        {"key": "a", "text": "Chi thiết yếu là những khoản chi bắt buộc phải chi tiêu hằng tháng phục vụ các nhu cầu về ăn, mặc, ở, đi lại, học hành,... bảo đảm nhu cầu vật chất của các thành viên trong gia đình.", "answer": true},
+        {"key": "b", "text": "Khi anh H bị mất việc, vợ anh cần điều chỉnh ngay kế hoạch chi tiêu sao cho phù hợp.", "answer": true},
+        {"key": "c", "text": "Để đạt được mục tiêu tiết kiệm trong tình huống trên, việc cắt giảm một số khoản chi thiết yếu là cần thiết.", "answer": false},
+        {"key": "d", "text": "Vợ chồng anh H cần kiểm soát kế hoạch của mình bằng cách mượn tiền bạn bè để mua xe máy, từ từ tiết kiệm trả lại cho bạn sau.", "answer": false}
+      ]
+    },
+    {
+      "id": "cd6-tf-04",
+      "stimulus": "Gia đình anh T có hai vợ chồng và hai con sinh đôi 5 tuổi, cùng sinh sống tại thành phố. Thu nhập của anh mỗi tháng là 20 triệu và thu nhập của vợ anh mỗi tháng là 15 triệu. Vợ chồng anh dự định để dành một khoản tiết kiệm để cho hai con theo học tiếng Anh tại trung tâm khi các con lên 6 tuổi. Mỗi tháng, vợ chồng anh dành 18 triệu cho các khoản chi thiết yếu, 10 triệu cho các khoản không thiết yếu và 7 triệu tiết kiệm.",
+      "statements": [
+        {"key": "a", "text": "Việc lên kế hoạch chi tiêu của vợ chồng anh T sẽ đáp ứng nhu cầu vật chất, tinh thần cho các thành viên trong gia đình anh.", "answer": true},
+        {"key": "b", "text": "Khoản chi thiết yếu và không thiết yếu trong kế hoạch của vợ chồng anh T chiếm 75% tổng thu nhập của gia đình anh.", "answer": false},
+        {"key": "c", "text": "Mục tiêu của vợ chồng anh T là tiết kiệm 20% tổng thu nhập để cho các con học tại trung tâm tiếng Anh.", "answer": true},
+        {"key": "d", "text": "Nếu có những lí do đột xuất khiến việc chi tiêu trong gia đình anh T quá mức quy định thì cần điều chỉnh bằng cách cắt giảm những khoản chi không thiết yếu để bù lại.", "answer": true}
+      ]
+    }
+  ]
+}

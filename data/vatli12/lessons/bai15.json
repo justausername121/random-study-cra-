@@ -1,0 +1,79 @@
+{
+  "id": "bai15",
+  "chuDeId": "vlc3",
+  "chuDeTitle": "Từ trường",
+  "baiNumber": 15,
+  "title": "Lực từ tác dụng lên dây dẫn mang dòng điện. Cảm ứng từ",
+  "objectives": [],
+  "sections": [
+    {
+      "heading": "Thí nghiệm về lực từ tác dụng lên đoạn dây dẫn mang dòng điện",
+      "summary": "Dùng bộ thí nghiệm gồm nam châm điện, khung dây có dòng điện treo trên đòn cân và lực kế (Hình 15.1), người ta khảo sát lực từ tác dụng lên đoạn dây dẫn mang dòng điện đặt trong từ trường. Kết quả cho thấy khi có dòng điện cường độ I chạy qua đoạn dây đặt trong từ trường thì xuất hiện lực từ F tác dụng lên đoạn dây đó.",
+      "keyPoints": [
+        "Khi cho dòng điện cường độ I chạy qua đoạn dây dẫn đặt trong từ trường thì xuất hiện lực từ F tác dụng lên đoạn dây dẫn mang dòng điện.",
+        "Lực từ F có phương vuông góc với đoạn dây dẫn mang dòng điện và vuông góc với đường sức từ (vuông góc với cả I và B)."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Quy tắc bàn tay trái",
+      "summary": "Chiều của lực từ tác dụng lên dây dẫn mang dòng điện được xác định bằng quy tắc bàn tay trái: đặt bàn tay trái sao cho các đường sức từ hướng vào lòng bàn tay, chiều từ cổ tay đến ngón tay trùng chiều dòng điện, khi đó ngón cái choãi ra 90 độ chỉ chiều của lực từ.",
+      "keyPoints": [
+        "Quy tắc bàn tay trái: đặt bàn tay trái sao cho vectơ cảm ứng từ B hướng vào lòng bàn tay, chiều từ cổ tay đến các ngón tay trùng với chiều dòng điện, thì ngón tay cái choãi ra 90 độ chỉ chiều của lực từ F tác dụng lên dòng điện.",
+        "Nếu dây dẫn đặt song song với đường sức từ (góc giữa dây dẫn và B bằng 0) thì không có lực từ tác dụng lên dây dẫn."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Biểu thức độ lớn cảm ứng từ và định luật Ampe",
+      "summary": "Gọi alpha là góc hợp bởi đoạn dây dẫn mang dòng điện I (chiều dài L) và đường sức từ. Thực nghiệm cho thấy các thương số F/L, F/I và F/sin(alpha) đều không đổi, nghĩa là thương số F/(I.L.sin(alpha)) là một hằng số ứng với một nam châm nhất định; hằng số này được lấy làm độ lớn cảm ứng từ B tại vị trí khảo sát.",
+      "keyPoints": [
+        "Độ lớn lực từ F tỉ lệ với chiều dài L của đoạn dây dẫn, tỉ lệ với cường độ dòng điện I và tỉ lệ với sin(alpha), với alpha là góc hợp bởi dòng điện và vectơ cảm ứng từ B.",
+        "Định nghĩa: B = F / (I.L.sin(alpha)) — công thức (15.1), độ lớn cảm ứng từ tại vị trí khảo sát.",
+        "Từ đó suy ra công thức của định luật Am-pe: F = B.I.L.sin(alpha) — công thức (15.2), là lực từ tác dụng lên đoạn dây dẫn mang dòng điện đặt trong từ trường đều."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Đơn vị của cảm ứng từ",
+      "summary": "Trong hệ SI, đơn vị của cảm ứng từ là tesla, kí hiệu T. Một tesla là độ lớn cảm ứng từ của một từ trường đều mà khi đặt vào đó một dòng điện thẳng cường độ 1 ampe, vuông góc với các đường sức từ, thì mỗi mét dài của dòng điện chịu một lực từ bằng 1 niutơn.",
+      "keyPoints": [
+        "Đơn vị cảm ứng từ trong hệ SI là tesla (T).",
+        "1 T là độ lớn cảm ứng từ của từ trường đều mà một dòng điện thẳng 1 A đặt vuông góc với đường sức từ chịu lực từ 1 N trên mỗi mét chiều dài.",
+        "1 T = 1 N / (1 m . 1 A).",
+        "Vì 1 N = 1 kg.m.s^-2 nên 1 T = 1 N/(A.m) = 1 kg/(A.s^2) = 1 kg.A^-1.s^-2."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Thực hành đo độ lớn cảm ứng từ",
+      "summary": "Dùng bộ thí nghiệm ở Hình 15.1, giữ khung dây vuông góc với cảm ứng từ (alpha = 90 độ), thay đổi cường độ dòng điện I qua nam châm điện và đo lực từ F tương ứng qua lực kế, ghi kết quả vào bảng rồi vẽ đồ thị F theo I. Đồ thị thu được là một đường thẳng đi qua gốc toạ độ, hệ số góc của đường thẳng chính là giá trị của B.L (với alpha = 90 độ, sin(alpha) = 1).",
+      "keyPoints": [
+        "Mục đích: xác định độ lớn cảm ứng từ của một từ trường đều bằng thực nghiệm.",
+        "Bố trí sao cho góc alpha giữa dây dẫn (khung dây) và cảm ứng từ bằng 90 độ để phép tính đơn giản (sin 90 độ = 1).",
+        "Thay đổi I, đo F tương ứng, tính tỉ số F/(I.L) cho từng lần đo, sau đó tính giá trị trung bình và sai số để suy ra độ lớn cảm ứng từ B.",
+        "Đồ thị F theo I là một đường thẳng đi qua gốc toạ độ, thể hiện F tỉ lệ thuận với I."
+      ],
+      "example": "Trong một bộ số liệu mẫu (Bảng 15.1) với chiều dài dây trong từ trường L = 20 m: khi I = 0,1 A thì F = 0,02 N; khi I = 0,4 A thì F = 0,09 N; các tỉ số F/(I.L) xấp xỉ nhau (khoảng 0,010-0,013), cho thấy tỉ số này gần như không đổi và bằng độ lớn cảm ứng từ B của nam châm điện."
+    },
+    {
+      "heading": "Ứng dụng: Tàu đệm từ",
+      "summary": "Tàu đệm từ là phương tiện giao thông chạy trên đệm từ trường, vận hành êm, không rung lắc và ít gây tiếng ồn so với tàu truyền thống. Tàu sử dụng lực từ giữa các nam châm điện ở thành đường ray và nam châm siêu dẫn trên tàu để thực hiện ba cơ chế: đẩy, nâng và dẫn lái.",
+      "keyPoints": [
+        "Cơ chế đẩy: từ trường của nam châm điện ở hai bên thành đường ray tương tác với từ trường của nam châm siêu dẫn trên thành tàu, sinh ra lực đẩy tàu về phía trước.",
+        "Cơ chế nâng: khi tàu đạt tốc độ tới hạn, lực từ đủ lớn để nâng tàu lướt trên đường ray.",
+        "Hệ thống dẫn lái: dựa vào tính chất cùng cực thì đẩy nhau, khác cực thì hút nhau, giúp tàu cân bằng và ổn định với đường ray khi di chuyển."
+      ],
+      "example": "Nhờ nguyên tắc hoạt động dựa trên lực từ (cơ chế đẩy, nâng và dẫn lái), tàu đệm từ có thể di chuyển với tốc độ rất cao mà không cần tiếp xúc trực tiếp với đường ray."
+    }
+  ],
+  "glossary": [
+    {"term": "Lực từ (F)", "definition": "Lực do từ trường tác dụng lên đoạn dây dẫn mang dòng điện (hoặc lên nam châm) đặt trong nó; có phương vuông góc với dây dẫn và vuông góc với đường sức từ."},
+    {"term": "Quy tắc bàn tay trái", "definition": "Đặt bàn tay trái sao cho vectơ cảm ứng từ B hướng vào lòng bàn tay, chiều từ cổ tay đến ngón tay trùng chiều dòng điện, ngón tay cái choãi ra 90 độ chỉ chiều lực từ F."},
+    {"term": "Cảm ứng từ (B)", "definition": "Đại lượng đặc trưng cho từ trường về mặt tác dụng lực, xác định bởi B = F/(I.L.sin(alpha)); đơn vị tesla (T)."},
+    {"term": "Định luật Am-pe", "definition": "Công thức F = B.I.L.sin(alpha) xác định lực từ tác dụng lên đoạn dây dẫn mang dòng điện đặt trong từ trường đều."},
+    {"term": "Tesla (T)", "definition": "Đơn vị SI của cảm ứng từ; 1 T là độ lớn cảm ứng từ của từ trường đều mà một dòng điện thẳng 1 A vuông góc với đường sức từ chịu lực từ 1 N trên mỗi mét dài; 1 T = 1 kg.A^-1.s^-2."},
+    {"term": "Góc alpha", "definition": "Góc hợp bởi đoạn dây dẫn mang dòng điện (hoặc chiều dòng điện I) và vectơ cảm ứng từ B."},
+    {"term": "Tàu đệm từ", "definition": "Phương tiện giao thông sử dụng lực từ giữa nam châm điện và nam châm siêu dẫn để đẩy, nâng và dẫn lái tàu chạy trên đệm từ trường, không tiếp xúc trực tiếp với đường ray."}
+  ]
+}

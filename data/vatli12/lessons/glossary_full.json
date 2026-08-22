@@ -1,0 +1,16 @@
+{
+  "terms": [
+    {"term": "Chuyển động nhiệt", "definition": "Chuyển động của các phân tử, nguyên tử cấu tạo nên vật."},
+    {"term": "Công nghiệp hạt nhân", "definition": "Các lĩnh vực ứng dụng các kiến thức của vật lí hạt nhân vào nghiên cứu khoa học, sản xuất và cuộc sống."},
+    {"term": "Cặp nhiệt điện", "definition": "Thiết bị đo nhiệt độ hoạt động dựa trên sự thay đổi của hiệu điện thế theo mức chênh lệch nhiệt độ giữa hai đầu nối của một cặp dây dẫn làm bằng hai kim loại hoặc chất bán dẫn khác nhau."},
+    {"term": "Điện trường xoáy", "definition": "Điện trường có đường sức điện là các đường cong khép kín."},
+    {"term": "Nhiệt độ", "definition": "Đại lượng dùng để mô tả sự nóng lạnh, đặc trưng cho động năng trung bình của phân tử."},
+    {"term": "Nhiễu xạ", "definition": "Sự lệch khỏi phương truyền thẳng khi sóng đi sát mép của các vật cản hoặc truyền qua những lỗ nhỏ."},
+    {"term": "Liều phóng xạ", "definition": "Năng lượng mà vật nhận được từ các tia phóng xạ trên mỗi đơn vị khối lượng trong một khoảng thời gian xác định."},
+    {"term": "Phản ứng hạt nhân", "definition": "Quá trình dẫn đến sự biến đổi hạt nhân này thành hạt nhân khác."},
+    {"term": "Phân rã hạt nhân", "definition": "Loại phản ứng hạt nhân trong đó hạt nhân của các nguyên tử có số khối lớn tự vỡ ra thành các hạt nhân có số khối nhỏ hơn."},
+    {"term": "Trạng thái siêu bão hòa", "definition": "Trạng thái có nồng độ vượt ngưỡng trạng thái cân bằng cho phép."},
+    {"term": "Tác nhân", "definition": "Đối tượng có ảnh hưởng tới quá trình đang xét."},
+    {"term": "Y học hạt nhân", "definition": "Lĩnh vực y học áp dụng các kiến thức vật lí hạt nhân vào chẩn đoán và điều trị bệnh."}
+  ]
+}

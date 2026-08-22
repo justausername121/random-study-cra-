@@ -1,0 +1,56 @@
+{
+  "id": "bai03",
+  "chuDeId": "cd3",
+  "chuDeTitle": "Bảo hiểm và an sinh xã hội",
+  "baiNumber": 3,
+  "title": "Bảo hiểm",
+  "objectives": [
+    "Nêu được khái niệm và vai trò của bảo hiểm.",
+    "Giải thích được sự cần thiết của bảo hiểm.",
+    "Liệt kê được một số loại hình bảo hiểm.",
+    "Thực hiện được trách nhiệm của công dân về bảo hiểm bằng những việc làm cụ thể và phù hợp."
+  ],
+  "sections": [
+    {
+      "heading": "Khái niệm bảo hiểm",
+      "summary": "Bảo hiểm là hoạt động chuyển giao rủi ro giữa người tham gia và tổ chức bảo hiểm. Người tham gia nộp một khoản phí để tổ chức bảo hiểm lập quỹ dự trữ; khi gặp rủi ro hay sự kiện bảo hiểm xảy ra, người tham gia sẽ được bồi thường, trợ cấp hoặc chi trả trong phạm vi đã cam kết. Đây được xem như một dịch vụ tài chính giúp san sẻ rủi ro, giảm thiểu tổn thất cho cá nhân, tổ chức.",
+      "keyPoints": [
+        "Bảo hiểm là sự chuyển giao rủi ro: bên tham gia đóng phí, tổ chức bảo hiểm lập quỹ dự trữ.",
+        "Khi rủi ro/sự kiện bảo hiểm xảy ra, tổ chức bảo hiểm dùng quỹ để bồi thường, trợ cấp hoặc chi trả."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Các loại hình bảo hiểm",
+      "summary": "Xã hội càng phát triển, nhu cầu được bảo hiểm càng tăng nên xuất hiện nhiều loại hình bảo hiểm khác nhau, gồm bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp và bảo hiểm thương mại (với các nhánh bảo hiểm tài sản, bảo hiểm con người, bảo hiểm trách nhiệm dân sự).",
+      "keyPoints": [
+        "Bảo hiểm xã hội: bảo đảm thay thế/bù đắp một phần thu nhập của người lao động khi ốm đau, thai sản, tai nạn lao động, bệnh nghề nghiệp, hết tuổi lao động, trên cơ sở đóng vào quỹ bảo hiểm xã hội. Gồm bảo hiểm xã hội bắt buộc (người lao động và người sử dụng lao động phải tham gia) và bảo hiểm xã hội tự nguyện (được chọn mức đóng, phương thức đóng, có hỗ trợ của Nhà nước).",
+        "Bảo hiểm y tế: thuộc lĩnh vực chăm sóc sức khoẻ cộng đồng do Nhà nước thực hiện, chi trả một phần hoặc toàn bộ chi phí khám chữa bệnh. Gồm bảo hiểm y tế bắt buộc (theo luật, không vì lợi nhuận) và bảo hiểm y tế tự nguyện (do công ty bảo hiểm cung cấp cho người không thuộc diện bắt buộc).",
+        "Bảo hiểm thất nghiệp: bảo đảm bù đắp một phần thu nhập, hỗ trợ học nghề, duy trì và tìm việc làm cho người lao động khi mất việc, trên cơ sở đóng góp vào quỹ bảo hiểm thất nghiệp.",
+        "Bảo hiểm thương mại: hoạt động của tổ chức bảo hiểm chấp nhận rủi ro của người được bảo hiểm, trên cơ sở bên mua đóng phí để được bồi thường theo hợp đồng đã kí kết; gồm bảo hiểm tài sản (bồi thường thiệt hại tài sản do mất cắp, cháy nổ, đâm va, thiên tai...), bảo hiểm con người (sức khoẻ, thân thể, tính mạng) và bảo hiểm trách nhiệm dân sự (trách nhiệm/nghĩa vụ bồi thường, thường bắt buộc như bảo hiểm xe cơ giới, cháy nổ, hàng không, hàng hoá)."
+      ],
+      "example": "Nghị định 67/2023/NĐ-CP quy định bảo hiểm cháy, nổ bắt buộc áp dụng cho toàn bộ tài sản của cơ sở có nguy hiểm về cháy, nổ, gồm nhà, công trình, máy móc thiết bị và hàng hoá, nguyên vật liệu."
+    },
+    {
+      "heading": "Vai trò của bảo hiểm",
+      "summary": "Bảo hiểm ngày càng trở thành dịch vụ thiết yếu, có vai trò to lớn cả về kinh tế và xã hội. Về kinh tế, bảo hiểm giúp ổn định tài chính khi gặp rủi ro, là kênh huy động vốn nhàn rỗi để đầu tư, ổn định và tăng thu ngân sách nhà nước, thúc đẩy hội nhập kinh tế quốc tế. Về xã hội, bảo hiểm giảm thiểu tổn thất, đảm bảo an toàn cuộc sống, góp phần tạo việc làm và hình thành lối sống tiết kiệm.",
+      "keyPoints": [
+        "Về kinh tế: chuyển giao rủi ro; là kênh huy động vốn để đầu tư phát triển kinh tế - xã hội; ổn định và tăng thu ngân sách nhà nước; thúc đẩy hội nhập kinh tế quốc tế.",
+        "Về xã hội: giảm thiểu tổn thất, đảm bảo an toàn cho cuộc sống con người; góp phần hình thành lối sống tiết kiệm trong xã hội; góp phần tạo công ăn việc làm, giảm thất nghiệp."
+      ],
+      "example": "Giai đoạn 2011-2020, thị trường bảo hiểm Việt Nam phát triển với trên 2.800 sản phẩm; tổng doanh thu phí bảo hiểm tăng từ 36,55 nghìn tỉ đồng (2011) lên 185,96 nghìn tỉ đồng (2020), tốc độ tăng trưởng vốn đầu tư trở lại nền kinh tế bình quân đạt 20%/năm."
+    }
+  ],
+  "glossary": [
+    { "term": "Bảo hiểm", "definition": "Hoạt động chuyển giao rủi ro giữa bên tham gia và tổ chức bảo hiểm; bên tham gia nộp phí để được bồi thường, trợ cấp hoặc chi trả khi rủi ro xảy ra." },
+    { "term": "Bảo hiểm xã hội", "definition": "Sự bảo đảm thay thế hoặc bù đắp một phần thu nhập của người lao động khi bị giảm hoặc mất thu nhập do ốm đau, thai sản, tai nạn lao động, bệnh nghề nghiệp, hết tuổi lao động." },
+    { "term": "Bảo hiểm xã hội bắt buộc", "definition": "Loại hình bảo hiểm xã hội do Nhà nước tổ chức mà người lao động và người sử dụng lao động phải tham gia." },
+    { "term": "Bảo hiểm xã hội tự nguyện", "definition": "Loại hình bảo hiểm xã hội do Nhà nước tổ chức mà người tham gia được chọn mức đóng, phương thức đóng phù hợp thu nhập, có hỗ trợ tiền đóng từ Nhà nước." },
+    { "term": "Bảo hiểm y tế", "definition": "Loại hình bảo hiểm thuộc lĩnh vực chăm sóc sức khoẻ cộng đồng do Nhà nước thực hiện, chi trả một phần hoặc toàn bộ chi phí khám chữa bệnh." },
+    { "term": "Bảo hiểm thất nghiệp", "definition": "Sự bảo đảm bù đắp một phần thu nhập, hỗ trợ học nghề, duy trì và tìm việc làm cho người lao động khi mất việc làm." },
+    { "term": "Bảo hiểm thương mại", "definition": "Hoạt động của tổ chức bảo hiểm chấp nhận rủi ro của người được bảo hiểm trên cơ sở bên mua đóng phí, theo thoả thuận trong hợp đồng bảo hiểm." },
+    { "term": "Bảo hiểm tài sản", "definition": "Hình thức bảo hiểm mà đối tượng là tài sản, nhằm bồi thường thiệt hại khi xảy ra rủi ro như mất cắp, cháy nổ, đâm va, thiên tai." },
+    { "term": "Bảo hiểm con người", "definition": "Hình thức bảo hiểm mà đối tượng là sức khoẻ, thân thể và tính mạng con người." },
+    { "term": "Bảo hiểm trách nhiệm dân sự", "definition": "Trách nhiệm hay nghĩa vụ bồi thường, thường được thực hiện dưới hình thức bắt buộc như bảo hiểm xe cơ giới, cháy nổ, hàng không, hàng hoá." }
+  ]
+}

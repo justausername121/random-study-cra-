@@ -1,0 +1,47 @@
+{
+  "id": "bai09",
+  "chuDeId": "vlc2",
+  "chuDeTitle": "Khí lí tưởng",
+  "baiNumber": 9,
+  "title": "Định luật Boyle",
+  "objectives": [
+    "Xác định mối quan hệ giữa áp suất và thể tích của một lượng khí xác định khi nhiệt độ không đổi."
+  ],
+  "sections": [
+    {
+      "heading": "Các thông số trạng thái của một lượng khí",
+      "summary": "Một lượng khí đựng trong bình kín được xác định bởi bốn đại lượng: khối lượng (m), thể tích (V), nhiệt độ (T) và áp suất (p). Khi thể tích, nhiệt độ và áp suất của một khối lượng khí xác định không đổi theo thời gian, ta nói khí ở trạng thái cân bằng; V, p, T lúc đó gọi là các thông số trạng thái.",
+      "keyPoints": [
+        "Bốn đại lượng đặc trưng cho một lượng khí: khối lượng m, thể tích V, nhiệt độ T, áp suất p",
+        "Thông số trạng thái: thể tích, áp suất và nhiệt độ của lượng khí",
+        "Quá trình: sự chuyển từ trạng thái (p1, V1, T1) sang trạng thái (p2, V2, T2)"
+      ],
+      "example": null
+    },
+    {
+      "heading": "Quá trình đẳng nhiệt và định luật Boyle",
+      "summary": "Quá trình biến đổi trạng thái khi nhiệt độ của một khối lượng khí xác định giữ không đổi gọi là quá trình đẳng nhiệt. Thí nghiệm cho thấy trong quá trình đẳng nhiệt, tích của áp suất và thể tích khí luôn không đổi - đó là nội dung của định luật Boyle.",
+      "keyPoints": [
+        "Định luật Boyle: khi nhiệt độ của một khối lượng khí xác định giữ không đổi thì áp suất khí tỉ lệ nghịch với thể tích của nó",
+        "pV = hằng số",
+        "p1V1 = p2V2",
+        "Đồ thị biểu diễn định luật Boyle trong hệ toạ độ (p, V) là một nhánh của đường hypebol"
+      ],
+      "example": "Định luật do nhà vật lí và hoá học người Ireland Robert Boyle tìm ra bằng thực nghiệm năm 1662. Ví dụ áp dụng: khí có V1 = 10 lít ở p1 = 10^5 Pa, khi nén đẳng nhiệt tới p2 = 1,25.10^5 Pa thì V2 = 8 lít."
+    },
+    {
+      "heading": "Định luật Boyle và Charles là các định luật gần đúng",
+      "summary": "Các định luật Boyle và Charles chỉ đúng trong điều kiện áp suất không quá lớn (không quá 10^6 Pa) và nhiệt độ không quá thấp (không dưới 200 K). Người ta định nghĩa khí lí tưởng là khí tuân theo đúng hai định luật này; ở điều kiện bình thường, sự khác biệt giữa khí lí tưởng và khí thực là không đáng kể.",
+      "keyPoints": [
+        "Định luật Boyle và Charles chỉ là gần đúng, đúng khi áp suất không quá 10^6 Pa và nhiệt độ không dưới 200 K",
+        "Khí lí tưởng được định nghĩa là khí tuân theo đúng các định luật Boyle và Charles"
+      ],
+      "example": null
+    }
+  ],
+  "glossary": [
+    {"term": "Thông số trạng thái", "definition": "Thể tích, áp suất và nhiệt độ của một lượng khí ở trạng thái cân bằng."},
+    {"term": "Quá trình đẳng nhiệt", "definition": "Quá trình biến đổi trạng thái của một khối lượng khí xác định khi nhiệt độ giữ không đổi."},
+    {"term": "Định luật Boyle", "definition": "Khi nhiệt độ của một khối lượng khí xác định không đổi, áp suất khí tỉ lệ nghịch với thể tích của nó: pV = hằng số."}
+  ]
+}

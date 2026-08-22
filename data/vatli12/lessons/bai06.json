@@ -1,0 +1,39 @@
+{
+  "id": "bai06",
+  "chuDeId": "vlc1",
+  "chuDeTitle": "Vật lí nhiệt",
+  "baiNumber": 6,
+  "title": "Nhiệt hoá hơi riêng",
+  "objectives": [
+    "Xác định được nhiệt hoá hơi riêng của một chất lỏng.",
+    "Dùng khái niệm nhiệt hoá hơi riêng để giải thích các hiện tượng thực tế có liên quan."
+  ],
+  "sections": [
+    {
+      "heading": "I. Khái niệm nhiệt hoá hơi riêng",
+      "summary": "Nhiệt lượng cần cung cấp cho một lượng chất lỏng hoá hơi hoàn toàn ở nhiệt độ không đổi tỉ lệ thuận với khối lượng chất lỏng; hằng số tỉ lệ này là nhiệt hoá hơi riêng L của chất lỏng đó, phụ thuộc vào bản chất chất lỏng và nhiệt độ xảy ra sự hoá hơi.",
+      "keyPoints": [
+        "Nhiệt hoá hơi riêng: L = Q/m (6.2), đơn vị J/kg.",
+        "Hệ thức tính nhiệt lượng cần cung cấp để một lượng chất lỏng hoá hơi hoàn toàn ở nhiệt độ không đổi: Q = Lm (6.3) (Q: nhiệt lượng (J), L: nhiệt hoá hơi riêng (J/kg), m: khối lượng chất lỏng (kg)).",
+        "Định nghĩa: Nhiệt hoá hơi riêng của một chất lỏng là nhiệt lượng cần để làm cho một kilôgam chất lỏng đó hoá hơi hoàn toàn ở nhiệt độ xác định.",
+        "Nhiệt hoá hơi riêng của một chất phụ thuộc vào nhiệt độ xảy ra sự hoá hơi, thường tăng khi nhiệt độ giảm (ví dụ nhiệt hoá hơi riêng của nước ở 100°C là 2,26.10^6 J/kg, ở 50°C là 2,39.10^6 J/kg).",
+        "Nhiệt hoá hơi riêng và nhiệt nóng chảy riêng còn được gọi chung là 'ẩn nhiệt riêng' vì sự truyền nhiệt trong các quá trình này không biểu hiện bằng sự thay đổi nhiệt độ.",
+        "Nhiệt hoá hơi riêng là thông tin cần thiết để thiết kế, chế tạo các sản phẩm sử dụng hiện tượng hoá hơi nhằm tiết kiệm năng lượng, bảo vệ môi trường như thiết bị làm lạnh (máy điều hoà, dàn lạnh, dàn bay hơi), nồi hấp tiệt trùng, thiết bị xử lí rác thải ứng dụng công nghệ nhiệt hoá hơi."
+      ],
+      "example": "Vận động viên chạy marathon toả phần lớn nhiệt thải ra ngoài nhờ sự bay hơi của nước qua hô hấp và da để giữ nhiệt độ cơ thể không đổi; nhiệt hoá hơi riêng của nước trong cơ thể khoảng 2,45.10^6 J/kg."
+    },
+    {
+      "heading": "II. Thực hành đo nhiệt hoá hơi riêng của nước",
+      "summary": "Đun sôi nước trong nhiệt lượng kế bằng oát kế, theo dõi khối lượng nước giảm dần theo thời gian do bay hơi. Vẽ đồ thị khối lượng m theo thời gian τ, chọn hai điểm P, Q trên đồ thị để tính nhiệt hoá hơi riêng theo công thức L = P̄(τQ - τP) / (mP - mQ).",
+      "keyPoints": [
+        "Dụng cụ: bộ dụng cụ như bài đo nhiệt dung riêng (oát kế, nhiệt lượng kế, cân điện tử), một lượng nước nóng.",
+        "Công thức xác định nhiệt hoá hơi riêng từ thực nghiệm: L = Q/m = P̄(τQ - τP) / (mP - mQ), trong đó P̄(τQ - τP) là nhiệt lượng do dòng điện qua điện trở toả ra trong khoảng thời gian τQ - τP, còn (mP - mQ) là khối lượng nước đã hoá hơi trong khoảng thời gian đó."
+      ],
+      "example": null
+    }
+  ],
+  "glossary": [
+    {"term": "Nhiệt hoá hơi riêng (L)", "definition": "Nhiệt lượng cần để làm cho 1 kg một chất lỏng hoá hơi hoàn toàn ở nhiệt độ xác định; đơn vị J/kg."},
+    {"term": "Ẩn nhiệt riêng", "definition": "Tên gọi chung cho nhiệt nóng chảy riêng và nhiệt hoá hơi riêng, vì sự truyền nhiệt trong các quá trình chuyển thể này không biểu hiện bằng sự thay đổi nhiệt độ."}
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "chuDeId": "cd5",
+  "chuDeTitle": "Trách nhiệm xã hội của doanh nghiệp",
+  "mcq": [
+    {
+      "id": "cd5-mcq-01",
+      "question": "Trách nhiệm xã hội của doanh nghiệp được hiểu là toàn bộ trách nhiệm",
+      "options": {
+        "A": "không thể tránh khỏi.",
+        "B": "cần thiết và tuỳ chọn.",
+        "C": "bắt buộc và tự nguyện.",
+        "D": "cần thiết và không cần thiết."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "cd5-mcq-02",
+      "question": "Trách nhiệm xã hội của doanh nghiệp đóng góp cho việc thực hiện các mục tiêu xã hội và",
+      "options": {
+        "A": "các mục tiêu tài chính cá nhân.",
+        "B": "sự phát triển nhanh chóng của quốc gia.",
+        "C": "sự phát triển bền vững của cá nhân.",
+        "D": "sự phát triển bền vững của đất nước."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd5-mcq-03",
+      "question": "Trong các biểu hiện sau đây, đâu là biểu hiện thiếu trách nhiệm đối với xã hội của một doanh nghiệp?",
+      "options": {
+        "A": "Tạo quan hệ gắn bó giữa nhân viên và công ty.",
+        "B": "Đảm bảo quyền lợi cho người lao động.",
+        "C": "Ủng hộ đồng bào miền Trung bị lũ lụt.",
+        "D": "Xả chất thải chưa qua xử lí môi trường."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd5-mcq-04",
+      "question": "Trong các trách nhiệm sau đây, đâu không phải là trách nhiệm xã hội của doanh nghiệp?",
+      "options": {
+        "A": "Trách nhiệm quốc phòng.",
+        "B": "Trách nhiệm kinh tế.",
+        "C": "Trách nhiệm pháp lí.",
+        "D": "Trách nhiệm đạo đức."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "cd5-mcq-05",
+      "question": "Doanh nghiệp đảm bảo kinh doanh hiệu quả, đảm bảo an toàn sản phẩm cho người tiêu dùng thuộc hình thức trách nhiệm xã hội nào sau đây của doanh nghiệp?",
+      "options": {
+        "A": "Trách nhiệm pháp lí.",
+        "B": "Trách nhiệm kinh tế.",
+        "C": "Trách nhiệm đạo đức.",
+        "D": "Trách nhiệm từ thiện, tình nguyện."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "cd5-mcq-06",
+      "question": "Doanh nghiệp tuân thủ các quy định của pháp luật thuộc hình thức trách nhiệm xã hội nào sau đây của doanh nghiệp?",
+      "options": {
+        "A": "Trách nhiệm pháp lí.",
+        "B": "Trách nhiệm kinh tế.",
+        "C": "Trách nhiệm đạo đức.",
+        "D": "Trách nhiệm từ thiện, tình nguyện."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "cd5-mcq-07",
+      "question": "Doanh nghiệp thực hiện đạo đức kinh doanh, không gây hại cho xã hội và môi trường thuộc hình thức trách nhiệm xã hội nào sau đây của doanh nghiệp?",
+      "options": {
+        "A": "Trách nhiệm từ thiện, tình nguyện.",
+        "B": "Trách nhiệm đạo đức.",
+        "C": "Trách nhiệm kinh tế.",
+        "D": "Trách nhiệm pháp lí."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "cd5-mcq-08",
+      "question": "Doanh nghiệp tham gia các hoạt động thiện nguyện, nhân đạo, giúp đỡ những người trong cộng đồng có hoàn cảnh khó khăn thuộc hình thức trách nhiệm xã hội nào sau đây của doanh nghiệp?",
+      "options": {
+        "A": "Trách nhiệm từ thiện, tình nguyện.",
+        "B": "Trách nhiệm đạo đức.",
+        "C": "Trách nhiệm kinh tế.",
+        "D": "Trách nhiệm pháp lí."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "cd5-mcq-09",
+      "question": "Đối với doanh nghiệp, thực hiện trách nhiệm xã hội của doanh nghiệp góp phần",
+      "options": {
+        "A": "thúc đẩy quá trình phân hoá giàu nghèo.",
+        "B": "nâng cao chất lượng, uy tín của doanh nghiệp.",
+        "C": "thúc đẩy hiện tượng đầu cơ tích trữ.",
+        "D": "khuyến khích cạnh tranh không lành mạnh."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "cd5-mcq-10",
+      "question": "Nội dung nào sau đây không thể hiện ý nghĩa trách nhiệm xã hội của doanh nghiệp?",
+      "options": {
+        "A": "Tăng lợi thế cạnh tranh cho doanh nghiệp.",
+        "B": "Thúc đẩy quá trình phân hoá giàu nghèo.",
+        "C": "Giải quyết khó khăn của cộng đồng và xã hội.",
+        "D": "Thúc đẩy sự phát triển bền vững của đất nước."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "cd5-mcq-11",
+      "question": "Đối với xã hội, thực hiện trách nhiệm xã hội của doanh nghiệp góp phần",
+      "options": {
+        "A": "nâng cao chất lượng, uy tín của doanh nghiệp.",
+        "B": "giải quyết thách thức của cộng đồng, của xã hội.",
+        "C": "tăng lợi thế cạnh tranh cho doanh nghiệp.",
+        "D": "thúc đẩy sự phát triển của doanh nghiệp."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "cd5-mcq-12",
+      "question": "Doanh nghiệp giữ chi phí ở mức tối thiểu, tối đa hoá doanh thu là thực hiện hình thức trách nhiệm xã hội nào sau đây của doanh nghiệp?",
+      "options": {
+        "A": "Trách nhiệm pháp lí.",
+        "B": "Trách nhiệm kinh tế.",
+        "C": "Trách nhiệm đạo đức.",
+        "D": "Trách nhiệm từ thiện, tình nguyện."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "cd5-mcq-13",
+      "question": "Trong các trách nhiệm xã hội sau đây của doanh nghiệp, đâu không phải là trách nhiệm đạo đức của người kinh doanh?",
+      "options": {
+        "A": "Tài trợ cho sáng kiến cộng đồng.",
+        "B": "Thực hiện tốt đạo đức kinh doanh.",
+        "C": "Không gây hại cho môi trường.",
+        "D": "Cạnh tranh lành mạnh với đối thủ."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "cd5-mcq-14",
+      "question": "Công ty A luôn đầu tư tối ưu quy trình vận hành dẫn đến tiết kiệm chi phí, tạo cơ hội cho người lao động phát triển chuyên môn. Việc làm của Công ty A thể hiện hình thức thực hiện trách nhiệm xã hội nào của doanh nghiệp?",
+      "options": {
+        "A": "Trách nhiệm pháp lí.",
+        "B": "Trách nhiệm kinh tế.",
+        "C": "Trách nhiệm đạo đức.",
+        "D": "Trách nhiệm từ thiện, tình nguyện."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "cd5-mcq-15",
+      "question": "Phát biểu nào sau đây là sai khi nói về ý nghĩa của việc thực hiện trách nhiệm xã hội của doanh nghiệp?",
+      "options": {
+        "A": "Nâng cao chất lượng, giá trị thương hiệu.",
+        "B": "Tạo dựng niềm tin với công chúng.",
+        "C": "Tăng lợi thế cạnh tranh cho doanh nghiệp.",
+        "D": "Tạo gánh nặng cho sự phát triển doanh nghiệp."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd5-mcq-16",
+      "question": "Trong nhiều năm qua, Công ty C thường xuyên thực hiện quyên góp từ thiện giúp đỡ nhân dân các vùng gặp khó khăn, hoạn nạn. Việc làm của Công ty C thể hiện hình thức thực hiện trách nhiệm xã hội nào của doanh nghiệp?",
+      "options": {
+        "A": "Trách nhiệm pháp lí.",
+        "B": "Trách nhiệm kinh tế.",
+        "C": "Trách nhiệm đạo đức.",
+        "D": "Trách nhiệm từ thiện, tình nguyện."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd5-mcq-17",
+      "question": "Trong quá trình kinh doanh các sản phẩm bánh kẹo và sữa, Công ty B luôn thực hiện đầy đủ các quy định của pháp luật về bảo vệ môi trường, kê khai và nộp thuế đầy đủ. Công ty B đã thực hiện trách nhiệm xã hội nào của doanh nghiệp?",
+      "options": {
+        "A": "Trách nhiệm pháp lí.",
+        "B": "Trách nhiệm kinh tế.",
+        "C": "Trách nhiệm đạo đức.",
+        "D": "Trách nhiệm từ thiện, tình nguyện."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "cd5-mcq-18",
+      "question": "Phát biểu nào sau đây phản ánh đúng ý nghĩa của việc thực hiện trách nhiệm xã hội của doanh nghiệp?",
+      "options": {
+        "A": "Tăng lợi thế cạnh tranh cho doanh nghiệp.",
+        "B": "Giảm chi phí sản xuất.",
+        "C": "Gia tăng khí thải ra môi trường.",
+        "D": "Giảm khả năng cạnh tranh của doanh nghiệp."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "cd5-mcq-19",
+      "question": "Khi thực hiện nhiệm vụ điều hành doanh nghiệp, mỗi công dân không có nghĩa vụ phải",
+      "options": {
+        "A": "tuân thủ quy định của pháp luật về bảo vệ môi trường.",
+        "B": "duy trì chất lượng sản phẩm của doanh nghiệp.",
+        "C": "xây dựng môi trường làm việc thân thiện, an toàn.",
+        "D": "mở rộng quy mô, áp dụng các tiêu chuẩn quốc tế."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd5-mcq-20",
+      "question": "Trước những biểu hiện thiếu trách nhiệm xã hội của một số doanh nghiệp, mỗi công dân cần",
+      "options": {
+        "A": "khuyến khích, cổ vũ.",
+        "B": "thờ ơ, vô cảm.",
+        "C": "học tập, noi gương.",
+        "D": "lên án, phê phán."
+      },
+      "answer": "D"
+    }
+  ],
+  "trueFalse": [
+    {
+      "id": "cd5-tf-01",
+      "stimulus": "Công ty T chuyên về lĩnh vực may mặc, nhờ thường xuyên áp dụng khoa học công nghệ, chú trọng đào tạo tay nghề và khuyến khích người lao động đổi mới sáng tạo nên đã tạo ra nhiều mẫu mã phù hợp với thị hiếu người tiêu dùng và đảm bảo chất lượng sản phẩm. Trong công tác xã hội, công ty đã tích cực tham gia vào các hoạt động tình nguyện. Doanh thu của công ty ngày càng tăng lên khi khẳng định được tên tuổi, tạo dựng được thương hiệu tích cực trên thị trường.",
+      "statements": [
+        {"key": "a", "text": "Sản xuất hàng hoá đạt chất lượng để bảo vệ người tiêu dùng là trách nhiệm xã hội của doanh nghiệp.", "answer": true},
+        {"key": "b", "text": "Những hoạt động của Công ty T đã giúp công ty tạo dựng được thương hiệu tích cực, cung ứng được nhiều sản phẩm chất lượng tới người tiêu dùng.", "answer": true},
+        {"key": "c", "text": "Những thông tin trên cho thấy Công ty T đã thực hiện tốt trách nhiệm pháp lí, tuân thủ pháp luật kinh doanh.", "answer": false},
+        {"key": "d", "text": "Tham gia hoạt động thiện nguyện, nhân đạo, giúp đỡ những người trong cộng đồng có hoàn cảnh khó khăn là trách nhiệm mà Công ty T bắt buộc phải thực hiện.", "answer": false}
+      ]
+    },
+    {
+      "id": "cd5-tf-02",
+      "stimulus": "Công ty A chuyên sản xuất và lắp ráp xe gắn máy. Ban Giám đốc công ty không chỉ chú trọng nâng cao chất lượng sản phẩm mà luôn quan tâm đến cuộc sống của người lao động bằng các chế độ chính sách ưu đãi, tạo điều kiện để nhân viên được làm việc trong một môi trường an toàn, thân thiện. Công ty đẩy mạnh phong trào thi đua lao động giỏi, lao động sáng tạo, phối hợp với phòng nhân sự đề xuất chương trình \"Giữ chân nhân tài\", khuyến khích người lao động gắn bó lâu dài với công ty. Đồng thời, công ty đảm bảo đầy đủ quyền lợi của người lao động, đánh giá thành tích cá nhân cuối năm để làm căn cứ nâng lương, thưởng và thăng tiến trong công việc cho người lao động.",
+      "statements": [
+        {"key": "a", "text": "Việc làm của công ty A nâng cao đời sống vật chất và tinh thần cho người lao động, đóng góp cho các mục tiêu xã hội và sự phát triển bền vững của đất nước.", "answer": true},
+        {"key": "b", "text": "Việc đảm bảo chất lượng sản phẩm, chăm lo đến đời sống người lao động với chế độ đãi ngộ xứng đáng thể hiện trách nhiệm cá nhân của doanh nghiệp.", "answer": false},
+        {"key": "c", "text": "Chương trình \"Giữ chân nhân tài\" có thể khiến người lao động thấy mình được đánh giá cao, sinh ra tự mãn bản thân, thiếu động lực cố gắng.", "answer": false},
+        {"key": "d", "text": "Công ty A đã biết kết hợp hài hoà lợi ích của doanh nghiệp và lợi ích của người tiêu dùng.", "answer": true}
+      ]
+    },
+    {
+      "id": "cd5-tf-03",
+      "stimulus": "Trước bối cảnh người tiêu dùng đã thể hiện rõ sự ủng hộ những doanh nghiệp kinh doanh có trách nhiệm xã hội, các doanh nghiệp tại Việt Nam cũng đã và đang nỗ lực thực hiện các hoạt động vì cộng đồng. Công ty S là một trong những thương hiệu tiên phong nỗ lực chinh phục được người tiêu dùng bằng \"chất lượng xã hội của sản phẩm\". Mới đây, Công ty S vừa tổ chức Vòng Chung kết và Lễ Trao giải \"Solve for Tomorrow\" năm thứ 5, nhằm tìm ra các dự án sáng tạo công nghệ xuất sắc góp phần giải quyết các vấn đề của xã hội và địa phương. Với tầm nhìn \"Together for Tomorrow! Enabling People\" (Cùng nhau vì ngày mai! Trao quyền cho mọi người), Công ty S đang tập trung triển khai các hoạt động bồi dưỡng thế hệ trẻ tương lai thông qua nhiều chương trình. Trong đó, dự án \"Ngôi trường hi vọng\" nhằm mang lại cơ hội học tập ngoại khoá cho các em nhỏ có hoàn cảnh khó khăn cũng là một trong những dự án được công ty chú trọng triển khai.",
+      "statements": [
+        {"key": "a", "text": "Đảm bảo \"chất lượng xã hội của sản phẩm\" không phải là trách nhiệm bắt buộc của doanh nghiệp đối với xã hội.", "answer": false},
+        {"key": "b", "text": "Dự án \"Ngôi trường hi vọng\" mục đích chính là thu một khoản lợi nhuận lớn cho Công ty S và thu hút đầu tư trong và ngoài nước.", "answer": false},
+        {"key": "c", "text": "Hiệu ứng xã hội từ mô hình \"Ngôi trường hi vọng\" chính là tiêu chí cho chiến lược phát triển bền vững của Công ty S.", "answer": true},
+        {"key": "d", "text": "Trách nhiệm xã hội là công cụ đắc lực giúp cho doanh nghiệp nâng cao vị thế và sức cạnh tranh với các đối thủ trong khu vực.", "answer": true}
+      ]
+    },
+    {
+      "id": "cd5-tf-04",
+      "stimulus": "Doanh nghiệp M hoạt động trong ngành chế biến thực phẩm. Trong quá trình chế biến, doanh nghiệp làm mọi cách để có thể tăng lợi nhuận. Khi sản phẩm có chỗ đứng trên thị trường, doanh nghiệp chủ trương sử dụng những nguyên liệu giá rẻ, không rõ nguồn gốc, xuất xứ; Hệ thống nước thải chưa qua xử lí cũng được xả thẳng ra môi trường gây ảnh hưởng nghiêm trọng đến sức khoẻ và đời sống của người dân khu vực xung quanh. Nhiều đối tác và người tiêu dùng khi biết thông tin đã tẩy chay sản phẩm của doanh nghiệp.",
+      "statements": [
+        {"key": "a", "text": "Trong sản xuất kinh doanh, lợi nhuận chính là mục tiêu hàng đầu và duy nhất giúp doanh nghiệp duy trì và phát triển.", "answer": false},
+        {"key": "b", "text": "Việc làm của doanh nghiệp M thể hiện sự thiếu trách nhiệm đối với xã hội, cần bị lên án.", "answer": true},
+        {"key": "c", "text": "Việc doanh nghiệp M thiếu trách nhiệm xã hội khiến uy tín và thương hiệu của doanh nghiệp bị suy giảm, tác động tiêu cực đến môi trường sống và sức khoẻ cộng đồng.", "answer": true},
+        {"key": "d", "text": "Doanh nghiệp M gây ô nhiễm môi trường là không thực hiện trách nhiệm đạo đức của doanh nghiệp, có thể bị phạt hành chính, thậm chí bị truy cứu trách nhiệm hình sự.", "answer": true}
+      ]
+    }
+  ]
+}

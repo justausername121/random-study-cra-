@@ -1,0 +1,48 @@
+{
+  "id": "bai24",
+  "chuDeId": "vlc4",
+  "chuDeTitle": "Vật lí hạt nhân",
+  "baiNumber": 24,
+  "title": "Công nghiệp hạt nhân",
+  "objectives": [],
+  "sections": [
+    {
+      "heading": "Nhà máy điện hạt nhân",
+      "summary": "Năng lượng toả ra trong phản ứng hạt nhân được chuyển hoá thành điện năng qua hệ thống lò phản ứng hạt nhân, tua bin và máy phát điện. Bộ phận chính là lò phản ứng hạt nhân, nơi chất tải nhiệt sơ cấp hấp thụ nhiệt từ vùng tâm lò rồi truyền qua bộ trao đổi nhiệt để sinh hơi làm quay tua bin phát điện, tương tự nhà máy nhiệt điện thông thường.",
+      "keyPoints": [
+        "Hệ thống khai thác năng lượng hạt nhân có thể hoạt động lâu dài mà không cần bổ sung nhiên liệu thường xuyên.",
+        "Nhà máy điện hạt nhân không trực tiếp phát khí thải gây ô nhiễm như CO2, CO,... nhưng việc xử lí chất thải hạt nhân đòi hỏi công nghệ phức tạp, chi phí cao, cần lưu trữ an toàn trong thời gian rất dài (một số đồng vị như Sr-90, Cs-137 có chu kì bán rã khoảng 30 năm).",
+        "Lò phản ứng hạt nhân dùng các thanh điều khiển (chứa Bo hay Cd, hấp thụ neutron nhiệt) để duy trì hệ số nhân neutron k = 1, giữ cho công suất lò ổn định theo thời gian.",
+        "Nhiên liệu phân hạch phổ biến trong lò phản ứng là U-235 hoặc Pu-239."
+      ],
+      "example": "Năm 1942, Fermi và cộng sự lần đầu thực hiện thành công chuỗi phản ứng phân hạch duy trì có điều khiển trong lò phản ứng tại Đại học Chicago (Mĩ)."
+    },
+    {
+      "heading": "Y học hạt nhân",
+      "summary": "Trong y học, tia phóng xạ được khai thác để chẩn đoán và điều trị bệnh. Bằng cách đưa các đồng vị phóng xạ vào cơ thể qua dược chất phóng xạ, người ta theo dõi được sự dịch chuyển của chúng (phương pháp theo dõi vết phóng xạ) để chụp ảnh cắt lớp các bộ phận bên trong cơ thể; đồng thời tia phóng xạ liều cao cũng được dùng để tiêu diệt tế bào ung thư.",
+      "keyPoints": [
+        "Kĩ thuật chụp ảnh phóng xạ cắt lớp: SPECT (Single Photon Emission Computed Tomography) và PET (Positron Emission Tomography), thường phối hợp với CT, MRI để tăng độ chi tiết hình ảnh.",
+        "Điều trị ung thư: bệnh nhân uống hoặc tiêm dược chất phóng xạ (ví dụ thuốc Xofigo chứa Ra-223, thuốc Lutathera chứa Lu-177) để tia phóng xạ tiêu diệt tế bào ung thư; hoặc dùng máy xạ trị chiếu tia phóng xạ từ ngoài cơ thể.",
+        "Tia phóng xạ còn được dùng để khử trùng, khử khuẩn dụng cụ y tế."
+      ],
+      "example": "Khi tiêm dược chất phóng xạ vào tĩnh mạch để chụp ảnh gan mật, việc theo dõi vết phóng xạ giúp quan sát toàn bộ quá trình sản xuất dịch mật của gan và sự dịch chuyển dịch mật tới túi mật."
+    },
+    {
+      "heading": "Ứng dụng phóng xạ trong công nghệ sinh học và bảo quản thực phẩm",
+      "summary": "Trong công nghệ sinh học, tia phóng xạ được dùng để gây đột biến gene nhằm tạo giống cây trồng có đặc điểm vượt trội (kháng sâu bệnh, năng suất cao, quả trái mùa, quả không hạt) hoặc đánh dấu phóng xạ để nghiên cứu đường đi của phân bón trong cây. Trong bảo quản thực phẩm, tia phóng xạ giúp diệt vi trùng có hại, kéo dài thời hạn sử dụng nhờ thay đổi một số tính chất hoá học của thực phẩm tươi.",
+      "keyPoints": [
+        "Cây trồng đột biến gene bằng chiếu xạ có thể giảm nhu cầu dùng phân bón và thuốc trừ sâu, nhưng cây trồng biến đổi gene cũng có thể ảnh hưởng xấu tới côn trùng, hệ sinh thái và sức khoẻ con người nếu dùng thường xuyên.",
+        "Phương pháp đánh dấu phóng xạ (ví dụ dùng đồng vị P-32 phóng xạ β) giúp nghiên cứu đường đi của phân bón trong cây trồng, hỗ trợ chăm sóc cây phù hợp.",
+        "Chiếu xạ thực phẩm giúp diệt vi trùng có hại, kéo dài thời hạn sử dụng, tránh mọc mầm, phân huỷ; tuy nhiên có thể làm thay đổi màu sắc, hương vị và có giá thành cao."
+      ],
+      "example": "Vải thiều được chiếu xạ giữ được chất lượng tốt hơn vải thiều thường sau 7 ngày kể từ khi thu hoạch."
+    }
+  ],
+  "glossary": [
+    {"term": "Công nghiệp hạt nhân", "definition": "Các lĩnh vực ứng dụng kiến thức của vật lí hạt nhân vào nghiên cứu khoa học, sản xuất và cuộc sống."},
+    {"term": "Lò phản ứng hạt nhân", "definition": "Hệ thống được sử dụng để khởi tạo và điều khiển chuỗi phản ứng phân hạch hạt nhân dây chuyền, là bộ phận chính của nhà máy điện hạt nhân."},
+    {"term": "Y học hạt nhân", "definition": "Lĩnh vực y học áp dụng các kiến thức vật lí hạt nhân vào chẩn đoán và điều trị bệnh."},
+    {"term": "Chụp ảnh phóng xạ cắt lớp (SPECT/PET)", "definition": "Kĩ thuật dùng dược chất phóng xạ và thiết bị phát hiện tia phóng xạ để tạo hình ảnh chi tiết các bộ phận bên trong cơ thể."},
+    {"term": "Phương pháp đánh dấu phóng xạ", "definition": "Phương pháp dùng đồng vị phóng xạ để theo dõi sự dịch chuyển của một chất (ví dụ phân bón) trong nghiên cứu sinh học, nông nghiệp, lâm nghiệp."}
+  ]
+}

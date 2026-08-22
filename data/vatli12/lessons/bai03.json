@@ -1,0 +1,45 @@
+{
+  "id": "bai03",
+  "chuDeId": "vlc1",
+  "chuDeTitle": "Vật lí nhiệt",
+  "baiNumber": 3,
+  "title": "Nhiệt độ. Thang nhiệt độ - nhiệt kế",
+  "objectives": [
+    "Giải thích được các hiện tượng truyền nhiệt năng thường gặp trong đời sống.",
+    "Phân biệt được hai thang nhiệt độ Celsius và Kelvin.",
+    "Chuyển đổi được nhiệt độ Celsius sang nhiệt độ Kelvin và ngược lại."
+  ],
+  "sections": [
+    {
+      "heading": "I. Khái niệm nhiệt độ",
+      "summary": "Nhiệt độ cho biết trạng thái cân bằng nhiệt của các vật tiếp xúc nhau và chiều truyền nhiệt năng giữa chúng. Khi hai vật có nhiệt độ chênh lệch tiếp xúc nhau, nhiệt năng luôn truyền từ vật có nhiệt độ cao hơn sang vật có nhiệt độ thấp hơn, không phải theo nội năng lớn hơn hay nhỏ hơn. Khi hai vật có cùng nhiệt độ tiếp xúc nhau thì không có sự truyền nhiệt năng - chúng ở trạng thái cân bằng nhiệt.",
+      "keyPoints": [
+        "Khi hai vật có nhiệt độ chênh lệch tiếp xúc nhau thì nhiệt năng truyền từ vật có nhiệt độ cao hơn sang vật có nhiệt độ thấp hơn.",
+        "Khi hai vật có nhiệt độ bằng nhau tiếp xúc nhau thì không có sự truyền nhiệt năng giữa chúng - đó là trạng thái cân bằng nhiệt.",
+        "Về bản chất động học phân tử, nhiệt độ đặc trưng cho động năng trung bình của chuyển động nhiệt của phân tử; động năng trung bình của các phân tử cấu tạo nên vật càng lớn thì nhiệt độ của vật càng cao."
+      ],
+      "example": null
+    },
+    {
+      "heading": "II. Thang nhiệt độ - Nhiệt kế",
+      "summary": "Có hai thang nhiệt độ thường dùng: thang Celsius (mốc là nhiệt độ đóng băng 0°C và nhiệt độ sôi 100°C của nước tinh khiết ở áp suất tiêu chuẩn, mỗi độ chia là 1°C) và thang Kelvin - thang nhiệt độ tuyệt đối (mốc là độ không tuyệt đối 0 K và nhiệt độ điểm ba của nước 273,16 K). Công thức chuyển đổi: T(K) = t(°C) + 273 (làm tròn). Nhiệt kế là thiết bị đo nhiệt độ, chế tạo dựa trên các tính chất vật lí phụ thuộc vào nhiệt độ, phổ biến nhất là sự nở vì nhiệt.",
+      "keyPoints": [
+        "Thang Celsius: mốc 0°C (nước đóng băng) và 100°C (nước sôi), ở áp suất tiêu chuẩn; kí hiệu t, đơn vị °C.",
+        "Thang Kelvin (thang nhiệt độ tuyệt đối): mốc 0 K là độ không tuyệt đối (nhiệt độ thấp nhất có thể, tại đó động năng chuyển động nhiệt của phân tử bằng 0) và 273,16 K là nhiệt độ điểm ba của nước (nước tồn tại đồng thời cả 3 thể rắn, lỏng, hơi); kí hiệu T, đơn vị K.",
+        "Độ không tuyệt đối có giá trị -273,15°C trong thang Celsius.",
+        "1 độ chia Celsius (1°C) có độ lớn bằng 1 độ chia Kelvin (1 K).",
+        "Công thức chuyển đổi chính xác: t(°C) = T(K) - 273,15; T(K) = t(°C) + 273,15. Công thức làm tròn thường dùng: t(°C) = T(K) - 273; T(K) = t(°C) + 273.",
+        "Thang Fahrenheit (dùng ở một số nước nói tiếng Anh): nước đá tan ở 32°F, nước sôi ở 212°F; công thức t(°F) = 32 + 1,8t(°C).",
+        "Nhiệt kế: thiết bị đo nhiệt độ, chế tạo dựa trên tính chất vật lí phụ thuộc nhiệt độ, phổ biến là sự nở vì nhiệt: nở dài của cột chất lỏng (nhiệt kế rượu, thuỷ ngân, dầu), nở dài của thanh kim loại (nhiệt kế kim loại), nở vì nhiệt của thể tích khí ở áp suất không đổi (nhiệt kế khí)."
+      ],
+      "example": "Một số nhiệt kế hiện đại dùng các tính chất khác: điện trở nhiệt phụ thuộc nhiệt độ (Rt = R0(1 + At + Bt^2)), hiệu điện thế cặp nhiệt điện (U = kt), hoặc bước song bức xạ điện từ theo hệ thức Wien (λmax.T = 2900 μmK) dùng cho nhiệt kế hồng ngoại và đo nhiệt độ bề mặt các thiên thể."
+    }
+  ],
+  "glossary": [
+    {"term": "Nhiệt độ", "definition": "Đại lượng cho biết trạng thái cân bằng nhiệt của các vật tiếp xúc nhau và chiều truyền nhiệt năng; đặc trưng cho động năng trung bình chuyển động nhiệt của phân tử."},
+    {"term": "Cân bằng nhiệt", "definition": "Trạng thái của hai vật tiếp xúc có cùng nhiệt độ, không có sự truyền nhiệt năng giữa chúng."},
+    {"term": "Độ không tuyệt đối", "definition": "Nhiệt độ thấp nhất có thể có, bằng -273,15°C hay 0 K, tại đó động năng chuyển động nhiệt của phân tử bằng 0."},
+    {"term": "Nhiệt độ điểm ba của nước", "definition": "Nhiệt độ mà nước tinh khiết tồn tại đồng thời ở cả ba thể rắn, lỏng, hơi trong trạng thái cân bằng nhiệt, bằng 273,16 K (0,01°C)."},
+    {"term": "Nhiệt kế", "definition": "Thiết bị dùng để đo nhiệt độ, chế tạo dựa trên các tính chất vật lí phụ thuộc vào nhiệt độ."}
+  ]
+}

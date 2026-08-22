@@ -1,0 +1,83 @@
+{
+  "id": "bai17",
+  "chuDeId": "vlc3",
+  "chuDeTitle": "Từ trường",
+  "baiNumber": 17,
+  "title": "Máy phát điện xoay chiều",
+  "objectives": [],
+  "sections": [
+    {
+      "heading": "I. Nguyên tắc tạo ra dòng điện xoay chiều",
+      "summary": "Cho một khung dây dẫn phẳng MNPQ diện tích S quay đều với tốc độ góc ω quanh trục OO' vuông góc với các đường sức của một từ trường đều B. Theo hiện tượng cảm ứng điện từ, trong khung dây xuất hiện suất điện động biến đổi theo thời gian theo quy luật dạng cosin. Vì vậy, nguyên tắc tạo ra dòng điện xoay chiều là làm cho từ thông qua khung dây dẫn biến thiên điều hoà theo thời gian.",
+      "keyPoints": [
+        "Suất điện động xoay chiều trong khung dây: e = E0.cos(ωt + φ0) (17.1), với E0 = BSω là suất điện động cực đại.",
+        "Nếu khung dây có N vòng thì suất điện động cực đại là E0 = N.B.S.ω.",
+        "Chu kì T và tần số f liên hệ với tần số góc ω: T = 2π/ω (s), f = ω/2π (Hz).",
+        "Nguyên tắc tạo ra dòng điện xoay chiều dựa trên hiện tượng cảm ứng điện từ: làm cho từ thông qua khung dây dẫn biến thiên điều hoà theo thời gian."
+      ],
+      "example": null
+    },
+    {
+      "heading": "II.1 Biểu thức dòng điện xoay chiều",
+      "summary": "Khi nối khung dây với một đoạn mạch tiêu thụ điện, hiệu điện thế giữa hai đầu đoạn mạch biến thiên theo thời gian theo quy luật dạng cosin, gọi là điện áp xoay chiều, cùng chu kì và tần số với suất điện động xoay chiều. Dòng điện chạy qua mạch khi đó cũng biến thiên điều hoà theo thời gian với cùng tần số, gọi là dòng điện xoay chiều.",
+      "keyPoints": [
+        "Điện áp xoay chiều: u = U0.cos(ωt + φu) (V) (17.2).",
+        "Dòng điện xoay chiều: i = I0.cos(ωt + φi) (A) (17.3).",
+        "U0, I0 là giá trị cực đại của điện áp và cường độ dòng điện xoay chiều; ω là tần số góc (rad/s); φu, φi là pha ban đầu.",
+        "Độ lệch pha giữa điện áp và dòng điện: Δφ = φu - φi.",
+        "Dòng điện xoay chiều là dòng điện có cường độ biến thiên điều hoà theo thời gian theo quy luật hàm sin hoặc cosin."
+      ],
+      "example": null
+    },
+    {
+      "heading": "II.2 Giá trị hiệu dụng",
+      "summary": "Dòng điện xoay chiều cũng có tác dụng nhiệt như dòng điện không đổi. So sánh nhiệt lượng toả ra trên cùng một điện trở trong cùng thời gian giữa dòng xoay chiều và dòng không đổi, người ta xác định được giá trị hiệu dụng I và U liên hệ với giá trị cực đại I0 và U0.",
+      "keyPoints": [
+        "Giá trị hiệu dụng của cường độ dòng điện xoay chiều: I = I0/√2 (17.4).",
+        "Giá trị hiệu dụng của điện áp xoay chiều: U = U0/√2 (17.5).",
+        "Giá trị hiệu dụng I là giá trị của dòng điện không đổi mà khi chạy qua cùng điện trở trong cùng thời gian toả ra nhiệt lượng bằng nhiệt lượng do dòng xoay chiều toả ra."
+      ],
+      "example": null
+    },
+    {
+      "heading": "III.1 Cấu tạo máy phát điện xoay chiều",
+      "summary": "Máy phát điện xoay chiều hoạt động dựa trên hiện tượng cảm ứng điện từ, gồm hai bộ phận chính là phần cảm và phần ứng; một bộ phận đặt cố định gọi là stato, bộ phận còn lại quay quanh trục gọi là rôto. Phần cảm là nam châm (điện hoặc vĩnh cửu) tạo ra từ trường; phần ứng là các cuộn dây dẫn, nơi xuất hiện suất điện động cảm ứng khi máy hoạt động.",
+      "keyPoints": [
+        "Máy phát điện xoay chiều gồm hai bộ phận chính: phần cảm (nam châm điện hoặc nam châm vĩnh cửu, tạo ra từ trường) và phần ứng (cuộn dây dẫn, nơi sinh ra suất điện động cảm ứng).",
+        "Bộ phận đặt cố định gọi là stato, bộ phận quay quanh trục gọi là rôto."
+      ],
+      "example": null
+    },
+    {
+      "heading": "III.2 Nguyên tắc hoạt động",
+      "summary": "Có hai cách chế tạo máy phát điện xoay chiều: cách thứ nhất có stato là nam châm cố định, rôto là khung dây quay trong từ trường, dòng điện được dẫn ra ngoài qua hai vành khuyên và chổi quét gắn với hai đầu khung dây; cách thứ hai có rôto là nam châm (thường là nam châm điện nuôi bởi dòng một chiều) quay ở giữa, còn stato gồm nhiều cuộn dây có lõi sắt xếp thành vòng tròn đóng vai trò phần ứng, nhờ đó không cần vành khuyên và chổi quét vì dòng điện được dẫn thẳng ra ngoài từ các cuộn dây cố định.",
+      "keyPoints": [
+        "Cách thứ nhất: stato là nam châm cố định tạo từ trường, rôto là khung dây quay; hai vành khuyên gắn ở hai đầu khung dây cùng quay với khung, hai chổi quét tì vào vành khuyên để dẫn dòng điện ra mạch ngoài.",
+        "Cách thứ hai: rôto là nam châm điện quay (nuôi bởi dòng điện một chiều), stato là nhiều cuộn dây có lõi sắt xếp vòng tròn làm phần ứng; không cần vành khuyên, chổi quét vì các cuộn dây phần ứng đặt cố định.",
+        "Máy phát điện xoay chiều tốc độ cao thường dùng cách thứ hai (stato là phần ứng) để tránh vành khuyên, chổi quét bị mòn nhanh."
+      ],
+      "example": "Máy phát điện xoay chiều ba pha có rôto là nam châm điện quay quanh trục (phần cảm), stato gồm ba cuộn dây riêng rẽ đặt lệch nhau 120° trên vòng tròn (phần ứng). Suất điện động trong ba cuộn dây lệch pha nhau 2π/3: nếu e1 = E0.cosωt (V) thì e2 = E0.cos(ωt + 2π/3) (V) và e3 = E0.cos(ωt - 2π/3) (V)."
+    },
+    {
+      "heading": "IV. Ứng dụng và quy tắc an toàn khi sử dụng dòng điện xoay chiều",
+      "summary": "Dòng điện xoay chiều có ưu thế trong việc truyền tải điện năng đi xa nên được sử dụng phổ biến trong đời sống nhờ các tác dụng nhiệt, tác dụng từ, tác dụng phát sáng và tác dụng sinh lí, ứng dụng trong các thiết bị gia dụng, sản xuất và cả trong y học (máy chụp cộng hưởng từ, siêu âm, X-quang, máy sốc điện...). Khi sử dụng cần tuân thủ các quy tắc an toàn điện để tránh nguy hiểm.",
+      "keyPoints": [
+        "Dòng điện xoay chiều được ứng dụng rộng rãi nhờ tác dụng nhiệt, tác dụng từ, tác dụng phát sáng, tác dụng sinh lí; dùng trong quạt điện, động cơ điện, đèn điện, thiết bị y tế (máy chụp cộng hưởng từ, siêu âm, X-quang, máy sốc điện, máy điện tim)...",
+        "Quy tắc an toàn: tuân thủ biển báo an toàn điện; không chạm tay vào chỗ hở của dây điện hay dùng vật kim loại cắm vào ổ điện; tránh lại gần khu vực có điện thế nguy hiểm; kiểm tra, bảo trì thiết bị điện định kì; ngắt nguồn điện khi có thiên tai, sấm sét."
+      ],
+      "example": null
+    }
+  ],
+  "glossary": [
+    {"term": "Dòng điện xoay chiều", "definition": "Dòng điện có cường độ biến thiên điều hoà theo thời gian theo quy luật hàm số sin hoặc cosin: i = I0.cos(ωt + φi)."},
+    {"term": "Suất điện động xoay chiều", "definition": "Suất điện động biến đổi theo thời gian theo quy luật dạng cosin (hoặc sin): e = E0.cos(ωt + φ0), với E0 = NBSω."},
+    {"term": "Giá trị hiệu dụng", "definition": "Giá trị của dòng điện (hoặc điện áp) không đổi mà khi tác dụng qua cùng điện trở trong cùng thời gian toả ra nhiệt lượng bằng dòng xoay chiều; I = I0/√2, U = U0/√2."},
+    {"term": "Chu kì (T), tần số (f)", "definition": "T = 2π/ω (s) là thời gian thực hiện một dao động; f = ω/2π (Hz) là số dao động trong một giây, ω là tần số góc."},
+    {"term": "Máy phát điện xoay chiều", "definition": "Thiết bị hoạt động dựa trên hiện tượng cảm ứng điện từ để chuyển hoá cơ năng thành điện năng xoay chiều, gồm phần cảm (tạo từ trường) và phần ứng (sinh suất điện động cảm ứng)."},
+    {"term": "Rôto", "definition": "Bộ phận của máy phát điện quay quanh một trục."},
+    {"term": "Stato", "definition": "Bộ phận của máy phát điện được đặt cố định."},
+    {"term": "Phần cảm", "definition": "Bộ phận của máy phát điện tạo ra từ trường, là nam châm điện hoặc nam châm vĩnh cửu."},
+    {"term": "Phần ứng", "definition": "Bộ phận của máy phát điện gồm các cuộn dây dẫn, nơi xuất hiện suất điện động cảm ứng khi máy hoạt động."},
+    {"term": "Máy phát điện xoay chiều ba pha", "definition": "Máy phát có rôto là nam châm điện quay và stato gồm ba cuộn dây lệch nhau 120°, tạo ra ba suất điện động xoay chiều cùng biên độ, tần số nhưng lệch pha nhau 2π/3."}
+  ]
+}

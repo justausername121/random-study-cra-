@@ -1,0 +1,268 @@
+{
+  "chuDeId": "cd4",
+  "chuDeTitle": "Lập kế hoạch kinh doanh",
+  "mcq": [
+    {
+      "id": "cd4-mcq-01",
+      "question": "Kế hoạch kinh doanh là bản mô tả",
+      "options": {
+        "A": "kế hoạch thu, chi tài chính cá nhân, tiết kiệm, bảo vệ, đầu tư và phát triển tài chính cá nhân.",
+        "B": "các khoản chi tiêu dựa trên những nguồn lực hiện có để thực hiện những mục tiêu tài chính của cá nhân và gia đình.",
+        "C": "những nội dung cơ bản về định hướng, mục tiêu, nguồn lực, tài chính, kế hoạch bán hàng,...",
+        "D": "danh sách các khoản tiền được phân chia để sử dụng cho những mục đích cụ thể trong một khoảng thời gian nhất định."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "cd4-mcq-02",
+      "question": "Phát biểu nào sau đây không liên quan đến lợi ích của việc lập kế hoạch kinh doanh?",
+      "options": {
+        "A": "Giúp chủ thể kinh doanh nắm bắt tình hình thực tế và đưa ra những định hướng trong tương lai.",
+        "B": "Giúp chủ thể kinh doanh đảm bảo chi tiêu đúng kế hoạch và đạt được mục tiêu tài chính cá nhân đã đặt ra.",
+        "C": "Giúp chủ thể kinh doanh xác định được mục tiêu chiến lược, thị trường, khách hàng, đối thủ cạnh tranh,... để đưa ra phương hướng kinh doanh và phương thức thực hiện.",
+        "D": "Giúp chủ thể kinh doanh chủ động thực hiện và điều chỉnh kế hoạch kinh doanh."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "cd4-mcq-03",
+      "question": "Nội dung cơ bản của kế hoạch kinh doanh không bao gồm",
+      "options": {
+        "A": "cơ hội kinh doanh.",
+        "B": "ý tưởng kinh doanh.",
+        "C": "mục tiêu kinh doanh.",
+        "D": "chiến lược kinh doanh."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "cd4-mcq-04",
+      "question": "Yếu tố nào sau đây không phải là cơ sở để xác định ý tưởng kinh doanh?",
+      "options": {
+        "A": "Nhu cầu sản phẩm trên thị trường.",
+        "B": "Sự hiểu biết của người kinh doanh về sản phẩm.",
+        "C": "Mức độ cạnh tranh của sản phẩm trên thị trường.",
+        "D": "Trình độ học vấn của người kinh doanh."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd4-mcq-05",
+      "question": "Tính mới mẻ, độc đáo của sản phẩm kinh doanh là tiêu chí cơ bản để đánh giá",
+      "options": {
+        "A": "chiến lược kinh doanh.",
+        "B": "ý tưởng kinh doanh.",
+        "C": "mục tiêu kinh doanh.",
+        "D": "điều kiện kinh doanh."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "cd4-mcq-06",
+      "question": "Việc đặt ra những kế hoạch và kết quả cụ thể cần đạt được trong tương lai là nội dung của bước lập kế hoạch kinh doanh nào sau đây?",
+      "options": {
+        "A": "Xác định ý tưởng kinh doanh.",
+        "B": "Xác định mục tiêu kinh doanh.",
+        "C": "Xác định đối thủ cạnh tranh.",
+        "D": "Xác định chiến lược kinh doanh."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "cd4-mcq-07",
+      "question": "Đâu không phải là tiêu chí đánh giá mục tiêu kinh doanh?",
+      "options": {
+        "A": "Tính khả thi.",
+        "B": "Tính cụ thể.",
+        "C": "Tính rõ ràng.",
+        "D": "Tính nhất quán."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd4-mcq-08",
+      "question": "Bước tiếp theo trong quy trình lập kế hoạch kinh doanh sau khi đã xác định được mục tiêu kinh doanh là gì?",
+      "options": {
+        "A": "Xác định chiến lược kinh doanh.",
+        "B": "Phân tích các điều kiện thực hiện ý tưởng kinh doanh.",
+        "C": "Đánh giá cơ hội, rủi ro và biện pháp xử lí.",
+        "D": "Hoàn thiện kế hoạch kinh doanh."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "cd4-mcq-09",
+      "question": "Việc phân tích các điều kiện thực hiện ý tưởng kinh doanh về phương diện sản phẩm thể hiện ở sự xem xét, đánh giá",
+      "options": {
+        "A": "chất lượng, giá cả, dịch vụ khách hàng, tính năng, điểm mạnh và điểm yếu của sản phẩm so với đối thủ và yêu cầu của khách hàng.",
+        "B": "nhu cầu, mong muốn, độ tuổi, giới tính, thu nhập và hành vi của người tiêu dùng.",
+        "C": "quy mô thị trường, tốc độ tăng trưởng, xu hướng và các yếu tố ảnh hưởng đến thị trường như đối thủ cạnh tranh, yếu tố pháp lí,..",
+        "D": "số lượng, chất lượng, kĩ năng chuyên môn, kinh nghiệm của đội ngũ nhân sự."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "cd4-mcq-10",
+      "question": "Xác định các biện pháp, cách thức hoạt động, kế hoạch thực hiện nhằm đạt được mục tiêu kinh doanh đã đề ra là nội dung của bước lập kế hoạch kinh doanh nào sau đây?",
+      "options": {
+        "A": "Xác định ý tưởng kinh doanh.",
+        "B": "Xác định mục tiêu kinh doanh.",
+        "C": "Xác định đối thủ cạnh tranh.",
+        "D": "Xác định chiến lược kinh doanh."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd4-mcq-11",
+      "question": "Kế hoạch nào sau đây không thuộc một trong các khâu của bước xác định chiến lược kinh doanh?",
+      "options": {
+        "A": "Kế hoạch sản xuất/cung ứng sản phẩm.",
+        "B": "Kế hoạch quảng cáo sản phẩm.",
+        "C": "Kế hoạch tài chính cá nhân của người kinh doanh.",
+        "D": "Kế hoạch triển khai."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "cd4-mcq-12",
+      "question": "Xác định quy mô vốn đầu tư, chi phí đầu tư, dự toán kinh phí, chuẩn bị mặt bằng, máy móc, thiết bị,... là nội dung của kế hoạch nào sau đây?",
+      "options": {
+        "A": "Kế hoạch phát triển kinh doanh.",
+        "B": "Kế hoạch bán hàng, tiếp thị và quảng cáo sản phẩm.",
+        "C": "Kế hoạch quản lí nhân sự.",
+        "D": "Kế hoạch tài chính."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd4-mcq-13",
+      "question": "Bước cuối cùng để hoàn tất quy trình lập kế hoạch kinh doanh là",
+      "options": {
+        "A": "xác định mục tiêu kinh doanh.",
+        "B": "xác định chiến lược kinh doanh.",
+        "C": "đánh giá cơ hội, rủi ro và biện pháp xử lí.",
+        "D": "phân tích các điều kiện thực hiện ý tưởng kinh doanh."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "cd4-mcq-14",
+      "question": "Bối cảnh nào sau đây có thể mang lại cơ hội kinh doanh?",
+      "options": {
+        "A": "Nguồn cung sản phẩm trên thị trường tăng lên.",
+        "B": "Mức lương tối thiểu của người lao động tăng lên.",
+        "C": "Nhu cầu của người tiêu dùng về sản phẩm tăng lên.",
+        "D": "Lãi suất cho vay đối với doanh nghiệp tăng lên."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "cd4-mcq-15",
+      "question": "Ý nào sau đây không phải là biện pháp xử lí rủi ro có thể xảy ra trong kinh doanh?",
+      "options": {
+        "A": "Rập khuôn các kinh nghiệm quá khứ.",
+        "B": "Quản trị rủi ro trong các phương án kinh doanh.",
+        "C": "Đa dạng hoá các quan hệ kinh doanh.",
+        "D": "Thiết lập các nguồn dự trữ cần thiết để đề phòng rủi ro."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "cd4-mcq-16",
+      "question": "Giá nguyên liệu đầu vào tăng lên có thể gây ra rủi ro khi thực hiện kế hoạch kinh doanh về phương diện",
+      "options": {
+        "A": "tài chính.",
+        "B": "cung ứng.",
+        "C": "thị trường.",
+        "D": "nhân sự."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "cd4-mcq-17",
+      "question": "Đọc thông tin và trả lời câu hỏi 17, 18:\n\nNhân viên văn phòng thường có nhu cầu mua đồ ăn trưa cao, nên dịch vụ bán cơm văn phòng online có thể được coi là giải pháp hữu hiệu giúp người kinh doanh thu được nhiều lợi nhuận. Khi bán cơm văn phòng, hãy chú ý thiết kế thực đơn đa dạng, thay đổi các món ăn mỗi ngày để phục vụ nhu cầu của thực khách. Các món ăn cần được nêm nếm hợp khẩu vị, đảm bảo an toàn vệ sinh thực phẩm. Ngoài ra, việc in tờ rơi để quảng cáo tại các khu vực văn phòng, quán cà phê hoặc liên kết với các ứng dụng đặt đồ ăn sẽ giúp gia tăng số lượng khách hàng.\n\nÝ tưởng kinh doanh cơm văn phòng online được xác định dựa trên yếu tố nào?",
+      "options": {
+        "A": "Sự đam mê của người kinh doanh.",
+        "B": "Sự hiểu biết của người kinh doanh về sản phẩm.",
+        "C": "Khả năng huy động các nguồn lực (tài chính, kết nối với khách hàng,...).",
+        "D": "Nhu cầu sản phẩm trên thị trường."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd4-mcq-18",
+      "question": "Đoạn thông tin đưa ra gợi ý về kế hoạch thực hiện hoạt động nào sau đây?",
+      "options": {
+        "A": "Kế hoạch bán hàng.",
+        "B": "Kế hoạch tiếp thị và quảng cáo sản phẩm.",
+        "C": "Kế hoạch tài chính.",
+        "D": "Kế hoạch nhân sự."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "cd4-mcq-19",
+      "question": "Đọc thông tin và trả lời câu hỏi 19, 20:\n\nSau khi tốt nghiệp đại học ngành Quản trị kinh doanh ở Mỹ, chị M trở về quê nhà và trở thành nhà sáng lập chuỗi cửa hàng đồ chơi W. Trong quá trình khảo sát thị trường đồ chơi cho trẻ em, chị vô tình thấy những con búp bê móc bằng len được bày bán ở hội chợ. Chị cho biết \"Càng đi sâu tìm hiểu, mình càng muốn chinh phục len bởi hầu như những người thợ giỏi cũng chỉ mới dừng lại ở việc móc áo, mũ, khăn choàng,...\". Từ đó, ý tưởng kinh doanh đồ chơi an toàn cho trẻ em bằng len ra đời. Chị đã dành trọn thời gian, tâm huyết để tạo ra những mẫu búp bê, thú bông từ sợi len của riêng mình, không trùng lặp với bất kì sản phẩm nào khác trên thị trường. Công ty của chị M hiện là đơn vị tiên phong đạt các tiêu chuẩn hợp quy, tiêu chuẩn châu Âu cho sản phẩm đồ chơi trẻ em. Không chỉ chinh phục thị trường đồ chơi trong nước, sản phẩm còn có mặt tại nhiều quốc gia trên thế giới như Nhật Bản, Mỹ, Anh, Đức, Hàn Quốc, Singapore,...\n\nTheo đoạn thông tin trên, chị M quyết định lựa chọn ý tưởng kinh doanh đồ chơi an toàn cho trẻ em bằng len vì",
+      "options": {
+        "A": "muốn trở về quê hương để khởi nghiệp.",
+        "B": "thấy thích thú với những con búp bê bằng len ở hội chợ.",
+        "C": "có nhiều người thợ giỏi sẵn sàng giúp chị thực hiện ý tưởng.",
+        "D": "sản phẩm đồ chơi an toàn bằng len hầu như chưa xuất hiện trên thị trường."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd4-mcq-20",
+      "question": "Tính vượt trội trong sản phẩm kinh doanh của chị M được thể hiện như thế nào?",
+      "options": {
+        "A": "Sản phẩm không trùng lặp với bất kì sản phẩm nào khác trên thị trường.",
+        "B": "Sản phẩm đòi hỏi sự khéo léo của thợ giỏi, lành nghề.",
+        "C": "Sản phẩm có sức sống lâu dài, thoả mãn nhu cầu của người tiêu dùng.",
+        "D": "Sản phẩm mang tính tiên phong trong việc đáp ứng các tiêu chuẩn quốc tế."
+      },
+      "answer": "D"
+    }
+  ],
+  "trueFalse": [
+    {
+      "id": "cd4-tf-01",
+      "stimulus": "Với niềm đam mê trong lĩnh vực kinh doanh, anh A đã lên kế hoạch mở quán cà phê ngay từ khi là sinh viên. Anh A nhận thấy các bạn sinh viên trẻ nhiệt huyết, năng động có rất nhiều ý tưởng mới mẻ trong kinh doanh và có mong muốn khởi nghiệp nhưng không biết nên bắt đầu từ đâu vì thiếu kinh nghiệm. Vì vậy, anh A mong muốn quán cà phê của mình không đơn thuần chỉ là địa chỉ phục vụ đồ uống thông thường mà còn là không gian để các bạn trẻ thích kinh doanh có thể chia sẻ, trao đổi, học hỏi kinh nghiệm, thậm chí có thể tham gia các buổi toạ đàm với các doanh nhân thành đạt. Với nguồn vốn ban đầu là 60 triệu đồng, anh A cho biết trong đó có khoảng 60 – 70% đến từ sự hỗ trợ từ gia đình, người thân. Ngoài ra, anh A dự tính kêu gọi các nguồn vốn khác từ các doanh nghiệp. Là một sinh viên năm cuối, anh A xác định khó khăn lớn nhất với bản thân là vấn đề quản lý thời gian và quản lí tài chính. Anh A hi vọng nhờ vào việc lập kế hoạch cụ thể và chi tiết trước khi tiến hành, bản thân sẽ đưa ra được biện pháp khắc phục khó khăn và đạt được các mục tiêu đã đề ra.",
+      "statements": [
+        {"key": "a", "text": "Việc lập kế hoạch kinh doanh là rất cần thiết đối với người kinh doanh, đặc biệt là người mới khởi nghiệp.", "answer": true},
+        {"key": "b", "text": "Ý tưởng kinh doanh của anh A đáp ứng được tiêu chí về tính mới mẻ, độc đáo.", "answer": true},
+        {"key": "c", "text": "Anh A đã có sự phân tích các điều kiện thực hiện ý tưởng kinh doanh về phương diện thị trường và nhân sự.", "answer": false},
+        {"key": "d", "text": "Anh A có thể vấp phải rủi ro về quản lí tài chính trong điều kiện vừa đi học, vừa kinh doanh.", "answer": true}
+      ]
+    },
+    {
+      "id": "cd4-tf-02",
+      "stimulus": "Mục tiêu kinh doanh là kết quả cần đạt được khi triển khai ý tưởng kinh doanh. Xác định mục tiêu kinh doanh cũng chính là việc bạn sẽ phải trả lời những câu hỏi sau: 1. Bạn sẽ đạt được điều gì từ việc kinh doanh của bạn về mặt thời gian, tiền bạc và kinh nghiệm? 2. Công cụ đo lường kết quả kinh doanh đó là gì (doanh thu, lợi nhuận ròng hay thị phần,...)? 3. Sau bao lâu thì có thể đo lường kết quả đó (1 năm, 2 năm hay 5 năm)? Bạn cũng có thể chia nhỏ mục tiêu chung thành các mục tiêu cụ thể và đo lường được. Nên nhớ, các mục tiêu cần tuân theo nguyên tắc SMART, trong đó S là Specific (cụ thể), M là Measurable (có thể đo lường được), A là Achievable (có thể đạt được), R là Realistic (thực tế) và T là Timely (thời hạn). Việc xác định đúng mục tiêu sẽ là điều kiện thuận lợi để bạn triển khai các bước tiếp theo trong kế hoạch kinh doanh của mình.",
+      "statements": [
+        {"key": "a", "text": "Mục tiêu kinh doanh phản ánh ước mơ, khát khao, nhu cầu cá nhân của người kinh doanh.", "answer": false},
+        {"key": "b", "text": "Mục tiêu kinh doanh của mọi doanh nghiệp là gia tăng lợi nhuận.", "answer": false},
+        {"key": "c", "text": "Khi xác định mục tiêu kinh doanh, cần đảm bảo các mục tiêu rõ ràng, cụ thể và có tính khả thi.", "answer": true},
+        {"key": "d", "text": "Mục tiêu là tiền đề quan trọng cho các bước tiếp theo trong quá trình xây dựng kế hoạch kinh doanh.", "answer": true}
+      ]
+    },
+    {
+      "id": "cd4-tf-03",
+      "stimulus": "Đang có một công việc ổn định, nhưng sau 7 năm công tác, anh N đã đưa ra một quyết định táo bạo, đó là nghỉ việc để lựa chọn con đường kinh doanh. Bước vào hành trình khởi nghiệp, mối lo lớn nhất của anh N là vốn, mặt bằng và nhân lực. Với sự quyết đoán và nhạy bén, anh N đã vạch ra cho mình hướng khởi nghiệp giảm thiểu nhiều rủi ro và tận dụng các lợi thế mà bản thân đang có bằng việc kí kết gói nhượng quyền thương hiệu có tiếng và hệ thống vận hành hoàn chỉnh, giúp anh tiết kiệm tối đa chi phí lẫn thời gian với tỉ lệ thành công cao. Việc trở thành đối tác nhượng quyền của một chuỗi cửa hàng trà sữa, gà rán đã có sẵn tên tuổi, giúp anh N tự tin với quyết định của mình. Chọn phân khúc khách hàng là đối tượng học sinh, sinh viên, dân văn phòng rất ưa chuộng trà sữa, gà rán, cùng sở thích \"check in\" tại những quán đẹp, ngon, giá phải chăng, quán \"xu hướng\", đảm bảo vệ sinh an toàn thực phẩm, anh N đã đánh trúng được thị hiếu của khách hàng và tìm được đáp án riêng cho việc kinh doanh của mình.",
+      "statements": [
+        {"key": "a", "text": "Trong quá trình kinh doanh, chủ thể kinh doanh cần xác định các cơ hội – rủi ro, thuận lợi – khó khăn, từ đó có biện pháp xử lí phù hợp.", "answer": true},
+        {"key": "b", "text": "Ý tưởng kinh doanh của anh N chưa đáp ứng được tiêu chí về tính khả thi và lợi thế cạnh tranh của sản phẩm.", "answer": false},
+        {"key": "c", "text": "Phương án kí kết gói nhượng quyền thương hiệu giúp anh N giảm thiểu được rủi ro về mặt nhân sự.", "answer": false},
+        {"key": "d", "text": "Việc phân tích kĩ nhu cầu, thị hiếu, hành vi tiêu dùng của đối tượng khách hàng mục tiêu đã giúp anh N xác định được chiến lược kinh doanh hợp lí.", "answer": true}
+      ]
+    },
+    {
+      "id": "cd4-tf-04",
+      "stimulus": "Sau một thời gian đi làm thuê, chị K ấp ủ thực hiện ý tưởng mở một cửa hàng kinh doanh tạp hoá. Chị đã được Hội Phụ nữ xã hỗ trợ vay vốn với số tiền gần 50 triệu đồng và hướng dẫn cách thức thực hiện ý tưởng, kế hoạch kinh doanh và hoàn thiện các thủ tục hồ sơ đăng kí theo quy định. Tuy nhiên, chị cảm thấy lo lắng khi bản thân thiếu kiến thức, kinh nghiệm, kĩ năng trong kinh doanh, quản lí tài chính, tư vấn cho khách hàng; mối quan hệ về các bạn hàng ít nên khó chủ động về nguồn hàng. Chị đã mạnh dạn nhờ Hội Phụ nữ xã giới thiệu để chị có thể nhập hàng từ các kênh phân phối lớn trên thành phố, đồng thời có cơ hội tiếp cận đối tượng khách hàng là cán bộ, hội viên phụ nữ ở địa phương và tham gia các khoá tập huấn kiến thức về khởi nghiệp. Trong năm đầu tiên, chị chưa quá chú trọng vào mục tiêu lợi nhuận mà tập trung vào việc thu hút khách hàng. Từ đó, chị xác định chiến lược kinh doanh và cụ thể hoá thành các kế hoạch về cung ứng sản phẩm, tiếp thị, tài chính,... Với sự chuẩn bị kĩ lưỡng, chị K đã tự tin triển khai kế hoạch kinh doanh, đạt được các kết quả khả quan và trở thành gương điển hình phụ nữ làm kinh tế giỏi ở địa phương.",
+      "statements": [
+        {"key": "a", "text": "Chị K đã dựa vào lợi thế nội tại như sự quyết tâm, hiểu biết, khả năng huy động các nguồn lực (tài chính, kết nối khách hàng, nhà cung cấp đầu vào,...) để xác định và theo đuổi ý tưởng kinh doanh.", "answer": true},
+        {"key": "b", "text": "Trong năm đầu tiên, chị K chưa quan tâm đến mục tiêu về lợi nhuận và thị phần.", "answer": false},
+        {"key": "c", "text": "Chị K chưa đánh giá được cơ hội và rủi ro có thể gặp phải trong kinh doanh để đưa ra biện pháp xử lí phù hợp.", "answer": false},
+        {"key": "d", "text": "Từ chiến lược kinh doanh đã xác định, chủ thể kinh doanh cần xây dựng các kế hoạch cụ thể để thực hiện chiến lược kinh doanh đó.", "answer": true}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "chuDeId": "cd9",
+  "chuDeTitle": "Một số vấn đề cơ bản của luật quốc tế",
+  "mcq": [
+    {
+      "id": "cd9-mcq-01",
+      "question": "Hệ thống các nguyên tắc và quy phạm pháp luật điều chỉnh quan hệ quốc tế liên quốc gia là nói đến pháp luật",
+      "options": {"A": "vùng miền.", "B": "quốc gia.", "C": "quốc tế.", "D": "khu vực."},
+      "answer": "C"
+    },
+    {
+      "id": "cd9-mcq-02",
+      "question": "Đâu không phải là chủ thể của pháp luật quốc tế?",
+      "options": {"A": "Các quốc gia.", "B": "Các tập đoàn kinh tế.", "C": "Các tổ chức quốc tế liên quốc gia.", "D": "Các dân tộc đang đấu tranh giành quyền tự quyết."},
+      "answer": "B"
+    },
+    {
+      "id": "cd9-mcq-03",
+      "question": "Văn bản pháp luật quốc tế do các quốc gia và các chủ thể khác của pháp luật quốc tế thoả thuận xây dựng nên, nhằm điều chỉnh quan hệ giữa các quốc gia và các chủ thể đó trong các lĩnh vực an ninh, chính trị, kinh tế, văn hoá, xã hội, khoa học, kĩ thuật, lãnh thổ, môi trường là nói đến khái niệm nào sau đây?",
+      "options": {"A": "Điều ước quốc tế.", "B": "Thoả thuận quốc gia.", "C": "Hiệp ước thương mại.", "D": "Pháp luật quốc tế."},
+      "answer": "A"
+    },
+    {
+      "id": "cd9-mcq-04",
+      "question": "Cơ sở để bảo vệ quyền con người trên toàn thế giới, chống lại các hành vi vi phạm quyền của mỗi cá nhân, chống lại mọi hình thức phân biệt chủng tộc, sắc tộc trên thế giới là",
+      "options": {"A": "cam kết giữa các quốc gia.", "B": "lời hứa của Liên hợp quốc.", "C": "thoả thuận giữa các quốc gia.", "D": "pháp luật quốc tế."},
+      "answer": "D"
+    },
+    {
+      "id": "cd9-mcq-05",
+      "question": "Để duy trì hoà bình và an ninh quốc tế, nhân loại phải căn cứ vào pháp luật nào sau đây?",
+      "options": {"A": "Quốc gia.", "B": "Quốc tế.", "C": "Hiến pháp.", "D": "Hình sự."},
+      "answer": "B"
+    },
+    {
+      "id": "cd9-mcq-06",
+      "question": "Để đảm bảo hoà bình và an ninh quốc tế như cấm chiến tranh, giải quyết tranh chấp, bất đồng quốc tế bằng các biện pháp hoà bình, tạo cơ sở vững chắc cho hoà bình và an ninh quốc tế phải căn cứ vào luật nào sau đây?",
+      "options": {"A": "Quốc tế.", "B": "Kinh tế.", "C": "Thương mại.", "D": "Đầu tư."},
+      "answer": "A"
+    },
+    {
+      "id": "cd9-mcq-07",
+      "question": "Pháp luật quốc tế chỉ điều chỉnh các quan hệ",
+      "options": {"A": "phi chính phủ.", "B": "thể nhân.", "C": "pháp nhân.", "D": "quốc tế."},
+      "answer": "D"
+    },
+    {
+      "id": "cd9-mcq-08",
+      "question": "Nội dung nào sau đây không phải là nguyên tắc cơ bản của pháp luật quốc tế?",
+      "options": {"A": "Dùng biện pháp quân sự để các quốc gia khác lệ thuộc vào mình.", "B": "Bình đẳng về chủ quyền giữa các quốc gia.", "C": "Cấm dùng vũ lực hay đe doạ dùng vũ lực trong quan hệ quốc tế.", "D": "Không can thiệp vào công việc nội bộ của quốc gia khác."},
+      "answer": "A"
+    },
+    {
+      "id": "cd9-mcq-09",
+      "question": "Các quốc gia bị xâm phạm chủ quyền cần sử dụng luật nào để bảo vệ quyền và lợi ích của quốc gia mình?",
+      "options": {"A": "Công ước.", "B": "Nghị định thư.", "C": "Hiến pháp.", "D": "Quốc tế."},
+      "answer": "D"
+    },
+    {
+      "id": "cd9-mcq-10",
+      "question": "Mối quan hệ giữa pháp luật quốc tế và pháp luật quốc gia là quan hệ",
+      "options": {"A": "siêu hình.", "B": "biện chứng.", "C": "một chiều.", "D": "đơn phương."},
+      "answer": "B"
+    },
+    {
+      "id": "cd9-mcq-11",
+      "question": "Tổng hợp những người sinh sống, cư trú trên lãnh thổ của một quốc gia và chịu sự điều chỉnh của pháp luật quốc gia đó là nói đến khái niệm",
+      "options": {"A": "dân số.", "B": "dân cư.", "C": "nhân loại.", "D": "dân sự."},
+      "answer": "B"
+    },
+    {
+      "id": "cd9-mcq-12",
+      "question": "Trong cộng đồng dân cư của mỗi quốc gia thường bao gồm hai bộ phận là công dân của quốc gia sở tại và",
+      "options": {"A": "người tị nạn.", "B": "khách du lịch.", "C": "người nước ngoài.", "D": "người di cư."},
+      "answer": "C"
+    },
+    {
+      "id": "cd9-mcq-13",
+      "question": "Ở nước sở tại, người nước ngoài khi tham gia hoạt động thương mại, hàng hải được hưởng chế độ đối xử quốc gia và chế độ đối xử",
+      "options": {"A": "đặc cách.", "B": "đặc biệt.", "C": "không giới hạn.", "D": "tối huệ quốc."},
+      "answer": "D"
+    },
+    {
+      "id": "cd9-mcq-14",
+      "question": "Người nước ngoài thuộc đối tượng nào khi ở nước sở tại được hưởng chế độ đối xử đặc biệt?",
+      "options": {"A": "Người đi du lịch.", "B": "Người đi xuất khẩu lao động.", "C": "Người tị nạn.", "D": "Viên chức ngoại giao."},
+      "answer": "D"
+    },
+    {
+      "id": "cd9-mcq-15",
+      "question": "Toàn vẹn lãnh thổ quốc gia là một phần của Trái Đất bao gồm vùng đất, vùng trời, vùng lòng đất và vùng",
+      "options": {"A": "đặc khu.", "B": "kinh tế.", "C": "chiến lược.", "D": "nước."},
+      "answer": "D"
+    },
+    {
+      "id": "cd9-mcq-16",
+      "question": "Ranh giới phân định lãnh thổ quốc gia này với lãnh thổ của quốc gia khác hoặc với các vùng mà quốc gia có chủ quyền trên biển, gồm biên giới trên bộ, biên giới trên biển, biên giới trên không và biên giới lòng đất là nói đến",
+      "options": {"A": "đặc khu kinh tế.", "B": "chủ quyền quốc gia.", "C": "đặc khu hành chính.", "D": "biên giới quốc gia."},
+      "answer": "D"
+    },
+    {
+      "id": "cd9-mcq-17",
+      "question": "Vùng nước nằm phía trong đường cơ sở dùng để tính chiều rộng lãnh hải và giáp bờ biển được gọi là gì?",
+      "options": {"A": "Lãnh hải.", "B": "Nội thuỷ.", "C": "Thềm lục địa.", "D": "Lãnh thổ."},
+      "answer": "B"
+    },
+    {
+      "id": "cd9-mcq-18",
+      "question": "Vùng biển nằm phía ngoài và tiếp liền nội thuỷ, có chiều rộng không vượt quá 12 hải lí tính từ đường cơ sở ra phía biển được gọi là",
+      "options": {"A": "lãnh hải.", "B": "nội thuỷ.", "C": "thềm lục địa.", "D": "lãnh thổ."},
+      "answer": "A"
+    },
+    {
+      "id": "cd9-mcq-19",
+      "question": "Vùng biển tiếp liền và nằm ngoài lãnh hải, hợp với lãnh hải thành một vùng biển có chiều rộng 200 hải lí tính từ đường cơ sở của quốc gia ven biển được gọi là vùng",
+      "options": {"A": "tiếp giáp lãnh hải.", "B": "đặc quyền kinh tế.", "C": "thềm lục địa.", "D": "trung tâm nội thuỷ."},
+      "answer": "B"
+    },
+    {
+      "id": "cd9-mcq-20",
+      "question": "Trong vùng nào quốc gia ven biển thực hiện quyền chủ quyền về thăm dò, khai thác, quản lí và bảo tồn các tài nguyên của vùng nước bên trên đáy biển, của đáy biển và lòng đất dưới đáy biển?",
+      "options": {"A": "Lãnh hải.", "B": "Nội thuỷ.", "C": "Đặc quyền kinh tế.", "D": "Tiếp giáp lãnh hải."},
+      "answer": "C"
+    },
+    {
+      "id": "cd9-mcq-21",
+      "question": "Thềm lục địa của một quốc gia ven biển bao gồm đáy biển và lòng đất dưới đáy biển bên ngoài lãnh hải của quốc gia đó đến một giới hạn theo quy định của Công ước Liên hợp quốc về Luật Biển năm nào?",
+      "options": {"A": "1975.", "B": "1982.", "C": "2012.", "D": "2023."},
+      "answer": "B"
+    },
+    {
+      "id": "cd9-mcq-22",
+      "question": "Đâu không phải là nguyên tắc của Tổ chức Thương mại Thế giới trong hợp tác kinh tế?",
+      "options": {"A": "Cạnh tranh công bằng.", "B": "Không phân biệt đối xử.", "C": "Tự do hoá thương mại.", "D": "Được bảo trợ độc quyền."},
+      "answer": "D"
+    },
+    {
+      "id": "cd9-mcq-23",
+      "question": "\"Ưu đãi dành cho các nước đang phát triển\" là một trong những nguyên tắc của tổ chức",
+      "options": {"A": "phi chính phủ.", "B": "lương thực thế giới.", "C": "y tế thế giới.", "D": "thương mại thế giới."},
+      "answer": "D"
+    },
+    {
+      "id": "cd9-mcq-24",
+      "question": "Trong hoạt động hợp tác kinh tế của Tổ chức Thương mại Thế giới, nguyên tắc nào được thể hiện qua hai chế độ pháp lí là đối xử quốc gia và đối xử huệ quốc?",
+      "options": {"A": "Cạnh tranh minh bạch.", "B": "Không phân biệt đối xử.", "C": "Tự do hoá thương mại.", "D": "Cạnh tranh công bằng."},
+      "answer": "B"
+    },
+    {
+      "id": "cd9-mcq-25",
+      "question": "Nếu một quốc gia thành viên dành cho một quốc gia thành viên khác các ưu đãi về hàng hoá, dịch vụ và quyền sở hữu trí tuệ thì cũng phải dành cho tất cả các quốc gia thành viên khác những ưu đãi tương tự. Điều này là thể hiện chế độ đối xử",
+      "options": {"A": "huệ quốc.", "B": "quốc gia.", "C": "pháp nhân.", "D": "quốc tế."},
+      "answer": "A"
+    },
+    {
+      "id": "cd9-mcq-26",
+      "question": "Các quốc gia thành viên phải dành những ưu đãi về hàng hoá, dịch vụ và quyền sở hữu trí tuệ của các quốc gia thành viên khác không kém thuận lợi hơn so với sản phẩm cùng loại trong nước mình. Điều này là thể hiện chế độ đối xử",
+      "options": {"A": "quốc gia.", "B": "tối huệ quốc.", "C": "khu vực.", "D": "quốc tế."},
+      "answer": "A"
+    },
+    {
+      "id": "cd9-mcq-27",
+      "question": "Đâu không phải là một trong các nguyên tắc cơ bản của pháp luật quốc tế?",
+      "options": {"A": "Bài trừ chiến tranh.", "B": "Dân tộc tự quyết.", "C": "Tận tâm, thiện chí.", "D": "Cấm dùng vũ lực."},
+      "answer": "A"
+    },
+    {
+      "id": "cd9-mcq-28",
+      "question": "Nguyên tắc nào yêu cầu các quốc gia thành viên phải hạn chế, loại bỏ các biện pháp cản trở tự do hoá thương mại như các biện pháp thuế quan và phi thuế quan cùng lộ trình thực hiện cụ thể; phải mở cửa thị trường trong nước cho các loại hàng hoá, dịch vụ và đầu tư nước ngoài?",
+      "options": {"A": "Cạnh tranh minh bạch.", "B": "Không phân biệt đối xử.", "C": "Tự do hoá thương mại.", "D": "Cạnh tranh công bằng."},
+      "answer": "C"
+    },
+    {
+      "id": "cd9-mcq-29",
+      "question": "Sự thoả thuận giữa các bên về việc xác lập, thay đổi, chấm dứt quyền và nghĩa vụ thương mại quốc tế là thương nhân hoặc một trong số các bên là thương nhân có trụ sở thương mại tại các quốc gia khác nhau, nhằm mục đích sinh lợi nhuận là nói đến loại hợp đồng nào?",
+      "options": {"A": "Thương mại.", "B": "Quốc gia.", "C": "Kinh tế.", "D": "Quốc tế."},
+      "answer": "A"
+    },
+    {
+      "id": "cd9-mcq-30",
+      "question": "Hợp đồng thương mại quốc tế không bao gồm loại hợp đồng nào?",
+      "options": {"A": "Gia công sản phẩm.", "B": "Trao đổi hàng hoá.", "C": "Vận tải hàng hoá.", "D": "Giải cứu con tin."},
+      "answer": "D"
+    },
+    {
+      "id": "cd9-mcq-31",
+      "question": "Công ty P (ở Việt Nam) và Công ty B (trụ sở tại Hàn Quốc) kí hợp đồng J: Công ty P mua của Công ty B 1000 tấn (+/-10% không bao gồm độ ẩm) giấy phế liệu; đơn giá 235 USD/tấn giao hàng theo điều kiện CIF tại cảng Hải Phòng; độ ẩm tối đa của hàng hoá là 12%. Sau đó, trong hai lô hàng được chuyển đến kho của Công ty P thì phát hiện giấy trong một số thùng bị vượt quá độ ẩm cho phép. Việc kí kết giữa Công ty P và Công ty B được gọi là hợp đồng",
+      "options": {"A": "gia công sản phẩm.", "B": "trao đổi hàng hoá.", "C": "vận tải hàng hoá.", "D": "thương mại quốc tế."},
+      "answer": "D"
+    },
+    {
+      "id": "cd9-mcq-32",
+      "question": "Cũng trong tình huống hợp đồng J giữa Công ty P (Việt Nam) và Công ty B (Hàn Quốc) mua bán giấy phế liệu, việc thoả thuận giữa hai Công ty P và B là hợp đồng",
+      "options": {"A": "mua bán hàng hoá.", "B": "trao đổi hàng hoá.", "C": "đấu giá hàng hoá.", "D": "gia công sản phẩm."},
+      "answer": "A"
+    },
+    {
+      "id": "cd9-mcq-33",
+      "question": "Cũng trong tình huống hợp đồng J giữa Công ty P (Việt Nam) và Công ty B (Hàn Quốc), khi mua bán, để quyền và lợi ích của công ty mình được đảm bảo thì hai công ty phải kí kết hợp đồng nào?",
+      "options": {"A": "Thương mại quốc tế.", "B": "Đa quốc gia.", "C": "Pháp nhân quốc tế.", "D": "Kinh doanh quốc tế."},
+      "answer": "A"
+    },
+    {
+      "id": "cd9-mcq-34",
+      "question": "Cũng trong tình huống hợp đồng J giữa Công ty P (Việt Nam) và Công ty B (Hàn Quốc), chủ thể trong hợp đồng thương mại giữa Công ty P và Công ty B là",
+      "options": {"A": "chính phủ.", "B": "quốc gia.", "C": "quốc tế.", "D": "thương nhân."},
+      "answer": "D"
+    },
+    {
+      "id": "cd9-mcq-35",
+      "question": "Theo bản án số 288/2018/KDTM-PT về tranh chấp hợp đồng mua bán phần mềm tin học, Công ty C (Việt Nam) đặt hàng Công ty M (Singapore) mua phần mềm, phần cứng mã hoá và xác thực chữ kí điện tử để bán lại cho một dự án tại Việt Nam nhưng Công ty C không thanh toán đủ; Công ty M khởi kiện đòi Công ty C thanh toán số tiền còn thiếu, tiền phạt và lãi chậm trả. Trong trường hợp trên, để đòi lại quyền lợi hợp pháp của mình thì Công ty M đã làm đơn khởi kiện đến quốc gia nào?",
+      "options": {"A": "Singapore.", "B": "Đa quốc gia.", "C": "Hoa Kỳ.", "D": "Việt Nam."},
+      "answer": "D"
+    },
+    {
+      "id": "cd9-mcq-36",
+      "question": "Cũng trong tình huống tranh chấp hợp đồng mua bán phần mềm tin học giữa Công ty C (Việt Nam) và Công ty M (Singapore), để quyền và lợi ích của công ty mình được đảm bảo thì Công ty M phải căn cứ vào hợp đồng",
+      "options": {"A": "thương mại quốc tế.", "B": "của hai quốc gia.", "C": "thương mại đa phương.", "D": "đại diện thương mại."},
+      "answer": "A"
+    },
+    {
+      "id": "cd9-mcq-37",
+      "question": "Cũng trong tình huống tranh chấp hợp đồng mua bán phần mềm tin học giữa Công ty C (Việt Nam) và Công ty M (Singapore), toà án xét xử tranh chấp thương mại giữa Công ty C và Công ty M một cách đúng quy định của thương mại quốc tế thì cần căn cứ vào hợp đồng nào của hai công ty?",
+      "options": {"A": "Gia công sản phẩm.", "B": "Trao đổi hàng hoá.", "C": "Vận tải hàng hoá.", "D": "Mua bán hàng hoá."},
+      "answer": "D"
+    },
+    {
+      "id": "cd9-mcq-38",
+      "question": "Do mâu thuẫn, tranh chấp lãnh thổ kéo dài giữa quốc gia X và quốc gia Y, quốc gia X đã dùng vũ lực tấn công vào lãnh thổ quốc gia Y. Quốc gia Y yêu cầu Hội đồng Bảo an Liên hợp quốc can thiệp. Để bảo vệ chủ quyền quốc gia, chấm dứt vấn đề tranh chấp lãnh thổ thì quốc gia Y cần căn cứ vào",
+      "options": {"A": "pháp luật thương mại quốc tế.", "B": "pháp luật quốc gia.", "C": "pháp luật quốc gia X.", "D": "pháp luật quốc tế."},
+      "answer": "D"
+    },
+    {
+      "id": "cd9-mcq-39",
+      "question": "Cũng trong tình huống tranh chấp lãnh thổ giữa quốc gia X và quốc gia Y, để giữ gìn an ninh, trật tự hoà bình thế giới; bảo vệ quyền lợi hợp pháp của quốc gia Y thì Hội đồng Bảo an Liên hợp quốc cần căn cứ vào",
+      "options": {"A": "Hiệp ước thương mại.", "B": "pháp luật của các quốc gia.", "C": "Điều ước quốc tế.", "D": "Hiến chương Liên hợp quốc."},
+      "answer": "D"
+    },
+    {
+      "id": "cd9-mcq-40",
+      "question": "Quốc gia X buộc phải thực hiện nghị quyết của Liên hợp quốc, rút quân đội ra khỏi lãnh thổ quốc gia Y theo yêu cầu Hội đồng Bảo an Liên hợp quốc. Nếu quốc gia X không thực hiện yêu cầu trên thì Hội đồng Bảo an Liên hợp quốc sẽ có hành động như thế nào đối với quốc gia X để thực thi pháp luật quốc tế?",
+      "options": {"A": "Trừng phạt.", "B": "Động viên.", "C": "Phớt lờ.", "D": "Mặc kệ."},
+      "answer": "A"
+    }
+  ],
+  "trueFalse": [
+    {
+      "id": "cd9-tf-01",
+      "stimulus": "Biển Đỏ nối Ấn Độ Dương với Địa Trung Hải thông qua kênh đào Suez là tuyến đường huyết mạch về năng lượng và thương mại quốc tế khi vận chuyển tới 12% khối lượng thương mại toàn cầu. Tuy nhiên, các cuộc tấn công của lực lượng Houthi ở vùng biển này đã khiến tuyến đường thương mại quan trọng nối châu Âu và châu Á sụp đổ trong thời gian gần đây. Houthi đã bắt giữ tàu thương mại Galaxy Leader và tiến hành hơn 20 cuộc tấn công bằng tên lửa và UAV nhằm vào các tàu thương mại và tàu hải quân ở Biển Đỏ để ngăn tất cả tàu đi đến Israel qua tuyến đường biển quan trọng này. Đây là hành vi vi phạm nguyên tắc cấm dùng vũ lực trong quan hệ quốc tế. Theo đó, các hãng vận tải khổng lồ toàn cầu như Maersk, Hapag-Lloyd, CMA-CGM cũng như Tập đoàn Dầu khí BP phải tạm ngừng các chuyến hàng qua vùng biển này và tái định tuyến qua mũi Hảo Vọng ở phía nam châu Phi. Việc này khiến mỗi chuyến hàng khứ hồi kéo dài thêm khoảng 10 ngày, đồng thời chi phí cũng đội lên đột biến, ảnh hưởng không nhỏ tới hàng hoá xuất khẩu của các nước trên thế giới, trong đó có Việt Nam.",
+      "statements": [
+        {"key": "a", "text": "Mâu thuẫn ở khu vực Biển Đỏ là mâu thuẫn mang tính quốc tế giữa một số quốc gia.", "answer": true},
+        {"key": "b", "text": "Để giải quyết mâu thuẫn này thì tổ chức Liên Hợp quốc sẽ phải đứng ra làm trọng tài.", "answer": true},
+        {"key": "c", "text": "Các quốc gia có quyền lợi hoặc nghĩa vụ liên quan đến vấn đề Biển Đỏ phải căn cứ vào luật quốc tế để giải quyết xung đột.", "answer": true},
+        {"key": "d", "text": "Houthi đã bắt giữ tàu thương mại Galaxy Leader và tiến hành các cuộc tấn công bằng tên lửa, UAV nhằm vào các tàu thương mại và tàu hải quân ở Biển Đỏ là không vi phạm nguyên tắc cấm dùng vũ lực trong quan hệ quốc tế.", "answer": false}
+      ]
+    },
+    {
+      "id": "cd9-tf-02",
+      "stimulus": "Trong xu thế toàn cầu hoá hiện nay, nhu cầu giao thương giữa các quốc gia ngày càng phát triển. Theo đó cũng xuất hiện những mâu thuẫn và tranh chấp giữa các quốc gia. Rất nhiều vấn đề phát sinh đã được các quốc gia giải quyết dựa trên cơ sở của pháp luật quốc tế. Nhờ vậy, mối quan hệ giữa các quốc gia trở nên tốt đẹp hơn, góp phần thúc đẩy thương mại quốc tế ngày càng phát triển.",
+      "statements": [
+        {"key": "a", "text": "Pháp luật quốc tế chỉ điều chỉnh các quan hệ quốc tế liên quốc gia, không điều chỉnh các quan hệ quốc tế phi chính phủ của các nước.", "answer": true},
+        {"key": "b", "text": "Để giải quyết mâu thuẫn giữa các quốc gia, phải căn cứ vào pháp luật quốc tế.", "answer": true},
+        {"key": "c", "text": "Để giải quyết mâu thuẫn, xung đột giữa các quốc gia thì các quốc gia phải thoả thuận xây dựng nên, trên cơ sở tự nguyện và bình đẳng, các nguyên tắc và quy phạm pháp luật nhằm điều chỉnh quan hệ phát sinh giữa các quốc gia.", "answer": true},
+        {"key": "d", "text": "Pháp luật quốc tế chỉ được áp dụng ở một quốc gia.", "answer": false}
+      ]
+    },
+    {
+      "id": "cd9-tf-03",
+      "stimulus": "Từ chỗ chủ yếu tiếp thu, tham gia các tổ chức quốc tế, các điều ước quốc tế đã hình thành trước đây, vận dụng pháp luật quốc tế để đấu tranh bảo vệ lợi ích quốc gia chống lại các quan điểm sai trái, thù địch, Việt Nam chuyển sang từng bước tham gia đóng góp xây dựng luật chơi, tham gia pháp điển và phát triển pháp luật quốc tế nhằm bảo vệ tốt nhất lợi ích quốc gia đồng thời đóng góp thúc đẩy hoà bình, an ninh và hợp tác quốc tế vì phát triển bền vững.",
+      "statements": [
+        {"key": "a", "text": "Pháp luật quốc tế do một mình Việt Nam xây dựng.", "answer": false},
+        {"key": "b", "text": "Nước ta tham gia xây dựng pháp luật quốc tế nhằm bảo vệ lợi ích quốc gia từ sớm, từ xa, đồng thời thể hiện tinh thần trách nhiệm, tích cực vì lợi ích chung của cộng đồng quốc tế.", "answer": true},
+        {"key": "c", "text": "Pháp luật quốc tế có vai trò quan trọng trong đời sống quốc tế.", "answer": true},
+        {"key": "d", "text": "Để bảo vệ quyền con người, chống lại mọi hình thức phân biệt chủng tộc, sắc tộc trên thế giới thì các quốc gia phải chung tay xây dựng và hoàn thiện pháp luật quốc tế.", "answer": false}
+      ]
+    },
+    {
+      "id": "cd9-tf-04",
+      "stimulus": "Trong những năm gần đây, Việt Nam không ngừng tăng cường tham gia các diễn đàn pháp lí đa phương, như Uỷ ban các vấn đề pháp lí (Uỷ ban VI) của Đại Hội đồng Liên hợp quốc và Tổ chức Tham vấn pháp luật Á - Phi (AALCO). Đáng chú ý, Việt Nam đắc cử trong những lần bầu cử với tính cạnh tranh cao, giành được quyền hiện diện tại các cơ chế pháp lí quốc tế quan trọng như Uỷ ban Luật Thương mại quốc tế (UNCITRAL) và Uỷ ban Pháp luật Quốc tế Liên hợp quốc (ILC). Tại các diễn đàn này, Việt Nam kịp thời đưa ra các quan điểm phù hợp với lợi ích, chủ trương của mình, bảo vệ lợi ích quốc gia từ sớm, từ xa, đồng thời thể hiện tinh thần trách nhiệm, tích cực vì lợi ích chung của cộng đồng quốc tế. Đặc biệt, việc Việt Nam thúc đẩy các chủ đề pháp lí thực tiễn, sát sao với lợi ích của các nước đang phát triển như môi trường, dịch bệnh, biến đổi khí hậu,... được các nước ủng hộ, đánh giá cao và ngày càng tín nhiệm.",
+      "statements": [
+        {"key": "a", "text": "Trong những năm gần đây, Việt Nam luôn tích cực tham gia và xây dựng pháp luật quốc tế để nâng cao vị thế và ảnh hưởng của mình trên trường quốc tế.", "answer": true},
+        {"key": "b", "text": "Pháp luật quốc tế là cơ sở để xây dựng và phát triển quan hệ hữu nghị và hợp tác phát triển giữa các quốc gia.", "answer": true},
+        {"key": "c", "text": "Pháp luật quốc tế và pháp luật quốc gia là hai hệ thống pháp luật khác nhau, không có mối quan hệ mật thiết với nhau, không tác động qua lại và không ảnh hưởng lẫn nhau.", "answer": false},
+        {"key": "d", "text": "Để giữ gìn hoà bình, chống chiến tranh, bảo vệ quyền con người, chống lại mọi hình thức phân biệt chủng tộc, sắc tộc trên thế giới, Việt Nam luôn đề nghị các quốc gia tuân thủ một trong bảy nguyên tắc cơ bản của pháp luật quốc tế.", "answer": true}
+      ]
+    },
+    {
+      "id": "cd9-tf-05",
+      "stimulus": "Theo quy định của pháp luật Việt Nam cũng như các nước, người nước ngoài được hưởng các chế độ pháp lí, trong đó có chế độ tối huệ quốc. Nội dung cơ bản của chế độ tối huệ quốc là người nước ngoài và pháp nhân nước ngoài được hưởng một chế độ mà nước sở tại dành cho người nước ngoài và pháp nhân nước ngoài của bất kì nước thứ ba nào đang được hưởng và sẽ được hưởng trong tương lai. Theo chế độ tối huệ quốc thì người nước ngoài cũng như pháp nhân nước ngoài được hưởng đầy đủ và hoàn toàn các quyền hợp pháp mà một quốc gia đã dành và sẽ dành cho bất kì một nhóm người nước ngoài cũng như pháp nhân nước ngoài đang sinh sống hay hoạt động tại lãnh thổ của quốc gia đó. Như vậy, chế độ tối huệ quốc đưa lại các điều kiện cũng như các tiêu chuẩn pháp lí như nhau (theo nghĩa bình đẳng, bình quyền) cho người nước ngoài và pháp nhân nước ngoài của các quốc gia đã kí kết với nhau hiệp định mà trong đó có quy định chế độ này.",
+      "statements": [
+        {"key": "a", "text": "Chế độ tối huệ quốc là một trong số chế độ pháp lí nằm trong công pháp quốc tế về dân cư.", "answer": true},
+        {"key": "b", "text": "Chế độ tối huệ quốc thường được áp dụng trong lĩnh vực thương mại, hàng hải.", "answer": true},
+        {"key": "c", "text": "Theo chế độ tối huệ quốc thì người nước ngoài chỉ được hưởng một phần quyền hợp pháp mà một quốc gia đã dành cho nước ngoài đang sinh sống tại lãnh thổ của quốc gia đó.", "answer": false},
+        {"key": "d", "text": "Người nước ngoài sang Việt Nam học tập phải chịu trách nhiệm pháp lí khi vi phạm pháp luật.", "answer": true}
+      ]
+    },
+    {
+      "id": "cd9-tf-06",
+      "stimulus": "Là một quốc gia nằm ở khu vực Đông Nam Á và tiếp giáp Biển Đông, Việt Nam vừa có biên giới trên đất liền, vừa có vùng biển chồng lấn với các quốc gia láng giềng. Đồng thời, việc bảo vệ chủ quyền của Việt Nam đối với hai quần đảo Hoàng Sa và Trường Sa đang đứng trước những thách thức mới và đặt ra những nhiệm vụ khó khăn, phức tạp. Do đó, việc giải quyết dứt điểm vấn đề chủ quyền lãnh thổ, biên giới quốc gia với các nước có liên quan là một trong những ưu tiên trong đường lối đối ngoại và bảo vệ Tổ quốc của Đảng và Nhà nước ta.",
+      "statements": [
+        {"key": "a", "text": "Quần đảo Hoàng Sa và Trường Sa thuộc chủ quyền của Việt Nam.", "answer": true},
+        {"key": "b", "text": "Lãnh thổ của Việt Nam là một phần của Trái Đất, bao gồm vùng đất, vùng nước, vùng trời, vùng lòng đất thuộc chủ quyền hoàn toàn của nước ta.", "answer": true},
+        {"key": "c", "text": "Biên giới trên đất liền được hoạch định và đánh dấu trên thực địa bằng hệ thống cột mốc quốc gia.", "answer": true},
+        {"key": "d", "text": "Biên giới quốc gia của Việt Nam được xác định bằng điều ước quốc tế mà nước ta kí kết hoặc gia nhập hoặc do pháp luật Việt Nam quy định.", "answer": true}
+      ]
+    },
+    {
+      "id": "cd9-tf-07",
+      "stimulus": "Chủ quyền đối với nội thuỷ, lãnh hải: Theo Công ước Liên hợp quốc về Luật Biển (UNCLOS) năm 1982, các quốc gia ven biển có chủ quyền đối với nội thuỷ và lãnh hải của mình, chủ quyền này cũng được mở rộng vùng trời ở bên trên đến vùng đáy biển và lòng đất dưới đáy biển ở bên dưới các vùng biển đó. Điều 8, khoản 1 của UNCLOS định nghĩa nội thuỷ là \"các vùng nước ở phía bên trong đường cơ sở dùng để tính chiều rộng lãnh hải\". Trong vùng nội thuỷ, các quốc gia ven biển có chủ quyền hoàn toàn, tuyệt đối và đầy đủ như trên lãnh thổ đất liền của mình. Tàu thuyền nước ngoài muốn ra vào vùng nội thuỷ phải xin phép quốc gia ven biển và phải tuân theo luật lệ của quốc gia đó.",
+      "statements": [
+        {"key": "a", "text": "Lãnh hải là vùng biển nằm phía ngoài và tiếp liền nội thuỷ, có chiều rộng không vượt quá 12 hải lí tính từ đường cơ sở ra phía biển.", "answer": true},
+        {"key": "b", "text": "Nhà nước ta thực hiện chủ quyền đầy đủ và toàn vẹn đối với lãnh hải và vùng trời, đáy biển và lòng đất dưới đáy biển của lãnh hải phù hợp với Công ước Liên hợp quốc về Luật Biển năm 1982.", "answer": true},
+        {"key": "c", "text": "Nhà nước có chủ quyền đối với mọi loại hiện vật khảo cổ lịch sử trong lãnh hải Việt Nam.", "answer": true},
+        {"key": "d", "text": "Các phương tiện bay nước ngoài không được vào vùng trời ở trên lãnh hải Việt Nam, trừ trường hợp được sự đồng ý của Chính phủ Việt Nam hoặc thực hiện theo điều ước quốc tế mà nước Cộng hoà xã hội chủ nghĩa Việt Nam là thành viên.", "answer": true}
+      ]
+    },
+    {
+      "id": "cd9-tf-08",
+      "stimulus": "Vùng đặc quyền kinh tế có chiều rộng không vượt quá 200 hải lí tính từ đường cơ sở, là một chế định pháp lí mới, lần đầu tiên được ghi nhận trong Công ước Liên hợp quốc về Luật Biển (UNCLOS) năm 1982. Vùng đặc quyền kinh tế là một vùng đặc biệt, trong đó quốc gia ven biển thực hiện thẩm quyền riêng biệt của mình nhằm mục đích kinh tế, được quy định bởi UNCLOS, mà không chia sẻ với các quốc gia khác. Trong vùng đặc quyền kinh tế, quốc gia ven biển có: các quyền thuộc chủ quyền về việc thăm dò và khai thác, bảo tồn và quản lí các tài nguyên thiên nhiên, sinh vật hoặc phi sinh vật của vùng nước bên trên đáy biển, của đáy biển và lòng đất dưới đáy biển, cũng như về những hoạt động khác nhằm thăm dò và khai thác vùng này vì mục đích kinh tế, như việc sản xuất năng lượng từ nước, hải lưu và gió; quyền tài phán về việc lắp đặt và sử dụng các đảo nhân tạo, các thiết bị và công trình; nghiên cứu khoa học về biển; bảo vệ và gìn giữ môi trường biển; các quyền và nghĩa vụ khác do UNCLOS quy định.",
+      "statements": [
+        {"key": "a", "text": "Trong vùng đặc quyền kinh tế, các hoạt động thăm dò và khai thác vùng này là vì mục đích kinh tế.", "answer": true},
+        {"key": "b", "text": "Hành vi đánh bắt cá của tàu thuyền nước ngoài trong vùng đặc quyền kinh tế của Việt Nam không phù hợp với quy định của Công ước Liên hợp quốc về Luật Biển năm 1982.", "answer": true},
+        {"key": "c", "text": "Vùng đặc quyền kinh tế là vùng biển tiếp liền và nằm trong lãnh hải Việt Nam, hợp với lãnh hải thành một vùng biển có chiều rộng 12 hải lí tính từ đường cơ sở.", "answer": false},
+        {"key": "d", "text": "Là quốc gia ven biển, Việt Nam có chủ quyền trong vùng đặc quyền kinh tế của mình.", "answer": true}
+      ]
+    }
+  ]
+}

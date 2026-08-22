@@ -1,0 +1,76 @@
+{
+  "id": "bai14",
+  "chuDeId": "vlc3",
+  "chuDeTitle": "Từ trường",
+  "baiNumber": 14,
+  "title": "Từ trường",
+  "objectives": [],
+  "sections": [
+    {
+      "heading": "Tương tác từ",
+      "summary": "Khi đưa hai cực của nam châm lại gần nhau, chúng hút hoặc đẩy nhau tuỳ theo cùng tên hay khác tên (Hình 14.1). Thí nghiệm Oersted cho thấy dòng điện chạy qua dây dẫn cũng làm lệch kim nam châm đặt gần đó (Hình 14.2). Hai dòng điện đặt gần nhau cũng tác dụng lực lên nhau (Hình 14.3).",
+      "keyPoints": [
+        "Tương tác giữa nam châm với nam châm, giữa dòng điện với nam châm và giữa dòng điện với dòng điện đều gọi là tương tác từ.",
+        "Lực tương tác trong các trường hợp đó gọi là lực từ.",
+        "Thí nghiệm Oersted: dòng điện chạy qua dây dẫn làm lệch kim nam châm đặt gần nó."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Khái niệm và tính chất cơ bản của từ trường",
+      "summary": "Xung quanh nam châm hoặc dòng điện luôn tồn tại một dạng vật chất đặc biệt gọi là từ trường, biểu hiện qua việc gây ra lực từ lên nam châm hay dòng điện khác đặt trong nó. Người ta dùng một kim nam châm nhỏ, gọi là nam châm thử, để phát hiện sự tồn tại của từ trường tại một điểm.",
+      "keyPoints": [
+        "Từ trường là trường lực gây ra bởi dòng điện hoặc nam châm, là một dạng vật chất tồn tại xung quanh dòng điện hoặc nam châm.",
+        "Biểu hiện cụ thể của từ trường là sự xuất hiện lực từ tác dụng lên một dòng điện hay một nam châm khác đặt trong nó.",
+        "Tính chất cơ bản của từ trường: gây ra lực từ tác dụng lên một nam châm hay một dòng điện đặt trong nó.",
+        "Nam châm thử: kim nam châm nhỏ dùng để phát hiện sự tồn tại của từ trường."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Cảm ứng từ",
+      "summary": "Để đặc trưng cho từ trường về mặt tác dụng lực, người ta dùng một đại lượng vectơ gọi là cảm ứng từ, kí hiệu B. Phương của B tại một điểm trùng với phương của nam châm thử nằm cân bằng tại điểm đó, còn chiều của B được quy ước là chiều từ cực Nam sang cực Bắc của nam châm thử.",
+      "keyPoints": [
+        "Cảm ứng từ, kí hiệu vectơ B, là đại lượng đặc trưng cho từ trường về mặt tác dụng lực.",
+        "Phương của vectơ B tại một điểm là phương của nam châm thử nằm cân bằng tại điểm đó.",
+        "Chiều của vectơ B là chiều từ cực Nam sang cực Bắc của nam châm thử.",
+        "Lực từ tác dụng lên dòng điện hay nam châm ở điểm nào lớn hơn thì cảm ứng từ tại điểm đó lớn hơn (độ lớn B được xác định cụ thể ở Bài 15).",
+        "Từ trường đều là từ trường có cảm ứng từ B tại mọi điểm đều bằng nhau."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Từ phổ",
+      "summary": "Rắc mạt sắt mịn vào vùng có từ trường (xung quanh nam châm thẳng, nam châm chữ U, dòng điện thẳng, ống dây có dòng điện), các mạt sắt bị nhiễm từ và tự sắp xếp thành những đường cong tạo nên hình ảnh trực quan của từ trường, gọi là từ phổ.",
+      "keyPoints": [
+        "Từ phổ là hình ảnh những đường tạo bởi các mạt sắt đặt trong từ trường, cho ta hình ảnh trực quan của từ trường.",
+        "Ở khoảng giữa hai cực khác tên gần nhau (hoặc trong lòng nam châm chữ U), các đường mạt sắt gần như song song, cách đều nhau: đó là vùng từ trường đều.",
+        "Từ phổ bên ngoài ống dây có dòng điện chạy qua giống với từ phổ bên ngoài một nam châm thẳng."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Đường sức từ và quy tắc nắm bàn tay phải",
+      "summary": "Đường sức từ là các đường vẽ trong không gian có từ trường sao cho tiếp tuyến tại mỗi điểm trùng với phương của vectơ cảm ứng từ, còn chiều của đường sức từ là chiều của vectơ cảm ứng từ tại điểm đó. Có thể xác định chiều đường sức từ của dòng điện bằng quy tắc nắm bàn tay phải.",
+      "keyPoints": [
+        "Đường sức từ: đường vẽ trong không gian có từ trường sao cho tiếp tuyến tại mỗi điểm trùng với phương của vectơ B; chiều đường sức từ là chiều của vectơ B.",
+        "Bên ngoài nam châm, đường sức từ có chiều đi ra từ cực Bắc, đi vào cực Nam.",
+        "Đặc điểm đường sức từ: tại mỗi điểm chỉ vẽ được một đường sức từ đi qua; các đường sức từ là những đường cong khép kín; nơi từ trường mạnh hơn thì đường sức từ vẽ dày hơn, nơi từ trường yếu hơn thì đường sức từ vẽ thưa hơn.",
+        "Quy tắc nắm bàn tay phải với dòng điện thẳng: giơ ngón cái của bàn tay phải hướng theo chiều dòng điện, khum bốn ngón tay kia quanh dây dẫn thì chiều từ cổ tay đến bốn ngón tay là chiều đường sức từ.",
+        "Quy tắc nắm bàn tay phải với dòng điện tròn và ống dây: khum bàn tay phải sao cho chiều từ cổ tay đến các ngón tay trùng với chiều dòng điện chạy qua các vòng dây thì chiều ngón tay cái choãi ra chỉ chiều đường sức từ."
+      ],
+      "example": "Ứng dụng thực tế: la bàn hoạt động dựa trên sự định hướng của kim nam châm theo từ trường Trái Đất; nam châm còn được ứng dụng trong tàu đệm từ, nam châm điện."
+    }
+  ],
+  "glossary": [
+    {"term": "Tương tác từ", "definition": "Tương tác giữa nam châm với nam châm, giữa dòng điện với nam châm, hoặc giữa dòng điện với dòng điện."},
+    {"term": "Lực từ", "definition": "Lực xuất hiện trong các tương tác từ."},
+    {"term": "Từ trường", "definition": "Trường lực gây ra bởi dòng điện hoặc nam châm, tồn tại xung quanh dòng điện hoặc nam châm, biểu hiện qua lực từ tác dụng lên dòng điện hay nam châm khác đặt trong nó."},
+    {"term": "Nam châm thử", "definition": "Kim nam châm nhỏ dùng để phát hiện sự tồn tại của từ trường tại một điểm."},
+    {"term": "Cảm ứng từ (B)", "definition": "Đại lượng vectơ đặc trưng cho từ trường về mặt tác dụng lực, phương trùng phương nam châm thử nằm cân bằng, chiều từ cực Nam sang cực Bắc của nam châm thử."},
+    {"term": "Từ trường đều", "definition": "Từ trường có cảm ứng từ B tại mọi điểm đều bằng nhau."},
+    {"term": "Từ phổ", "definition": "Hình ảnh những đường tạo bởi các mạt sắt đặt trong từ trường, cho hình ảnh trực quan của từ trường."},
+    {"term": "Đường sức từ", "definition": "Đường vẽ trong không gian có từ trường sao cho tiếp tuyến tại mỗi điểm trùng với phương của vectơ cảm ứng từ; chiều đường sức từ là chiều của vectơ cảm ứng từ."},
+    {"term": "Quy tắc nắm bàn tay phải", "definition": "Quy tắc xác định chiều đường sức từ do dòng điện gây ra: với dòng điện thẳng, ngón cái chỉ chiều dòng điện, các ngón tay khum quanh dây chỉ chiều đường sức từ; với dòng điện tròn/ống dây, chiều khum ngón tay theo chiều dòng điện thì ngón cái choãi ra chỉ chiều đường sức từ."}
+  ]
+}

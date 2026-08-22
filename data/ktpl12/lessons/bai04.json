@@ -1,0 +1,53 @@
+{
+  "id": "bai04",
+  "chuDeId": "cd3",
+  "chuDeTitle": "Bảo hiểm và an sinh xã hội",
+  "baiNumber": 4,
+  "title": "An sinh xã hội",
+  "objectives": [
+    "Nêu được khái niệm và vai trò của an sinh xã hội.",
+    "Giải thích được sự cần thiết của an sinh xã hội.",
+    "Gọi tên được một số chính sách an sinh xã hội cơ bản.",
+    "Thực hiện được trách nhiệm của công dân về an sinh xã hội bằng những việc làm cụ thể và phù hợp."
+  ],
+  "sections": [
+    {
+      "heading": "Khái niệm an sinh xã hội",
+      "summary": "An sinh xã hội là hệ thống các chính sách, chương trình của Nhà nước và các lực lượng xã hội nhằm hạn chế, phòng ngừa và khắc phục rủi ro cho các thành viên trong cộng đồng khi họ bị mất hoặc giảm thu nhập, hay gặp phải những rủi ro xã hội khác.",
+      "keyPoints": [
+        "An sinh xã hội là hệ thống chính sách can thiệp của Nhà nước và xã hội nhằm giảm nghèo đói, nâng cao năng lực tự bảo vệ của người dân trước rủi ro giảm hoặc mất thu nhập.",
+        "Mục tiêu là bảo đảm ổn định, phát triển và công bằng xã hội."
+      ],
+      "example": "Theo ILO, an sinh xã hội là sự bảo vệ mà xã hội cung cấp cho các thành viên trước những cú sốc kinh tế - xã hội; theo ISSA, đây là thành tố của hệ thống chính sách công đảm bảo an toàn cho mọi thành viên xã hội, không chỉ riêng công nhân."
+    },
+    {
+      "heading": "Các chính sách an sinh xã hội cơ bản",
+      "summary": "Hệ thống an sinh xã hội ở nước ta hiện nay bao gồm bốn nhóm chính sách cơ bản: hỗ trợ việc làm/thu nhập/giảm nghèo, bảo hiểm, trợ giúp xã hội và bảo đảm dịch vụ xã hội cơ bản.",
+      "keyPoints": [
+        "Chính sách hỗ trợ việc làm, thu nhập và giảm nghèo: hỗ trợ người lao động (đặc biệt người nghèo, thanh niên, lao động nông thôn) tìm việc làm, có thu nhập tối thiểu, góp phần chuyển đổi cơ cấu việc làm, giảm thất nghiệp.",
+        "Chính sách về bảo hiểm: gồm bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp, giúp phòng ngừa và giảm thiểu rủi ro khi bị giảm hoặc mất thu nhập do ốm đau, thai sản, tai nạn lao động, hết tuổi lao động.",
+        "Chính sách trợ giúp xã hội: bảo vệ phổ cập mọi thành viên xã hội trên cơ sở tương trợ cộng đồng, gồm trợ giúp thường xuyên cho người có hoàn cảnh đặc biệt khó khăn (người cao tuổi, khuyết tật nặng, trẻ mồ côi) và trợ cấp đột xuất khi gặp thiên tai, hoả hoạn, dịch bệnh.",
+        "Chính sách bảo đảm các dịch vụ xã hội cơ bản: hỗ trợ người dân tiếp cận ở mức tối thiểu các dịch vụ giáo dục, y tế, nhà ở, nước sạch, thông tin, đặc biệt là người nghèo và đồng bào dân tộc thiểu số."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Vai trò của an sinh xã hội",
+      "summary": "An sinh xã hội là tiêu chí đánh giá sự tiến bộ của một quốc gia, là công cụ quản lí của Nhà nước để điều tiết phân phối của cải xã hội và giảm bất bình đẳng. An sinh xã hội còn giúp phòng ngừa, giảm thiểu rủi ro, phát huy tinh thần tương thân tương ái và thúc đẩy tăng trưởng kinh tế nhanh, ổn định.",
+      "keyPoints": [
+        "Là công cụ quản lí của Nhà nước, điều tiết phân phối của cải xã hội, giảm chênh lệch giữa các vùng.",
+        "Có vai trò quan trọng trong phòng ngừa, giảm thiểu rủi ro, giúp thành viên xã hội ổn định cuộc sống, tái hoà nhập cộng đồng.",
+        "Phát huy tinh thần đoàn kết, tương thân tương ái trong cộng đồng.",
+        "Góp phần thúc đẩy tăng trưởng kinh tế nhanh và ổn định, tạo nguồn tài chính cho phát triển đất nước."
+      ],
+      "example": "Năm 2022, số lao động có việc làm đạt 50,6 triệu người, tỉ lệ thất nghiệp giảm còn 2,34%; năm 2021 có hơn 16,5 triệu người tham gia bảo hiểm xã hội và gần 88,8 triệu người tham gia bảo hiểm y tế."
+    }
+  ],
+  "glossary": [
+    { "term": "An sinh xã hội", "definition": "Hệ thống các chính sách, chương trình của Nhà nước và các lực lượng xã hội nhằm hạn chế, phòng ngừa và khắc phục rủi ro cho các thành viên cộng đồng khi bị mất hoặc giảm thu nhập hay gặp rủi ro xã hội khác." },
+    { "term": "Chính sách hỗ trợ việc làm, thu nhập và giảm nghèo", "definition": "Chính sách hỗ trợ người lao động tìm việc làm, đảm bảo thu nhập tối thiểu, góp phần giảm thất nghiệp và xoá đói giảm nghèo." },
+    { "term": "Chính sách về bảo hiểm (an sinh xã hội)", "definition": "Nhóm chính sách gồm bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp giúp phòng ngừa, giảm thiểu rủi ro mất/giảm thu nhập." },
+    { "term": "Chính sách trợ giúp xã hội", "definition": "Chính sách trợ giúp thường xuyên cho người có hoàn cảnh đặc biệt khó khăn và trợ cấp đột xuất khi gặp rủi ro, thiên tai, dịch bệnh." },
+    { "term": "Chính sách bảo đảm các dịch vụ xã hội cơ bản", "definition": "Chính sách hỗ trợ người dân tiếp cận ở mức tối thiểu các dịch vụ giáo dục, y tế, nhà ở, nước sạch, thông tin." }
+  ]
+}

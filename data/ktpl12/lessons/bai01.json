@@ -1,0 +1,135 @@
+{
+  "id": "bai01",
+  "chuDeId": "cd1",
+  "chuDeTitle": "Tăng trưởng và phát triển kinh tế",
+  "baiNumber": 1,
+  "title": "Tăng trưởng và phát triển kinh tế",
+  "objectives": [
+    "Phân biệt được tăng trưởng và phát triển kinh tế.",
+    "Nêu được các chỉ tiêu của tăng trưởng và phát triển kinh tế.",
+    "Giải thích được vai trò của tăng trưởng và phát triển kinh tế.",
+    "Nhận biết được mối quan hệ giữa tăng trưởng kinh tế với sự phát triển bền vững.",
+    "Tham gia các hoạt động góp phần thúc đẩy sự tăng trưởng và phát triển kinh tế.",
+    "Ủng hộ những hành vi, việc làm góp phần thúc đẩy tăng trưởng, phát triển kinh tế; phê phán, đấu tranh với những hành vi, việc làm cản trở sự tăng trưởng, phát triển kinh tế."
+  ],
+  "sections": [
+    {
+      "heading": "Tăng trưởng kinh tế",
+      "summary": "Tăng trưởng kinh tế là sự tăng lên về thu nhập hay tổng giá trị hàng hoá và dịch vụ mà nền kinh tế tạo ra trong một thời kì nhất định, thường so với một thời kì gốc để so sánh. Đây là sự thay đổi về lượng của nền kinh tế, được đo bằng mức tăng GDP hoặc GNI cả về quy mô và tốc độ.",
+      "keyPoints": [
+        "Tăng trưởng kinh tế là sự tăng lên về quy mô sản lượng của nền kinh tế trong một thời kì nhất định so với thời kì gốc.",
+        "Các chỉ tiêu tăng trưởng kinh tế gồm: GDP, GDP/người, GNI, GNI/người.",
+        "Tốc độ tăng trưởng kinh tế được tính bằng tỉ lệ phần trăm thay đổi của GDP từ thời kì này sang thời kì khác.",
+        "Khi so sánh cần tính GDP của năm hiện tại theo giá của năm gốc để loại trừ ảnh hưởng của lạm phát."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Tổng sản phẩm quốc nội (GDP)",
+      "summary": "GDP là giá trị bằng tiền của tất cả hàng hoá và dịch vụ cuối cùng được sản xuất ra trên lãnh thổ một nước trong một thời gian nhất định (thường là một năm). GDP là thước đo sản lượng quốc gia, phản ánh năng lực của nền kinh tế trong việc thoả mãn nhu cầu của nhân dân.",
+      "keyPoints": [
+        "GDP = giá trị bằng tiền (theo giá thị trường) của hàng hoá, dịch vụ cuối cùng sản xuất trên lãnh thổ một nước trong một năm.",
+        "Công thức tính theo chi tiêu: GDP = C + I + G + (X - M), trong đó C: chi tiêu hộ gia đình, I: chi tiêu doanh nghiệp, G: chi tiêu chính phủ, X: kim ngạch xuất khẩu, M: kim ngạch nhập khẩu.",
+        "Mức tăng GDP so với thời điểm gốc thể hiện sự tăng trưởng về quy mô của nền kinh tế."
+      ],
+      "example": "Theo Tổng cục Thống kê, GDP của Việt Nam năm 2022 tăng 8,02% so với năm trước, mức cao nhất trong giai đoạn 2011-2022 (năm 2020 tăng 2,87%, năm 2021 tăng 2,56%)."
+    },
+    {
+      "heading": "Tổng sản phẩm quốc nội bình quân đầu người (GDP/người)",
+      "summary": "GDP/người được tính bằng cách chia tổng GDP trong năm cho dân số trung bình của năm tương ứng. Chỉ tiêu này thường được dùng làm thước đo mức sống của người dân một quốc gia, nhưng chỉ phản ánh mức sống tương đối vì chất lượng cuộc sống còn phụ thuộc vào cách phân phối thu nhập và điều kiện tiếp cận hàng hoá, dịch vụ ở từng vùng miền, quốc gia.",
+      "keyPoints": [
+        "GDP/người = GDP trong năm : dân số trung bình của năm tương ứng.",
+        "Là thước đo phổ biến về mức sống nhưng chỉ mang tính tương đối, chưa phản ánh đầy đủ chất lượng cuộc sống."
+      ],
+      "example": "Năm 2022, GDP của Trung Quốc là 17,96 nghìn tỉ USD (GDP/người 12.720 USD), trong khi GDP của Singapore chỉ 466,8 tỉ USD nhưng GDP/người lại cao hơn, đạt 82.808 USD."
+    },
+    {
+      "heading": "Tổng thu nhập quốc dân (GNI)",
+      "summary": "GNI là thước đo thu nhập của nền kinh tế trong một thời kì nhất định, tính bằng tổng thu nhập từ hàng hoá, dịch vụ cuối cùng do công dân của quốc gia đó tạo ra (kể cả ở trong và ngoài lãnh thổ). So với GDP, mức tăng GNI thể hiện đầy đủ hơn sự tăng trưởng về quy mô của nền kinh tế vì có tính thêm yếu tố thu nhập ngoài lãnh thổ quốc gia.",
+      "keyPoints": [
+        "GNI = GDP + Chênh lệch thu nhập với nhân tố nước ngoài.",
+        "Chênh lệch thu nhập nhân tố nước ngoài = Thu lợi tức nhân tố nước ngoài - Chi trả lợi tức nhân tố nước ngoài.",
+        "GNI tính cả thu nhập của công dân ở nước ngoài, còn GDP chỉ tính trong phạm vi lãnh thổ."
+      ],
+      "example": "Năm 2022, GDP của Việt Nam là 408,8 tỉ USD còn GNI là 388,9 tỉ USD (năm 2021 lần lượt là 366,14 tỉ USD và 347,4 tỉ USD)."
+    },
+    {
+      "heading": "Tổng thu nhập quốc dân bình quân đầu người (GNI/người)",
+      "summary": "GNI/người là thước đo trung bình mức thu nhập một người dân trong quốc gia thu được trong năm, tính bằng cách chia tổng GNI trong năm cho dân số trung bình của năm tương ứng. Đây là thước đo cụ thể hơn để so sánh mức thu nhập, mức sống giữa các quốc gia.",
+      "keyPoints": [
+        "GNI/người = GNI trong năm : dân số trung bình của năm tương ứng.",
+        "Dùng để so sánh kết quả tăng trưởng kinh tế và mức sống giữa các quốc gia."
+      ],
+      "example": "Năm 2022: GNI/người của Việt Nam là 4.010 USD, Trung Quốc là 12.850 USD, Singapore là 67.200 USD."
+    },
+    {
+      "heading": "Vai trò của tăng trưởng kinh tế",
+      "summary": "Tăng trưởng kinh tế là cơ sở vật chất cho sức mạnh và sự thịnh vượng của quốc gia. Tăng trưởng giúp tăng GDP/người, tạo thêm việc làm, tăng thu nhập, nâng cao đời sống vật chất, tinh thần của nhân dân, đồng thời tạo điều kiện phát triển hạ tầng, văn hoá, y tế, giáo dục, quốc phòng, an ninh và hội nhập quốc tế.",
+      "keyPoints": [
+        "Là điều kiện cần thiết để khắc phục đói nghèo, lạc hậu; tạo việc làm, tăng thu nhập, nâng cao phúc lợi xã hội.",
+        "Là tiền đề vật chất để củng cố an ninh, quốc phòng, nâng cao vai trò quản lí của Nhà nước và vị thế quốc gia.",
+        "Là điều kiện tiên quyết để khắc phục tình trạng tụt hậu đối với quốc gia đang phát triển như Việt Nam."
+      ],
+      "example": "Giai đoạn 2011-2020, tăng trưởng GDP của Việt Nam đạt khoảng 5,9%/năm; quy mô GDP tăng gấp 2,4 lần (từ 116 tỉ USD năm 2010 lên 268,4 tỉ USD năm 2020); GDP bình quân đầu người tăng từ 1.331 USD lên khoảng 2.750 USD; tỉ lệ hộ nghèo cả nước giảm từ 14,2% (2010) xuống dưới 3% (2020, theo chuẩn nghèo đa chiều)."
+    },
+    {
+      "heading": "Phát triển kinh tế và các chỉ tiêu phát triển kinh tế",
+      "summary": "Phát triển kinh tế là sự lớn lên về quy mô cùng với những thay đổi về cấu trúc nền kinh tế, mang lại những chuyển biến tích cực về xã hội. Chỉ tiêu phát triển kinh tế bao gồm chỉ tiêu tăng trưởng kinh tế, chỉ tiêu chuyển dịch cơ cấu kinh tế và chỉ tiêu về tiến bộ xã hội.",
+      "keyPoints": [
+        "Phát triển kinh tế = tăng trưởng kinh tế gắn liền với chuyển dịch cơ cấu kinh tế và đảm bảo tiến bộ xã hội.",
+        "Cơ cấu kinh tế là tổng thể các mối quan hệ giữa các ngành, lĩnh vực, bộ phận hợp thành nền kinh tế quốc gia, gồm cơ cấu ngành, cơ cấu vùng và cơ cấu thành phần kinh tế; trong đó cơ cấu ngành (công nghiệp - nông nghiệp - dịch vụ) quan trọng nhất."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Chuyển dịch cơ cấu kinh tế",
+      "summary": "Sự chuyển dịch cơ cấu ngành kinh tế theo hướng tích cực thể hiện ở việc tỉ trọng ngành công nghiệp, dịch vụ trong GDP tăng lên, tỉ trọng ngành nông nghiệp giảm xuống nhưng giá trị tuyệt đối của các ngành đều tăng.",
+      "keyPoints": [
+        "Chuyển dịch tích cực: tỉ trọng công nghiệp, dịch vụ trong GDP tăng; tỉ trọng nông nghiệp giảm (giá trị tuyệt đối các ngành vẫn tăng).",
+        "Cơ cấu lao động cũng chuyển dịch từ khu vực năng suất thấp sang khu vực năng suất cao hơn."
+      ],
+      "example": "Việt Nam giai đoạn 2018-2022: tỉ trọng nông nghiệp giảm từ 14,68% xuống 11,88%; công nghiệp tăng từ 34,23% lên 38,26%; dịch vụ tăng từ 41,12% lên 41,33%. Giai đoạn 2010-2020, tỉ trọng lao động nông, lâm, thuỷ sản giảm từ 48,6% xuống 34%; lao động công nghiệp - xây dựng tăng từ 21,7% lên 30,3%; dịch vụ từ 29,7% lên khoảng 35,7%."
+    },
+    {
+      "heading": "Chỉ tiêu về tiến bộ xã hội",
+      "summary": "Tiến bộ xã hội thể hiện ở sự công bằng xã hội, mức sống người dân tăng lên, chênh lệch giàu nghèo giảm, phúc lợi xã hội và dân trí tăng lên. Các chỉ tiêu chính gồm Chỉ số phát triển con người (HDI), tỉ lệ hộ nghèo đa chiều và hệ số bất bình đẳng trong phân phối thu nhập (hệ số Gini).",
+      "keyPoints": [
+        "HDI là thước đo tổng hợp phản ánh sự phát triển con người qua 3 tiêu chí: tuổi thọ trung bình, chỉ số giáo dục (số năm đi học bình quân và kì vọng), chỉ số thu nhập (GDP/người, GNI/người).",
+        "Tỉ lệ hộ nghèo đa chiều: tỉ lệ hộ nghèo trong tình trạng không được đáp ứng mức tối thiểu các nhu cầu cơ bản trong cuộc sống.",
+        "Hệ số Gini phản ánh mức bất bình đẳng trong phân phối thu nhập, nhận giá trị từ 0 (bình đẳng tuyệt đối) đến 1 (bất bình đẳng tuyệt đối); hệ số càng cao thì bất bình đẳng càng lớn."
+      ],
+      "example": "Việt Nam giai đoạn 2018-2022: chỉ số HDI tăng liên tục từ 0,693 (2018) lên 0,737 (2022); hệ số Gini giảm từ 0,425 (2018) xuống 0,373 (2020) rồi nhích nhẹ lên 0,375 (2022)."
+    },
+    {
+      "heading": "Vai trò của phát triển kinh tế",
+      "summary": "Phát triển kinh tế có vai trò quan trọng trong việc nâng cao trình độ, hiệu quả sản xuất, đảm bảo người dân được thụ hưởng kết quả tăng trưởng, thực hiện mục tiêu phát triển con người và tiến bộ xã hội; đồng thời tạo động lực đẩy nhanh tốc độ tăng trưởng kinh tế.",
+      "keyPoints": [
+        "Chuyển dịch cơ cấu kinh tế hợp lí giúp nâng cao trình độ sản xuất, khai thác thế mạnh từng địa phương, tạo đà phát triển nhanh và vững chắc.",
+        "Thực hiện tiến bộ xã hội hướng tới xây dựng thể chế kinh tế tiến bộ, phân phối công bằng, bảo vệ môi trường, giảm khoảng cách giàu nghèo và chênh lệch phát triển vùng miền.",
+        "Phát triển kinh tế là điều kiện tiên quyết để khắc phục tình trạng tụt hậu đối với nước đang phát triển như Việt Nam."
+      ],
+      "example": "Giai đoạn 2011-2020: tốc độ tăng năng suất lao động bình quân giai đoạn 2011-2015 là 4,3%/năm, giai đoạn 2016-2020 là 5,8%/năm; thu nhập bình quân đầu người tăng 3,1 lần (từ 16,6 triệu đồng năm 2010 lên 51,5 triệu đồng năm 2019); tuổi thọ trung bình tăng từ 72,9 tuổi (2010) lên 73,7 tuổi (2020)."
+    },
+    {
+      "heading": "Mối quan hệ giữa tăng trưởng kinh tế và phát triển bền vững",
+      "summary": "Phát triển bền vững là quá trình phát triển có sự kết hợp hợp lí, hài hoà giữa ba mặt: phát triển kinh tế, phát triển xã hội và bảo vệ môi trường. Tăng trưởng kinh tế là một nội dung, điều kiện tiên quyết của phát triển bền vững, nhưng nếu tăng trưởng không gắn với tiến bộ xã hội và bảo vệ môi trường thì sẽ cản trở phát triển bền vững.",
+      "keyPoints": [
+        "Tăng trưởng kinh tế ổn định là tiêu chí hàng đầu của phát triển bền vững vì đảm bảo điều kiện vật chất để giải quyết các vấn đề xã hội.",
+        "Tăng trưởng chỉ đem lại lợi ích cho một bộ phận nhỏ, làm suy thoái đạo đức xã hội hoặc huỷ hoại môi trường sẽ gây bất ổn xã hội, cản trở phát triển bền vững.",
+        "Đảng và Nhà nước ta chủ trương duy trì tăng trưởng bền vững, không đánh đổi tăng trưởng kinh tế bằng mọi giá.",
+        "Phát triển bền vững (nâng cao chất lượng nguồn nhân lực, ổn định chính trị, thực hiện chính sách xã hội) cũng góp phần thúc đẩy tăng trưởng kinh tế trở lại."
+      ],
+      "example": "Liên hợp quốc đã tổ chức các Hội nghị Thượng đỉnh về môi trường và phát triển (1992), phát triển bền vững (2002, với Chương trình nghị sự 21) và phát triển bền vững (2015, với Chương trình nghị sự 2030), hướng đến mục tiêu hài hoà tăng trưởng kinh tế, tiến bộ xã hội và bảo vệ môi trường."
+    }
+  ],
+  "glossary": [
+    {"term": "GDP", "definition": "Tổng sản phẩm quốc nội - giá trị bằng tiền của tất cả hàng hoá, dịch vụ cuối cùng sản xuất trên lãnh thổ một nước trong một thời gian nhất định (thường một năm)."},
+    {"term": "GDP/người", "definition": "Tổng sản phẩm quốc nội bình quân đầu người, bằng GDP chia cho dân số trung bình trong năm; dùng làm thước đo mức sống tương đối."},
+    {"term": "GNI", "definition": "Tổng thu nhập quốc dân - tổng thu nhập từ hàng hoá, dịch vụ cuối cùng do công dân một quốc gia tạo ra (cả trong và ngoài lãnh thổ) trong một thời gian nhất định."},
+    {"term": "GNI/người", "definition": "Tổng thu nhập quốc dân bình quân đầu người, bằng GNI chia cho dân số trung bình trong năm; dùng để so sánh mức thu nhập, mức sống giữa các quốc gia."},
+    {"term": "Cơ cấu kinh tế", "definition": "Tổng thể các mối quan hệ giữa các ngành, lĩnh vực, bộ phận hợp thành nền kinh tế quốc gia, gồm cơ cấu ngành, cơ cấu vùng và cơ cấu thành phần kinh tế."},
+    {"term": "HDI", "definition": "Chỉ số phát triển con người - thước đo tổng hợp phản ánh sự phát triển con người qua tuổi thọ trung bình, chỉ số giáo dục và chỉ số thu nhập."},
+    {"term": "Hệ số Gini", "definition": "Chỉ tiêu phản ánh mức bất bình đẳng trong phân phối thu nhập, nhận giá trị từ 0 (bình đẳng tuyệt đối) đến 1 (bất bình đẳng tuyệt đối)."},
+    {"term": "Phát triển bền vững", "definition": "Quá trình phát triển kết hợp hợp lí, hài hoà giữa phát triển kinh tế, phát triển xã hội và bảo vệ môi trường."}
+  ]
+}

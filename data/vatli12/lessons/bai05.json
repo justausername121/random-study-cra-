@@ -1,0 +1,36 @@
+{
+  "id": "bai05",
+  "chuDeId": "vlc1",
+  "chuDeTitle": "Vật lí nhiệt",
+  "baiNumber": 5,
+  "title": "Nhiệt nóng chảy riêng",
+  "objectives": [
+    "Xác định được nhiệt nóng chảy riêng của một chất.",
+    "Dùng khái niệm nhiệt nóng chảy riêng để giải thích các hiện tượng thực tế có liên quan."
+  ],
+  "sections": [
+    {
+      "heading": "I. Khái niệm nhiệt nóng chảy riêng",
+      "summary": "Nhiệt lượng cần truyền cho một vật để nó nóng chảy hoàn toàn ở nhiệt độ nóng chảy tỉ lệ thuận với khối lượng của vật; hằng số tỉ lệ này gọi là nhiệt nóng chảy riêng λ của chất làm vật, phụ thuộc vào tính chất của chất đó.",
+      "keyPoints": [
+        "Nhiệt nóng chảy riêng: λ = Q/m (5.2), đơn vị J/kg.",
+        "Hệ thức tính nhiệt lượng để làm vật nóng chảy hoàn toàn ở nhiệt độ nóng chảy: Q = λm (5.3) (Q: nhiệt lượng (J), λ: nhiệt nóng chảy riêng (J/kg), m: khối lượng (kg)).",
+        "Định nghĩa: Nhiệt nóng chảy riêng của một chất là nhiệt lượng cần để làm cho một kilôgam chất đó nóng chảy hoàn toàn ở nhiệt độ nóng chảy.",
+        "Nhiệt nóng chảy riêng và nhiệt độ nóng chảy là các thông tin quan trọng dùng để tính năng lượng cần cấp cho lò nung, thời gian nung, thời điểm đổ kim loại nóng chảy vào khuôn, thời điểm lấy sản phẩm ra khỏi khuôn trong công nghệ đúc; cũng dùng để chọn vật liệu chế tạo hợp kim và tách kim loại nguyên chất ra khỏi quặng hỗn hợp."
+      ],
+      "example": "Vì chì và đồng có nhiệt độ nóng chảy và nhiệt nóng chảy riêng xác định, khi chế tạo các vật bằng chì, đồng người ta thường dùng phương pháp đúc (nung chảy kim loại rồi đổ vào khuôn)."
+    },
+    {
+      "heading": "II. Thực hành đo nhiệt nóng chảy riêng của nước đá",
+      "summary": "Dùng oát kế và nhiệt lượng kế chứa nước đá đang tan, theo dõi nhiệt độ theo thời gian; xác định thời điểm τM là khi nước đá vừa tan hết (giao điểm hai đoạn đồ thị: đoạn nhiệt độ không đổi 0°C và đoạn nhiệt độ tăng dần). Nhiệt nóng chảy riêng của nước đá được tính theo công thức λ = P̄τM / m.",
+      "keyPoints": [
+        "Trong khi nước đá đang tan (nóng chảy), nhiệt độ hỗn hợp giữ ở khoảng 0°C không đổi dù vẫn được cấp nhiệt; khi tan hết, nhiệt độ mới bắt đầu tăng.",
+        "Công thức xác định nhiệt nóng chảy riêng từ thực nghiệm: λ(H2O) = P̄τM / m, trong đó P̄τM là nhiệt lượng do dòng điện qua điện trở toả ra trong thời gian τM (thời điểm nước đá vừa tan hết), m là khối lượng nước đá."
+      ],
+      "example": null
+    }
+  ],
+  "glossary": [
+    {"term": "Nhiệt nóng chảy riêng (λ)", "definition": "Nhiệt lượng cần để làm cho 1 kg một chất nóng chảy hoàn toàn ở nhiệt độ nóng chảy; đơn vị J/kg."}
+  ]
+}

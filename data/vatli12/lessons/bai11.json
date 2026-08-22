@@ -1,0 +1,48 @@
+{
+  "id": "bai11",
+  "chuDeId": "vlc2",
+  "chuDeTitle": "Khí lí tưởng",
+  "baiNumber": 11,
+  "title": "Phương trình trạng thái của khí lí tưởng",
+  "objectives": [
+    "Xác định mối liên hệ giữa cả ba thông số trạng thái (áp suất, thể tích, nhiệt độ) của một khối lượng khí xác định."
+  ],
+  "sections": [
+    {
+      "heading": "Phương trình trạng thái của một lượng khí xác định",
+      "summary": "Bằng cách cho khí chuyển từ trạng thái 1 sang trạng thái 2 qua một trạng thái trung gian (kết hợp một quá trình đẳng nhiệt và một quá trình đẳng áp), từ định luật Boyle và định luật Charles có thể suy ra phương trình liên hệ cả ba thông số trạng thái của một khối lượng khí xác định. Độ lớn của hằng số trong phương trình phụ thuộc vào lượng khí đang xét.",
+      "keyPoints": [
+        "p1V1/T1 = p2V2/T2, suy ra pV/T = hằng số",
+        "Hằng số trong phương trình phụ thuộc vào khối lượng khí xác định đang xét",
+        "Quá trình chuyển trạng thái chỉ phụ thuộc trạng thái đầu và trạng thái cuối, không phụ thuộc cách chuyển trạng thái"
+      ],
+      "example": "Ví dụ áp dụng: khí có V1 = 100 cm³ ở p1 = 10^5 Pa, T1 = 300 K; khi bị nén xuống V2 = 20 cm³ và tăng nhiệt độ lên T2 = 312 K thì p2 = p1V1T2/(V2T1) ≈ 5,2.10^5 Pa."
+    },
+    {
+      "heading": "Phương trình Clapeyron",
+      "summary": "Đối với một lượng khí có n mol, hằng số trong phương trình trạng thái được xác định là nR, với R là hằng số khí lí tưởng, tính từ giá trị của 1 mol khí bất kì ở điều kiện tiêu chuẩn. Phương trình pV = nRT gọi là phương trình Clapeyron, do nhà vật lí người Pháp Clapeyron lập ra.",
+      "keyPoints": [
+        "1 mol khí bất kì ở điều kiện tiêu chuẩn: V = 22,4.10^-3 m³, p = 1,013.10^5 Pa, T = 273 K",
+        "R = pV/T = 8,31 J/(mol.K) - hằng số khí lí tưởng",
+        "Phương trình Clapeyron: pV = nRT",
+        "Số mol khí: n = m/M, với m là khối lượng khí (kg), M là khối lượng mol (kg/mol)"
+      ],
+      "example": null
+    },
+    {
+      "heading": "Vận dụng phương trình trạng thái khí lí tưởng",
+      "summary": "Phương trình trạng thái của khí lí tưởng có nhiều ứng dụng thực tế: thiết kế, chế tạo các thiết bị liên quan đến chất khí như khí cầu, bình đựng khí, trang phục lặn, máy điều hoà không khí, máy nén khí; nghiên cứu sự biến đổi áp suất, nhiệt độ, khối lượng riêng của không khí trong khí quyển để dự báo thời tiết.",
+      "keyPoints": [
+        "Ứng dụng: bóng thám không, bình đựng khí, trang phục lặn, máy điều hoà không khí, máy nén khí",
+        "Ứng dụng: nghiên cứu khí quyển và dự báo thời tiết"
+      ],
+      "example": "Túi khí ô tô chứa chất NaN3; khi va chạm mạnh, hệ thống cảm biến kích thích NaN3 phân huỷ tạo thành Na và khí N2, khí N2 sinh ra làm phồng túi khí để bảo vệ người lái."
+    }
+  ],
+  "glossary": [
+    {"term": "Phương trình trạng thái của khí lí tưởng", "definition": "Hệ thức pV/T = hằng số, liên hệ cả ba thông số trạng thái của một khối lượng khí xác định."},
+    {"term": "Phương trình Clapeyron", "definition": "Phương trình trạng thái viết cho n mol khí lí tưởng: pV = nRT."},
+    {"term": "Hằng số khí lí tưởng (R)", "definition": "Hằng số R = 8,31 J/(mol.K), xác định từ thể tích, áp suất, nhiệt độ của 1 mol khí ở điều kiện tiêu chuẩn."},
+    {"term": "Số mol khí (n)", "definition": "n = m/M, với m là khối lượng khí (kg) và M là khối lượng mol của khí (kg/mol)."}
+  ]
+}

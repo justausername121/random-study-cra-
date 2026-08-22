@@ -1,0 +1,528 @@
+{
+  "chuDeId": "cd8",
+  "chuDeTitle": "Quyền và nghĩa vụ của công dân về văn hoá, xã hội",
+  "mcq": [
+    {
+      "id": "cd8-mcq-01",
+      "question": "Theo Luật Hôn nhân và gia đình năm 2014, hôn nhân là",
+      "options": {
+        "A": "việc hai người khác giới đi đăng kí kết hôn.",
+        "B": "việc hai người cùng giới hoặc khác giới đi đăng kí kết hôn.",
+        "C": "quan hệ giữa vợ và chồng sau khi kết hôn.",
+        "D": "quan hệ giữa vợ và chồng sau khi tổ chức đám cưới."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "cd8-mcq-02",
+      "question": "Theo Luật Hôn nhân và gia đình năm 2014, kết hôn là việc nam và nữ xác lập quan hệ vợ chồng với nhau theo quy định của Luật này về",
+      "options": {
+        "A": "điều kiện kết hôn và đăng kí kết hôn.",
+        "B": "điều kiện kết hôn và tổ chức hôn lễ.",
+        "C": "đăng kí kết hôn và tổ chức hôn lễ.",
+        "D": "chung sống với nhau và tổ chức hôn lễ."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "cd8-mcq-03",
+      "question": "Theo Luật Hôn nhân và gia đình năm 2014, một trong những nguyên tắc cơ bản của chế độ hôn nhân là",
+      "options": {
+        "A": "tự nguyện, tiến bộ, một vợ một chồng, vợ chồng bình đẳng, tôn trọng lẫn nhau.",
+        "B": "tự nguyện, công bằng, một vợ một chồng, vợ chồng bình đẳng.",
+        "C": "công bằng, bình đẳng, một vợ một chồng, vợ chồng tôn trọng lẫn nhau.",
+        "D": "công bằng, tiến bộ, một vợ một chồng, vợ chồng bình đẳng."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "cd8-mcq-04",
+      "question": "Theo quy định của pháp luật hiện hành, độ tuổi kết hôn của nam, nữ là",
+      "options": {
+        "A": "nam từ 20 tuổi trở lên, nữ từ 18 tuổi trở lên.",
+        "B": "nam từ đủ 20 tuổi trở lên, nữ từ đủ 18 tuổi trở lên.",
+        "C": "nam từ 21 tuổi trở lên, nữ từ 19 tuổi trở lên.",
+        "D": "nam từ đủ 21 tuổi trở lên, nữ từ đủ 19 tuổi trở lên."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "cd8-mcq-05",
+      "question": "Khung hình phạt tiền của pháp luật hiện hành đối với hành vi đánh đập, gây thương tích cho thành viên trong gia đình là",
+      "options": {
+        "A": "từ 01 triệu đồng đến 03 triệu đồng.",
+        "B": "từ 02 triệu đồng đến 05 triệu đồng.",
+        "C": "từ 03 triệu đồng đến 08 triệu đồng.",
+        "D": "từ 05 triệu đồng đến 10 triệu đồng."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd8-mcq-06",
+      "question": "Theo Luật Hôn nhân và gia đình năm 2014, việc kết hôn giữa những người nào sau đây không bị nghiêm cấm?",
+      "options": {
+        "A": "Giữa những người có cùng dòng máu về trực hệ.",
+        "B": "Giữa những người có họ trong phạm vi trên ba đời.",
+        "C": "Giữa người đã từng là cha, mẹ nuôi với con nuôi.",
+        "D": "Giữa cha dượng với con riêng của vợ, mẹ kế với con riêng của chồng."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "cd8-mcq-07",
+      "question": "Theo Luật Hôn nhân và gia đình năm 2014, chồng không có quyền yêu cầu li hôn trong trường hợp",
+      "options": {
+        "A": "vợ đang có thai, sinh con hoặc đang nuôi con dưới 03 tháng tuổi.",
+        "B": "vợ đang có thai, sinh con hoặc đang nuôi con dưới 06 tháng tuổi.",
+        "C": "vợ đang có thai, sinh con hoặc đang nuôi con dưới 12 tháng tuổi.",
+        "D": "vợ đang có thai, sinh con hoặc đang nuôi con dưới 24 tháng tuổi."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "cd8-mcq-08",
+      "question": "Theo Luật Hôn nhân và gia đình năm 2014, độ tuổi đối với con sống chung với cha mẹ phải có nghĩa vụ chăm lo đời sống chung của gia đình là",
+      "options": {
+        "A": "từ đủ 15 tuổi trở lên.",
+        "B": "từ đủ 16 tuổi trở lên.",
+        "C": "từ đủ 17 tuổi trở lên.",
+        "D": "từ đủ 18 tuổi trở lên."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "cd8-mcq-09",
+      "question": "(Đọc thông tin: Sau một thời gian tìm hiểu, anh K và chị M đã quyết định kết hôn với nhau. Tuy nhiên, bố chị M kiên quyết phản đối, cản trở hai người đến với nhau vì cho rằng gia đình anh K có hoàn cảnh khó khăn. Trước đó, bố chị M đã bị xử phạt hành chính về hành vi này. Mặc dù vậy, anh chị vẫn quyết tâm đến với nhau. Sau khi kết hôn được 5 năm và có được một người con, anh K thường xuyên ghen tuông vô cớ, chì chiết, xúc phạm vợ. Ngoài ra, anh K trong thời gian đi làm ở xa đã giấu gia đình kết hôn với chị H. Cảm thấy cuộc sống hôn nhân không còn hạnh phúc, chị M đã gửi đơn li hôn lên toà án nhưng anh K lại hết sức ngăn cản bằng cách hành hạ và uy hiếp tinh thần chị M.) Hành vi của bố chị M có thể bị áp dụng khung hình phạt theo quy định của pháp luật hiện hành là",
+      "options": {
+        "A": "phạt cảnh cáo, phạt cải tạo không giam giữ đến 01 năm hoặc phạt tù từ 03 tháng đến 01 năm.",
+        "B": "phạt cảnh cáo, phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm.",
+        "C": "phạt cảnh cáo, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 03 tháng đến 03 năm.",
+        "D": "phạt cảnh cáo, phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 04 năm."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "cd8-mcq-10",
+      "question": "Hành vi chì chiết, xúc phạm vợ của anh K (trong tình huống câu 9) có thể bị áp dụng khung hình phạt theo quy định của pháp luật hiện hành là từ",
+      "options": {
+        "A": "02 triệu đồng đến 05 triệu đồng.",
+        "B": "03 triệu đồng đến 08 triệu đồng.",
+        "C": "04 triệu đồng đến 09 triệu đồng.",
+        "D": "05 triệu đồng đến 10 triệu đồng."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd8-mcq-11",
+      "question": "Khung hình phạt tù của pháp luật hiện hành áp dụng đối với hành vi kết hôn giữa anh K với chị H (trong tình huống câu 9) khi anh K đang trong thời kì hôn nhân với chị M và là nguyên nhân khiến hôn nhân giữa anh K với chị M dẫn đến li hôn là từ",
+      "options": {
+        "A": "03 tháng đến 01 năm.",
+        "B": "06 tháng đến 01 năm.",
+        "C": "06 tháng đến 02 năm.",
+        "D": "01 năm đến 02 năm."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "cd8-mcq-12",
+      "question": "Những ai trong tình huống ở câu 9 đã vi phạm pháp luật về hôn nhân và gia đình?",
+      "options": {
+        "A": "Bố chị M, chị M, anh K.",
+        "B": "Bố chị M, anh K, chị H.",
+        "C": "Bố chị M, chị M, chị H.",
+        "D": "Chị M, anh K, chị H."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "cd8-mcq-13",
+      "question": "Theo Luật Giáo dục năm 2019, phổ cập giáo dục là quá trình tổ chức hoạt động giáo dục để mọi công dân trong độ tuổi đều được",
+      "options": {
+        "A": "thực hiện quyền học tập, nghiên cứu khoa học của mình theo quy định của pháp luật.",
+        "B": "thực hiện quyền học tập, phát minh, sáng chế của mình theo quy định của pháp luật.",
+        "C": "học tập và đạt đến trình độ chuyên môn nhất định theo quy định của pháp luật.",
+        "D": "học tập và đạt đến trình độ học vấn nhất định theo quy định của pháp luật."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd8-mcq-14",
+      "question": "Theo Luật Giáo dục năm 2019, Nhà nước thực hiện phổ cập giáo dục",
+      "options": {
+        "A": "giáo dục tiểu học và trung học cơ sở.",
+        "B": "giáo dục tiểu học và THPT.",
+        "C": "trẻ em 05 tuổi và phổ cập giáo dục trung học cơ sở.",
+        "D": "trẻ em 05 tuổi và phổ cập giáo dục THPT."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "cd8-mcq-15",
+      "question": "Theo Luật Giáo dục năm 2019, Nhà nước thực hiện công bằng xã hội trong giáo dục, tạo môi trường giáo dục an toàn, bảo đảm giáo dục hoà nhập, tạo điều kiện để người học",
+      "options": {
+        "A": "được theo học tại cơ sở giáo dục mong muốn.",
+        "B": "được theo học những ngành nghề mong muốn.",
+        "C": "phát huy tiềm năng, năng khiếu của mình.",
+        "D": "học tập, nghiên cứu suốt đời."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "cd8-mcq-16",
+      "question": "Pháp luật hiện hành không quy định quyền nào sau đây của công dân trong lĩnh vực học tập?",
+      "options": {
+        "A": "Quyền bình đẳng về cơ hội học tập.",
+        "B": "Quyền học bất cứ ngành, nghề nào phù hợp với bản thân.",
+        "C": "Quyền được học bất cứ nước nào mong muốn.",
+        "D": "Quyền được tạo điều kiện để phát triển tài năng."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "cd8-mcq-17",
+      "question": "Theo pháp luật hiện hành, mọi công dân trong độ tuổi quy định có nghĩa vụ học tập để",
+      "options": {
+        "A": "thực hiện phổ cập giáo dục và hoàn thành giáo dục bắt buộc.",
+        "B": "thực hiện phổ cập giáo dục và hoàn thành giáo dục thường xuyên.",
+        "C": "thực hiện xã hội hoá giáo dục và hoàn thành giáo dục bắt buộc.",
+        "D": "thực hiện xã hội hoá giáo dục và hoàn thành giáo dục thường xuyên."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "cd8-mcq-18",
+      "question": "Phương án nào sau đây không phải là nhiệm vụ của người học theo quy định của pháp luật hiện hành?",
+      "options": {
+        "A": "Học tập, rèn luyện theo chương trình của cơ sở giáo dục.",
+        "B": "Đóng góp các khoản quỹ theo yêu cầu của cơ sở giáo dục.",
+        "C": "Tôn trọng nhà giáo, cán bộ và người lao động của cơ sở giáo dục.",
+        "D": "Tham gia lao động phù hợp với lứa tuổi, sức khoẻ và năng lực."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "cd8-mcq-19",
+      "question": "Theo Điều 82, Luật Giáo dục năm 2019, người học có nhiệm vụ góp phần xây dựng, bảo vệ và phát huy truyền thống của",
+      "options": {
+        "A": "gia đình.",
+        "B": "quê hương.",
+        "C": "đất nước.",
+        "D": "cơ sở giáo dục."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd8-mcq-20",
+      "question": "(Đọc thông tin: Ông B có hai người con. Mặc dù điều kiện kinh tế của gia đình ông không khó khăn nhưng ông cho rằng con gái thì không cần học nhiều mà chỉ cần lấy chồng có điều kiện kinh tế là được. Vì vậy, khi con gái ông là chị T học hết lớp 9, ông không cho chị tiếp tục học THPT mà ở nhà phụ giúp công việc gia đình. Anh C là con trai của ông B sau khi học hết THPT thì rất muốn tiếp tục theo học ngành Mĩ thuật của một trường cao đẳng vì anh có năng khiếu và rất yêu thích công việc liên quan đến lĩnh vực này, nhưng ông kịch liệt phản đối, cho rằng lựa chọn của con trai là hão huyền và ép anh phải đăng kí xét tuyển vào ngành Quản trị kinh doanh của một trường đại học.) Nhận định nào sau đây về tình huống trên là phù hợp với quy định Luật Giáo dục năm 2019?",
+      "options": {
+        "A": "Chị T, anh C đã hoàn thành giáo dục phổ thông.",
+        "B": "Chị T, anh C đã hoàn thành giáo dục bắt buộc.",
+        "C": "Chị T là con gái thì không cần phải học nhiều.",
+        "D": "Anh C có nghĩa vụ nghe theo định hướng nghề nghiệp của cha mẹ."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "cd8-mcq-21",
+      "question": "Chủ thể chưa thực hiện đủ nghĩa vụ về phổ cập giáo dục trong tình huống ở câu 20 là",
+      "options": {
+        "A": "Chị T và anh C.",
+        "B": "Ông B và chị T.",
+        "C": "Ông B và anh C.",
+        "D": "Ông B, chị T và anh C."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "cd8-mcq-22",
+      "question": "Theo Luật Khám bệnh, chữa bệnh năm 2023, người bệnh là người",
+      "options": {
+        "A": "sử dụng dịch vụ khám bệnh, chữa bệnh.",
+        "B": "bị các bệnh truyền nhiễm ảnh hưởng đến sức khoẻ.",
+        "C": "bị tai nạn, thương tích cần phải đi cấp cứu.",
+        "D": "bị tất cả các vấn đề ảnh hưởng đến sức khoẻ."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "cd8-mcq-23",
+      "question": "Theo Luật Khám bệnh, chữa bệnh năm 2023, người bệnh không có quyền nào sau đây?",
+      "options": {
+        "A": "Quyền được khám bệnh, chữa bệnh.",
+        "B": "Quyền được tôn trọng, bảo vệ sức khoẻ.",
+        "C": "Quyền được tự do lựa chọn bệnh viện và bác sĩ.",
+        "D": "Quyền được lựa chọn trong khám bệnh, chữa bệnh."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "cd8-mcq-24",
+      "question": "Theo Luật Khám bệnh, chữa bệnh năm 2023, người bệnh có quyền được khám bệnh, chữa bệnh bằng phương pháp an toàn, phù hợp với",
+      "options": {
+        "A": "bệnh, tình trạng sức khoẻ của mình và điều kiện kinh tế của gia đình.",
+        "B": "bệnh, tình trạng sức khoẻ của mình và điều kiện thực tế của cơ sở khám bệnh, chữa bệnh.",
+        "C": "điều kiện kinh tế của gia đình và điều kiện thực tế của cơ sở khám bệnh, chữa bệnh.",
+        "D": "điều kiện kinh tế của gia đình và điều kiện thực tế của địa phương nơi người bệnh cư trú."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "cd8-mcq-25",
+      "question": "Theo Điều 10, Luật Khám bệnh, chữa bệnh năm 2023, người bệnh có quyền được tôn trọng về tuổi, giới tính, dân tộc, tôn giáo, tín ngưỡng, tình trạng sức khoẻ và",
+      "options": {
+        "A": "sở thích cá nhân, địa vị xã hội.",
+        "B": "sở thích cá nhân, điều kiện kinh tế.",
+        "C": "điều kiện kinh tế, địa phương sinh sống.",
+        "D": "điều kiện kinh tế, địa vị xã hội."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd8-mcq-26",
+      "question": "Theo Điều 55 Luật Việc làm năm 2013, một trong những điều kiện để người lao động được hỗ trợ học nghề là đã đóng bảo hiểm thất nghiệp với mức thời gian đóng trước khi chấm dứt hợp đồng lao động hoặc hợp đồng làm việc theo quy định của pháp luật",
+      "options": {
+        "A": "từ đủ 03 tháng trở lên trong thời gian 09 tháng.",
+        "B": "từ đủ 06 tháng trở lên trong thời gian 12 tháng.",
+        "C": "từ đủ 09 tháng trở lên trong thời gian 24 tháng.",
+        "D": "từ đủ 12 tháng trở lên trong thời gian 36 tháng."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "cd8-mcq-27",
+      "question": "Phương án nào sau đây không phải là trường hợp được hưởng bảo hiểm y tế theo quy định của Luật Bảo hiểm xã hội năm 2014?",
+      "options": {
+        "A": "Đang hưởng lương hưu.",
+        "B": "Bị tai nạn giao thông do tự mình gây ra.",
+        "C": "Trong thời gian nghỉ việc hưởng trợ cấp thai sản khi sinh con hoặc nhận nuôi con nuôi.",
+        "D": "Nghỉ việc hưởng trợ cấp tai nạn lao động."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "cd8-mcq-28",
+      "question": "Theo Luật Bảo hiểm xã hội năm 2014, phương án nào sau đây không phải là trách nhiệm của người lao động?",
+      "options": {
+        "A": "Đóng bảo hiểm xã hội theo quy định của Luật này.",
+        "B": "Thực hiện quy định về việc lập hồ sơ bảo hiểm xã hội.",
+        "C": "Bảo quản sổ bảo hiểm xã hội.",
+        "D": "Nhận lương hưu và trợ cấp bảo hiểm xã hội đầy đủ."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd8-mcq-29",
+      "question": "(Đọc thông tin: Anh H là lao động đã làm việc tại bộ phận xử lí hoá chất tại Công ty X được 03 năm. Hằng năm, anh đều được công ty cho đi khám sức khoẻ định kì. Thời gian gần đây, anh cảm thấy sức khoẻ của mình bị suy giảm nhiều nên anh xin công ty cho nghỉ 05 ngày để đi điều trị. Sau khi điều trị xong, anh H phải chi trả toàn bộ kinh phí điều trị do anh không có bảo hiểm y tế.) Theo quy định của pháp luật hiện hành, anh H sẽ được Công ty X tổ chức cho đi khám sức khoẻ hằng năm với tần suất ít nhất",
+      "options": {
+        "A": "01 tháng một lần.",
+        "B": "03 tháng một lần.",
+        "C": "06 tháng một lần.",
+        "D": "12 tháng một lần."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "cd8-mcq-30",
+      "question": "Theo quy định của pháp luật hiện hành, anh H (trong tình huống câu 29) thuộc diện phải tham gia bảo hiểm y tế, bởi anh thuộc trường hợp người lao động làm việc theo hợp đồng lao động có thời hạn từ đủ",
+      "options": {
+        "A": "03 tháng trở lên.",
+        "B": "04 tháng trở lên.",
+        "C": "05 tháng trở lên.",
+        "D": "06 tháng trở lên."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "cd8-mcq-31",
+      "question": "Di sản văn hoá bao gồm",
+      "options": {
+        "A": "di sản văn hoá nhân tạo và di sản văn hoá thiên nhiên.",
+        "B": "di sản văn hoá thiên nhiên và di sản văn hoá vật thể.",
+        "C": "di sản văn hoá vật thể và di sản văn hoá phi vật thể.",
+        "D": "di sản văn hoá thiên nhiên và di sản văn hoá phi vật thể."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "cd8-mcq-32",
+      "question": "Theo Điều 41 Hiến pháp năm 2013, mọi người có quyền hưởng thụ và tiếp cận các giá trị văn hoá, tham gia vào đời sống văn hoá, sử dụng",
+      "options": {
+        "A": "các nhạc cụ văn hoá.",
+        "B": "các cơ sở văn hoá.",
+        "C": "các không gian văn hoá.",
+        "D": "các giá trị văn hoá."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "cd8-mcq-33",
+      "question": "Theo Luật Di sản văn hoá, di sản văn hoá phát hiện được mà không xác định được chủ sở hữu, thu được trong quá trình thăm dò, khai quật khảo cổ đều thuộc sở hữu của",
+      "options": {
+        "A": "Nhà nước.",
+        "B": "cá nhân hoặc tổ chức phát hiện.",
+        "C": "cá nhân hoặc tổ chức có quyền sử dụng đất nơi phát hiện.",
+        "D": "bảo tàng ở địa phương nơi phát hiện."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "cd8-mcq-34",
+      "question": "Theo Điều 16 Luật Di sản văn hoá, tổ chức, cá nhân quản lí trực tiếp di sản văn hoá không có nghĩa vụ nào sau đây?",
+      "options": {
+        "A": "Bảo vệ, giữ gìn di sản văn hoá.",
+        "B": "Thực hiện các biện pháp phòng ngừa, ngăn chặn kịp thời các hành vi xâm hại di sản văn hoá.",
+        "C": "Tạo điều kiện thuận lợi cho tổ chức, cá nhân tham quan, du lịch, nghiên cứu di sản văn hoá.",
+        "D": "Đầu tư kinh phí cho hoạt động bảo vệ và phát huy giá trị văn hoá phi vật thể."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd8-mcq-35",
+      "question": "Theo Điều 43 Hiến pháp năm 2013, mọi người có quyền được sống trong môi trường trong lành và",
+      "options": {
+        "A": "có nghĩa vụ bảo vệ môi trường.",
+        "B": "tôn trọng quyền đó của người khác.",
+        "C": "có nghĩa vụ tuyên truyền mọi người bảo vệ môi trường.",
+        "D": "có quyền tố giác hành vi phá hoại môi trường."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "cd8-mcq-36",
+      "question": "Theo Luật Bảo vệ môi trường năm 2020, bảo vệ môi trường là quyền, nghĩa vụ và trách nhiệm của",
+      "options": {
+        "A": "mọi cơ quan, cộng đồng dân cư và cá nhân có quốc tịch Việt Nam.",
+        "B": "mọi tổ chức trên lãnh thổ Việt Nam và mọi cá nhân có quốc tịch Việt Nam.",
+        "C": "cộng đồng dân cư, hộ gia đình và cá nhân có quốc tịch Việt Nam.",
+        "D": "mọi cơ quan, tổ chức, cộng đồng dân cư, hộ gia đình và cá nhân."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "cd8-mcq-37",
+      "question": "Theo Điều 60 Luật Bảo vệ môi trường năm 2020, hộ gia đình, cá nhân không có trách nhiệm nào sau đây?",
+      "options": {
+        "A": "Thu gom và chuyển rác thải sinh hoạt đã được phân loại đến đúng nơi quy định.",
+        "B": "Không để vật nuôi gây mất vệ sinh trong khu dân cư.",
+        "C": "Xử phạt các hành vi gây ô nhiễm môi trường.",
+        "D": "Tham gia hoạt động bảo vệ môi trường tại cộng đồng dân cư."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "cd8-mcq-38",
+      "question": "(Đọc thông tin: Gia đình bà S đang sinh sống tại một làng nghề tái chế kim loại. Trong quá trình sản xuất, mỗi ngày làng nghề phát sinh khoảng 30 – 40 tấn chất thải gồm bã thải xỉ nhôm, xỉ than, bùn từ quá trình cô đúc kim loại, chưa được thu gom triệt để. Kết quả quan trắc chất lượng môi trường không khí cho thấy các chỉ tiêu phân tích về chất lượng nước mặt, tiếng ồn, bụi, các khí độc hại đều vượt quy chuẩn cho phép từ 1,2 – 1,8 lần, khiến môi trường sống của dân cư trong làng nghề và khu vực lân cận bị ô nhiễm. Mặc dù nhiều lần bà S muốn góp ý với các hộ gia đình trong cuộc họp dân phố nhưng chồng bà S cho rằng làm như thế sẽ bị mất tình làng nghĩa xóm.) Số lượng chất thải phát sinh trong tình huống trên thuộc loại",
+      "options": {
+        "A": "Chất thải sinh hoạt.",
+        "B": "Chất thải rắn.",
+        "C": "Chất thải lỏng.",
+        "D": "Chất thải y tế."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "cd8-mcq-39",
+      "question": "Để được phép xả chất thải ra môi trường, quản lí chất thải, nhập khẩu phế liệu về làm nguyên liệu sản xuất kèm theo yêu cầu, điều kiện về bảo vệ môi trường theo quy định của pháp luật, các hộ gia đình trong làng nghề (ở câu 38) cần cơ quan nhà nước có thẩm quyền cấp cho văn bản nào?",
+      "options": {
+        "A": "Giấy phép môi trường.",
+        "B": "Giấy phép sản xuất.",
+        "C": "Giấy phép kinh doanh.",
+        "D": "Giấy phép hành nghề."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "cd8-mcq-40",
+      "question": "Theo Điều 159 Luật Bảo vệ môi trường năm 2020, chủ thể nào có quyền yêu cầu các hộ gia đình trong tình huống ở câu 38 cung cấp thông tin về bảo vệ môi trường thông qua đối thoại trực tiếp hoặc bằng văn bản?",
+      "options": {
+        "A": "Bất cứ người dân nào trong làng nghề.",
+        "B": "Đại diện hộ gia đình trong làng nghề.",
+        "C": "Đại diện cộng đồng dân cư trong làng nghề.",
+        "D": "Tất cả các cơ quan nhà nước."
+      },
+      "answer": "C"
+    }
+  ],
+  "trueFalse": [
+    {
+      "id": "cd8-tf-01",
+      "stimulus": "Theo bản án số 01/2022/HNGĐ-ST ngày 28/3/2022 của Toà án nhân dân thị xã D, tỉnh B, chị H và anh N kết hôn với nhau vào ngày 24/7/2007, có đăng kí kết hôn trên cơ sở tự nguyện. Sau khi kết hôn, chị H và anh N chung sống hạnh phúc được một thời gian thì phát sinh mâu thuẫn do anh N thường xuyên uống rượu, không tu chí làm ăn, không chăm lo cuộc sống trong gia đình, vợ chồng thường xuyên xảy ra cãi vã. Mặc dù mâu thuẫn giữa chị H và anh N đã được hai bên gia đình nội ngoại hoà giải nhiều lần nhưng không có kết quả. Do không thể sống chung với nhau được nữa nên chị H và anh N đã sống li thân từ đầu năm 2021 đến khi ra Toà án. Từ khi sống li thân, vợ chồng anh chị không còn ai quan tâm, chăm sóc tới nhau. Xét thấy tình cảm vợ chồng không còn và không thể tiếp tục chung sống với nhau nên chị H yêu cầu toà án giải quyết cho chị được li hôn với anh N.\n\nChị H và anh N có ba con chung (sinh năm 2008, 2015, 2019), không ai có con riêng, không ai nhận nuôi con nuôi. Khi li hôn, chị H có nguyện vọng được trực tiếp chăm sóc, nuôi dưỡng, giáo dục ba con chung của chị và anh N. Chị không yêu cầu anh N cấp dưỡng nuôi con chung.",
+      "statements": [
+        {"key": "a", "text": "Việc anh N thường xuyên uống rượu, không tu chí làm ăn, không chăm lo cuộc sống trong gia đình là hành vi vi phạm về quyền và nghĩa vụ về nhân thân giữa vợ và chồng theo quy định của pháp luật hiện hành.", "answer": true},
+        {"key": "b", "text": "Chị H không có quyền yêu cầu li hôn với anh N vì đã có ba con chung với anh N và các con còn nhỏ.", "answer": false},
+        {"key": "c", "text": "Các con của chị H, anh N đều chưa thành niên nên đều không có quyền lựa chọn ở cùng chị H hoặc anh N mà sẽ do Toà án phân định.", "answer": false},
+        {"key": "d", "text": "Khi phát hiện các hành vi vi phạm quyền, nghĩa vụ của công dân về hôn nhân và gia đình, học sinh chưa có quyền tố cáo mà cần thông qua bố mẹ hoặc thầy, cô giáo.", "answer": false}
+      ]
+    },
+    {
+      "id": "cd8-tf-02",
+      "stimulus": "Theo số liệu thống kê của Bộ Văn hoá, Thể thao và Du lịch trong giai đoạn 2009 – 2021, tổng số vụ bạo lực gia đình đã phát hiện trên cả nước là 324 641 vụ. Trong khi đó, số liệu điều tra năm 2019 cho thấy có 31,6% phụ nữ phải chịu ít nhất một hình thức bạo lực trong 12 tháng; cứ 03 phụ nữ thì có gần 01 người (32%) bị chồng bạo hành thể xác hoặc bạo lực tình dục. Đáng chú ý, có 90,4% phụ nữ bị chồng bạo hành thể xác hoặc tình dục không tìm kiếm sự giúp đỡ. Bên cạnh đó, 69% trẻ em cho biết đã từng bị bố mẹ xử phạt bằng các hình thức như đánh, đấm, đạp, tát,... và 31,6% bố mẹ thừa nhận họ đã xử phạt con bằng hình thức bạo lực.\n(Theo: Cổng thông tin điện tử Quốc hội Việt Nam)",
+      "statements": [
+        {"key": "a", "text": "Tất cả nạn nhân của bạo lực gia đình gồm phụ nữ và trẻ em.", "answer": false},
+        {"key": "b", "text": "Phụ nữ đang nuôi con dưới 36 tháng tuổi có quyền tố cáo chồng nếu chồng không quan tâm, chăm sóc.", "answer": true},
+        {"key": "c", "text": "Con bị bố mẹ ép học vượt quá khả năng của bản thân không có quyền tố cáo đến các cơ quan có thẩm quyền vì bố mẹ có quyền giáo dục đối với con cái.", "answer": false},
+        {"key": "d", "text": "Học sinh khi bị bạo lực gia đình hoặc phát hiện các hành vi bạo lực gia đình có quyền tố giác cho các cơ quan, tổ chức, cá nhân có thẩm quyền.", "answer": true}
+      ]
+    },
+    {
+      "id": "cd8-tf-03",
+      "stimulus": "Sinh ra và lớn lên trong gia đình đông anh chị em, điều kiện kinh tế khó khăn, nhiều năm là hộ cận nghèo nhưng hiểu được nỗi vất vả của bố mẹ, T đã nỗ lực hết mình trong học tập, 12 năm liền em đều đạt danh hiệu học sinh giỏi toàn diện.\n\nTrong học tập, T luôn tự giác, tìm ra phương pháp tự học phù hợp, chỗ nào không hiểu thì mạnh dạn hỏi lại thầy cô và các bạn. Trong kì thi tốt nghiệp THPT vừa qua, T xuất sắc đạt được 25,3 điểm ở khối thi A00, trong đó, môn Toán 8,8 điểm, môn Hoá học 8,5 điểm và môn Vật lí 8,0 điểm.",
+      "statements": [
+        {"key": "a", "text": "Gia đình của T thuộc hộ cận nghèo nhưng vẫn thực hiện đúng trách nhiệm của gia đình trong giáo dục theo quy định của pháp luật hiện hành.", "answer": true},
+        {"key": "b", "text": "Trường THPT nơi T theo học đã thực hiện tốt nghĩa vụ về giáo dục bắt buộc đối với T.", "answer": false},
+        {"key": "c", "text": "Bố mẹ của T có quyền yêu cầu T sau khi tốt nghiệp THPT thì đi làm ngay để phát triển kinh tế gia đình và T có nghĩa vụ phải nghe theo lời của bố mẹ.", "answer": false},
+        {"key": "d", "text": "Học sinh dù sống trong gia đình có hoàn cảnh kinh tế khó khăn vẫn phải cố gắng hoàn thành các nghĩa vụ học tập và vẫn có quyền được tạo điều kiện phát triển tài năng của mình.", "answer": true}
+      ]
+    },
+    {
+      "id": "cd8-tf-04",
+      "stimulus": "Theo lãnh đạo Trường Trung học cơ sở – Trung học phổ thông LHT, sau khi phát hiện sáu trường hợp học sinh bỗng dưng bỏ học, giáo viên chủ nhiệm đã chủ động liên hệ với phụ huynh để tìm hiểu nguyên nhân. Đây là các học sinh đang học các khối lớp 7, 8, 9 và 10 của trường.\n\nQua trao đổi, phụ huynh của các học sinh này cho hay con của họ bị \"người lạ\" rủ xuống thành phố làm công nhân may, hứa hẹn với gia đình mức đãi ngộ hấp dẫn nên đã cho các em nghỉ học để đi làm. Ngay sau đó, Nhà trường đã vận động gia đình để khuyên bảo các em trở về, đồng thời báo cáo với chính quyền địa phương để được hỗ trợ.\n\nNgày 10/02/2023, lực lượng chức năng đã đưa được cả sáu học sinh này về nhà an toàn. Các em kể lại, khi tới thành phố, tất cả đều phải làm việc rất nặng nhọc, bị bóc lột sức lao động, không đúng như hứa hẹn trước đó.",
+      "statements": [
+        {"key": "a", "text": "Trường sáu em đang theo học không thuộc diện giáo dục bắt buộc.", "answer": true},
+        {"key": "b", "text": "Sáu em học sinh cần học hết bậc THPT để hoàn thành phổ cập giáo dục theo quy định của pháp luật.", "answer": false},
+        {"key": "c", "text": "Hành vi của các đối tượng \"người lạ\" không vi phạm đến quyền được học tập của các em học sinh mà nhằm giúp các em và gia đình phát triển kinh tế.", "answer": false},
+        {"key": "d", "text": "Khi gặp tình huống tương tự, học sinh nên thông báo cho các thầy, cô giáo hoặc cá nhân, cơ quan có thẩm quyền nếu bị bố mẹ bắt nghỉ học để đi làm.", "answer": true}
+      ]
+    },
+    {
+      "id": "cd8-tf-05",
+      "stimulus": "Ngày 05/11/2023, tại Bệnh viện Đa khoa tỉnh P xảy ra vụ việc một điều dưỡng bị người nhà bệnh nhân hành hung gây thương tích trong quá trình làm việc. Điều dưỡng bị đánh là anh N, cán bộ của bệnh viện. Theo thông tin ban đầu, khoảng 2 giờ sáng cùng ngày, anh N tiếp nhận bệnh nhân Đ vào bệnh viện điều trị với vết thương ở ngón tay bên bàn tay phải.\n\nTrong quá trình hướng dẫn ghi hồ sơ, anh N yêu cầu người nhà ghi đúng tuổi theo năm sinh của bệnh nhân. Do phía người nhà bệnh nhân viết chưa đúng nên phải viết lại. Tuy nhiên, người nhà bệnh nhân bất ngờ dùng tay, chân, ghế đuổi đánh anh N. Hậu quả là anh N bị thương ở cánh tay, bàn tay và phần đầu.",
+      "statements": [
+        {"key": "a", "text": "Bệnh nhân Đ có quyền được điều trị tại Bệnh viện Đa khoa tỉnh P.", "answer": true},
+        {"key": "b", "text": "Việc anh N yêu cầu người nhà ghi đúng tuổi theo năm sinh của bệnh nhân đã vi phạm quyền được tôn trọng về tuổi của người bệnh.", "answer": false},
+        {"key": "c", "text": "Bệnh nhân Đ có quyền yêu cầu được cứu chữa bằng phương pháp an toàn, phù hợp với tình trạng thương tích của mình.", "answer": true},
+        {"key": "d", "text": "Học sinh khi chứng kiến vụ việc tương tự có quyền tố cáo đến cơ quan công an trên địa bàn để xử lí theo quy định của pháp luật.", "answer": true}
+      ]
+    },
+    {
+      "id": "cd8-tf-06",
+      "stimulus": "Công ty H nợ lương từ tháng 01/2017 và nợ bảo hiểm xã hội từ tháng 7/2011 của toàn bộ gần 500 người lao động. Tính đến trước tháng 3/2023, số tiền công ty này nợ bảo hiểm xã hội của người lao động là hơn 15 tỉ đồng.\n\nVì Công ty H không đóng bảo hiểm xã hội, bảo hiểm y tế nên nhiều nữ công nhân không được hưởng chế độ thai sản mặc dù con của họ đã lớn; có hai trường hợp người lao động chẳng may tử vong nhưng đến trước tháng 3/2023, gia đình họ chưa nhận được chế độ tử tuất. Do không chấm dứt hợp đồng lao động nên người lao động không xin được việc làm ổn định dù có tay nghề, họ phải đi làm thuê tại các xưởng gia công hoặc các công việc thời vụ như rửa bát thuê, xe ôm,... để có tiền trang trải cuộc sống.",
+      "statements": [
+        {"key": "a", "text": "Hành vi không đóng bảo hiểm xã hội, bảo hiểm y tế của Công ty H đã vi phạm quy định trong Điều 19 Luật Bảo hiểm xã hội năm 2014.", "answer": false},
+        {"key": "b", "text": "Dù Công ty H không đóng bảo hiểm y tế nhưng các công nhân vẫn có quyền được khám bệnh, chữa bệnh.", "answer": true},
+        {"key": "c", "text": "Người phụ trách trong Công ty H có hành vi không đóng bảo hiểm xã hội, bảo hiểm y tế cho người lao động có thể bị phạt tù từ 06 tháng đến 03 năm.", "answer": true},
+        {"key": "d", "text": "Nếu gia đình học sinh có người thân rơi vào trường hợp giống các công nhân trong tình huống trên, học sinh không có quyền tố cáo mà chỉ người thân đó mới có quyền tố cáo đến các cơ quan có thẩm quyền.", "answer": false}
+      ]
+    },
+    {
+      "id": "cd8-tf-07",
+      "stimulus": "Theo phản ánh, nhà thờ họ X là di tích lịch sử được xếp hạng cấp tỉnh vào năm 2016 đã được dòng họ này tự ý tháo dỡ để tu bổ, tôn tạo lại khi chưa được cấp có thẩm quyền xem xét, cho phép.\n\nUỷ ban nhân dân xã M đã vào cuộc kiểm tra, xác định công trình đã hạ toàn bộ mái ngói nhà tiền đường, cho thay thế một số hạng mục mới bên trong công trình, đang tiến hành lợp ngói,...\n\nUỷ ban nhân dân xã này đã lập biên bản xử phạt 2 triệu đồng và buộc trả lại nguyên trạng cho di tích.",
+      "statements": [
+        {"key": "a", "text": "Nhà thờ họ X là di sản văn hoá phi vật thể.", "answer": false},
+        {"key": "b", "text": "Dòng họ X có nghĩa vụ thông báo cho cơ quan nhà nước có thẩm quyền khi di tích này bị xuống cấp.", "answer": true},
+        {"key": "c", "text": "Khi di tích này bị xuống cấp nghiêm trọng, nếu dòng họ X đã báo cáo cho cơ quan nhà nước có thẩm quyền mà chưa được giải quyết thì dòng họ có quyền tu bổ, tôn tạo để kịp thời bảo vệ di tích.", "answer": false},
+        {"key": "d", "text": "Học sinh trực tiếp phát hiện các hành vi phá hoại di sản văn hoá có quyền bắt giữ người và xử phạt theo chế tài xử phạt của pháp luật hiện hành hoặc thông báo cho các cơ quan có thẩm quyền xử lí.", "answer": false}
+      ]
+    },
+    {
+      "id": "cd8-tf-08",
+      "stimulus": "Hầu hết các làng nghề đang hoạt động hiện nay đều có những ảnh hưởng trực tiếp hoặc gián tiếp tới môi trường không khí. Trong số đó, ba nhóm làng nghề: tái chế (kim loại, giấy, nhựa,...), vật liệu xây dựng và chế biến nông sản, thực phẩm là những nhóm làng nghề có nguy cơ gây ô nhiễm môi trường không khí cao. Nguồn thải gây ô nhiễm môi trường không khí tại các làng nghề chủ yếu từ việc sử dụng than làm nhiên liệu, sử dụng hoá chất, phụ gia trong quá trình sản xuất. Trong đó, nhóm làng nghề có thải lượng ô nhiễm lớn nhất là tái chế (kim loại, giấy, nhựa,...), quá trình tái chế và gia công, xử lí bề mặt, phun sơn, đánh bóng bề mặt sản phẩm, nung, sấy, tẩy trắng, khí thải lò rèn,... làm phát sinh bụi và các khí thải như SO2, NO2, hơi axit và kiềm.",
+      "statements": [
+        {"key": "a", "text": "Nghề tái chế (kim loại, giấy, nhựa,...) trong tình huống trên không thuộc danh mục các ngành, nghề bị cấm theo quy định của pháp luật hiện hành.", "answer": true},
+        {"key": "b", "text": "Theo quy định của pháp luật hiện hành, một số hộ gia đình đã làm nghề truyền thống thì không cần phải có giấy chứng nhận đủ điều kiện sản xuất, kinh doanh.", "answer": false},
+        {"key": "c", "text": "Để có vốn đầu tư cho hoạt động quản lí chất thải hiệu quả, các hộ sản xuất trong làng nghề nên vay \"tín dụng xanh\" hoặc quỹ bảo vệ môi trường để được hưởng lãi suất ưu đãi.", "answer": true},
+        {"key": "d", "text": "Học sinh có nghĩa vụ chính là học tập nên chưa có trách nhiệm tham gia các hoạt động bảo vệ môi trường tại cộng đồng dân cư mà đây là trách nhiệm của người lớn.", "answer": false}
+      ]
+    }
+  ]
+}

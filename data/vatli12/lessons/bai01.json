@@ -1,0 +1,57 @@
+{
+  "id": "bai01",
+  "chuDeId": "vlc1",
+  "chuDeTitle": "Vật lí nhiệt",
+  "baiNumber": 1,
+  "title": "Cấu trúc của chất. Sự chuyển thể",
+  "objectives": [
+    "Giải thích được sự khác nhau giữa các thể của chất và cơ chế của sự chuyển thể.",
+    "Tìm hiểu và trình bày được vai trò của sự chuyển thể đối với cuộc sống con người như vòng tuần hoàn nước, công nghệ đúc,..."
+  ],
+  "sections": [
+    {
+      "heading": "I. Mô hình động học phân tử về cấu tạo chất",
+      "summary": "Mọi chất đều được cấu tạo từ các hạt riêng biệt gọi là phân tử. Các phân tử luôn chuyển động hỗn loạn không ngừng, và nhiệt độ càng cao thì chúng chuyển động càng nhanh. Giữa các phân tử luôn tồn tại lực hút và lực đẩy lẫn nhau, gọi chung là lực liên kết phân tử.",
+      "keyPoints": [
+        "Các chất được cấu tạo từ các hạt riêng biệt là phân tử.",
+        "Các phân tử chuyển động không ngừng; nhiệt độ của vật càng cao thì tốc độ chuyển động của các phân tử cấu tạo nên vật càng lớn.",
+        "Giữa các phân tử có lực hút và đẩy gọi chung là lực liên kết phân tử.",
+        "Thuật ngữ 'phân tử' trong mô hình dùng để chỉ chung các hạt cấu tạo chất: phân tử, nguyên tử, ion.",
+        "Chuyển động Brown (Brown, 1827): quan sát hạt phấn hoa nhỏ trong nước chuyển động hỗn loạn không ngừng do va chạm với các phân tử nước - là bằng chứng thực nghiệm cho chuyển động hỗn loạn không ngừng của phân tử."
+      ],
+      "example": null
+    },
+    {
+      "heading": "II. Cấu trúc của chất rắn, chất lỏng và chất khí",
+      "summary": "Cấu trúc của một chất phụ thuộc vào khoảng cách và cách sắp xếp giữa các phân tử của nó. Khoảng cách giữa các phân tử càng lớn thì lực liên kết giữa chúng càng yếu; các phân tử sắp xếp có trật tự thì lực liên kết giữa chúng càng mạnh. Nhờ đó thể rắn có hình dạng, thể tích riêng và khó nén; thể lỏng có thể tích riêng nhưng không có hình dạng riêng; thể khí không có hình dạng, thể tích riêng và dễ bị nén.",
+      "keyPoints": [
+        "Khoảng cách giữa các phân tử càng lớn thì lực liên kết giữa chúng càng yếu.",
+        "Các phân tử sắp xếp có trật tự thì lực liên kết giữa chúng càng mạnh.",
+        "Thể rắn: phân tử sắp xếp có trật tự, khoảng cách gần, lực liên kết mạnh -> có hình dạng và thể tích riêng, khó nén.",
+        "Thể lỏng: phân tử ở gần nhau nhưng không có trật tự chặt chẽ như rắn -> có thể tích riêng nhưng không có hình dạng riêng.",
+        "Thể khí: phân tử ở xa nhau, chuyển động hỗn loạn -> không có hình dạng, thể tích riêng, chiếm toàn bộ bình chứa và dễ bị nén."
+      ],
+      "example": "Chất rắn kết tinh (như muối ăn NaCl) có các hạt liên kết chặt chẽ, sắp xếp theo trật tự hình học tuần hoàn tạo mạng tinh thể, có nhiệt độ nóng chảy xác định; chất rắn vô định hình (thuỷ tinh, nhựa đường, chất dẻo) không tạo mạng tinh thể."
+    },
+    {
+      "heading": "III. Sự chuyển thể",
+      "summary": "Các chất có thể chuyển từ thể này sang thể khác: nóng chảy/đông đặc (rắn - lỏng), hoá hơi/ngưng kết (lỏng - khí), và một số chất có thể thăng hoa/ngưng kết trực tiếp giữa rắn và khí. Sự hoá hơi gồm hai hình thức là bay hơi (chỉ xảy ra ở mặt thoáng) và sôi (xảy ra cả trong lòng chất lỏng lẫn ở mặt thoáng, tại một nhiệt độ xác định gọi là nhiệt độ sôi). Khi chất rắn kết tinh nóng chảy, nhiệt độ của nó giữ nguyên không đổi dù vẫn nhận nhiệt lượng, vì năng lượng nhận được dùng để phá vỡ trật tự sắp xếp và làm yếu lực liên kết giữa các phân tử chứ không làm tăng động năng phân tử.",
+      "keyPoints": [
+        "Sáu quá trình chuyển thể: nóng chảy, đông đặc, hoá hơi, ngưng kết, thăng hoa (rắn sang khí trực tiếp), ngưng kết ngược (khí sang rắn trực tiếp).",
+        "Sự bay hơi: sự hoá hơi xảy ra ở mặt thoáng chất lỏng, ở mọi nhiệt độ.",
+        "Sự sôi: sự hoá hơi xảy ra đồng thời ở trong lòng và trên mặt thoáng chất lỏng, khi nhiệt độ đạt tới nhiệt độ sôi (nước sôi ở khoảng 100°C dưới áp suất tiêu chuẩn 1,01.10^5 Pa).",
+        "Khi chất rắn kết tinh đang nóng chảy, nhiệt độ không đổi; năng lượng nhận được dùng để phá vỡ liên kết và trật tự sắp xếp phân tử (làm tăng thế năng phân tử) chứ không làm tăng động năng phân tử."
+      ],
+      "example": "Khi bay hơi, các phân tử có động năng lớn nhất thoát ra khỏi mặt thoáng trước, làm động năng trung bình của các phân tử còn lại giảm đi, nên nhiệt độ của chất lỏng giảm."
+    }
+  ],
+  "glossary": [
+    {"term": "Phân tử", "definition": "Hạt riêng biệt cấu tạo nên chất; trong mô hình động học phân tử, thuật ngữ này dùng chung cho phân tử, nguyên tử, ion."},
+    {"term": "Lực liên kết phân tử", "definition": "Lực hút và lực đẩy lẫn nhau giữa các phân tử."},
+    {"term": "Chuyển động Brown", "definition": "Chuyển động hỗn loạn, không ngừng của các hạt rất nhỏ (như hạt phấn hoa) dưới tác dụng va chạm của các phân tử chất lỏng hoặc chất khí."},
+    {"term": "Sự bay hơi", "definition": "Sự hoá hơi xảy ra ở mặt thoáng của chất lỏng."},
+    {"term": "Sự sôi", "definition": "Sự hoá hơi xảy ra đồng thời ở trong lòng và trên mặt thoáng của chất lỏng, tại nhiệt độ sôi."},
+    {"term": "Chất rắn kết tinh", "definition": "Chất rắn mà các hạt cấu tạo liên kết chặt chẽ, sắp xếp theo trật tự hình học tuần hoàn tạo thành mạng tinh thể, có nhiệt độ nóng chảy xác định."},
+    {"term": "Chất rắn vô định hình", "definition": "Chất rắn mà các hạt cấu tạo không tạo thành mạng tinh thể."}
+  ]
+}

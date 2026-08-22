@@ -1,0 +1,75 @@
+{
+  "id": "bai22",
+  "chuDeId": "vlc4",
+  "chuDeTitle": "Vật lí hạt nhân",
+  "baiNumber": 22,
+  "title": "Phản ứng hạt nhân và năng lượng liên kết",
+  "objectives": [],
+  "sections": [
+    {
+      "heading": "Phản ứng hạt nhân",
+      "summary": "Rutherford (1919) và sau đó Blackett (1925, dùng buồng sương) đã chứng minh rằng khi bắn hạt alpha vào hạt nhân nitrogen, xuất hiện các hạt nhân mới là oxygen và hydrogen. Quá trình biến đổi hạt nhân này thành hạt nhân khác được gọi là phản ứng hạt nhân. Phản ứng hạt nhân được chia làm hai loại: phản ứng hạt nhân kích thích (hạt nhân tương tác với hạt khác, ví dụ phân hạch, tổng hợp hạt nhân) và phản ứng hạt nhân tự phát (một hạt nhân không bền tự phân rã).",
+      "keyPoints": [
+        "Phương trình phản ứng hạt nhân của Blackett: 4/2 He + 14/7 N → 17/8 O + 1/1 H.",
+        "Phản ứng hạt nhân kích thích: quá trình hạt nhân tương tác với hạt khác tạo ra hạt nhân mới (ví dụ: phân hạch, tổng hợp hạt nhân).",
+        "Phản ứng hạt nhân tự phát: quá trình tự phân rã của một hạt nhân không bền vững thành hạt nhân mới, ví dụ 238/92 U → 234/90 Th + 4/2 He.",
+        "Định luật bảo toàn số nucleon (bảo toàn số khối A): tổng số nucleon trước phản ứng bằng tổng số nucleon sau phản ứng.",
+        "Định luật bảo toàn điện tích: tổng đại số điện tích trước phản ứng bằng tổng đại số điện tích sau phản ứng."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Lực hạt nhân và năng lượng liên kết",
+      "summary": "Lực hút giữa các nucleon trong hạt nhân gọi là lực hạt nhân, không phải lực tĩnh điện và có cường độ rất lớn nhưng chỉ tác dụng trong phạm vi rất ngắn (cỡ 10^-15 m). Muốn tách các nucleon ra khỏi hạt nhân cần tốn năng lượng để thắng lực hạt nhân; năng lượng tối thiểu đó gọi là năng lượng liên kết hạt nhân.",
+      "keyPoints": [
+        "Lực hạt nhân: lực hút giữa các nucleon, không phụ thuộc điện tích, có bán kính tác dụng cỡ 10^-15 m, mạnh hơn nhiều lực điện từ và lực hấp dẫn.",
+        "Năng lượng liên kết riêng: E_lkr = E_lk / A, đặc trưng cho mức độ bền vững của hạt nhân.",
+        "Hạt nhân có E_lkr càng lớn thì càng bền vững."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Độ hụt khối và hệ thức Einstein",
+      "summary": "Khối lượng của một hạt nhân luôn nhỏ hơn tổng khối lượng các nucleon tạo thành nó; độ chênh lệch đó gọi là độ hụt khối. Theo thuyết tương đối của Einstein, khối lượng và năng lượng có thể chuyển hoá cho nhau qua hệ thức E = mc^2, từ đó năng lượng liên kết của hạt nhân bằng tích độ hụt khối với c^2.",
+      "keyPoints": [
+        "Độ hụt khối: Δm = [Z.m_p + (A-Z).m_n] - m_X.",
+        "Hệ thức Einstein: E = mc^2 (c là tốc độ ánh sáng trong chân không).",
+        "Năng lượng liên kết: E_lk = [Z.m_p + (A-Z).m_n - m_X].c^2 = Δm.c^2.",
+        "Năng lượng liên kết của một hạt nhân bằng tích của độ hụt khối hạt nhân với thừa số c^2."
+      ],
+      "example": "Hạt nhân helium (4/2 He) có khối lượng m_He ≈ 4,00015 amu, trong khi tổng khối lượng 2 proton và 2 neutron là khoảng 4,03188 amu — khối lượng hạt nhân nhỏ hơn tổng khối lượng các nucleon thành phần, minh hoạ độ hụt khối."
+    },
+    {
+      "heading": "Phản ứng phân hạch hạt nhân",
+      "summary": "Đồ thị năng lượng liên kết riêng theo số khối cho thấy hạt nhân có số khối trung bình bền vững hơn hạt nhân nặng. Vì vậy khi một hạt nhân nặng vỡ thành hai hạt nhân nhẹ hơn có số khối trung bình, quá trình đó gọi là phản ứng phân hạch và toả ra năng lượng. Otto Hahn (1939) là người đầu tiên quan sát hiện tượng phân hạch của uranium khi bắn neutron nhiệt vào U-235.",
+      "keyPoints": [
+        "Phản ứng phân hạch: phản ứng hạt nhân trong đó một hạt nhân nặng vỡ thành hai hạt nhân nhẹ hơn (sản phẩm phân hạch), có số khối trung bình và bền vững hơn hạt nhân ban đầu.",
+        "Phương trình phân hạch U-235: 1/0 n + 235/92 U → 236/92 U* → 95/39 Y + 138/53 I + 3(1/0 n), toả năng lượng khoảng 200 MeV.",
+        "Phản ứng phân hạch dây chuyền: các neutron sinh ra sau mỗi phân hạch kích thích các hạt nhân khác phân hạch tiếp, tạo ra chuỗi phản ứng toả năng lượng rất lớn.",
+        "Khối lượng tới hạn (m_th): khối lượng tối thiểu để phản ứng dây chuyền tự duy trì (k ≥ 1); nếu k < 1 phản ứng dây chuyền tắt dần."
+      ],
+      "example": "Với chất phân hạch làm giàu khoảng 90%, khối lượng tới hạn của U-235 khoảng 47 kg, còn của Pu-239 khoảng 10 kg. Ngoài U-235, các đồng vị Np-237, Pu-239, Cf-251,... cũng có tính chất phân hạch tương tự."
+    },
+    {
+      "heading": "Phản ứng tổng hợp hạt nhân",
+      "summary": "Phản ứng tổng hợp hạt nhân là phản ứng trong đó hai hay nhiều hạt nhân nhẹ kết hợp thành một hạt nhân nặng hơn, bền vững hơn. Vì các hạt nhân đều mang điện dương nên cần cung cấp động năng rất lớn (nhiệt độ rất cao, khoảng 10^7-10^8 K) để thắng lực đẩy Coulomb, nên phản ứng này còn gọi là phản ứng nhiệt hạch.",
+      "keyPoints": [
+        "Phản ứng tổng hợp hạt nhân đầu tiên (Oliphant, 1927): 2/1 H + 2/1 H → 3/2 He + 1/0 n, toả năng lượng khoảng 4 MeV.",
+        "Phản ứng nhiệt hạch chỉ xảy ra ở nhiệt độ rất cao (thực tế khoảng 10^7-10^8 K) để các hạt nhân nhẹ tiến đủ gần nhau cho lực hạt nhân phát huy tác dụng.",
+        "Điều kiện Lawson để phản ứng tổng hợp duy trì: mật độ hạt nhân n và thời gian duy trì nhiệt độ cao Δt phải thoả n.Δt > 10^14 s/cm^3."
+      ],
+      "example": null
+    }
+  ],
+  "glossary": [
+    {"term": "Phản ứng hạt nhân", "definition": "Quá trình dẫn đến sự biến đổi hạt nhân này thành hạt nhân khác."},
+    {"term": "Lực hạt nhân", "definition": "Lực hút giữa các nucleon trong hạt nhân, không phụ thuộc điện tích, có bán kính tác dụng cỡ 10^-15 m."},
+    {"term": "Độ hụt khối", "definition": "Độ chênh lệch giữa tổng khối lượng các nucleon tạo thành hạt nhân và khối lượng thực của hạt nhân, kí hiệu Δm."},
+    {"term": "Năng lượng liên kết", "definition": "Năng lượng tối thiểu dùng để tách toàn bộ số nucleon ra khỏi hạt nhân, bằng Δm.c^2."},
+    {"term": "Năng lượng liên kết riêng", "definition": "Năng lượng liên kết tính trên một nucleon (E_lk/A), đặc trưng cho độ bền vững của hạt nhân."},
+    {"term": "Phản ứng phân hạch", "definition": "Phản ứng hạt nhân trong đó một hạt nhân nặng vỡ thành hai hạt nhân nhẹ hơn, có số khối trung bình và bền vững hơn."},
+    {"term": "Phản ứng phân hạch dây chuyền", "definition": "Chuỗi các phản ứng phân hạch xảy ra liên tiếp do neutron sinh ra từ phân hạch trước kích thích các hạt nhân khác phân hạch."},
+    {"term": "Khối lượng tới hạn", "definition": "Khối lượng tối thiểu của chất phân hạch để phản ứng dây chuyền có thể tự duy trì (k ≥ 1)."},
+    {"term": "Phản ứng tổng hợp hạt nhân (phản ứng nhiệt hạch)", "definition": "Phản ứng trong đó hai hay nhiều hạt nhân nhẹ tổng hợp thành một hạt nhân nặng hơn, chỉ xảy ra ở nhiệt độ rất cao."}
+  ]
+}

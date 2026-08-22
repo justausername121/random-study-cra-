@@ -1,0 +1,78 @@
+{
+  "id": "bai23",
+  "chuDeId": "vlc4",
+  "chuDeTitle": "Vật lí hạt nhân",
+  "baiNumber": 23,
+  "title": "Hiện tượng phóng xạ",
+  "objectives": [],
+  "sections": [
+    {
+      "heading": "Hiện tượng phóng xạ",
+      "summary": "Becquerel (1896) phát hiện quặng uranium để trong bóng tối vẫn làm đen tấm phim ảnh, chứng tỏ có một loại tia không nhìn thấy được phát ra từ hạt nhân. Hiện tượng một hạt nhân không bền vững tự phát biến đổi thành một hạt nhân khác, đồng thời phát ra tia phóng xạ, được gọi là hiện tượng phóng xạ (hay phân rã phóng xạ/phân rã hạt nhân).",
+      "keyPoints": [
+        "Hiện tượng phóng xạ: hiện tượng một hạt nhân không bền vững tự phát biến đổi thành hạt nhân khác và phát ra tia phóng xạ.",
+        "Hạt nhân không bền, tự phân rã gọi là hạt nhân mẹ; hạt nhân được tạo thành, bền vững hơn gọi là hạt nhân con.",
+        "Tia phóng xạ không nhìn thấy bằng mắt thường nhưng có thể ion hoá không khí, gây hiệu ứng quang điện, phát xạ thứ cấp, làm đen kính ảnh, xuyên thấu vật chất mỏng, phá huỷ tế bào, kích thích phản ứng hoá học.",
+        "Quá trình phóng xạ có tính tự phát và hoàn toàn ngẫu nhiên: với một hạt nhân phóng xạ cho trước, không thể xác định trước thời điểm nó phân rã."
+      ],
+      "example": "Becquerel gói một miếng kim loại hình chữ thập cùng đá chứa uranium trong tấm phim và để trong bóng tối vài ngày, phát hiện vết sáng hình chữ thập trên phim dù không có ánh sáng chiếu vào — bằng chứng đầu tiên về hiện tượng phóng xạ."
+    },
+    {
+      "heading": "Các dạng phóng xạ",
+      "summary": "Khi cho tia phóng xạ đi qua điện trường hoặc từ trường, chúng lệch theo các hướng khác nhau, cho thấy có ba dạng phóng xạ chính: alpha, beta (gồm beta trừ và beta cộng) và gamma, mỗi loại có bản chất và khả năng đâm xuyên khác nhau.",
+      "keyPoints": [
+        "Phóng xạ alpha (α): là hạt nhân helium (4/2 He) phóng ra với tốc độ khoảng 2.10^7 m/s, ion hoá mạnh nên chỉ đi được vài cm trong không khí, bị chặn bởi tờ giấy dày khoảng 1 mm. Phương trình: A/Z X → (A-4)/(Z-2) Y + 4/2 He.",
+        "Phóng xạ beta trừ (β-): dòng hạt electron (0/-1 e) kèm phản hạt neutrino; phương trình A/Z X → A/(Z+1) Y + 0/-1 e + phản neutrino.",
+        "Phóng xạ beta cộng (β+): dòng hạt positron (0/1 e) kèm hạt neutrino; phương trình A/Z X → A/(Z-1) Y + 0/1 e + neutrino. Tia beta chuyển động với tốc độ xấp xỉ tốc độ ánh sáng, ion hoá ở mức trung bình, xuyên qua giấy nhưng bị chặn bởi nhôm dày khoảng 1 mm.",
+        "Phóng xạ gamma (γ): bức xạ điện từ có bước sóng rất ngắn (nhỏ hơn 10^-11 m), phát ra khi hạt nhân con ở trạng thái kích thích chuyển về trạng thái năng lượng thấp hơn; có khả năng đâm xuyên rất mạnh, cần tấm chì dày khoảng 10 cm mới cản được. Phương trình: A/Z Y* → A/Z Y + γ."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Định luật phóng xạ. Độ phóng xạ",
+      "summary": "Dù thời điểm phân rã của một hạt nhân riêng lẻ là ngẫu nhiên, khi xét một mẫu chất phóng xạ có rất nhiều hạt nhân thì số hạt nhân mẹ giảm theo quy luật hàm số mũ theo thời gian, đặc trưng bởi chu kì bán rã T (thời gian để một nửa số hạt nhân hiện có bị phân rã). Độ phóng xạ H đặc trưng cho tính phóng xạ mạnh hay yếu của một lượng chất, cũng giảm theo thời gian theo quy luật tương tự.",
+      "keyPoints": [
+        "Định luật phóng xạ: N_t = N0 . 2^(-t/T) = N0 . e^(-λt), trong đó λ = ln2 / T là hằng số phóng xạ (đơn vị s^-1), T là chu kì bán rã.",
+        "Chu kì bán rã T: khoảng thời gian để một nửa số hạt nhân hiện có của một mẫu chất phóng xạ bị phân rã (mỗi đồng vị có T riêng, ví dụ U-235: T ≈ 7,0.10^8 năm; C-14: T ≈ 5,7.10^3 năm; Radon-219: T = 4,0 giây).",
+        "Độ phóng xạ H: số hạt nhân phân rã trong một giây; H_t = λN_t = H0.e^(-λt). Đơn vị: becquerel (Bq, 1 Bq = 1 phân rã/giây) hoặc curie (Ci, 1 Ci = 3,7.10^10 Bq).",
+        "Phương pháp xác định niên đại bằng đồng vị carbon-14: khi sinh vật còn sống, tỉ lệ ¹⁴C so với các đồng vị carbon khác không đổi; sau khi chết, ¹⁴C giảm dần theo định luật phóng xạ, cho phép tính tuổi mẫu vật."
+      ],
+      "example": "Đồng vị carbon-14 (chu kì bán rã 5730 năm) được Willard Frank Libby (1947) dùng để xác định niên đại cổ vật gốc hữu cơ — phương pháp còn gọi là 'đồng hồ carbon của Trái Đất'."
+    },
+    {
+      "heading": "Ảnh hưởng của tia phóng xạ. Biển cảnh báo phóng xạ",
+      "summary": "Tia phóng xạ có thể gây tác động mạnh tới tế bào của cơ thể sống; phơi nhiễm liều lượng lớn trong thời gian dài có thể gây bỏng phóng xạ, nhiễm độc phóng xạ, đột biến di truyền, ung thư. Mức độ ảnh hưởng phụ thuộc vào loại tia (khả năng ion hoá, khả năng đâm xuyên) và thời gian chiếu xạ. Biển cảnh báo phóng xạ được đặt ở nơi có thiết bị hoặc nguồn phóng xạ để cảnh báo mọi người tránh xa.",
+      "keyPoints": [
+        "Tia alpha: khả năng đâm xuyên kém (không nguy hiểm nếu ở ngoài cơ thể) nhưng ion hoá mạnh nên rất nguy hiểm nếu xâm nhập vào cơ thể.",
+        "Tia beta: ion hoá và đâm xuyên ở mức trung bình, gây hậu quả đáng kể dù ở trong hay ngoài cơ thể.",
+        "Tia gamma: ion hoá kém hơn alpha, beta nhưng khả năng đâm xuyên rất mạnh, có thể gây hậu quả nghiêm trọng nếu cường độ lớn và thời gian chiếu dài.",
+        "Nguồn phóng xạ thụ động (tự nhiên) trong đời sống: không khí (chiếm tỉ lệ lớn nhất, khoảng 51%), đá, tia vũ trụ, thức ăn, y học hạt nhân, các nguồn khác."
+      ],
+      "example": "Cà chua bị đột biến hình dạng khi phơi nhiễm phóng xạ với liều lượng lớn, minh hoạ tác động của phóng xạ lên sinh vật."
+    },
+    {
+      "heading": "Nguyên tắc an toàn phóng xạ",
+      "summary": "Để giảm liều phóng xạ hấp thụ, cần tuân theo ba nguyên tắc: giữ khoảng cách đủ xa với nguồn phóng xạ, dùng tấm chắn đủ tốt, và giảm thiểu thời gian phơi nhiễm. Liều hấp thụ phóng xạ hiệu dụng cho con người được quy định giới hạn tối đa theo quy chuẩn quốc gia.",
+      "keyPoints": [
+        "Ba nguyên tắc an toàn phóng xạ: (1) giữ khoảng cách xa nguồn - tăng gấp đôi khoảng cách thì liều hấp thụ giảm 4 lần; (2) dùng tấm chắn đủ dày và có khối lượng riêng lớn; (3) giảm thời gian phơi nhiễm.",
+        "Liều hấp thụ phóng xạ hiệu dụng: D_hd = D.W, trong đó D là liều hấp thụ (đơn vị gray, Gy: 1 J/kg = 1 Gy), W là trọng số bức xạ (W = 1 với tia beta và gamma, W = 20 với tia alpha). Đơn vị D_hd trong hệ SI là sievert (Sv).",
+        "Theo Thông tư 19/2012/TT-BKHCN của Việt Nam: giới hạn liều hiệu dụng D_hd(max) = 1 mSv/năm cho người thường; 6 mSv/năm cho học sinh, sinh viên 16-18 tuổi thực hành với nguồn phóng xạ; 20 mSv/năm cho người làm việc trong cơ sở bức xạ."
+      ],
+      "example": "Kính thuỷ tinh pha chì (pha lê) được lắp tại cửa sổ nơi làm việc có nguồn phóng xạ, giúp vẫn quan sát được nguồn nhưng hạn chế tia phóng xạ chiếu vào người."
+    }
+  ],
+  "glossary": [
+    {"term": "Hiện tượng phóng xạ", "definition": "Hiện tượng một hạt nhân không bền vững tự phát biến đổi thành hạt nhân khác đồng thời phát ra tia phóng xạ."},
+    {"term": "Phân rã hạt nhân", "definition": "Loại phản ứng hạt nhân trong đó hạt nhân của các nguyên tử có số khối lớn tự vỡ ra thành các hạt nhân có số khối nhỏ hơn."},
+    {"term": "Hạt nhân mẹ", "definition": "Hạt nhân không bền vững, tự phân rã trong hiện tượng phóng xạ."},
+    {"term": "Hạt nhân con", "definition": "Hạt nhân được tạo thành sau phân rã phóng xạ, bền vững hơn hạt nhân mẹ."},
+    {"term": "Tia alpha (α)", "definition": "Hạt nhân helium (4/2 He) phóng ra từ hạt nhân bị phân rã, tốc độ khoảng 2.10^7 m/s, đâm xuyên yếu."},
+    {"term": "Tia beta (β)", "definition": "Dòng hạt electron (β-) hoặc positron (β+) phóng ra từ hạt nhân bị phân rã, tốc độ xấp xỉ tốc độ ánh sáng."},
+    {"term": "Tia gamma (γ)", "definition": "Sóng điện từ có bước sóng rất ngắn (dưới 10^-11 m) phát ra khi hạt nhân con chuyển từ trạng thái kích thích về trạng thái năng lượng thấp hơn."},
+    {"term": "Chu kì bán rã (T)", "definition": "Khoảng thời gian để một nửa số hạt nhân hiện có của một mẫu chất phóng xạ bị phân rã."},
+    {"term": "Hằng số phóng xạ (λ)", "definition": "Đại lượng λ = ln2/T đặc trưng cho tốc độ phân rã của một chất phóng xạ."},
+    {"term": "Độ phóng xạ (H)", "definition": "Đại lượng đặc trưng cho tính phóng xạ mạnh hay yếu của một lượng chất, bằng số hạt nhân phân rã trong một giây; đơn vị becquerel (Bq)."},
+    {"term": "Liều phóng xạ", "definition": "Năng lượng mà vật nhận được từ các tia phóng xạ trên mỗi đơn vị khối lượng trong một khoảng thời gian xác định."},
+    {"term": "Liều hấp thụ phóng xạ hiệu dụng (D_hd)", "definition": "Đại lượng D_hd = D.W dùng để đánh giá mức độ ảnh hưởng của phóng xạ lên cơ thể người, đơn vị sievert (Sv)."}
+  ]
+}

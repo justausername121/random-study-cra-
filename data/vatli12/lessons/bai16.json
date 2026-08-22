@@ -1,0 +1,60 @@
+{
+  "id": "bai16",
+  "chuDeId": "vlc3",
+  "chuDeTitle": "Từ trường",
+  "baiNumber": 16,
+  "title": "Từ thông. Hiện tượng cảm ứng điện từ",
+  "objectives": [],
+  "sections": [
+    {
+      "heading": "I. Từ thông",
+      "summary": "Với một vòng dây kín diện tích S đặt trong từ trường đều B, ta vẽ vectơ pháp tuyến n của mặt S và gọi góc hợp bởi B và n là α. Từ thông qua diện tích S được định nghĩa là Φ = BScosα. Từ thông diễn tả số đường sức từ xuyên qua diện tích S; khi B vuông góc với mặt phẳng vòng dây (α = 0) và S = 1 m² thì trị số từ thông bằng đúng độ lớn cảm ứng từ B.",
+      "keyPoints": [
+        "Định nghĩa từ thông qua diện tích S: Φ = B.S.cosα (16.1), với α là góc giữa vectơ cảm ứng từ B và vectơ pháp tuyến n của mặt S.",
+        "Đơn vị của từ thông trong hệ SI là vêbe, kí hiệu Wb; 1 Wb = 1 T.1 m².",
+        "Khi α = 0 (B vuông góc mặt phẳng vòng dây) và S = 1 m² thì Φ có trị số bằng độ lớn cảm ứng từ B.",
+        "Từ thông có thể có giá trị dương, âm hoặc bằng 0 tuỳ theo góc α (α = 90° thì Φ = 0)."
+      ],
+      "example": null
+    },
+    {
+      "heading": "II. Hiện tượng cảm ứng điện từ",
+      "summary": "Khi số đường sức từ xuyên qua tiết diện của một cuộn dây dẫn kín biến thiên (do thay đổi B, S hoặc α trong công thức từ thông) thì trong cuộn dây xuất hiện một dòng điện, gọi là dòng điện cảm ứng. Hiện tượng này chỉ tồn tại trong khoảng thời gian từ thông qua cuộn dây còn đang biến thiên, minh hoạ bằng thí nghiệm nam châm lại gần/ra xa cuộn dây (thí nghiệm 1) và thí nghiệm đóng ngắt khoá K với nam châm điện (thí nghiệm 2).",
+      "keyPoints": [
+        "Có thể làm từ thông qua khung dây biến thiên bằng cách thay đổi B, S hoặc α trong biểu thức Φ = BScosα.",
+        "Khi từ thông qua cuộn dây dẫn kín biến thiên thì trong cuộn dây xuất hiện dòng điện cảm ứng - gọi là hiện tượng cảm ứng điện từ.",
+        "Hiện tượng cảm ứng điện từ chỉ tồn tại trong khoảng thời gian từ thông qua cuộn dây dẫn kín còn biến thiên."
+      ],
+      "example": null
+    },
+    {
+      "heading": "III. Chiều dòng điện cảm ứng. Định luật Lenz",
+      "summary": "Khi nam châm lại gần cuộn dây thì từ trường của dòng điện cảm ứng ngược chiều với từ trường của nam châm, có xu hướng ngăn cản nam châm lại gần; khi nam châm ra xa thì từ trường cảm ứng cùng chiều với từ trường nam châm, có xu hướng ngăn cản nam châm ra xa. Khái quát lại, đó chính là nội dung định luật Lenz.",
+      "keyPoints": [
+        "Định luật Lenz: Dòng điện cảm ứng xuất hiện trong mạch kín có chiều sao cho từ trường do nó sinh ra có tác dụng chống lại sự biến thiên của từ thông qua mạch kín đó.",
+        "Nam châm lại gần cuộn dây: từ trường cảm ứng ngược chiều từ trường nam châm (chống lại sự tăng từ thông).",
+        "Nam châm ra xa cuộn dây: từ trường cảm ứng cùng chiều từ trường nam châm (chống lại sự giảm từ thông)."
+      ],
+      "example": null
+    },
+    {
+      "heading": "IV. Suất điện động cảm ứng. Định luật Faraday",
+      "summary": "Khi từ thông qua mạch kín biến thiên thì trong mạch xuất hiện suất điện động cảm ứng ec. Thực nghiệm cho thấy độ lớn của suất điện động cảm ứng tỉ lệ với tốc độ biến thiên của từ thông qua mạch - đó là định luật Faraday. Xét thêm dấu theo định luật Lenz, với cuộn dây có N vòng, suất điện động cảm ứng là ec = -N.ΔΦ/Δt. Về bản chất, hiện tượng cảm ứng điện từ là quá trình chuyển hoá cơ năng thành điện năng, do Faraday khám phá ra đầu tiên.",
+      "keyPoints": [
+        "Định luật Faraday: độ lớn suất điện động cảm ứng trong mạch kín tỉ lệ với tốc độ biến thiên của từ thông qua mạch: |ec| = k|ΔΦ/Δt| (hệ SI lấy k = 1).",
+        "Có kể đến định luật Lenz: ec = -ΔΦ/Δt.",
+        "Với cuộn dây có N vòng: ec = -N.ΔΦ/Δt, trong đó Φ là từ thông qua diện tích giới hạn bởi một vòng dây.",
+        "Bản chất của hiện tượng cảm ứng điện từ là quá trình chuyển hoá cơ năng thành điện năng."
+      ],
+      "example": "Thí nghiệm thả nam châm thẳng rơi qua cuộn dây nối với cảm biến điện thế cho thấy trọng lực sinh công làm biến thiên từ thông qua cuộn dây, sinh ra suất điện động cảm ứng - tức cơ năng đã chuyển hoá thành điện năng. Faraday là người đầu tiên khám phá hiện tượng này, đặt nền móng cho cách sản xuất điện năng mới trong cuộc cách mạng khoa học lần thứ hai."
+    }
+  ],
+  "glossary": [
+    {"term": "Từ thông (Φ)", "definition": "Đại lượng Φ = B.S.cosα diễn tả số đường sức từ xuyên qua diện tích S đặt trong từ trường đều B; đơn vị vêbe (Wb), 1 Wb = 1 T.1 m²."},
+    {"term": "Dòng điện cảm ứng", "definition": "Dòng điện xuất hiện trong cuộn dây dẫn kín khi từ thông qua cuộn dây biến thiên."},
+    {"term": "Hiện tượng cảm ứng điện từ", "definition": "Hiện tượng xuất hiện dòng điện cảm ứng trong cuộn dây dẫn kín khi từ thông qua nó biến thiên; chỉ tồn tại trong khoảng thời gian từ thông còn biến thiên."},
+    {"term": "Định luật Lenz", "definition": "Dòng điện cảm ứng xuất hiện trong mạch kín có chiều sao cho từ trường do nó sinh ra có tác dụng chống lại sự biến thiên của từ thông qua mạch kín đó."},
+    {"term": "Suất điện động cảm ứng (ec)", "definition": "Suất điện động sinh ra dòng điện cảm ứng trong mạch kín khi từ thông qua mạch biến thiên; với cuộn N vòng: ec = -N.ΔΦ/Δt."},
+    {"term": "Định luật Faraday", "definition": "Độ lớn của suất điện động cảm ứng trong mạch kín tỉ lệ với tốc độ biến thiên của từ thông qua mạch."}
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "bai04",
+  "chuDeId": "vlc1",
+  "chuDeTitle": "Vật lí nhiệt",
+  "baiNumber": 4,
+  "title": "Nhiệt dung riêng",
+  "objectives": [
+    "Xác định được nhiệt dung riêng của một chất.",
+    "Dùng khái niệm nhiệt dung riêng để giải thích các hiện tượng thực tế có liên quan."
+  ],
+  "sections": [
+    {
+      "heading": "I. Khái niệm nhiệt dung riêng",
+      "summary": "Nhiệt lượng Q cần cung cấp cho một vật để làm nó nóng lên phụ thuộc vào khối lượng m, độ tăng nhiệt độ ΔT của vật và tính chất của chất làm vật. Thực nghiệm cho thấy Q tỉ lệ thuận với m và ΔT, tức Q/(mΔT) là một hằng số đối với mỗi chất, gọi là nhiệt dung riêng c của chất đó.",
+      "keyPoints": [
+        "Nhiệt lượng cần cung cấp để làm vật nóng lên phụ thuộc vào: khối lượng của vật, độ tăng nhiệt độ của vật, tính chất của chất làm vật.",
+        "Nhiệt dung riêng: c = Q/(mΔT) (4.2), đơn vị J/kg.K.",
+        "Hệ thức tính nhiệt lượng: Q = mcΔT (4.3) (Q: nhiệt lượng (J), m: khối lượng (kg), c: nhiệt dung riêng (J/kg.K), ΔT: độ tăng nhiệt độ (K hoặc °C)).",
+        "Định nghĩa: Nhiệt dung riêng của một chất là nhiệt lượng cần truyền cho 1 kg chất đó để làm cho nhiệt độ của nó tăng thêm 1°C.",
+        "Nước có nhiệt dung riêng lớn (khoảng 4200 J/kg.K), lớn hơn nhiều so với hầu hết các chất lỏng và rắn khác."
+      ],
+      "example": "Nhờ nhiệt dung riêng lớn của nước, biển và đại dương hấp thụ nhiệt mặt trời mà nhiệt độ bề mặt Trái Đất tăng chậm và không nhiều, giúp các vùng ven biển có khí hậu ôn hoà; cũng vì vậy nước thường được dùng làm chất tải nhiệt trong các thiết bị làm mát của động cơ nhiệt."
+    },
+    {
+      "heading": "II. Thực hành đo nhiệt dung riêng của nước",
+      "summary": "Dùng oát kế đo công suất điện cấp cho nhiệt lượng kế chứa nước và nhiệt kế đo nhiệt độ nước theo thời gian, có thể xác định nhiệt dung riêng của nước qua công thức c = Q/(mΔt) = P̄(τN - τM) / [m(tN - tM)], với hai điểm M, N chọn trên đồ thị nhiệt độ - thời gian.",
+      "keyPoints": [
+        "Dụng cụ: biến thế nguồn, oát kế (đo công suất và thời gian), nhiệt kế điện tử/cảm biến nhiệt độ, nhiệt lượng kế có dây điện trở, cân điện tử.",
+        "Công thức xác định nhiệt dung riêng của nước từ thực nghiệm: c(H2O) = Q/(mΔt) = P̄(τN - τM) / [m(tN - tM)], trong đó P̄ là công suất trung bình, τ là thời gian, t là nhiệt độ tại hai điểm M, N trên đồ thị."
+      ],
+      "example": null
+    }
+  ],
+  "glossary": [
+    {"term": "Nhiệt dung riêng (c)", "definition": "Nhiệt lượng cần truyền cho 1 kg một chất để làm nhiệt độ của nó tăng thêm 1°C (hoặc 1K); đơn vị J/kg.K."}
+  ]
+}

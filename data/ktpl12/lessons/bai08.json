@@ -1,0 +1,45 @@
+{
+  "id": "bai08",
+  "chuDeId": "cd7",
+  "chuDeTitle": "Một số quyền và nghĩa vụ của công dân về kinh tế",
+  "baiNumber": 8,
+  "title": "Quyền và nghĩa vụ của công dân về kinh doanh và nộp thuế",
+  "objectives": [
+    "Nêu được các quy định cơ bản của pháp luật về quyền và nghĩa vụ của công dân về kinh doanh và nộp thuế.",
+    "Tự giác thực hiện các quy định của pháp luật về quyền và nghĩa vụ của công dân về kinh doanh và nộp thuế bằng những hành vi phù hợp.",
+    "Phân tích, đánh giá được các hành vi vi phạm đơn giản thường gặp về quyền và nghĩa vụ của công dân về kinh doanh và nộp thuế; nhận biết được tác hại, hậu quả của hành vi vi phạm quyền và nghĩa vụ của công dân về kinh doanh và nộp thuế."
+  ],
+  "sections": [
+    {
+      "heading": "Quyền và nghĩa vụ cơ bản của công dân về kinh doanh",
+      "summary": "Điều 33 Hiến pháp năm 2013 khẳng định mọi người có quyền tự do kinh doanh ngành, nghề mà pháp luật không cấm. Công dân được tự do lựa chọn mặt hàng, loại hình tổ chức, quy mô kinh doanh và có quyền bình đẳng trước pháp luật khi kinh doanh, không phân biệt giới tính, tôn giáo, dân tộc. Đi kèm với quyền là các nghĩa vụ như kinh doanh đúng ngành nghề đăng kí, nộp thuế đầy đủ, bảo vệ môi trường và quyền lợi người tiêu dùng.",
+      "keyPoints": [
+        "Điều 33 Hiến pháp 2013: Mọi người có quyền tự do kinh doanh trong những ngành nghề mà pháp luật không cấm.",
+        "Quyền: tự do lựa chọn ngành nghề, mặt hàng, mô hình, quy mô kinh doanh; quyền bình đẳng trong kinh doanh; quyền khiếu nại, tố cáo vi phạm; quyền tự do tìm kiếm thị trường, khách hàng, kí kết hợp đồng; quyền tuyển dụng, thuê và sử dụng lao động theo pháp luật lao động.",
+        "Nghĩa vụ: tuân thủ Hiến pháp và pháp luật về kinh doanh; tôn trọng quyền tự do kinh doanh của người khác; kê khai, nộp thuế theo quy định; bảo vệ môi trường, tài nguyên thiên nhiên; bảo đảm quyền lợi người lao động và người tiêu dùng; thực hiện quy định về quốc phòng, an ninh trật tự, an toàn xã hội.",
+        "Luật Doanh nghiệp năm 2020 (Điều 7, Điều 8) quy định cụ thể quyền và nghĩa vụ của doanh nghiệp: tự chủ kinh doanh, chủ động điều chỉnh ngành nghề, quy mô; đồng thời phải đăng kí đúng quy định, chịu trách nhiệm về tính trung thực của hồ sơ đăng kí."
+      ],
+      "example": "Trường hợp: ông M lập công ty TNHH kinh doanh dầu nhớt, phụ tùng xe máy nhưng đã làm giả tem nhãn, sản xuất hàng giả các thương hiệu nổi tiếng, thu lợi khoảng 300 triệu đồng từ số hàng giả trị giá hơn 750 triệu đồng - đây là hành vi vi phạm nghiêm trọng nghĩa vụ kinh doanh trung thực, đúng pháp luật."
+    },
+    {
+      "heading": "Quyền và nghĩa vụ cơ bản của công dân về nộp thuế",
+      "summary": "Điều 47 Hiến pháp năm 2013 khẳng định mọi người có nghĩa vụ nộp thuế theo luật định. Nộp thuế là việc chuyển giao tài sản của người nộp thuế cho Nhà nước, có tính bắt buộc, người nộp thuế không được trốn thuế hay tự ý thoả thuận mức đóng. Khi thực hiện nghĩa vụ thuế, công dân đồng thời có các quyền được pháp luật bảo vệ.",
+      "keyPoints": [
+        "Điều 47 Hiến pháp 2013: Mọi người có nghĩa vụ nộp thuế theo luật định.",
+        "Nộp thuế là nghĩa vụ chuyển giao tài sản bắt buộc của người nộp thuế cho Nhà nước theo quy định pháp luật.",
+        "Quyền của người nộp thuế (Luật Quản lí thuế 2019, Điều 16): được hỗ trợ, hướng dẫn nộp thuế; yêu cầu giải thích cách tính thuế; được giữ bí mật thông tin (trừ thông tin phải cung cấp theo luật); hưởng ưu đãi, hoàn thuế; kí hợp đồng với tổ chức làm dịch vụ thuế; khiếu nại, khởi kiện quyết định hành chính về thuế.",
+        "Trách nhiệm của người nộp thuế (Điều 17): đăng kí thuế, sử dụng mã số thuế đúng quy định; khai thuế chính xác, trung thực, đúng hạn; nộp tiền thuế, tiền phạt đầy đủ, đúng hạn, đúng địa điểm; chấp hành chế độ kế toán, hoá đơn, chứng từ; cung cấp đầy đủ, kịp thời thông tin liên quan đến nghĩa vụ thuế.",
+        "Các hành vi bị nghiêm cấm trong quản lí thuế (Điều 6): gây phiền hà, sách nhiễu người nộp thuế; chiếm đoạt, sử dụng trái phép tiền thuế; cố tình không kê khai hoặc kê khai không đầy đủ; sử dụng mã số thuế của người khác trái phép; bán hàng không xuất hoá đơn theo quy định."
+      ],
+      "example": "Người trốn thuế có thể bị phạt tiền từ 500.000.000 đồng đến 1.500.000.000 đồng hoặc bị phạt tù từ 1 năm đến 3 năm (theo khoản 2 Điều 200 Bộ luật Hình sự năm 2015, sửa đổi bổ sung năm 2017). Trường hợp công ty N của ông A đã lập khống hợp đồng, ghi giá trị hoá đơn GTGT thấp hơn thực tế để giảm bớt số tiền thuế phải nộp - đây là hành vi trốn thuế vi phạm pháp luật."
+    }
+  ],
+  "glossary": [
+    {"term": "Quyền tự do kinh doanh", "definition": "Quyền của mọi người được tự do lựa chọn và kinh doanh những ngành nghề, mặt hàng mà pháp luật không cấm (Điều 33 Hiến pháp 2013)."},
+    {"term": "Bình đẳng trong kinh doanh", "definition": "Mọi công dân, mọi loại hình doanh nghiệp đều bình đẳng trước pháp luật về quyền và nghĩa vụ kinh doanh, không phân biệt giới tính, tôn giáo, dân tộc, thành phần kinh tế."},
+    {"term": "Nộp thuế", "definition": "Nghĩa vụ chuyển giao tài sản bắt buộc của tổ chức, hộ gia đình, cá nhân cho Nhà nước theo quy định của các luật thuế, không được trốn thuế hay tự thoả thuận mức đóng."},
+    {"term": "Mã số thuế", "definition": "Mã số do cơ quan thuế cấp cho người nộp thuế để đăng kí, kê khai và thực hiện nghĩa vụ thuế, không được sử dụng trái phép mã số của người khác."},
+    {"term": "Trốn thuế", "definition": "Hành vi cố ý không kê khai, kê khai gian dối, lập khống chứng từ nhằm giảm hoặc trốn tránh nghĩa vụ nộp thuế; có thể bị phạt tiền tới 1,5 tỉ đồng hoặc phạt tù đến 3 năm."},
+    {"term": "Giấy chứng nhận đăng kí doanh nghiệp", "definition": "Văn bản do Phòng Đăng kí kinh doanh cấp, ghi nhận việc thành lập doanh nghiệp hợp pháp, là điều kiện để tiến hành hoạt động kinh doanh."}
+  ]
+}

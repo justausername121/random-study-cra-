@@ -1,0 +1,68 @@
+{
+  "id": "bai19",
+  "chuDeId": "vlc3",
+  "chuDeTitle": "Từ trường",
+  "baiNumber": 19,
+  "title": "Điện từ trường. Mô hình sóng điện từ",
+  "objectives": [],
+  "sections": [
+    {
+      "heading": "Từ trường biến thiên và điện trường xoáy",
+      "summary": "Trong thí nghiệm cảm ứng điện từ, khi từ thông qua ống dây kín biến thiên (ví dụ nam châm rơi qua ống dây) thì xuất hiện dòng điện cảm ứng, chứng tỏ trong dây dẫn đã xuất hiện một điện trường có đường sức là các đường cong kín. Maxwell chỉ ra rằng điện trường xoáy này vẫn tồn tại ngay cả khi không có ống dây - ống dây chỉ giúp ta nhận biết sự tồn tại của nó.",
+      "keyPoints": [
+        "Điện trường xoáy là điện trường có đường sức là những đường cong kín (khác với điện trường do điện tích đứng yên gây ra, có đường sức không khép kín).",
+        "Kết luận của Maxwell: Trong vùng không gian có từ trường biến thiên theo thời gian thì trong vùng đó xuất hiện một điện trường xoáy.",
+        "Chiều của điện trường xoáy là chiều của dòng điện cảm ứng mà nó gây ra trong dây dẫn (nếu có)."
+      ],
+      "example": "James Clerk Maxwell (1831-1879) là nhà vật lí người Anh đã phân tích bản chất của hiện tượng cảm ứng điện từ và đưa ra kết luận tổng quát về mối liên hệ giữa điện trường biến thiên và từ trường biến thiên."
+    },
+    {
+      "heading": "Điện trường biến thiên và từ trường",
+      "summary": "Thí nghiệm cho dòng điện xoay chiều qua tụ điện cho thấy khi tụ điện đang tích điện hoặc phóng điện, điện trường biến thiên giữa hai bản tụ tương đương với một dòng điện gọi là dòng điện dịch, và chính dòng điện này gây ra từ trường xung quanh.",
+      "keyPoints": [
+        "Dòng điện dịch: dòng điện tương đương với sự biến thiên của điện trường giữa hai bản tụ điện khi tụ điện tích điện hoặc phóng điện.",
+        "Các đường sức của từ trường do điện trường biến thiên gây ra bao quanh các đường sức của điện trường và luôn khép kín."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Điện từ trường",
+      "summary": "Maxwell kết luận rằng từ trường biến thiên và điện trường biến thiên có mối liên hệ chặt chẽ, hai chiều: mỗi loại đều sinh ra loại kia ở vùng không gian xung quanh. Hai trường biến thiên này cùng tồn tại, chuyển hoá lẫn nhau trong một trường thống nhất gọi là điện từ trường.",
+      "keyPoints": [
+        "Kết luận Maxwell: Từ trường biến thiên theo thời gian sinh ra trong không gian xung quanh một điện trường biến thiên theo thời gian; ngược lại, điện trường biến thiên theo thời gian cũng sinh ra một từ trường biến thiên theo thời gian trong không gian xung quanh.",
+        "Điện từ trường: trường thống nhất gồm điện trường biến thiên và từ trường biến thiên cùng tồn tại và chuyển hoá lẫn nhau.",
+        "Tại mỗi điểm trong không gian, vectơ cảm ứng từ B luôn vuông góc với vectơ cường độ điện trường E."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Sự tạo thành sóng điện từ",
+      "summary": "Nếu tại một điểm O có điện trường biến thiên thì ở vùng lân cận xuất hiện từ trường biến thiên; từ trường biến thiên đó lại làm xuất hiện điện trường biến thiên ở vùng lân cận khác, và cứ thế điện trường và từ trường lan truyền ra không gian xung quanh. Quá trình lan truyền điện từ trường trong không gian được gọi là sóng điện từ.",
+      "keyPoints": [
+        "Sóng điện từ: quá trình lan truyền điện từ trường trong không gian.",
+        "Sóng điện từ hình thành do sự chuyển hoá liên tiếp giữa điện trường biến thiên và từ trường biến thiên lan truyền từ điểm này sang điểm khác trong không gian."
+      ],
+      "example": null
+    },
+    {
+      "heading": "Sự lan truyền sóng điện từ",
+      "summary": "Tại mỗi điểm trong quá trình truyền sóng điện từ, vectơ cường độ điện trường E và vectơ cảm ứng từ B luôn vuông góc với nhau và cả hai đều vuông góc với phương truyền sóng, nên sóng điện từ là sóng ngang. Sóng điện từ truyền được cả trong chân không, với tốc độ bằng tốc độ ánh sáng.",
+      "keyPoints": [
+        "Vectơ E và vectơ B luôn vuông góc với nhau và vuông góc với phương truyền sóng → sóng điện từ là sóng ngang.",
+        "E và B biến thiên điều hoà theo không gian và thời gian, luôn đồng pha nhau.",
+        "Sóng điện từ truyền được trong chân không (khác với sóng cơ) và tốc độ lan truyền trong chân không bằng tốc độ ánh sáng c = 3.10^8 m/s.",
+        "Bước sóng trong chân không: λ = cT = c/f, trong đó c là tốc độ ánh sáng trong chân không, T là chu kì dao động điện từ, f là tần số của sóng điện từ.",
+        "Sóng điện từ mang theo năng lượng; sóng có tần số càng cao thì khả năng truyền càng xa.",
+        "Sóng điện từ tuân theo các quy luật truyền thẳng, phản xạ, khúc xạ, giao thoa và nhiễu xạ giống như sóng cơ."
+      ],
+      "example": null
+    }
+  ],
+  "glossary": [
+    {"term": "Điện trường xoáy", "definition": "Điện trường có đường sức là những đường cong kín, xuất hiện trong vùng không gian có từ trường biến thiên theo thời gian."},
+    {"term": "Dòng điện dịch", "definition": "Dòng điện tương đương với sự biến thiên của điện trường giữa hai bản tụ điện khi tụ điện tích điện hoặc phóng điện; chính dòng điện dịch gây ra từ trường xung quanh."},
+    {"term": "Điện từ trường", "definition": "Trường thống nhất gồm điện trường biến thiên và từ trường biến thiên cùng tồn tại trong không gian và chuyển hoá lẫn nhau."},
+    {"term": "Sóng điện từ", "definition": "Quá trình lan truyền điện từ trường trong không gian; là sóng ngang, truyền được cả trong chân không với tốc độ bằng tốc độ ánh sáng."},
+    {"term": "Bước sóng điện từ", "definition": "Quãng đường sóng điện từ truyền được trong một chu kì dao động, tính bằng công thức λ = cT = c/f."}
+  ]
+}

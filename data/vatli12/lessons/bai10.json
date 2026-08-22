@@ -1,0 +1,45 @@
+{
+  "id": "bai10",
+  "chuDeId": "vlc2",
+  "chuDeTitle": "Khí lí tưởng",
+  "baiNumber": 10,
+  "title": "Định luật Charles",
+  "objectives": [
+    "Xác định mối quan hệ giữa thể tích và nhiệt độ của một lượng khí xác định khi áp suất không đổi."
+  ],
+  "sections": [
+    {
+      "heading": "Quá trình đẳng áp",
+      "summary": "Quá trình biến đổi trạng thái của một khối lượng khí xác định khi giữ áp suất không đổi được gọi là quá trình đẳng áp.",
+      "keyPoints": [
+        "Quá trình đẳng áp: áp suất của khối lượng khí xác định không đổi trong suốt quá trình"
+      ],
+      "example": null
+    },
+    {
+      "heading": "Nghiên cứu của Charles và định luật Charles",
+      "summary": "Năm 1787, Charles dùng thực nghiệm để nghiên cứu sự thay đổi thể tích theo nhiệt độ của một khối lượng khí xác định trong quá trình đẳng áp. Ông nhận thấy: khi tăng nhiệt độ từ 0°C lên t°C ở áp suất không đổi, độ tăng thể tích tương đối ứng với mỗi độ tăng nhiệt độ là như nhau đối với mọi chất khí và bằng 1/273. Từ đó suy ra: thể tích của một khối lượng khí xác định tỉ lệ thuận với nhiệt độ tuyệt đối khi áp suất không đổi.",
+      "keyPoints": [
+        "(V - V0)/(V0·Δt) = 1/273, với V0 là thể tích khí ở 0°C",
+        "V = V0(1 + αt), với α = 1/273 °C^-1",
+        "Định luật Charles: V/T = hằng số (khi áp suất không đổi)",
+        "V1/T1 = V2/T2"
+      ],
+      "example": "Ví dụ áp dụng: một lượng khí có T1 = 305 K tăng lên T2 = 390 K ở áp suất không đổi, thể tích tăng thêm 1,7 lít thì V1 = 6,1 lít và V2 = 7,8 lít."
+    },
+    {
+      "heading": "Độ không tuyệt đối",
+      "summary": "Đồ thị V theo nhiệt độ Celsius không đi qua gốc toạ độ; nếu kéo dài, đường này cắt trục nhiệt độ tại -273°C, nơi thể tích khí (theo ngoại suy) bằng 0. Trên thực tế không thể hạ nhiệt độ khí xuống mức này vì thể tích khí không thể bằng 0, nên -273°C được gọi là độ không tuyệt đối và dùng làm mốc 0 K của thang nhiệt độ Kelvin.",
+      "keyPoints": [
+        "Độ không tuyệt đối: -273°C, tương ứng với 0 K",
+        "Không thể hạ nhiệt độ của một lượng khí xuống tới độ không tuyệt đối trong thực tế"
+      ],
+      "example": null
+    }
+  ],
+  "glossary": [
+    {"term": "Quá trình đẳng áp", "definition": "Quá trình biến đổi trạng thái của một khối lượng khí xác định khi áp suất giữ không đổi."},
+    {"term": "Định luật Charles", "definition": "Khi áp suất của một khối lượng khí xác định không đổi, thể tích của khí tỉ lệ thuận với nhiệt độ tuyệt đối của nó: V/T = hằng số."},
+    {"term": "Độ không tuyệt đối", "definition": "Nhiệt độ -273°C, ứng với 0 K, mốc thấp nhất của thang nhiệt độ Kelvin, không thể đạt tới trong thực tế."}
+  ]
+}
