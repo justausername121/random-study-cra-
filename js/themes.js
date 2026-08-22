@@ -48,6 +48,15 @@ function decorSnowflake(style) {
   return `<svg style="${style}" viewBox="0 0 24 24" fill="none" stroke="#cfeeff" stroke-width="2" stroke-linecap="round"><path d="M12 2v20M4.5 6l15 12M19.5 6l-15 12"/></svg>`;
 }
 
+// A gentle winding band that stretches to fill the whole unit section
+// (preserveAspectRatio="none"), giving the ground an actual "path" instead
+// of a flat single-color fill.
+function groundPathSvg(color) {
+  return `<svg style="position:absolute;inset:0;width:100%;height:100%" viewBox="0 0 1000 300" preserveAspectRatio="none">
+    <path d="M -50 130 C 120 60, 260 220, 420 150 S 700 40, 860 150 S 1080 230, 1050 150 L 1050 320 L -50 320 Z" fill="${color}" opacity="0.4"/>
+  </svg>`;
+}
+
 function decorMoonStars(style) {
   return `<svg style="${style}" viewBox="0 0 80 60" fill="none">
     <path d="M55 10a16 16 0 100 32 13 13 0 010-32z" fill="#f2e9c9"/>
@@ -67,6 +76,7 @@ const THEME_DEFS = {
     bannerGlow: "rgba(88,204,2,0.18)",
     nodeClip: NODE_CLIP.garden,
     decor: [
+      groundPathSvg("#e0b876"),
       decorSun("position:absolute;top:6%;right:8%;width:60px"),
       decorBush("position:absolute;bottom:2%;left:4%;width:70px"),
       decorBush("position:absolute;bottom:0%;right:14%;width:50px;transform:scaleX(-1)"),
@@ -80,10 +90,14 @@ const THEME_DEFS = {
     bannerGlow: "rgba(255,75,75,0.25)",
     nodeClip: NODE_CLIP.volcano,
     decor: [
+      groundPathSvg("#e8952e"),
       decorVolcano("position:absolute;top:2%;right:6%;width:150px"),
+      decorVolcano("position:absolute;bottom:8%;left:16%;width:60px"),
+      decorVolcano("position:absolute;bottom:4%;right:22%;width:54px;transform:scaleX(-1)"),
       decorRock("position:absolute;bottom:4%;left:6%;width:44px"),
-      decorRock("position:absolute;bottom:2%;left:22%;width:30px", "#3a2a20"),
-      decorRock("position:absolute;bottom:6%;right:30%;width:36px"),
+      decorRock("position:absolute;bottom:2%;left:38%;width:30px", "#3a2a20"),
+      decorRock("position:absolute;bottom:10%;right:6%;width:36px"),
+      decorRock("position:absolute;top:60%;left:2%;width:26px", "#2e2018"),
     ],
   },
   ocean: {
@@ -94,6 +108,7 @@ const THEME_DEFS = {
     bannerGlow: "rgba(28,176,246,0.2)",
     nodeClip: NODE_CLIP.ocean,
     decor: [
+      groundPathSvg("#f0d9a0"),
       decorSun("position:absolute;top:5%;left:8%;width:44px"),
       decorWave("position:absolute;bottom:6%;left:10%;width:120px"),
       decorWave("position:absolute;bottom:2%;right:8%;width:100px", "#2a8fc2"),
@@ -107,6 +122,7 @@ const THEME_DEFS = {
     bannerGlow: "rgba(255,150,0,0.2)",
     nodeClip: NODE_CLIP.desert,
     decor: [
+      groundPathSvg("#d9a45c"),
       decorSun("position:absolute;top:6%;right:10%;width:54px"),
       decorCactus("position:absolute;bottom:2%;left:8%;width:40px"),
       decorCactus("position:absolute;bottom:0%;right:20%;width:30px;transform:scaleX(-1)"),
@@ -120,6 +136,7 @@ const THEME_DEFS = {
     bannerGlow: "rgba(28,176,246,0.15)",
     nodeClip: NODE_CLIP.snow,
     decor: [
+      groundPathSvg("#cfe9f7"),
       decorSnowflake("position:absolute;top:8%;left:10%;width:26px"),
       decorSnowflake("position:absolute;top:20%;right:14%;width:20px"),
       decorSnowflake("position:absolute;bottom:10%;left:24%;width:22px"),
@@ -133,7 +150,10 @@ const THEME_DEFS = {
     speckle: "#ffd76b",
     bannerGlow: "rgba(206,130,255,0.25)",
     nodeClip: NODE_CLIP.night,
-    decor: [decorMoonStars("position:absolute;top:6%;right:8%;width:110px")],
+    decor: [
+      groundPathSvg("#3d3a72"),
+      decorMoonStars("position:absolute;top:6%;right:8%;width:110px"),
+    ],
   },
 };
 

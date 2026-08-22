@@ -117,7 +117,6 @@ function renderTopbar(showBack) {
         ${showBack ? `<button class="back-btn" id="btn-back">${ICONS.back}</button>` : `
           <button class="icon-btn" id="btn-missions" title="Nhiệm vụ hằng ngày">${icon("target")}</button>
           <button class="icon-btn" id="btn-shop" title="Cửa hàng">${icon("bag")}</button>`}
-        <button class="icon-btn" id="btn-calc" title="Máy tính">${icon("calculator")}</button>
         <button class="icon-btn" id="btn-notes" title="Ghi chú">${icon("notes")}</button>
       </div>
       <div class="stat-group">
@@ -136,7 +135,6 @@ function wireTopbarExtras() {
   const sBtn = document.getElementById("btn-shop");
   if (mBtn) mBtn.addEventListener("click", renderMissionsScreen);
   if (sBtn) sBtn.addEventListener("click", renderShopScreen);
-  document.getElementById("btn-calc").addEventListener("click", openCalculator);
   document.getElementById("btn-notes").addEventListener("click", openNotes);
   wireSoundToggle();
 }
@@ -288,7 +286,7 @@ function renderHeroBanner() {
   const greeting = S.streak > 0 ? `Chuỗi ${S.streak} ngày rồi - đừng để đứt nhé!` : GREETINGS[new Date().getDate() % GREETINGS.length];
   return `
     <div class="hero">
-      ${mascot("wave", "", currentCapColor(S))}
+      ${mascot("wave", "", null, currentMascotSpecies(S))}
       <div class="hero-text">
         <div class="greeting">${greeting}</div>
         <div class="sub">${subj.fullName}${subj.tagline ? " - " + subj.tagline : ""}</div>
@@ -347,7 +345,7 @@ function renderMissionsScreen() {
 function renderShopScreen() {
   const groups = [
     { type: "upgrade", title: "Nâng cấp" },
-    { type: "cap", title: "Mũ cho Cú Thông Thái" },
+    { type: "mascot", title: "Bạn đồng hành" },
     { type: "theme", title: "Giao diện màu" },
     { type: "consumable", title: "Vật phẩm hỗ trợ" },
   ];
@@ -368,6 +366,7 @@ function renderShopScreen() {
           <div class="shop-group">
             <div class="shop-group-title">${g.title}</div>
             <div class="shop-grid">
+              ${g.type === "mascot" ? renderOwlShopCard() : ""}
               ${SHOP_ITEMS.filter((i) => i.type === g.type).map(renderShopItem).join("")}
             </div>
           </div>
@@ -382,11 +381,23 @@ function renderShopScreen() {
   wireShopButtons();
 }
 
+function renderOwlShopCard() {
+  const equipped = !S.equipped.mascot;
+  return `
+    <div class="shop-card">
+      <div class="shop-preview">${mascotSvg("wave", null, "owl")}</div>
+      <div class="shop-card-name">Cú Thông Thái</div>
+      <div class="shop-card-desc">Mặc định</div>
+      <button class="btn ${equipped ? "btn-primary" : "btn-secondary"} btn-small" data-equip-owl="1">${equipped ? "Đang dùng" : "Sử dụng"}</button>
+    </div>
+  `;
+}
+
 function renderShopItem(item) {
   const owned = ownsItem(S, item.id);
-  const equipped = item.type === "cap" ? S.equipped.cap === item.id : item.type === "theme" ? S.equipped.theme === item.id : false;
+  const equipped = item.type === "mascot" ? S.equipped.mascot === item.id : item.type === "theme" ? S.equipped.theme === item.id : false;
   let preview = "";
-  if (item.type === "cap") preview = `<div class="shop-preview">${mascotSvg("wave", item.color)}</div>`;
+  if (item.type === "mascot") preview = `<div class="shop-preview">${mascotSvg("wave", null, item.species)}</div>`;
   else if (item.type === "theme") preview = `<div class="shop-preview theme-swatch"><span style="background:${item.green}"></span><span style="background:${item.blue}"></span></div>`;
   else preview = `<div class="shop-preview consumable-preview">${icon(item.icon)}</div>`;
 
@@ -442,6 +453,14 @@ function wireShopButtons() {
       renderShopScreen();
     });
   });
+  const owlBtn = document.querySelector("[data-equip-owl]");
+  if (owlBtn) {
+    owlBtn.addEventListener("click", () => {
+      S.equipped.mascot = null;
+      saveState(S);
+      renderShopScreen();
+    });
+  }
 }
 
 // ---------------- Rendering: lesson session ----------------
@@ -763,7 +782,7 @@ function showFeedback(isCorrect, detail) {
   div.className = `feedback-banner ${isCorrect ? "correct" : "incorrect"}`;
   div.innerHTML = `
     <div class="fb-left">
-      ${mascot(isCorrect ? "celebrate" : "sad", "fb-mascot", currentCapColor(S))}
+      ${mascot(isCorrect ? "celebrate" : "sad", "fb-mascot", null, currentMascotSpecies(S))}
       <div class="fb-text-wrap">
         <span class="fb-quote">${icon(isCorrect ? "check" : "x")} ${randomQuote(isCorrect)}</span>
         ${detail ? `<span class="fb-detail">${detail}</span>` : ""}
@@ -800,7 +819,7 @@ function renderFailScreen() {
   playFail();
   els.app.innerHTML = `
     <div class="summary-screen pop-in fail-screen">
-      ${mascot("sad", "", currentCapColor(S))}
+      ${mascot("sad", "", null, currentMascotSpecies(S))}
       <h1>Hết tim rồi!</h1>
       <div class="sub">${session.lessonTitle} - đừng lo, thử lại là qua thôi!</div>
       <div class="summary-stats">
@@ -869,7 +888,7 @@ function renderSummary(accuracy, toasts) {
   els.app.innerHTML = `
     <div class="summary-screen pop-in">
       <div class="confetti-layer" id="confetti-layer"></div>
-      ${mascot(pct >= 70 ? "celebrate" : "wave", "", currentCapColor(S))}
+      ${mascot(pct >= 70 ? "celebrate" : "wave", "", null, currentMascotSpecies(S))}
       <h1>${line}</h1>
       <div class="sub">${session.mode === "lesson" ? "Hoàn thành bài học: " : "Hoàn thành ôn tập: "}${session.lessonTitle}</div>
       <div class="summary-stats">
@@ -937,7 +956,7 @@ function renderLoadingScreen() {
   const tip = LOADING_TIPS[Math.floor(Math.random() * LOADING_TIPS.length)];
   els.app.innerHTML = `
     <div class="loading-screen">
-      ${mascot("wave", "boot-mascot")}
+      ${mascot("wave", "boot-mascot", null, currentMascotSpecies(S))}
       <h3>Đang tải bài học...</h3>
       <div class="loading-tip"><span class="tip-label">Mẹo nhỏ</span>${tip}</div>
     </div>

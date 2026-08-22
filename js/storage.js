@@ -37,7 +37,7 @@ function defaultState() {
     maxHeartsBonus: 0,
     currentSubjectId: "ktpl12",
     subjects: {},
-    equipped: { cap: null }, // cosmetic slot -> shop item id
+    equipped: { mascot: null, theme: null }, // cosmetic slot -> shop item id
     owned: {}, // shop item id -> true
     missions: { date: null, counters: {}, claimed: {}, activeIds: [] },
     soundOn: true,

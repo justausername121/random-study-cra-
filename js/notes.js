@@ -20,8 +20,8 @@ function renderNotes(open) {
   root.innerHTML = `
     <div class="modal-backdrop" id="notes-backdrop">
       <div class="notes-card pop-in" role="dialog" aria-label="Ghi chú">
-        <div class="calc-header">
-          <span class="calc-title">${icon("notes")} Ghi chú</span>
+        <div class="modal-header">
+          <span class="modal-title">${icon("notes")} Ghi chú</span>
           <button class="icon-btn" id="notes-close">${icon("x")}</button>
         </div>
         <textarea id="notes-textarea" class="notes-textarea" placeholder="Viết ghi chú của bạn ở đây...">${S.notes || ""}</textarea>

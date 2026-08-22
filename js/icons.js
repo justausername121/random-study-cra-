@@ -19,7 +19,6 @@ const ICONS = {
   soundOff: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 5V4L8 9H4z"/><path d="M16 9l5 6M21 9l-5 6"/></svg>`,
   flash: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L4 14h6l-1 8 9-12h-6l1-8z"/></svg>`,
   book: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.2V5.8C4 4.8 4.8 4 5.8 4H12v16H5.8c-1 0-1.8-.8-1.8-1.8z"/><path d="M20 19.2V5.8c0-1-.8-1.8-1.8-1.8H12v16h6.2c1 0 1.8-.8 1.8-1.8z"/></svg>`,
-  calculator: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><rect x="7" y="5" width="10" height="4" rx="0.5"/><circle cx="7.5" cy="13" r="0.9" fill="currentColor" stroke="none"/><circle cx="12" cy="13" r="0.9" fill="currentColor" stroke="none"/><circle cx="16.5" cy="13" r="0.9" fill="currentColor" stroke="none"/><circle cx="7.5" cy="17" r="0.9" fill="currentColor" stroke="none"/><circle cx="12" cy="17" r="0.9" fill="currentColor" stroke="none"/><circle cx="16.5" cy="17" r="0.9" fill="currentColor" stroke="none"/></svg>`,
   notes: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h13l3 3v13H4z"/><path d="M17 4v3h3"/><path d="M8 10h8M8 14h8M8 18h4"/></svg>`,
 };
 
@@ -27,77 +26,159 @@ function icon(name, cls) {
   return `<span class="${cls || ""}">${ICONS[name]}</span>`;
 }
 
-// Original owl-with-graduation-cap mascot ("Cú Thông Thái" / the wise owl),
-// hand-drawn in flat SVG shapes - not affiliated with any brand's mascot.
-function mascotSvg(pose, capColor) {
-  const cap1 = capColor || "#2b2b45";
-  const cap2 = shadeColor(cap1, -25);
-  const eyesWave = `
-    <ellipse cx="62" cy="78" rx="17" ry="19" fill="#fff"/>
-    <ellipse cx="118" cy="78" rx="17" ry="19" fill="#fff"/>
-    <circle cx="65" cy="80" r="7.5" fill="#3c3c3c"/>
-    <circle cx="121" cy="80" r="7.5" fill="#3c3c3c"/>
-    <circle cx="67" cy="77" r="2" fill="#fff"/>
-    <circle cx="123" cy="77" r="2" fill="#fff"/>
-  `;
-  const eyesHappy = `
-    <path d="M48 76 Q62 62 76 76" stroke="#3c3c3c" stroke-width="6" fill="none" stroke-linecap="round"/>
-    <path d="M104 76 Q118 62 132 76" stroke="#3c3c3c" stroke-width="6" fill="none" stroke-linecap="round"/>
-  `;
-  const eyesSad = `
-    <ellipse cx="62" cy="82" rx="15" ry="16" fill="#fff"/>
-    <ellipse cx="118" cy="82" rx="15" ry="16" fill="#fff"/>
-    <circle cx="62" cy="87" r="7" fill="#3c3c3c"/>
-    <circle cx="118" cy="87" r="7" fill="#3c3c3c"/>
-    <path d="M50 64 Q62 58 72 66" stroke="#3c3c3c" stroke-width="5" fill="none" stroke-linecap="round"/>
-    <path d="M108 66 Q118 58 130 64" stroke="#3c3c3c" stroke-width="5" fill="none" stroke-linecap="round"/>
-  `;
-  const beak = `<path d="M90 92 L102 108 L78 108 Z" fill="#ff9600"/>`;
-  const body = `
-    <ellipse cx="90" cy="95" rx="58" ry="62" fill="#58cc02"/>
-    <ellipse cx="90" cy="108" rx="38" ry="40" fill="#8ee050"/>
-    <ellipse cx="34" cy="100" rx="14" ry="26" fill="#4caf00" transform="rotate(-18 34 100)"/>
-    <ellipse cx="146" cy="100" rx="14" ry="26" fill="#4caf00" transform="rotate(18 146 100)"/>
-  `;
-  const cap = `
-    <path d="M40 40 L90 20 L140 40 L90 58 Z" fill="${cap1}"/>
-    <path d="M90 58 L90 42 L112 34 L112 52 Z" fill="${cap2}"/>
-    <line x1="140" y1="40" x2="140" y2="60" stroke="${cap1}" stroke-width="4"/>
-    <circle cx="140" cy="62" r="4" fill="#ffc800"/>
-  `;
-  const feet = `
-    <ellipse cx="72" cy="150" rx="10" ry="6" fill="#ff9600"/>
-    <ellipse cx="108" cy="150" rx="10" ry="6" fill="#ff9600"/>
-  `;
-  const confettiBits = `
-    <circle cx="18" cy="30" r="4" fill="#ffc800"/>
-    <circle cx="168" cy="26" r="4" fill="#1cb0f6"/>
-    <circle cx="10" cy="70" r="3.5" fill="#ff4b4b"/>
-    <circle cx="176" cy="80" r="3.5" fill="#ce82ff"/>
-    <rect x="150" y="12" width="7" height="7" fill="#58cc02" transform="rotate(20 150 12)"/>
-    <rect x="24" y="12" width="7" height="7" fill="#ff9600" transform="rotate(-15 24 12)"/>
-  `;
-  let eyes = eyesWave;
-  let extra = "";
+// Original chibi-style mascot characters (round oversized head/body, big
+// eyes, flat clean-vector look) - not affiliated with any brand's mascot.
+// Several "species" share this same rig; only color + head accessory +
+// snout + an optional tail differ between them.
+
+const MASCOT_SPECIES = {
+  owl: {
+    name: "Cú Thông Thái",
+    body: "#58cc02", belly: "#8ee050", limb: "#4caf00",
+    head(accent) {
+      const a1 = accent || "#2b2b45";
+      const a2 = shadeColor(a1, -25);
+      return `
+        <path d="M42 42 L90 22 L138 42 L90 60 Z" fill="${a1}"/>
+        <path d="M90 60 L90 44 L110 37 L110 53 Z" fill="${a2}"/>
+        <line x1="138" y1="42" x2="138" y2="60" stroke="${a1}" stroke-width="4"/>
+        <circle cx="138" cy="62" r="4" fill="#ffc800"/>
+      `;
+    },
+    snout: `<path d="M90 94 L101 108 L79 108 Z" fill="#ff9600"/>`,
+    tail: "",
+  },
+  cat: {
+    name: "Mèo Cam",
+    body: "#ff9d3d", belly: "#ffd9a8", limb: "#e07d1e",
+    head() {
+      return `
+        <path d="M46 44 L58 8 L78 46 Z" fill="#ff9d3d"/>
+        <path d="M102 46 L122 8 L134 44 Z" fill="#ff9d3d"/>
+        <path d="M53 38 L60 20 L69 40 Z" fill="#ffc9e0"/>
+        <path d="M111 40 L120 20 L127 38 Z" fill="#ffc9e0"/>
+      `;
+    },
+    snout: `
+      <path d="M90 96 L98 104 L90 108 L82 104 Z" fill="#ffc9e0"/>
+      <line x1="60" y1="100" x2="30" y2="96" stroke="#e07d1e" stroke-width="2" stroke-linecap="round"/>
+      <line x1="60" y1="106" x2="30" y2="108" stroke="#e07d1e" stroke-width="2" stroke-linecap="round"/>
+      <line x1="120" y1="100" x2="150" y2="96" stroke="#e07d1e" stroke-width="2" stroke-linecap="round"/>
+      <line x1="120" y1="106" x2="150" y2="108" stroke="#e07d1e" stroke-width="2" stroke-linecap="round"/>
+    `,
+    tail: `<path d="M144 132 Q172 120 166 88" stroke="#ff9d3d" stroke-width="14" fill="none" stroke-linecap="round"/>`,
+  },
+  fox: {
+    name: "Cáo Lửa",
+    body: "#ff7a3d", belly: "#ffddb8", limb: "#e05f22",
+    head() {
+      return `
+        <path d="M44 46 L54 4 L80 44 Z" fill="#ff7a3d"/>
+        <path d="M100 44 L126 4 L136 46 Z" fill="#ff7a3d"/>
+        <path d="M50 38 L56 18 L70 40 Z" fill="#2b2b2b"/>
+        <path d="M110 40 L124 18 L130 38 Z" fill="#2b2b2b"/>
+      `;
+    },
+    snout: `
+      <path d="M90 90 Q108 96 104 112 Q90 120 76 112 Q72 96 90 90Z" fill="#fff3e6"/>
+      <circle cx="90" cy="108" r="4.5" fill="#2b2b2b"/>
+    `,
+    tail: `<path d="M146 134 Q180 124 176 92 Q174 80 162 84 Q168 108 140 118Z" fill="#ff7a3d"/><path d="M170 90 Q178 96 174 108" stroke="#fff3e6" stroke-width="8" fill="none" stroke-linecap="round"/>`,
+  },
+  bear: {
+    name: "Gấu Nâu",
+    body: "#9a6b43", belly: "#d9b48f", limb: "#7c5334",
+    head() {
+      return `
+        <circle cx="48" cy="34" r="19" fill="#9a6b43"/>
+        <circle cx="132" cy="34" r="19" fill="#9a6b43"/>
+        <circle cx="48" cy="34" r="9" fill="#7c5334"/>
+        <circle cx="132" cy="34" r="9" fill="#7c5334"/>
+      `;
+    },
+    snout: `<ellipse cx="90" cy="104" rx="20" ry="15" fill="#d9b48f"/><ellipse cx="90" cy="100" rx="6" ry="4.5" fill="#3c3c3c"/>`,
+    tail: "",
+  },
+  dragon: {
+    name: "Rồng Nhí",
+    body: "#1cb0f6", belly: "#a9e6ff", limb: "#1590c9",
+    head() {
+      return `
+        <path d="M56 40 L66 8 L76 42 Z" fill="#1cb0f6"/>
+        <path d="M104 42 L114 8 L124 40 Z" fill="#1cb0f6"/>
+        <path d="M56 40 L63 16 L70 41 Z" fill="#0d6d99"/>
+        <path d="M110 41 L117 16 L124 40 Z" fill="#0d6d99"/>
+      `;
+    },
+    snout: `<path d="M90 94 L100 106 L90 112 L80 106 Z" fill="#0d6d99"/>`,
+    tail: `<path d="M144 130 Q176 132 170 100" stroke="#1cb0f6" stroke-width="13" fill="none" stroke-linecap="round"/><path d="M162 98 L172 92 L168 104Z" fill="#0d6d99"/>`,
+  },
+};
+
+function chibiEyes(pose) {
   if (pose === "celebrate") {
-    eyes = eyesHappy;
-    extra = confettiBits;
-  } else if (pose === "sad") {
-    eyes = eyesSad;
+    return `
+      <path d="M46 78 Q62 62 78 78" stroke="#3c3c3c" stroke-width="6.5" fill="none" stroke-linecap="round"/>
+      <path d="M102 78 Q118 62 134 78" stroke="#3c3c3c" stroke-width="6.5" fill="none" stroke-linecap="round"/>
+    `;
+  }
+  if (pose === "sad") {
+    return `
+      <ellipse cx="62" cy="83" rx="16" ry="17" fill="#fff"/>
+      <ellipse cx="118" cy="83" rx="16" ry="17" fill="#fff"/>
+      <circle cx="62" cy="89" r="7.5" fill="#3c3c3c"/>
+      <circle cx="118" cy="89" r="7.5" fill="#3c3c3c"/>
+      <path d="M49 66 Q62 59 74 68" stroke="#3c3c3c" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M106 68 Q118 59 131 66" stroke="#3c3c3c" stroke-width="5" fill="none" stroke-linecap="round"/>
+    `;
   }
   return `
-  <svg viewBox="0 0 180 165" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="62" cy="78" rx="19" ry="21" fill="#fff"/>
+    <ellipse cx="118" cy="78" rx="19" ry="21" fill="#fff"/>
+    <circle cx="65" cy="81" r="8.5" fill="#3c3c3c"/>
+    <circle cx="121" cy="81" r="8.5" fill="#3c3c3c"/>
+    <circle cx="68" cy="77" r="2.3" fill="#fff"/>
+    <circle cx="124" cy="77" r="2.3" fill="#fff"/>
+  `;
+}
+
+const CONFETTI_BITS = `
+  <circle cx="18" cy="30" r="4" fill="#ffc800"/>
+  <circle cx="168" cy="26" r="4" fill="#1cb0f6"/>
+  <circle cx="10" cy="70" r="3.5" fill="#ff4b4b"/>
+  <circle cx="176" cy="80" r="3.5" fill="#ce82ff"/>
+  <rect x="150" y="12" width="7" height="7" fill="#58cc02" transform="rotate(20 150 12)"/>
+  <rect x="24" y="12" width="7" height="7" fill="#ff9600" transform="rotate(-15 24 12)"/>
+`;
+
+function mascotSvg(pose, capColor, species) {
+  const sp = MASCOT_SPECIES[species] || MASCOT_SPECIES.owl;
+  const body = `
+    <ellipse cx="90" cy="98" rx="62" ry="58" fill="${sp.body}"/>
+    <ellipse cx="90" cy="112" rx="40" ry="36" fill="${sp.belly}"/>
+    <ellipse cx="32" cy="104" rx="14" ry="25" fill="${sp.limb}" transform="rotate(-18 32 104)"/>
+    <ellipse cx="148" cy="104" rx="14" ry="25" fill="${sp.limb}" transform="rotate(18 148 104)"/>
+  `;
+  const feet = `
+    <ellipse cx="72" cy="152" rx="11" ry="6.5" fill="${shadeColor(sp.limb, -8)}"/>
+    <ellipse cx="108" cy="152" rx="11" ry="6.5" fill="${shadeColor(sp.limb, -8)}"/>
+  `;
+  const eyes = chibiEyes(pose);
+  const extra = pose === "celebrate" ? CONFETTI_BITS : "";
+  return `
+  <svg viewBox="0 0 180 170" xmlns="http://www.w3.org/2000/svg">
+    ${sp.tail}
     ${feet}
     ${body}
-    ${beak}
+    ${sp.snout}
     ${eyes}
-    ${cap}
+    ${sp.head(capColor)}
     ${extra}
   </svg>`;
 }
 
-function mascot(pose, cls, capColor) {
-  return `<div class="mascot ${cls || ""}">${mascotSvg(pose, capColor)}</div>`;
+function mascot(pose, cls, capColor, species) {
+  return `<div class="mascot ${cls || ""}">${mascotSvg(pose, capColor, species)}</div>`;
 }
 
 function shadeColor(hex, percent) {
