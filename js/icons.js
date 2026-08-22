@@ -134,16 +134,63 @@ const MASCOT_SPECIES = {
     body: "#d2a679", belly: "#e8c39e", limb: "#a97c50",
     head() {
       return `
-        <circle cx="70" cy="88" r="5.5" fill="#6b4226"/>
-        <circle cx="109" cy="82" r="5" fill="#6b4226"/>
         <circle cx="118" cy="118" r="5.5" fill="#6b4226"/>
         <circle cx="62" cy="122" r="4.5" fill="#6b4226"/>
         <circle cx="94" cy="132" r="5" fill="#6b4226"/>
+        <circle cx="46" cy="105" r="4.5" fill="#6b4226"/>
+        <circle cx="134" cy="103" r="4" fill="#6b4226"/>
         <path d="M74 28 Q90 6 106 28 Q97 20 90 24 Q83 20 74 28Z" fill="#fff6e0"/>
       `;
     },
     snout: "",
     tail: "",
+  },
+  panda: {
+    name: "Gấu Trúc",
+    body: "#fafafa", belly: "#ffffff", limb: "#2b2b2b",
+    head() {
+      return `
+        <circle cx="46" cy="32" r="18" fill="#2b2b2b"/>
+        <circle cx="134" cy="32" r="18" fill="#2b2b2b"/>
+      `;
+    },
+    // Eye patches must render BEHIND the eyes (snout slot draws before eyes),
+    // otherwise they'd cover the pupils entirely.
+    snout: `
+      <ellipse cx="60" cy="80" rx="17" ry="19" fill="#2b2b2b"/>
+      <ellipse cx="120" cy="80" rx="17" ry="19" fill="#2b2b2b"/>
+      <ellipse cx="90" cy="102" rx="7" ry="5.5" fill="#2b2b2b"/>
+    `,
+    tail: "",
+  },
+  penguin: {
+    name: "Cánh Cụt",
+    body: "#2b3a4a", belly: "#f2f6fa", limb: "#1c2733",
+    head() {
+      return "";
+    },
+    snout: `
+      <ellipse cx="90" cy="86" rx="30" ry="34" fill="#f2f6fa"/>
+      <path d="M90 92 L104 100 L90 106 L76 100 Z" fill="#ff9600"/>
+    `,
+    tail: "",
+  },
+  unicorn: {
+    name: "Kỳ Lân",
+    body: "#fdf1ff", belly: "#ffffff", limb: "#e8c9fb",
+    head() {
+      return `
+        <path d="M90 44 L82 4 L98 20 Z" fill="#ffe07a"/>
+        <path d="M83 38 L89 8 L95 36 Z" fill="#fff3c4"/>
+        <path d="M50 20 Q70 4 90 22 Q80 18 74 26 Q84 20 92 28" fill="none" stroke="#ce82ff" stroke-width="6" stroke-linecap="round"/>
+        <path d="M55 26 Q75 12 93 28" fill="none" stroke="#ff8fb0" stroke-width="6" stroke-linecap="round"/>
+        <path d="M60 32 Q78 20 94 34" fill="none" stroke="#8fd8f5" stroke-width="6" stroke-linecap="round"/>
+        <ellipse cx="30" cy="75" rx="8" ry="13" fill="#fdf1ff"/>
+        <ellipse cx="150" cy="75" rx="8" ry="13" fill="#fdf1ff"/>
+      `;
+    },
+    snout: `<ellipse cx="76" cy="106" rx="3" ry="4" fill="#e8a4c9"/><ellipse cx="104" cy="106" rx="3" ry="4" fill="#e8a4c9"/>`,
+    tail: `<path d="M148 128 Q178 118 172 90" fill="none" stroke="#ce82ff" stroke-width="7" stroke-linecap="round"/><path d="M150 132 Q176 126 168 100" fill="none" stroke="#ff8fb0" stroke-width="7" stroke-linecap="round"/>`,
   },
 };
 
