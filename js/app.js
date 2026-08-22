@@ -780,11 +780,12 @@ function wireTfSort(card) {
 
 function wireMatchCard(card) {
   let selectedTerm = null;
+  let locked = false;
   const matched = new Set();
   const wrongTerm = new Set();
   document.querySelectorAll(".match-term").forEach((btn) => {
     btn.addEventListener("click", () => {
-      if (matched.has(btn.getAttribute("data-key"))) return;
+      if (locked || matched.has(btn.getAttribute("data-key"))) return;
       document.querySelectorAll(".match-term").forEach((b) => b.classList.remove("selected"));
       btn.classList.add("selected");
       selectedTerm = btn;
@@ -792,15 +793,16 @@ function wireMatchCard(card) {
   });
   document.querySelectorAll(".match-def").forEach((btn) => {
     btn.addEventListener("click", () => {
-      if (!selectedTerm || matched.has(btn.getAttribute("data-key"))) return;
+      if (locked || !selectedTerm || matched.has(btn.getAttribute("data-key"))) return;
       const termKey = selectedTerm.getAttribute("data-key");
       const defKey = btn.getAttribute("data-key");
+      const termBtn = selectedTerm;
       if (termKey === defKey) {
         matched.add(termKey);
-        selectedTerm.classList.remove("selected");
-        selectedTerm.classList.add("match-locked");
+        termBtn.classList.remove("selected");
+        termBtn.classList.add("match-locked");
         btn.classList.add("match-locked");
-        selectedTerm.disabled = true;
+        termBtn.disabled = true;
         btn.disabled = true;
         playCorrect();
         selectedTerm = null;
@@ -808,14 +810,16 @@ function wireMatchCard(card) {
         if (matched.size === card.pairs.length) gradeMatch(card, wrongTerm);
       } else {
         wrongTerm.add(termKey);
+        locked = true;
         btn.classList.add("match-wrong");
-        selectedTerm.classList.add("match-wrong");
+        termBtn.classList.add("match-wrong");
         playIncorrect();
+        selectedTerm = null;
         setTimeout(() => {
           btn.classList.remove("match-wrong");
-          if (selectedTerm) selectedTerm.classList.remove("match-wrong", "selected");
-        }, 400);
-        selectedTerm = null;
+          termBtn.classList.remove("match-wrong", "selected");
+          locked = false;
+        }, 500);
       }
     });
   });
