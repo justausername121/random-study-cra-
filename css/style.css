@@ -208,6 +208,12 @@ body {
   50% { transform: translateY(-6px) rotate(-3deg); }
 }
 
+.unit-section {
+  background: linear-gradient(180deg, var(--sky-top, var(--bg-soft)), var(--sky-bottom, var(--bg-soft)));
+  padding-top: 4px;
+  padding-bottom: 8px;
+}
+
 .unit-banner {
   margin: 20px 16px 28px;
   padding: 16px 18px;
@@ -240,8 +246,8 @@ body {
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
-  gap: 26px 20px;
-  padding: 6px 28px 20px;
+  gap: 46px 20px;
+  padding: 10px 28px 34px;
 }
 
 .node-wrap {
@@ -251,6 +257,7 @@ body {
   gap: 6px;
   position: relative;
   width: 128px;
+  transition: transform 0.2s ease;
 }
 
 .node {
@@ -270,6 +277,11 @@ body {
   box-shadow: var(--shadow-btn) rgba(0,0,0,0.15);
   position: relative;
   transition: transform 0.08s ease;
+  background-image:
+    radial-gradient(circle at 35% 28%, rgba(255,255,255,0.4), transparent 55%),
+    radial-gradient(var(--node-speckle, transparent) 1px, transparent 1.3px);
+  background-size: 100% 100%, 9px 9px;
+  background-blend-mode: normal, multiply;
 }
 .node-icon { width: 26px; height: 26px; display: block; }
 .node-num { font-size: 13px; font-weight: 800; line-height: 1; }
@@ -289,7 +301,21 @@ body {
   font-size: 11px;
   font-weight: 700;
 }
-.node.boss { width: 84px; height: 84px; font-size: 30px; }
+.node.boss { width: 104px; height: 104px; font-size: 36px; }
+.boss-wrap { width: 148px; }
+.boss-ring {
+  position: absolute;
+  inset: -12px;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--theme-glow, transparent) 0%, transparent 70%);
+  z-index: -1;
+  animation: boss-pulse 2.4s ease-in-out infinite;
+}
+.node.boss.locked .boss-ring, .node.boss.pending .boss-ring { display: none; }
+@keyframes boss-pulse {
+  0%, 100% { opacity: 0.55; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.15); }
+}
 .node .stars {
   position: absolute;
   bottom: -8px;
@@ -642,6 +668,36 @@ body {
 .empty-state h3 { color: var(--ink); margin-bottom: 8px; }
 .empty-state .mascot.boot-mascot { width: 96px; height: 96px; margin: 0 auto 16px; }
 
+.loading-screen {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  text-align: center;
+}
+.loading-screen .mascot.boot-mascot { width: 110px; height: 110px; margin-bottom: 18px; }
+.loading-screen h3 { font-size: 17px; margin: 0 0 20px; color: var(--ink-light); }
+.loading-tip {
+  max-width: 340px;
+  background: var(--bg-soft);
+  border: 2px solid var(--border);
+  border-radius: 14px;
+  padding: 14px 18px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.loading-tip .tip-label {
+  display: block;
+  font-size: 11px;
+  font-weight: 800;
+  color: var(--blue);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
+}
+
 @keyframes pop {
   0% { transform: scale(0.8); opacity: 0; }
   100% { transform: scale(1); opacity: 1; }
@@ -682,12 +738,13 @@ body {
 @media (max-width: 720px) {
   .bg-decor { display: none; }
   #app { border-left: none; border-right: none; box-shadow: none; }
-  .path { padding: 6px 14px 16px; gap: 20px 14px; }
+  .path { padding: 6px 14px 24px; gap: 34px 14px; }
   .node-wrap { width: 96px; }
   .node { width: 62px; height: 62px; font-size: 22px; }
   .node-icon { width: 20px; height: 20px; }
   .node-num { font-size: 11px; }
-  .node.boss { width: 74px; height: 74px; font-size: 26px; }
+  .node.boss { width: 88px; height: 88px; font-size: 30px; }
+  .boss-wrap { width: 120px; }
   .hero { padding: 14px 16px 4px; }
   .unit-banner { margin: 16px 12px 22px; }
 }

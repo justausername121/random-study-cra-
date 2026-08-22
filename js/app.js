@@ -150,6 +150,16 @@ function wireSoundToggle() {
 
 // ---------------- Rendering: home / path ----------------
 
+// Deterministic pseudo-random per-node offset so the path looks organically
+// scattered (not a repeating wave) but stays stable across re-renders.
+function nodeJitter(seed, maxY, maxRot) {
+  let h = 0;
+  for (let i = 0; i < seed.length; i++) h = (h * 31 + seed.charCodeAt(i)) >>> 0;
+  const a = ((h % 1000) / 1000) * 2 - 1;
+  const b = (((h >> 5) % 1000) / 1000) * 2 - 1;
+  return { ty: Math.round(a * maxY), rot: Math.round(b * maxRot) };
+}
+
 function renderHome() {
   const subjectId = S.currentSubjectId;
   const subj = currentSubject();
@@ -162,10 +172,12 @@ function renderHome() {
   for (const cd of subj.chuDe) {
     const bais = baiByChuDe(subjectId, cd.id);
     const doneCount = bais.filter((b) => isBaiCompleted(subjectId, b.id)).length;
+    const theme = themeForUnit(cd.id, cd.order);
     html += `
-      <div class="unit-banner" style="background:${cd.color}">
+      <div class="unit-section" style="--sky-top:${theme.skyTop};--sky-bottom:${theme.skyBottom};--node-speckle:${theme.speckle};--theme-glow:${theme.bannerGlow}">
+      <div class="unit-banner" style="background-color:${cd.color}">
         <div>
-          <div class="unit-label">${subj.unitLabel} ${cd.order}</div>
+          <div class="unit-label">${subj.unitLabel} ${cd.order} · ${theme.label}</div>
           <div class="unit-title">${cd.title}</div>
         </div>
         <div class="unit-progress">${doneCount}/${bais.length} ${subj.lessonLabel.toLowerCase()}</div>
@@ -179,6 +191,7 @@ function renderHome() {
       const completed = isBaiCompleted(subjectId, b.id);
       const available = isBaiAvailable(subjectId, b.id);
       const isNext = globalIndex === nextIndex;
+      const jitter = nodeJitter(`${cd.id}-${b.baiNumber}`, 16, 5);
       let cls = "node";
       let inner = `${icon("book", "node-icon")}<span class="node-num">${b.baiNumber}</span>`;
       let clickable = false;
@@ -197,9 +210,9 @@ function renderHome() {
       if (isNext && available) cls += " next-up";
       const bg = completed ? cd.color : unlocked && available ? cd.color : undefined;
       html += `
-        <div class="node-wrap">
+        <div class="node-wrap" style="transform:translateY(${jitter.ty}px) rotate(${jitter.rot}deg)">
           ${isNext && available ? `<div class="start-badge">Bắt đầu</div>` : ""}
-          <button class="${cls}" style="${bg ? `background:${bg}` : ""}" data-bai="${b.id}" ${clickable ? "" : "disabled"}>
+          <button class="${cls}" style="${bg ? `background-color:${bg}` : ""}" data-bai="${b.id}" ${clickable ? "" : "disabled"}>
             ${inner}
             ${completed ? `<span class="stars">${renderStars(subjectState(S, subjectId).completedBai[b.id].stars)}</span>` : ""}
           </button>
@@ -225,8 +238,9 @@ function renderHome() {
       bossClickable = true;
     }
     html += `
-      <div class="node-wrap">
-        <button class="${bossCls}" style="${bossClickable || bossCompleted ? `background:${cd.color}` : ""}" data-boss="${cd.id}" ${bossClickable ? "" : "disabled"}>
+      <div class="node-wrap boss-wrap">
+        <button class="${bossCls}" style="${bossClickable || bossCompleted ? `background-color:${cd.color}` : ""}" data-boss="${cd.id}" ${bossClickable ? "" : "disabled"}>
+          <span class="boss-ring"></span>
           ${bossInner}
         </button>
         <div class="node-title">Ôn tập ${subj.unitLabel.toLowerCase()}</div>
@@ -234,7 +248,7 @@ function renderHome() {
       </div>
     `;
 
-    html += `</div>`;
+    html += `</div></div>`;
   }
 
   html += `</div>`;
@@ -898,9 +912,39 @@ function switchToHome() {
 
 // ---------------- Boot ----------------
 
+const LOADING_TIPS = [
+  "Học 5 phút mỗi ngày còn hơn học dồn một lần mỗi tuần!",
+  "Sai không sao cả, quan trọng là nhớ được đáp án đúng.",
+  "Ôn lại chủ đề cũ giúp bạn nhớ lâu hơn là chỉ học bài mới.",
+  "GDP và GNI khác nhau đấy, đừng nhầm lẫn nhé!",
+  "Làm bài tính toán nhớ ghi rõ đơn vị đo, dễ ăn điểm hơn.",
+  "Giữ chuỗi ngày học đều để kiến thức không bị quên.",
+  "Đọc kỹ câu Đúng/Sai - chỉ cần sai 1 ý là cả câu tính sai.",
+  "Dùng Xu mua thêm tim nếu định thử bài khó hơn.",
+  "Học xong một bài, thử luôn phần Ôn tập chủ đề nhé!",
+  "Cú tui tin là bạn làm được!",
+  "Muốn nhớ công thức lâu? Thử áp dụng vào ví dụ thực tế xem.",
+  "Đừng ngại bấm nút Thử lại - càng luyện càng nhớ chắc.",
+];
+
+function renderLoadingScreen() {
+  const tip = LOADING_TIPS[Math.floor(Math.random() * LOADING_TIPS.length)];
+  els.app.innerHTML = `
+    <div class="loading-screen">
+      ${mascot("wave", "boot-mascot")}
+      <h3>Đang tải bài học...</h3>
+      <div class="loading-tip"><span class="tip-label">Mẹo nhỏ</span>${tip}</div>
+    </div>
+  `;
+}
+
 async function boot() {
-  els.app.innerHTML = `<div class="empty-state">${mascot("wave", "boot-mascot")}<h3>Đang tải nội dung...</h3><p>Đang chuẩn bị bài học cho bạn.</p></div>`;
+  renderLoadingScreen();
+  const start = Date.now();
   await loadAllContent({});
+  const minDelay = 700;
+  const elapsed = Date.now() - start;
+  if (elapsed < minDelay) await new Promise((resolve) => setTimeout(resolve, minDelay - elapsed));
   renderHome();
 }
 
