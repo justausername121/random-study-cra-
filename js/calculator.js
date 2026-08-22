@@ -24,8 +24,15 @@ const CALC_LABELS = {
   "×": "×", "÷": "÷", "1/x": "1/x", "²": "x²", "^": "xʸ",
 };
 
+// A digit/)/pi/e/square/percent immediately followed by "(" or a letter or
+// pi or sqrt-sign is very likely intended as multiplication by a student
+// who didn't realize they needed to press x - e.g. "2pi" or "5(3+1)".
+function insertImplicitMultiplication(display) {
+  return display.replace(/([0-9)πe²%])(\(|[a-zA-Z]|π|√)/g, "$1×$2");
+}
+
 function calcToEvalString(display, mode) {
-  let s = display;
+  let s = insertImplicitMultiplication(display);
   s = s.replace(/e/g, "(Math.E)");
   s = s.replace(/×/g, "*").replace(/÷/g, "/").replace(/π/g, "(Math.PI)");
   s = s.replace(/√\(/g, "Math.sqrt(");
@@ -76,6 +83,8 @@ function calcPress(token) {
     calcState.expr = `1/(${calcState.expr || "0"})`;
   } else if (token === "mode") {
     calcState.mode = calcState.mode === "DEG" ? "RAD" : "DEG";
+    const modeBtn = document.getElementById("calc-mode-btn");
+    if (modeBtn) modeBtn.textContent = calcState.mode;
   } else if (token === "MC") {
     calcState.memory = 0;
   } else if (token === "MR") {
@@ -88,13 +97,26 @@ function calcPress(token) {
   } else {
     calcState.expr += token;
   }
-  renderCalculator();
+  updateCalcDisplay();
 }
 
 function calcPreview() {
   if (!calcState.expr || calcState.expr === "Lỗi") return "";
   const result = calcSafeEval(calcState.expr, calcState.mode);
   return result == null ? "" : calcFormat(result);
+}
+
+// Lightweight update after every keypress - only touches the display text,
+// never rebuilds the button grid (that was restarting the pop-in animation
+// on every single tap, causing a distracting flash).
+function updateCalcDisplay() {
+  if (!calcState.open) return;
+  const exprEl = document.getElementById("calc-expr");
+  const previewEl = document.getElementById("calc-preview");
+  const modeEl = document.getElementById("calc-mode-indicator");
+  if (exprEl) exprEl.textContent = calcState.expr || "0";
+  if (previewEl) previewEl.textContent = calcPreview();
+  if (modeEl) modeEl.textContent = `${calcState.mode}${calcState.memory !== 0 ? " · M" : ""}`;
 }
 
 function openCalculator() {
@@ -114,7 +136,6 @@ function renderCalculator() {
     if (root) root.innerHTML = "";
     return;
   }
-  const preview = calcPreview();
   root.innerHTML = `
     <div class="modal-backdrop" id="calc-backdrop">
       <div class="calc-card pop-in" role="dialog" aria-label="Máy tính">
@@ -124,23 +145,22 @@ function renderCalculator() {
         </div>
         <div class="calc-display">
           <div class="calc-sub-row">
-            <span class="calc-mode">${calcState.mode}${calcState.memory !== 0 ? " · M" : ""}</span>
+            <span class="calc-mode" id="calc-mode-indicator">${calcState.mode}${calcState.memory !== 0 ? " · M" : ""}</span>
           </div>
-          <div class="calc-expr">${calcState.expr || "0"}</div>
-          <div class="calc-preview">${preview}</div>
+          <div class="calc-expr" id="calc-expr">${calcState.expr || "0"}</div>
+          <div class="calc-preview" id="calc-preview">${calcPreview()}</div>
         </div>
         <div class="calc-grid">
           ${CALC_BUTTONS.flat()
             .map((t) => {
               const label = t === "mode" ? calcState.mode : CALC_LABELS[t] || t;
-              const cls = ["AC", "DEL", "±"].includes(t)
-                ? "calc-btn calc-btn-fn"
-                : t === "="
+              const idAttr = t === "mode" ? `id="calc-mode-btn"` : "";
+              const cls = t === "="
                 ? "calc-btn calc-btn-eq"
                 : /^[0-9.]$/.test(t)
                 ? "calc-btn calc-btn-num"
                 : "calc-btn";
-              return `<button class="${cls}" data-calc="${t}">${label}</button>`;
+              return `<button class="${cls}" ${idAttr} data-calc="${t}">${label}</button>`;
             })
             .join("")}
         </div>

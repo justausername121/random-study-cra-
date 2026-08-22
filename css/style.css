@@ -212,7 +212,17 @@ body {
   background: linear-gradient(180deg, var(--sky-top, var(--bg-soft)), var(--sky-bottom, var(--bg-soft)));
   padding-top: 4px;
   padding-bottom: 8px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
 }
+.unit-decor {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+.unit-decor svg { position: absolute; opacity: 0.85; }
 
 .unit-banner {
   margin: 20px 16px 28px;
@@ -282,6 +292,7 @@ body {
     radial-gradient(var(--node-speckle, transparent) 1px, transparent 1.3px);
   background-size: 100% 100%, 9px 9px;
   background-blend-mode: normal, multiply;
+  clip-path: var(--node-clip, none);
 }
 .node-icon { width: 26px; height: 26px; display: block; }
 .node-num { font-size: 13px; font-weight: 800; line-height: 1; }
@@ -301,7 +312,7 @@ body {
   font-size: 11px;
   font-weight: 700;
 }
-.node.boss { width: 104px; height: 104px; font-size: 36px; }
+.node.boss { width: 104px; height: 104px; font-size: 36px; clip-path: none; }
 .boss-wrap { width: 148px; }
 .boss-ring {
   position: absolute;

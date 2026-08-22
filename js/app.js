@@ -179,7 +179,8 @@ function renderHome() {
     const doneCount = bais.filter((b) => isBaiCompleted(subjectId, b.id)).length;
     const theme = themeForUnit(cd.id, cd.order);
     html += `
-      <div class="unit-section" style="--sky-top:${theme.skyTop};--sky-bottom:${theme.skyBottom};--node-speckle:${theme.speckle};--theme-glow:${theme.bannerGlow}">
+      <div class="unit-section" style="--sky-top:${theme.skyTop};--sky-bottom:${theme.skyBottom};--node-speckle:${theme.speckle};--theme-glow:${theme.bannerGlow};--node-clip:${theme.nodeClip}">
+      <div class="unit-decor" aria-hidden="true">${theme.decor.join("")}</div>
       <div class="unit-banner" style="background-color:${cd.color}">
         <div>
           <div class="unit-label">${subj.unitLabel} ${cd.order} · ${theme.label}</div>
