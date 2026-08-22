@@ -113,6 +113,38 @@ const MASCOT_SPECIES = {
     snout: `<path d="M90 94 L100 106 L90 112 L80 106 Z" fill="#0d6d99"/>`,
     tail: `<path d="M144 130 Q176 132 170 100" stroke="#1cb0f6" stroke-width="13" fill="none" stroke-linecap="round"/><path d="M162 98 L172 92 L168 104Z" fill="#0d6d99"/>`,
   },
+  rabbit: {
+    name: "Thỏ Hoàng Gia",
+    body: "#c0392b", belly: "#fbe8d3", limb: "#96281b",
+    head() {
+      return `
+        <ellipse cx="62" cy="16" rx="12" ry="34" fill="#c0392b" transform="rotate(-8 62 16)"/>
+        <ellipse cx="118" cy="16" rx="12" ry="34" fill="#c0392b" transform="rotate(8 118 16)"/>
+        <ellipse cx="62" cy="12" rx="6" ry="19" fill="#2b2b2b" transform="rotate(-8 62 12)"/>
+        <ellipse cx="118" cy="12" rx="6" ry="19" fill="#2b2b2b" transform="rotate(8 118 12)"/>
+        <path d="M77 36 L90 16 L103 36 L95 36 L90 24 L85 36 Z" fill="#ffc800"/>
+        <circle cx="90" cy="22" r="3.2" fill="#ff4b4b"/>
+      `;
+    },
+    snout: `<path d="M90 98 C86 93 78 95 78 101 C78 106 90 112 90 112 C90 112 102 106 102 101 C102 95 94 93 90 98Z" fill="#ffb6c1"/>`,
+    tail: `<circle cx="150" cy="128" r="15" fill="#fbe8d3"/>`,
+  },
+  cookie: {
+    name: "Bánh Quy",
+    body: "#d2a679", belly: "#e8c39e", limb: "#a97c50",
+    head() {
+      return `
+        <circle cx="70" cy="88" r="5.5" fill="#6b4226"/>
+        <circle cx="109" cy="82" r="5" fill="#6b4226"/>
+        <circle cx="118" cy="118" r="5.5" fill="#6b4226"/>
+        <circle cx="62" cy="122" r="4.5" fill="#6b4226"/>
+        <circle cx="94" cy="132" r="5" fill="#6b4226"/>
+        <path d="M74 28 Q90 6 106 28 Q97 20 90 24 Q83 20 74 28Z" fill="#fff6e0"/>
+      `;
+    },
+    snout: "",
+    tail: "",
+  },
 };
 
 function chibiEyes(pose) {

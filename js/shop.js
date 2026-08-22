@@ -6,6 +6,8 @@ const SHOP_ITEMS = [
   { id: "mascot_fox", type: "mascot", name: "Cáo Lửa", price: 60, species: "fox" },
   { id: "mascot_bear", type: "mascot", name: "Gấu Nâu", price: 80, species: "bear" },
   { id: "mascot_dragon", type: "mascot", name: "Rồng Nhí", price: 100, species: "dragon" },
+  { id: "mascot_rabbit", type: "mascot", name: "Thỏ Hoàng Gia", price: 90, species: "rabbit" },
+  { id: "mascot_cookie", type: "mascot", name: "Bánh Quy", price: 80, species: "cookie" },
   { id: "theme_sunset", type: "theme", name: "Giao diện Hoàng hôn", price: 60, green: "#ff9600", blue: "#ff4b4b" },
   { id: "theme_ocean", type: "theme", name: "Giao diện Đại dương", price: 60, green: "#1cb0f6", blue: "#2b70c9" },
   { id: "theme_forest", type: "theme", name: "Giao diện Rừng xanh", price: 60, green: "#2b9348", blue: "#58cc02" },
