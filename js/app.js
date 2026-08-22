@@ -184,6 +184,7 @@ function renderHome() {
       let clickable = false;
       if (completed) {
         inner = icon("check");
+        clickable = true;
       } else if (!unlocked) {
         cls += " locked";
         inner = icon("lock");
