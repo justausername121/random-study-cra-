@@ -117,6 +117,7 @@ function renderTopbar(showBack) {
           <button class="icon-btn" id="btn-shop" title="Cửa hàng">${icon("bag")}</button>
         </div>`}
       <div class="stat-group">
+        <button class="icon-btn" id="btn-sound" title="${S.soundOn ? "Tắt âm thanh" : "Bật âm thanh"}">${icon(S.soundOn ? "soundOn" : "soundOff")}</button>
         <span class="stat-pill stat-fire">${icon("fire")}${S.streak}${S.streakFreezes > 0 ? `<sup class="freeze-badge">x${S.streakFreezes}</sup>` : ""}</span>
         <span class="stat-pill stat-heart">${icon("heart")}${S.hearts}</span>
         <span class="stat-pill stat-coin">${icon("coin")}${S.currency}</span>
@@ -131,6 +132,19 @@ function wireTopbarExtras() {
   const sBtn = document.getElementById("btn-shop");
   if (mBtn) mBtn.addEventListener("click", renderMissionsScreen);
   if (sBtn) sBtn.addEventListener("click", renderShopScreen);
+  wireSoundToggle();
+}
+
+function wireSoundToggle() {
+  const btn = document.getElementById("btn-sound");
+  if (!btn) return;
+  btn.addEventListener("click", () => {
+    S.soundOn = !S.soundOn;
+    saveState(S);
+    btn.innerHTML = icon(S.soundOn ? "soundOn" : "soundOff");
+    btn.title = S.soundOn ? "Tắt âm thanh" : "Bật âm thanh";
+    if (S.soundOn) playClick();
+  });
 }
 
 // ---------------- Rendering: home / path ----------------
@@ -303,6 +317,7 @@ function renderMissionsScreen() {
     </div>
   `;
   document.getElementById("btn-back").addEventListener("click", renderHome);
+  wireSoundToggle();
 }
 
 // ---------------- Rendering: shop screen ----------------
@@ -340,6 +355,7 @@ function renderShopScreen() {
     </div>
   `;
   document.getElementById("btn-back").addEventListener("click", renderHome);
+  wireSoundToggle();
   wireShopButtons();
 }
 
@@ -475,6 +491,7 @@ function renderCard() {
     session = null;
     switchToHome();
   });
+  wireSoundToggle();
 
   wireCardInteractions(card);
 }
@@ -623,6 +640,7 @@ function gradeShort(card, input) {
   const isCorrect = userVal != null && Math.abs(userVal - correctVal) <= tolerance;
   input.disabled = true;
   input.classList.add(isCorrect ? "correct" : "incorrect");
+  isCorrect ? playCorrect() : playIncorrect();
   if (isCorrect) {
     session.correctUnits += 1;
     session.xpEarned += 10;
@@ -643,6 +661,7 @@ function gradeMcq(card, selectedKey, btns) {
     if (k === correctKey) b.classList.add("correct");
     else if (k === selectedKey && !isCorrect) b.classList.add("incorrect");
   });
+  isCorrect ? playCorrect() : playIncorrect();
   if (isCorrect) {
     session.correctUnits += 1;
     session.xpEarned += 10;
@@ -667,6 +686,7 @@ function gradeTf(card, answers) {
   session.xpEarned += correctCount * 5;
   if (correctCount < card.statements.length) loseHeart(S);
   const allCorrect = correctCount === card.statements.length;
+  allCorrect ? playCorrect() : playIncorrect();
   showFeedback(allCorrect, `Bạn đúng ${correctCount}/${card.statements.length} ý.`);
 }
 
@@ -766,6 +786,8 @@ function renderSummary(accuracy, toasts) {
     switchToHome();
   });
   if (pct >= 70) spawnConfetti(document.getElementById("confetti-layer"));
+  playComplete();
+  if (toasts && toasts.length) setTimeout(playCoin, 350);
 }
 
 const CONFETTI_COLORS = ["#58cc02", "#1cb0f6", "#ffc800", "#ff4b4b", "#ce82ff"];
