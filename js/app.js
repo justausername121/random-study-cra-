@@ -133,6 +133,7 @@ function renderTopbar(showBack) {
         <button class="icon-btn" id="btn-sound" title="${S.soundOn ? "Tắt âm thanh" : "Bật âm thanh"}">${icon(S.soundOn ? "soundOn" : "soundOff")}</button>
         <span class="stat-pill stat-fire">${icon("fire")}${S.streak}${S.streakFreezes > 0 ? `<sup class="freeze-badge">x${S.streakFreezes}</sup>` : ""}</span>
         ${inSession ? `<span class="stat-pill stat-heart">${icon("heart")}${session.hearts}</span>` : ""}
+        ${inSession ? `<span class="stat-pill stat-streak" id="stat-streak" style="${session.streak > 0 ? "" : "display:none"}">${icon("star")}${session.streak}</span>` : ""}
         <span class="stat-pill stat-coin">${icon("gem")}${S.currency}</span>
         <span class="stat-pill stat-xp">${icon("flash")}${S.xp}</span>
       </div>
@@ -553,6 +554,7 @@ function startBaiSession(baiId) {
     xpEarned: 0,
     hearts: effectiveMaxHearts(S),
     usedIds: queue.filter((q) => q.kind === "mcq" || q.kind === "tf" || q.kind === "short").map((q) => q.id),
+    streak: 0,
   };
   clearInterval(homeRefreshTimer);
   renderCard();
@@ -579,6 +581,7 @@ function startBossSession(chuDeId) {
     xpEarned: 0,
     hearts: effectiveMaxHearts(S),
     usedIds: [],
+    streak: 0,
   };
   clearInterval(homeRefreshTimer);
   renderCard();
@@ -656,9 +659,11 @@ function startSubjectBossFight(subjectId) {
     xpEarned: 0,
     hearts: effectiveMaxHearts(S),
     usedIds: [],
+    streak: 0,
     bossPool: pool,
     bossHp: SUBJECT_BOSS_MAX_HP,
     bossMaxHp: SUBJECT_BOSS_MAX_HP,
+    doubleDmgNext: false,
   };
   clearInterval(homeRefreshTimer);
   renderCard();
@@ -827,6 +832,11 @@ function renderFromSnapshot(index, isFrontier) {
   if (heartEl) heartEl.innerHTML = `${icon("heart")}${session.hearts}`;
   const xpEl = document.querySelector(".stat-xp");
   if (xpEl) xpEl.innerHTML = `${icon("flash")}${S.xp + session.xpEarned}`;
+  const streakEl = document.getElementById("stat-streak");
+  if (streakEl) {
+    streakEl.style.display = session.streak > 0 ? "" : "none";
+    streakEl.innerHTML = `${icon("star")}${session.streak}`;
+  }
   if (session.mode === "subjectBoss") {
     const hpPct = Math.max(0, session.bossHp / session.bossMaxHp);
     const fill = document.getElementById("boss-hp-fill");
@@ -1119,6 +1129,7 @@ function gradeMatch(card, wrongTerm) {
   if (correctCount < card.pairs.length) loseSessionHeart();
   const allCorrect = correctCount === card.pairs.length;
   allCorrect ? playComplete() : playCorrect();
+  updateAnswerStreak(allCorrect);
   showFeedback(allCorrect, `Bạn ghép đúng ${correctCount}/${card.pairs.length} cặp ngay lần đầu.`);
 }
 
@@ -1136,8 +1147,63 @@ function applyBossDamage(kind, correctCount) {
   if (kind === "mcq") dmg = correctCount > 0 ? 9 : 0;
   else if (kind === "short") dmg = correctCount > 0 ? 16 : 0;
   else if (kind === "tf") dmg = correctCount * 4;
+  if (dmg > 0 && session.doubleDmgNext) {
+    dmg *= 2;
+    session.doubleDmgNext = false;
+  }
   session.bossHp = Math.max(0, session.bossHp - dmg);
   updateBossHud();
+}
+
+const STREAK_BUFF_EVERY = 5;
+
+// Tracks a per-session "answered correctly in a row" counter - shown as a
+// small star pill in the topbar during any lesson/boss/subject-boss round.
+// In a subject boss fight specifically, hitting a streak milestone also
+// grants a random combat buff (see grantStreakBuff).
+function updateAnswerStreak(isFullyCorrect) {
+  if (!session) return;
+  if (isFullyCorrect) {
+    session.streak = (session.streak || 0) + 1;
+    if (session.mode === "subjectBoss" && session.streak % STREAK_BUFF_EVERY === 0) {
+      grantStreakBuff();
+    }
+  } else {
+    session.streak = 0;
+  }
+  const streakEl = document.getElementById("stat-streak");
+  if (streakEl) {
+    streakEl.style.display = session.streak > 0 ? "" : "none";
+    streakEl.innerHTML = `${icon("star")}${session.streak}`;
+  }
+}
+
+// A little "potion drop" for keeping a hot streak alive mid-fight: either a
+// heart back, or a guaranteed double-damage hit on the very next question
+// you land.
+function grantStreakBuff() {
+  const heal = Math.random() < 0.5;
+  if (heal) {
+    const before = session.hearts;
+    session.hearts = Math.min(effectiveMaxHearts(S), session.hearts + 1);
+    const healed = session.hearts > before;
+    const heartEl = document.querySelector(".stat-heart");
+    if (heartEl) heartEl.innerHTML = `${icon("heart")}${session.hearts}`;
+    showBuffToast(`${icon("heart")} Chuỗi ${session.streak} đúng liên tiếp! ${healed ? "Hồi 1 tim!" : "Tim đã đầy, giữ vững phong độ!"}`, "buff-heal");
+  } else {
+    session.doubleDmgNext = true;
+    showBuffToast(`${icon("flash")} Chuỗi ${session.streak} đúng liên tiếp! Đòn tiếp theo sát thương x2!`, "buff-double");
+  }
+}
+
+function showBuffToast(html, extraCls) {
+  const screen = document.querySelector(".lesson-screen");
+  if (!screen) return;
+  const el = document.createElement("div");
+  el.className = `buff-toast ${extraCls || ""}`;
+  el.innerHTML = html;
+  screen.appendChild(el);
+  setTimeout(() => el.remove(), 2400);
 }
 
 function gradeShort(card, input) {
@@ -1156,6 +1222,7 @@ function gradeShort(card, input) {
     loseSessionHeart();
   }
   applyBossDamage("short", isCorrect ? 1 : 0);
+  updateAnswerStreak(isCorrect);
   const answerText = `${card.answer}${card.unit ? " " + card.unit : ""}`;
   showFeedback(isCorrect, isCorrect ? null : `Đáp án đúng: ${answerText}`);
 }
@@ -1178,6 +1245,7 @@ function gradeMcq(card, selectedKey, btns) {
     loseSessionHeart();
   }
   applyBossDamage("mcq", isCorrect ? 1 : 0);
+  updateAnswerStreak(isCorrect);
   showFeedback(isCorrect, null);
 }
 
@@ -1212,6 +1280,7 @@ function gradeTf(card, answers) {
   applyBossDamage("tf", correctCount);
   const allCorrect = correctCount === card.statements.length;
   allCorrect ? playCorrect() : playIncorrect();
+  updateAnswerStreak(allCorrect);
   showFeedback(allCorrect, `Bạn đúng ${correctCount}/${card.statements.length} ý.`);
 }
 
