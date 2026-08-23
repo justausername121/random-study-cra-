@@ -1,0 +1,76 @@
+{
+  "id": "bai15",
+  "chuDeId": "c5",
+  "chuDeTitle": "Phương pháp toạ độ trong không gian",
+  "baiNumber": 15,
+  "title": "Phương trình đường thẳng trong không gian",
+  "objectives": [
+    "Nhận biết các phương trình tham số, chính tắc của đường thẳng.",
+    "Viết phương trình đường thẳng đi qua một điểm và biết vectơ chỉ phương.",
+    "Viết phương trình đường thẳng đi qua hai điểm.",
+    "Nhận biết vị trí tương đối của hai đường thẳng.",
+    "Vận dụng kiến thức về phương trình đường thẳng, vị trí tương đối giữa hai đường thẳng vào một số bài toán liên quan đến thực tiễn."
+  ],
+  "sections": [
+    {
+      "heading": "1. Vectơ chỉ phương của đường thẳng",
+      "summary": "Vectơ u⃗ ≠ 0⃗ được gọi là vectơ chỉ phương (VTCP) của đường thẳng Δ nếu giá của u⃗ song song hoặc trùng với Δ. Đường thẳng hoàn toàn xác định khi biết một điểm nó đi qua và một VTCP; nếu u⃗ là VTCP của Δ thì ku⃗ (k ≠ 0) cũng là VTCP của Δ.",
+      "keyPoints": [
+        "u⃗ ≠ 0⃗ là VTCP của Δ nếu giá của u⃗ song song hoặc trùng với Δ.",
+        "Đường thẳng xác định hoàn toàn khi biết một điểm và một VTCP.",
+        "ku⃗ (k ≠ 0) cũng là VTCP của Δ nếu u⃗ là VTCP của Δ."
+      ],
+      "example": "Trong hình hộp ABCD.A′B′C′D′, đường thẳng BC′ nhận các vectơ BC′⃗, C′B⃗, AD′⃗, D′A⃗ làm vectơ chỉ phương."
+    },
+    {
+      "heading": "2. Phương trình tham số của đường thẳng",
+      "summary": "Đường thẳng Δ đi qua A(x0; y0; z0) và có VTCP u⃗ = (a; b; c) có phương trình tham số: x = x0 + at, y = y0 + bt, z = z0 + ct (t ∈ ℝ là tham số). Mỗi giá trị của t ứng với một điểm thuộc Δ và ngược lại. Đường thẳng đi qua hai điểm phân biệt A1(x1; y1; z1), A2(x2; y2; z2) nhận A1A2⃗ = (x2 - x1; y2 - y1; z2 - z1) làm VTCP.",
+      "keyPoints": [
+        "Dạng: x = x0 + at, y = y0 + bt, z = z0 + ct, với u⃗ = (a; b; c) là VTCP, (x0; y0; z0) là điểm đi qua.",
+        "Mỗi giá trị của tham số t cho một điểm thuộc đường thẳng và ngược lại.",
+        "Đường thẳng qua A1(x1; y1; z1), A2(x2; y2; z2): VTCP là A1A2⃗ = (x2 - x1; y2 - y1; z2 - z1)."
+      ],
+      "example": "Đường thẳng Δ qua M(1; -2; 4), VTCP u⃗ = (3; -5; 1) có phương trình tham số: x = 1 + 3t, y = -2 - 5t, z = 4 + t."
+    },
+    {
+      "heading": "3. Phương trình chính tắc của đường thẳng",
+      "summary": "Nếu đường thẳng Δ đi qua A(x0; y0; z0) và có VTCP u⃗ = (a; b; c) với a, b, c đều khác 0 thì Δ có phương trình chính tắc: (x - x0)/a = (y - y0)/b = (z - z0)/c. Nếu một trong các số a, b, c bằng 0 thì đường thẳng không có phương trình chính tắc (chỉ viết được phương trình tham số). Trong trường hợp x1 ≠ x2, y1 ≠ y2, z1 ≠ z2, đường thẳng qua hai điểm A1, A2 có phương trình chính tắc (x - x1)/(x2 - x1) = (y - y1)/(y2 - y1) = (z - z1)/(z2 - z1).",
+      "keyPoints": [
+        "Dạng: (x - x0)/a = (y - y0)/b = (z - z0)/c, với a, b, c đều khác 0.",
+        "Nếu a, b hoặc c bằng 0 thì đường thẳng không có phương trình chính tắc.",
+        "Đường thẳng qua A1(x1; y1; z1), A2(x2; y2; z2) (khi các hiệu toạ độ đều khác 0): (x - x1)/(x2 - x1) = (y - y1)/(y2 - y1) = (z - z1)/(z2 - z1)."
+      ],
+      "example": "Đường thẳng qua hai điểm A(1; 2; -1), B(2; 4; 0) có VTCP AB⃗ = (1; 2; 1), phương trình chính tắc: (x - 1)/1 = (y - 2)/2 = (z + 1)/1."
+    },
+    {
+      "heading": "4. Hai đường thẳng vuông góc",
+      "summary": "Cho hai đường thẳng Δ1, Δ2 có VTCP tương ứng u1⃗ = (a1; b1; c1), u2⃗ = (a2; b2; c2). Δ1 ⊥ Δ2 khi và chỉ khi u1⃗·u2⃗ = 0, tức a1a2 + b1b2 + c1c2 = 0.",
+      "keyPoints": [
+        "Δ1 ⊥ Δ2 ⇔ u1⃗·u2⃗ = 0 ⇔ a1a2 + b1b2 + c1c2 = 0.",
+        "Điều kiện vuông góc chỉ phụ thuộc vào VTCP, không phụ thuộc việc hai đường thẳng có cắt nhau hay không."
+      ],
+      "example": "Δ1 có u1⃗ = (2; -3; -1), Δ2 có u2⃗ = (1; -2; 8): u1⃗·u2⃗ = 2·1 + (-3)(-2) + (-1)·8 = 0 nên Δ1 ⊥ Δ2."
+    },
+    {
+      "heading": "5. Vị trí tương đối giữa hai đường thẳng",
+      "summary": "Cho Δ1 qua A1(x1; y1; z1) với VTCP u1⃗; Δ2 qua A2(x2; y2; z2) với VTCP u2⃗. Khi đó: Δ1 // Δ2 ⇔ u1⃗ cùng phương u2⃗ và A1 ∉ Δ2; Δ1 ≡ Δ2 ⇔ u1⃗ cùng phương u2⃗ và A1 ∈ Δ2; Δ1 và Δ2 cắt nhau ⇔ [u1⃗, u2⃗] ≠ 0⃗ và A1A2⃗·[u1⃗, u2⃗] = 0; Δ1 và Δ2 chéo nhau ⇔ A1A2⃗·[u1⃗, u2⃗] ≠ 0.",
+      "keyPoints": [
+        "Song song: u1⃗ cùng phương u2⃗ và A1 ∉ Δ2.",
+        "Trùng nhau: u1⃗ cùng phương u2⃗ và A1 ∈ Δ2.",
+        "Cắt nhau: [u1⃗, u2⃗] ≠ 0⃗ và A1A2⃗·[u1⃗, u2⃗] = 0.",
+        "Chéo nhau: A1A2⃗·[u1⃗, u2⃗] ≠ 0."
+      ],
+      "example": "Δ1 qua A1(1; 2; -1), u1⃗ = (1; -1; 2); Δ2 qua A2(4; -1; 0), u2⃗ = (3; 1; -1). Vì u1⃗·u2⃗ = 0 nên Δ1 ⊥ Δ2; tính được A1A2⃗·[u1⃗, u2⃗] = -20 ≠ 0 nên Δ1 và Δ2 chéo nhau."
+    }
+  ],
+  "glossary": [
+    {"term": "Vectơ chỉ phương của đường thẳng", "definition": "Vectơ khác 0⃗ có giá song song hoặc trùng với đường thẳng đó."},
+    {"term": "Phương trình tham số của đường thẳng", "definition": "Hệ x = x0 + at, y = y0 + bt, z = z0 + ct (t ∈ ℝ) với điểm (x0; y0; z0) thuộc đường thẳng và vectơ chỉ phương (a; b; c)."},
+    {"term": "Phương trình chính tắc của đường thẳng", "definition": "Hệ thức (x - x0)/a = (y - y0)/b = (z - z0)/c với a, b, c đều khác 0."},
+    {"term": "Hai đường thẳng vuông góc", "definition": "Hai đường thẳng có tích vô hướng của hai vectơ chỉ phương bằng 0."},
+    {"term": "Hai đường thẳng song song", "definition": "Hai đường thẳng có vectơ chỉ phương cùng phương và không có điểm chung."},
+    {"term": "Hai đường thẳng trùng nhau", "definition": "Hai đường thẳng có vectơ chỉ phương cùng phương và có ít nhất một điểm chung."},
+    {"term": "Hai đường thẳng chéo nhau", "definition": "Hai đường thẳng không cùng nằm trong một mặt phẳng (không song song, không cắt nhau, không trùng nhau)."},
+    {"term": "Hai đường thẳng cắt nhau", "definition": "Hai đường thẳng có đúng một điểm chung."}
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "bai17",
+  "chuDeId": "c5",
+  "chuDeTitle": "Phương pháp toạ độ trong không gian",
+  "baiNumber": 17,
+  "title": "Phương trình mặt cầu",
+  "objectives": [
+    "Nhận biết phương trình mặt cầu.",
+    "Xác định tâm và bán kính mặt cầu khi biết phương trình.",
+    "Lập phương trình mặt cầu khi biết tâm và bán kính.",
+    "Vận dụng kiến thức về phương trình mặt cầu để giải quyết một số bài toán liên quan đến thực tiễn."
+  ],
+  "sections": [
+    {
+      "heading": "1. Phương trình mặt cầu",
+      "summary": "Mặt cầu tâm I bán kính R (R > 0) là tập hợp các điểm trong không gian cách I một khoảng bằng R. Điểm M nằm trong mặt cầu nếu IM < R, nằm ngoài nếu IM > R. Trong không gian Oxyz, mặt cầu (S) tâm I(a; b; c) bán kính R có phương trình (x - a)² + (y - b)² + (z - c)² = R². Ngược lại, với các hằng số a, b, c, d, phương trình x² + y² + z² - 2ax - 2by - 2cz + d = 0 có thể viết lại thành (x - a)² + (y - b)² + (z - c)² = a² + b² + c² - d và là phương trình một mặt cầu khi và chỉ khi a² + b² + c² - d > 0; khi đó mặt cầu có tâm I(a; b; c) và bán kính R = √(a² + b² + c² - d).",
+      "keyPoints": [
+        "Mặt cầu (S) tâm I(a; b; c), bán kính R: (x - a)² + (y - b)² + (z - c)² = R².",
+        "M nằm trong (S) nếu (x - a)² + (y - b)² + (z - c)² < R²; nằm ngoài nếu lớn hơn R².",
+        "Phương trình x² + y² + z² - 2ax - 2by - 2cz + d = 0 là phương trình mặt cầu khi và chỉ khi a² + b² + c² - d > 0, khi đó tâm I(a; b; c), bán kính R = √(a² + b² + c² - d).",
+        "Mặt cầu đường kính AB có tâm là trung điểm của AB, bán kính R = AB/2."
+      ],
+      "example": "(S): x² + y² + z² - 2x + 4y - 6z - 2 = 0 ⇔ (x - 1)² + (y + 2)² + (z - 3)² = 16 nên (S) có tâm I(1; -2; 3), bán kính R = 4."
+    },
+    {
+      "heading": "2. Một số ứng dụng của phương trình mặt cầu trong thực tiễn",
+      "summary": "Trong mô hình toán học, bề mặt Trái Đất được coi là mặt cầu bán kính 6371 km. Với hệ trục Oxyz có gốc O là tâm Trái Đất, tia Ox qua giao điểm của kinh tuyến gốc và xích đạo, tia Oz qua cực Bắc, 1 đơn vị độ dài ứng với 6371 km, bề mặt Trái Đất có phương trình x² + y² + z² = 1. Một vị trí có vĩ độ α°N, kinh độ β°E (0 < α < 90, 0 < β < 180) có toạ độ (cosα°cosβ°; cosα°sinβ°; sinα°). Khoảng cách trên mặt đất giữa hai vị trí P, Q là độ dài cung nhỏ PQ của đường tròn tâm O bán kính 1 đi qua P, Q, được tính qua góc POQ (với cos∠POQ = OP⃗·OQ⃗) rồi nhân với bán kính thực tế 6371 km.",
+      "keyPoints": [
+        "Bề mặt Trái Đất (bán kính 6371 km) có phương trình x² + y² + z² = 1 trong hệ Oxyz chuẩn hoá.",
+        "Vị trí có vĩ độ α°N, kinh độ β°E có toạ độ (cosα°cosβ°; cosα°sinβ°; sinα°).",
+        "Khoảng cách trên mặt đất giữa P, Q bằng góc POQ (rad) nhân với bán kính Trái Đất (km), trong đó cos∠POQ = OP⃗·OQ⃗ / (|OP⃗||OQ⃗|).",
+        "Biết ba khoảng cách từ một điểm đến ba vị trí đã xác định toạ độ (ví dụ ba vệ tinh GPS), có thể xác định toạ độ của điểm đó bằng cách giải hệ phương trình mặt cầu."
+      ],
+      "example": "Vị trí P: 10°N, 15°E và Q: 80°N, 70°E có OP⃗·OQ⃗ ≈ 0,2691 nên góc POQ ≈ 74,39°, cung PQ trên mặt cầu đơn vị dài ≈ 1,2983, suy ra khoảng cách trên mặt đất giữa P và Q xấp xỉ 1,2983 × 6371 ≈ 8271,7 km."
+    }
+  ],
+  "glossary": [
+    {"term": "Phương trình mặt cầu", "definition": "Phương trình dạng (x - a)² + (y - b)² + (z - c)² = R² biểu diễn mặt cầu tâm I(a; b; c), bán kính R."},
+    {"term": "Tâm và bán kính của mặt cầu", "definition": "Tâm là điểm cách đều mọi điểm trên mặt cầu; bán kính là khoảng cách không đổi đó."}
+  ]
+}

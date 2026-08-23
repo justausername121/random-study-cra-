@@ -13,7 +13,7 @@ const MISSION_DEFS = [
   { id: "xp60", counterKey: "xp", target: 60, xu: 20, text: (t) => `Kiếm ${t} điểm kinh nghiệm (KN)` },
   { id: "great1", counterKey: "great", target: 1, xu: 20, text: () => `Đạt từ 90% chính xác trong 1 bài học` },
   { id: "boss1", counterKey: "boss", target: 1, xu: 25, text: () => `Hoàn thành 1 lượt Ôn tập chủ đề` },
-  { id: "subjects2", counterKey: "subjects", target: 2, xu: 15, text: () => `Học cả 2 môn trong hôm nay` },
+  { id: "subjects2", counterKey: "subjects", target: 2, xu: 15, text: () => `Học 2 môn khác nhau trong hôm nay` },
 ];
 
 function dateSeed(dateStr) {

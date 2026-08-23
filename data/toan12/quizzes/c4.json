@@ -1,0 +1,444 @@
+{
+  "chuDeId": "c4",
+  "chuDeTitle": "Nguyên hàm và tích phân",
+  "mcq": [
+    {
+      "id": "c4-mcq-01",
+      "question": "Một nguyên hàm của hàm số f(x) = sin 2x là",
+      "options": {
+        "A": "F(x) = 2cos 2x",
+        "B": "F(x) = -cos 2x",
+        "C": "F(x) = (1/2)cos 2x",
+        "D": "F(x) = -(1/2)cos 2x"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "c4-mcq-02",
+      "question": "Họ các nguyên hàm của hàm số 2e<sup>x</sup> là",
+      "options": {
+        "A": "2xe<sup>x</sup> + C",
+        "B": "-2e<sup>x</sup> + C",
+        "C": "2e<sup>x</sup>",
+        "D": "2e<sup>x</sup> + C"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "c4-mcq-03",
+      "question": "Nguyên hàm F(x) của hàm số f(x) = e<sup>x</sup> - 3e<sup>-x</sup> thoả mãn F(0) = 4 là",
+      "options": {
+        "A": "F(x) = e<sup>x</sup> - 3e<sup>-x</sup>",
+        "B": "F(x) = e<sup>x</sup> + 3e<sup>-2x</sup>",
+        "C": "F(x) = e<sup>x</sup> + 3e<sup>-x</sup>",
+        "D": "F(x) = e<sup>x</sup> + 3e<sup>-x</sup> + 4"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "c4-mcq-04",
+      "question": "Hàm số nào dưới đây là một nguyên hàm của f(x) = x + 1/x trên khoảng (0; +∞)?",
+      "options": {
+        "A": "F(x) = x<sup>2</sup>/2 + ln x",
+        "B": "F(x) = x<sup>2</sup>/2 - ln x",
+        "C": "F(x) = x<sup>2</sup>/2 + 1/x<sup>2</sup>",
+        "D": "F(x) = x + ln x"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "c4-mcq-05",
+      "question": "∫x<sup>3</sup>dx bằng",
+      "options": {
+        "A": "x<sup>4</sup>/4 + C",
+        "B": "x<sup>4</sup> + C",
+        "C": "3x<sup>2</sup> + C",
+        "D": "x<sup>4</sup>/3 + C"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "c4-mcq-06",
+      "question": "∫(3x<sup>2</sup> + 1)dx bằng",
+      "options": {
+        "A": "x<sup>3</sup> + x + C",
+        "B": "x<sup>3</sup> + C",
+        "C": "6x + C",
+        "D": "x<sup>3</sup> - x + C"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "c4-mcq-07",
+      "question": "∫4<sup>x</sup>dx bằng",
+      "options": {
+        "A": "4<sup>x</sup>/ln 4 + C",
+        "B": "4<sup>x</sup>·ln 4 + C",
+        "C": "4<sup>x</sup> + C",
+        "D": "4<sup>x</sup>/4 + C"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "c4-mcq-08",
+      "question": "∫(x<sup>3</sup> - x)dx bằng",
+      "options": {
+        "A": "x<sup>4</sup>/4 - x<sup>2</sup>/2 + C",
+        "B": "x<sup>4</sup>/4 - x<sup>2</sup>/2",
+        "C": "x<sup>4</sup> - x<sup>2</sup> + C",
+        "D": "x<sup>4</sup>/4 + x<sup>2</sup>/2 + C"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "c4-mcq-09",
+      "question": "∫(3cos x - 4sin x)dx bằng",
+      "options": {
+        "A": "3sin x + 4cos x + C",
+        "B": "3sin x - 4cos x + C",
+        "C": "-3sin x + 4cos x + C",
+        "D": "3cos x + 4sin x + C"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "c4-mcq-10",
+      "question": "∫<sub>-1</sub><sup>3</sup> x<sup>2</sup>dx bằng",
+      "options": {
+        "A": "28/3",
+        "B": "26/3",
+        "C": "9",
+        "D": "28"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "c4-mcq-11",
+      "question": "∫<sub>0</sub><sup>π/6</sup> cos t dt bằng",
+      "options": {
+        "A": "1/2",
+        "B": "√3/2",
+        "C": "1",
+        "D": "0"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "c4-mcq-12",
+      "question": "∫<sub>1</sub><sup>2</sup> 2<sup>x</sup>dx bằng",
+      "options": {
+        "A": "2/ln 2",
+        "B": "4/ln 2",
+        "C": "2ln 2",
+        "D": "2"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "c4-mcq-13",
+      "question": "Cho ∫<sub>0</sub><sup>3</sup> f(x)dx = 5 và ∫<sub>0</sub><sup>3</sup> g(x)dx = 2. Tính ∫<sub>0</sub><sup>3</sup> [2f(x) - 3g(x)]dx.",
+      "options": {
+        "A": "4",
+        "B": "10",
+        "C": "1",
+        "D": "16"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "c4-mcq-14",
+      "question": "Cho hàm số f(x) có đạo hàm f'(x) liên tục trên R, f(1) = 16 và ∫<sub>1</sub><sup>3</sup> f'(x)dx = 4. Giá trị của f(3) bằng",
+      "options": {
+        "A": "20",
+        "B": "16",
+        "C": "12",
+        "D": "10"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "c4-mcq-15",
+      "question": "Nhiệt độ (°C) tại thời điểm t giờ (6 ≤ t ≤ 12) ở một địa phương được mô hình hoá bởi T(t) = 20 + 1,5(t-6). Nhiệt độ trung bình trong khoảng thời gian từ 6 giờ đến 12 giờ là",
+      "options": {
+        "A": "24,5°C",
+        "B": "20°C",
+        "C": "29°C",
+        "D": "26°C"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "c4-mcq-16",
+      "question": "Một vật chuyển động có vận tốc v(t) = t<sup>2</sup> - t - 6 (m/s). Độ dịch chuyển của vật (tức ∫<sub>1</sub><sup>4</sup> v(t)dt) trong khoảng thời gian 1 ≤ t ≤ 4 (giây) là",
+      "options": {
+        "A": "-4,5 m",
+        "B": "4,5 m",
+        "C": "-9 m",
+        "D": "13,5 m"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "c4-mcq-17",
+      "question": "∫<sub>0</sub><sup>1</sup> e<sup>x</sup>dx bằng",
+      "options": {
+        "A": "e - 1",
+        "B": "e",
+        "C": "e + 1",
+        "D": "1 - e"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "c4-mcq-18",
+      "question": "Diện tích hình phẳng giới hạn bởi parabol y = x<sup>2</sup> - 4, trục hoành và hai đường thẳng x = 0, x = 3 là",
+      "options": {
+        "A": "23/3",
+        "B": "20/3",
+        "C": "7/3",
+        "D": "16/3"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "c4-mcq-19",
+      "question": "Diện tích hình phẳng giới hạn bởi hai parabol y = 4 - x<sup>2</sup>, y = x<sup>2</sup> và hai đường thẳng x = -1, x = 1 là",
+      "options": {
+        "A": "20/3",
+        "B": "8/3",
+        "C": "4",
+        "D": "16/3"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "c4-mcq-20",
+      "question": "Diện tích hình phẳng giới hạn bởi đồ thị hai hàm số y = sin x, y = cos x và hai đường thẳng x = 0, x = π/4 là",
+      "options": {
+        "A": "√2 - 1",
+        "B": "1 - √2/2",
+        "C": "√2/2",
+        "D": "2 - √2"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "c4-mcq-21",
+      "question": "Thể tích khối nón sinh ra khi quay hình phẳng giới hạn bởi y = x/2, trục hoành và hai đường thẳng x = 0, x = 4 quanh trục Ox là",
+      "options": {
+        "A": "16π/3",
+        "B": "8π/3",
+        "C": "4π",
+        "D": "32π/3"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "c4-mcq-22",
+      "question": "Thể tích khối cầu bán kính R = 3 là",
+      "options": {
+        "A": "36π",
+        "B": "27π",
+        "C": "12π",
+        "D": "108π"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "c4-mcq-23",
+      "question": "Thể tích khối tròn xoay sinh ra khi quay hình phẳng giới hạn bởi y = √x, trục hoành và hai đường thẳng x = 0, x = 1 quanh trục Ox là",
+      "options": {
+        "A": "π/2",
+        "B": "π",
+        "C": "π/3",
+        "D": "2π/3"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "c4-mcq-24",
+      "question": "Diện tích hình phẳng giới hạn bởi đồ thị y = e<sup>x</sup>, y = x và hai đường thẳng x = 0, x = 1 là",
+      "options": {
+        "A": "e - 3/2",
+        "B": "e - 1/2",
+        "C": "e - 1",
+        "D": "e/2"
+      },
+      "answer": "A"
+    }
+  ],
+  "trueFalse": [
+    {
+      "id": "c4-tf-01",
+      "stimulus": "Cho hàm số f(x) = x<sup>2</sup> - 2x. Xét tính đúng/sai của các khẳng định sau:",
+      "statements": [
+        { "key": "a", "text": "F(x) = (x<sup>3</sup>)/3 - x<sup>2</sup> là một nguyên hàm của f(x) trên R.", "answer": true },
+        { "key": "b", "text": "G(x) = (x<sup>3</sup>)/3 + x<sup>2</sup> là một nguyên hàm của f(x) trên R.", "answer": false },
+        { "key": "c", "text": "Mọi nguyên hàm của f(x) trên R đều có dạng (x<sup>3</sup>)/3 - x<sup>2</sup> + C, với C là một hằng số.", "answer": true },
+        { "key": "d", "text": "∫f(x)dx = (x<sup>3</sup>)/3 - 2x<sup>2</sup> + C.", "answer": false }
+      ]
+    },
+    {
+      "id": "c4-tf-02",
+      "stimulus": "Cho ∫<sub>0</sub><sup>3</sup> f(x)dx = 5 và ∫<sub>0</sub><sup>3</sup> g(x)dx = 2. Xét tính đúng/sai của các khẳng định sau:",
+      "statements": [
+        { "key": "a", "text": "∫<sub>0</sub><sup>3</sup> [f(x) + g(x)]dx = 7.", "answer": true },
+        { "key": "b", "text": "∫<sub>0</sub><sup>3</sup> [f(x) - g(x)]dx = 3.", "answer": true },
+        { "key": "c", "text": "∫<sub>0</sub><sup>3</sup> 3f(x)dx = 15.", "answer": true },
+        { "key": "d", "text": "∫<sub>0</sub><sup>3</sup> [2f(x) - 3g(x)]dx = 10.", "answer": false }
+      ]
+    },
+    {
+      "id": "c4-tf-03",
+      "stimulus": "Cho hình phẳng (H) giới hạn bởi đồ thị y = x<sup>3</sup>, trục hoành và hai đường thẳng x = 0, x = 2. Xét tính đúng/sai của các khẳng định sau:",
+      "statements": [
+        { "key": "a", "text": "Diện tích của (H) bằng ∫<sub>0</sub><sup>2</sup> x<sup>3</sup>dx.", "answer": true },
+        { "key": "b", "text": "Diện tích của (H) bằng 4 (đơn vị diện tích).", "answer": true },
+        { "key": "c", "text": "Nếu quay (H) quanh trục Ox thì thể tích khối tròn xoay thu được bằng π∫<sub>0</sub><sup>2</sup> x<sup>3</sup>dx.", "answer": false },
+        { "key": "d", "text": "Thể tích khối tròn xoay sinh ra khi quay (H) quanh trục Ox bằng (128π)/7 (đơn vị thể tích).", "answer": true }
+      ]
+    }
+  ],
+  "shortAnswer": [
+    {
+      "id": "c4-sa-01",
+      "question": "Cho F(x) là một nguyên hàm của f(x) = 2x + 1, biết F(0) = 3. Tính F(2).",
+      "answer": "9",
+      "unit": null,
+      "tolerance": 0.01
+    },
+    {
+      "id": "c4-sa-02",
+      "question": "Cho hàm số y = f(x) xác định trên khoảng (0; +∞), biết f'(x) = 2x + 1/x<sup>2</sup> với mọi x ∈ (0; +∞) và f(1) = 1. Tính f(4).",
+      "answer": "16.75",
+      "unit": null,
+      "tolerance": 0.01
+    },
+    {
+      "id": "c4-sa-03",
+      "question": "Một viên đạn được bắn thẳng đứng lên trên từ mặt đất với vận tốc v(t) = 160 - 9,8t (m/s), t tính bằng giây kể từ lúc bắn. Tính độ cao (mét) của viên đạn sau t = 5 giây.",
+      "answer": "677.5",
+      "unit": "m",
+      "tolerance": 0.1
+    },
+    {
+      "id": "c4-sa-04",
+      "question": "Với viên đạn ở câu trên (v(t) = 160 - 9,8t), tính độ cao lớn nhất (mét) mà viên đạn đạt được, làm tròn kết quả đến chữ số thập phân thứ nhất.",
+      "answer": "1306.1",
+      "unit": "m",
+      "tolerance": 0.1
+    },
+    {
+      "id": "c4-sa-05",
+      "question": "Tính ∫<sub>-1</sub><sup>3</sup> x<sup>2</sup>dx (làm tròn đến 2 chữ số thập phân).",
+      "answer": "9.33",
+      "unit": null,
+      "tolerance": 0.02
+    },
+    {
+      "id": "c4-sa-06",
+      "question": "Tính ∫<sub>0</sub><sup>π/2</sup> sin x dx.",
+      "answer": "1",
+      "unit": null,
+      "tolerance": 0.01
+    },
+    {
+      "id": "c4-sa-07",
+      "question": "Tính ∫<sub>π/6</sub><sup>π/3</sup> dx/sin<sup>2</sup>x (làm tròn đến 2 chữ số thập phân).",
+      "answer": "1.15",
+      "unit": null,
+      "tolerance": 0.02
+    },
+    {
+      "id": "c4-sa-08",
+      "question": "Tính ∫<sub>1</sub><sup>2</sup> (3<sup>x</sup> - 3/x)dx (làm tròn đến 2 chữ số thập phân).",
+      "answer": "3.38",
+      "unit": null,
+      "tolerance": 0.02
+    },
+    {
+      "id": "c4-sa-09",
+      "question": "Cho ∫<sub>0</sub><sup>3</sup> f(x)dx = 5 và ∫<sub>0</sub><sup>3</sup> g(x)dx = 2. Tính ∫<sub>0</sub><sup>3</sup> [f(x) - g(x)]dx.",
+      "answer": "3",
+      "unit": null,
+      "tolerance": 0.01
+    },
+    {
+      "id": "c4-sa-10",
+      "question": "Nhiệt độ (°C) tại thời điểm t giờ (6 ≤ t ≤ 12) ở một địa phương được mô hình hoá bởi T(t) = 20 + 1,5(t-6). Tính nhiệt độ trung bình trong khoảng thời gian từ 6 giờ đến 12 giờ.",
+      "answer": "24.5",
+      "unit": "°C",
+      "tolerance": 0.1
+    },
+    {
+      "id": "c4-sa-11",
+      "question": "Tính diện tích hình phẳng giới hạn bởi đồ thị các hàm số y = x<sup>2</sup> - 2x, y = -x<sup>2</sup> + 4x và hai đường thẳng x = 0, x = 3.",
+      "answer": "9",
+      "unit": "đvdt",
+      "tolerance": 0.01
+    },
+    {
+      "id": "c4-sa-12",
+      "question": "Tính diện tích hình phẳng giới hạn bởi đồ thị các hàm số y = √x, y = x - 2 và hai đường thẳng x = 1, x = 4 (làm tròn đến 2 chữ số thập phân).",
+      "answer": "3.17",
+      "unit": "đvdt",
+      "tolerance": 0.02
+    },
+    {
+      "id": "c4-sa-13",
+      "question": "Tính thể tích khối tròn xoay sinh ra khi quay hình phẳng giới hạn bởi y = 2x - x<sup>2</sup>, y = 0, x = 0, x = 2 quanh trục Ox (làm tròn đến 2 chữ số thập phân).",
+      "answer": "3.35",
+      "unit": "đvtt",
+      "tolerance": 0.02
+    },
+    {
+      "id": "c4-sa-14",
+      "question": "Tính thể tích khối cầu có bán kính R = 2 (làm tròn đến 2 chữ số thập phân).",
+      "answer": "33.51",
+      "unit": "đvtt",
+      "tolerance": 0.03
+    },
+    {
+      "id": "c4-sa-15",
+      "question": "Một khối chỏm cầu có bán kính R = 5 và chiều cao h = 2. Tính thể tích của khối chỏm cầu này (làm tròn đến 2 chữ số thập phân).",
+      "answer": "54.45",
+      "unit": "đvtt",
+      "tolerance": 0.05
+    },
+    {
+      "id": "c4-sa-16",
+      "question": "Tính diện tích hình phẳng giới hạn bởi các đường y = 9 - x<sup>2</sup>, y = 2x<sup>2</sup>, x = -√3, x = √3 (làm tròn đến 2 chữ số thập phân).",
+      "answer": "20.78",
+      "unit": "đvdt",
+      "tolerance": 0.02
+    },
+    {
+      "id": "c4-sa-17",
+      "question": "Tính ∫<sub>1</sub><sup>16</sup> (x-1)/√x dx.",
+      "answer": "36",
+      "unit": null,
+      "tolerance": 0.01
+    },
+    {
+      "id": "c4-sa-18",
+      "question": "Tính ∫<sub>1</sub><sup>4</sup> √x(7x<sup>2</sup>-3)dx (x > 0).",
+      "answer": "240",
+      "unit": null,
+      "tolerance": 0.1
+    },
+    {
+      "id": "c4-sa-19",
+      "question": "Tính ∫<sub>0</sub><sup>2π</sup> (2x + cos x)dx (làm tròn đến 2 chữ số thập phân).",
+      "answer": "39.48",
+      "unit": null,
+      "tolerance": 0.02
+    },
+    {
+      "id": "c4-sa-20",
+      "question": "Cho F(x) là một nguyên hàm của f(x) = 3x<sup>2</sup> + 2x - 1, biết F(1) = 0. Tính F(2).",
+      "answer": "9",
+      "unit": null,
+      "tolerance": 0.01
+    }
+  ]
+}

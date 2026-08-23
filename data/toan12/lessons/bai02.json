@@ -1,0 +1,49 @@
+{
+  "id": "bai02",
+  "chuDeId": "c1",
+  "chuDeTitle": "Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số",
+  "baiNumber": 2,
+  "title": "Giá trị lớn nhất và giá trị nhỏ nhất của hàm số",
+  "objectives": [
+    "Nhận biết giá trị lớn nhất, giá trị nhỏ nhất của hàm số trên một tập xác định cho trước.",
+    "Xác định giá trị lớn nhất, giá trị nhỏ nhất của hàm số bằng đạo hàm trong những trường hợp đơn giản."
+  ],
+  "sections": [
+    {
+      "heading": "1. Định nghĩa",
+      "summary": "Cho hàm số y = f(x) xác định trên tập D. Số M được gọi là giá trị lớn nhất của hàm số y = f(x) trên tập D nếu f(x) ≤ M với mọi x ∈ D và tồn tại x₀ ∈ D sao cho f(x₀) = M, kí hiệu M = max(x∈D) f(x) hoặc M = max(D) f(x). Số m được gọi là giá trị nhỏ nhất của hàm số y = f(x) trên tập D nếu f(x) ≥ m với mọi x ∈ D và tồn tại x₀ ∈ D sao cho f(x₀) = m, kí hiệu m = min(x∈D) f(x) hoặc m = min(D) f(x). Khi nói giá trị lớn nhất, giá trị nhỏ nhất của f(x) mà không nói rõ 'trên tập D' thì ta hiểu đó là trên tập xác định của hàm số.",
+      "keyPoints": [
+        "M = max(x∈D) f(x) nếu f(x) ≤ M với mọi x ∈ D và tồn tại x₀ ∈ D để f(x₀) = M.",
+        "m = min(x∈D) f(x) nếu f(x) ≥ m với mọi x ∈ D và tồn tại x₀ ∈ D để f(x₀) = m.",
+        "Để tìm giá trị lớn nhất, giá trị nhỏ nhất của hàm số trên tập D, ta thường lập bảng biến thiên của hàm số trên D.",
+        "Một hàm số có thể không có giá trị lớn nhất hoặc không có giá trị nhỏ nhất trên một tập cho trước (chẳng hạn khi hàm số dần tới +∞ hoặc −∞ trên tập đó)."
+      ],
+      "example": "Với y = √(1 − x²) trên đoạn [−1; 1]: vì 0 ≤ y ≤ 1, y = 1 khi x = 0 và y = 0 khi x = ±1 nên max y = 1 (tại x = 0), min y = 0 (tại x = ±1)."
+    },
+    {
+      "heading": "2. Tìm giá trị lớn nhất, giá trị nhỏ nhất bằng bảng biến thiên trên một khoảng",
+      "summary": "Với hàm số cho trên một khoảng (không nhất thiết là một đoạn đóng), ta lập bảng biến thiên: tính y', xét dấu y' để tìm chiều biến thiên, tính các giới hạn của hàm số tại các đầu mút của khoảng (kể cả tại ±∞ nếu có) rồi từ bảng biến thiên đọc ra giá trị lớn nhất, giá trị nhỏ nhất (nếu có). Nếu hàm số dần tới +∞ hoặc −∞ tại một đầu mút thì hàm số không có giá trị lớn nhất hoặc giá trị nhỏ nhất tương ứng trên khoảng đó.",
+      "keyPoints": [
+        "Lập bảng biến thiên trên khoảng đã cho, tính cả giới hạn tại các đầu mút (kể cả ±∞).",
+        "Nếu hàm số chỉ có một điểm mà tại đó y' đổi dấu thì giá trị của hàm số tại điểm đó (đọc từ bảng biến thiên) thường chính là giá trị lớn nhất hoặc nhỏ nhất trên cả khoảng.",
+        "Nếu giới hạn của hàm số tại một đầu mút bằng +∞ (hoặc −∞) thì hàm số không có giá trị lớn nhất (hoặc giá trị nhỏ nhất) trên khoảng đó."
+      ],
+      "example": "Với y = x − 2 + 1/x trên khoảng (0; +∞): y' = 1 − 1/x², y' = 0 ⇔ x = 1; lim(x→0⁺) y = lim(x→+∞) y = +∞ nên hàm số có giá trị nhỏ nhất là y(1) = −1 và không có giá trị lớn nhất."
+    },
+    {
+      "heading": "3. Tìm giá trị lớn nhất, giá trị nhỏ nhất của hàm số trên một đoạn",
+      "summary": "Nếu hàm số y = f(x) liên tục trên đoạn [a; b] thì f luôn có giá trị lớn nhất và giá trị nhỏ nhất trên đoạn đó. Các bước tìm giá trị lớn nhất, giá trị nhỏ nhất của f(x) trên [a; b]: tìm các điểm x₁, x₂, ..., xₙ ∈ (a; b) mà tại đó f'(x) bằng 0 hoặc không tồn tại; tính f(x₁), f(x₂), ..., f(xₙ), f(a) và f(b); số lớn nhất M trong các giá trị vừa tính là giá trị lớn nhất, số nhỏ nhất m là giá trị nhỏ nhất của hàm số trên [a; b].",
+      "keyPoints": [
+        "Hàm số liên tục trên đoạn [a; b] luôn đạt giá trị lớn nhất và giá trị nhỏ nhất trên đoạn đó.",
+        "Bước 1: tìm các điểm trong (a; b) mà f'(x) = 0 hoặc f' không xác định.",
+        "Bước 2: tính giá trị của hàm số tại các điểm vừa tìm được và tại hai đầu mút a, b.",
+        "Bước 3: M = max f(x) trên [a; b] là số lớn nhất, m = min f(x) là số nhỏ nhất trong các giá trị đã tính."
+      ],
+      "example": "Cắt bốn hình vuông cạnh x ở bốn góc một tấm bìa hình vuông cạnh 60 cm rồi gấp thành một chiếc hộp không nắp, thể tích V(x) = x(60 − 2x)² (0 < x < 30) đạt giá trị lớn nhất bằng 16 000 cm³ khi x = 10 cm (tìm được bằng cách lập bảng biến thiên của V trên đoạn [0; 30])."
+    }
+  ],
+  "glossary": [
+    {"term": "Giá trị lớn nhất", "definition": "Số M sao cho f(x) ≤ M với mọi x thuộc tập D và tồn tại x₀ ∈ D để f(x₀) = M; kí hiệu M = max(D) f(x)."},
+    {"term": "Giá trị nhỏ nhất", "definition": "Số m sao cho f(x) ≥ m với mọi x thuộc tập D và tồn tại x₀ ∈ D để f(x₀) = m; kí hiệu m = min(D) f(x)."}
+  ]
+}

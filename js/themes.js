@@ -173,6 +173,12 @@ const UNIT_THEME = {
   vlc2: "desert",
   vlc3: "night",
   vlc4: "ocean",
+  c1: "volcano",
+  c2: "night",
+  c3: "ocean",
+  c4: "garden",
+  c5: "desert",
+  c6: "snow",
 };
 
 const THEME_CYCLE = Object.keys(THEME_DEFS);

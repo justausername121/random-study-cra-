@@ -1,0 +1,60 @@
+{
+  "id": "bai19",
+  "chuDeId": "c6",
+  "chuDeTitle": "Xác suất có điều kiện",
+  "baiNumber": 19,
+  "title": "Công thức xác suất toàn phần và công thức Bayes",
+  "objectives": [
+    "Mô tả và vận dụng công thức xác suất toàn phần P(B) = P(A)·P(B|A) + P(Ā)·P(B|Ā) vào các tình huống có nội dung thực tiễn.",
+    "Sử dụng sơ đồ hình cây để mô tả cách tính xác suất toàn phần và minh hoạ công thức nhân xác suất.",
+    "Nắm được và vận dụng công thức Bayes P(A|B) = P(A)·P(B|A) / [P(A)·P(B|A) + P(Ā)·P(B|Ā)] vào các tình huống có nội dung thực tiễn.",
+    "Vận dụng công thức Bayes để phân tích các bài toán xét nghiệm y học (dương tính giả, âm tính giả) và các bài toán thực tế khác."
+  ],
+  "sections": [
+    {
+      "heading": "I. Công thức xác suất toàn phần",
+      "summary": "Cho hai biến cố A và B. Khi đó ta có công thức xác suất toàn phần: P(B) = P(A)·P(B|A) + P(Ā)·P(B|Ā). Công thức này cho phép tính xác suất của B thông qua hai trường hợp: A xảy ra hoặc A không xảy ra, rất hữu ích khi ta biết cách B phụ thuộc vào A nhưng khó tính trực tiếp P(B).",
+      "keyPoints": [
+        "Công thức xác suất toàn phần: P(B) = P(A)·P(B|A) + P(Ā)·P(B|Ā), với A, Ā là một cặp biến cố đối lập (một trong hai chắc chắn xảy ra, không đồng thời xảy ra).",
+        "Có thể minh hoạ bằng sơ đồ hình cây hai tầng: tầng nhánh thứ nhất ghi P(A), P(Ā); tầng nhánh thứ hai ghi các xác suất có điều kiện P(B|A), P(B̄|A), P(B|Ā), P(B̄|Ā); P(B) bằng tổng các tích xác suất trên những đường đi dẫn tới B.",
+        "Công thức xác suất toàn phần cho phép tính P(B) ngay cả khi không biết trực tiếp cấu trúc không gian mẫu của B, miễn là biết P(A) và các xác suất có điều kiện của B theo A."
+      ],
+      "example": "Ông An hằng ngày đi làm bằng xe máy hoặc xe buýt. Nếu hôm nay ông đi làm bằng xe buýt thì xác suất để hôm sau ông đi làm bằng xe máy là 0,4; nếu hôm nay ông đi làm bằng xe máy thì xác suất để hôm sau ông đi làm bằng xe buýt là 0,7. Biết thứ Hai trong tuần ông An đi làm bằng xe buýt, tính xác suất để thứ Tư trong tuần đó ông đi làm bằng xe máy. Gọi A: “thứ Ba, ông An đi làm bằng xe máy”, B: “thứ Tư, ông An đi làm bằng xe máy”. Vì thứ Hai ông đi xe buýt nên P(A) = 0,4, suy ra P(Ā) = 0,6. Ta có P(B|A) = 1 − 0,7 = 0,3 (nếu thứ Ba đi xe máy thì xác suất thứ Tư vẫn đi xe máy là 1 trừ xác suất chuyển sang xe buýt) và P(B|Ā) = 0,4 (nếu thứ Ba đi xe buýt thì xác suất thứ Tư đi xe máy là 0,4 theo giả thiết). Áp dụng công thức xác suất toàn phần: P(B) = P(A)·P(B|A) + P(Ā)·P(B|Ā) = 0,4·0,3 + 0,6·0,4 = 0,12 + 0,24 = 0,36."
+    },
+    {
+      "heading": "II. Công thức Bayes",
+      "summary": "Cho A, B là hai biến cố với P(B) > 0. Công thức Bayes cho phép tính P(A|B) khi đã biết P(A) và P(B|A): P(A|B) = P(A)·P(B|A) / [P(A)·P(B|A) + P(Ā)·P(B|Ā)] = P(A)·P(B|A)/P(B). Công thức này rất quan trọng vì trong nhiều bài toán thực tế, ta biết P(B|A) (xác suất của “kết quả” khi biết “nguyên nhân”) nhưng lại cần suy ra P(A|B) (xác suất của “nguyên nhân” khi đã quan sát được “kết quả”).",
+      "keyPoints": [
+        "Công thức Bayes: P(A|B) = P(A)·P(B|A) / [P(A)·P(B|A) + P(Ā)·P(B|Ā)] = P(A)·P(B|A)/P(B), với P(B) > 0.",
+        "Ý nghĩa: P(A) là xác suất “tiên nghiệm” (đánh giá ban đầu, trước khi có thông tin B); P(A|B) là xác suất “hậu nghiệm” (đã được cập nhật sau khi biết B đã xảy ra).",
+        "Cần phân biệt rõ P(A|B) và P(B|A): đây là hai xác suất có điều kiện khác nhau, không được đồng nhất với nhau.",
+        "Công thức Bayes thường dùng để suy luận “nguyên nhân” từ “kết quả” quan sát được, ví dụ suy đoán khả năng mắc bệnh từ kết quả xét nghiệm."
+      ],
+      "example": "Trong một kì thi tốt nghiệp trung học phổ thông, một tỉnh X có 80% học sinh chọn tổ hợp A00. Nếu học sinh chọn tổ hợp A00 thì xác suất đỗ đại học là 0,6; nếu học sinh không chọn tổ hợp A00 thì xác suất đỗ đại học là 0,7. Chọn ngẫu nhiên một học sinh của tỉnh X đã tốt nghiệp, biết học sinh này đã đỗ đại học. Tính xác suất để học sinh đó chọn tổ hợp A00. Gọi A: “học sinh đó chọn tổ hợp A00” (P(A) = 0,8, P(Ā) = 0,2), B: “học sinh đó đỗ đại học” (P(B|A) = 0,6; P(B|Ā) = 0,7). Theo công thức Bayes: P(A|B) = [P(A)·P(B|A)] / [P(A)·P(B|A) + P(Ā)·P(B|Ā)] = (0,8·0,6) / (0,8·0,6 + 0,2·0,7) = 0,48/0,62 ≈ 0,774."
+    },
+    {
+      "heading": "III. Ứng dụng công thức Bayes trong xét nghiệm y học",
+      "summary": "Trong y học, không có xét nghiệm nào tuyệt đối chính xác nên có thể xảy ra dương tính giả (xét nghiệm dương tính nhưng người đó không mắc bệnh) hoặc âm tính giả (xét nghiệm âm tính nhưng người đó mắc bệnh). Công thức Bayes cho thấy: khi tỉ lệ mắc bệnh trong dân số rất nhỏ, dù xét nghiệm có độ chính xác cao, xác suất thực sự mắc bệnh sau một kết quả dương tính vẫn có thể thấp hơn nhiều so với suy nghĩ trực quan ban đầu — đây là ứng dụng kinh điển và rất hay bị hiểu sai của công thức Bayes.",
+      "keyPoints": [
+        "Dương tính giả: xét nghiệm cho kết quả dương tính nhưng thực tế người đó không mắc bệnh. Âm tính giả: xét nghiệm cho kết quả âm tính nhưng thực tế người đó mắc bệnh.",
+        "Khi tỉ lệ mắc bệnh P(A) trong dân số rất nhỏ, xác suất mắc bệnh thật sự khi xét nghiệm dương tính P(A|B) có thể nhỏ hơn nhiều so với độ chính xác P(B|A) của xét nghiệm — không được nhầm lẫn hai xác suất này với nhau.",
+        "Công nghệ cập nhật Bayesian (Bayesian updating): liên tục cập nhật lại xác suất của một giả thuyết mỗi khi có thêm thông tin, bằng chứng mới; được ứng dụng trong y học, tìm kiếm cứu nạn, học máy và nhiều lĩnh vực khác."
+      ],
+      "example": "Thống kê cho thấy tỉ lệ dân số mắc bệnh hiểm nghèo Y là 0,5%. Nếu mắc bệnh Y thì xác suất xét nghiệm dương tính là 0,94; nếu không mắc bệnh Y thì xác suất xét nghiệm âm tính là 0,97. Bà N đi xét nghiệm bệnh Y và nhận được kết quả âm tính. Gọi A: “bà N mắc bệnh Y” (P(A) = 0,005, P(Ā) = 0,995), B: “xét nghiệm cho kết quả dương tính”. Ta có P(B̄|Ā) = 0,97 và P(B̄|A) = 1 − 0,94 = 0,06. Cần tính P(Ā|B̄): theo công thức Bayes, P(Ā|B̄) = [P(Ā)·P(B̄|Ā)] / [P(Ā)·P(B̄|Ā) + P(A)·P(B̄|A)] = (0,995·0,97) / (0,995·0,97 + 0,005·0,06) ≈ 0,9997. Vậy sau khi có kết quả âm tính, khả năng bà N không mắc bệnh Y tăng từ 99,5% (trước xét nghiệm) lên khoảng 99,97%."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Công thức xác suất toàn phần",
+      "definition": "Với hai biến cố A, B bất kì: P(B) = P(A)·P(B|A) + P(Ā)·P(B|Ā), dùng để tính xác suất của B thông qua hai trường hợp A xảy ra hoặc A không xảy ra."
+    },
+    {
+      "term": "Sơ đồ hình cây",
+      "definition": "Sơ đồ trực quan gồm các nhánh, mỗi nhánh ghi một xác suất (thường là xác suất có điều kiện theo các nhánh trước đó); xác suất của một biến cố giao bằng tích các xác suất trên đường đi tương ứng từ gốc đến nhánh đó, dùng để minh hoạ công thức nhân xác suất và công thức xác suất toàn phần."
+    },
+    {
+      "term": "Công thức Bayes",
+      "definition": "Với hai biến cố A, B mà P(B) > 0: P(A|B) = P(A)·P(B|A) / [P(A)·P(B|A) + P(Ā)·P(B|Ā)], dùng để cập nhật xác suất của A khi biết thêm thông tin B đã xảy ra."
+    }
+  ]
+}

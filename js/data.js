@@ -80,9 +80,48 @@ const SUBJECTS = {
       { id: "bai24", chuDeId: "vlc4", baiNumber: 24, title: "Công nghiệp hạt nhân" },
     ],
   },
+
+  toan12: {
+    id: "toan12",
+    name: "Toán 12",
+    fullName: "Toán 12",
+    tagline: "Kết nối tri thức với cuộc sống",
+    color: "#ce82ff",
+    unitLabel: "Chương",
+    lessonLabel: "Bài",
+    chuDe: [
+      { id: "c1", order: 1, title: "Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số", color: "#ce82ff" },
+      { id: "c2", order: 2, title: "Vectơ và hệ trục toạ độ trong không gian", color: "#1cb0f6" },
+      { id: "c3", order: 3, title: "Các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm", color: "#ff9600" },
+      { id: "c4", order: 4, title: "Nguyên hàm và tích phân", color: "#58cc02" },
+      { id: "c5", order: 5, title: "Phương pháp toạ độ trong không gian", color: "#ff4b4b" },
+      { id: "c6", order: 6, title: "Xác suất có điều kiện", color: "#2b70c9" },
+    ],
+    bai: [
+      { id: "bai01", chuDeId: "c1", baiNumber: 1, title: "Tính đơn điệu và cực trị của hàm số" },
+      { id: "bai02", chuDeId: "c1", baiNumber: 2, title: "Giá trị lớn nhất và giá trị nhỏ nhất của hàm số" },
+      { id: "bai03", chuDeId: "c1", baiNumber: 3, title: "Đường tiệm cận của đồ thị hàm số" },
+      { id: "bai04", chuDeId: "c1", baiNumber: 4, title: "Khảo sát sự biến thiên và vẽ đồ thị của hàm số" },
+      { id: "bai05", chuDeId: "c1", baiNumber: 5, title: "Ứng dụng đạo hàm để giải quyết một số vấn đề liên quan đến thực tiễn" },
+      { id: "bai06", chuDeId: "c2", baiNumber: 6, title: "Vectơ trong không gian" },
+      { id: "bai07", chuDeId: "c2", baiNumber: 7, title: "Hệ trục toạ độ trong không gian" },
+      { id: "bai08", chuDeId: "c2", baiNumber: 8, title: "Biểu thức toạ độ của các phép toán vectơ" },
+      { id: "bai09", chuDeId: "c3", baiNumber: 9, title: "Khoảng biến thiên và khoảng tứ phân vị" },
+      { id: "bai10", chuDeId: "c3", baiNumber: 10, title: "Phương sai và độ lệch chuẩn" },
+      { id: "bai11", chuDeId: "c4", baiNumber: 11, title: "Nguyên hàm" },
+      { id: "bai12", chuDeId: "c4", baiNumber: 12, title: "Tích phân" },
+      { id: "bai13", chuDeId: "c4", baiNumber: 13, title: "Ứng dụng hình học của tích phân" },
+      { id: "bai14", chuDeId: "c5", baiNumber: 14, title: "Phương trình mặt phẳng" },
+      { id: "bai15", chuDeId: "c5", baiNumber: 15, title: "Phương trình đường thẳng trong không gian" },
+      { id: "bai16", chuDeId: "c5", baiNumber: 16, title: "Công thức tính góc trong không gian" },
+      { id: "bai17", chuDeId: "c5", baiNumber: 17, title: "Phương trình mặt cầu" },
+      { id: "bai18", chuDeId: "c6", baiNumber: 18, title: "Xác suất có điều kiện" },
+      { id: "bai19", chuDeId: "c6", baiNumber: 19, title: "Công thức xác suất toàn phần và công thức Bayes" },
+    ],
+  },
 };
 
-const SUBJECT_ORDER = ["ktpl12", "vatli12"];
+const SUBJECT_ORDER = ["ktpl12", "vatli12", "toan12"];
 
 function chuDeById(subjectId, id) {
   return SUBJECTS[subjectId].chuDe.find((c) => c.id === id);

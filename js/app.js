@@ -1116,6 +1116,8 @@ const LOADING_TIPS = [
   "Cú tui tin là bạn làm được!",
   "Muốn nhớ công thức lâu? Thử áp dụng vào ví dụ thực tế xem.",
   "Đừng ngại bấm nút Thử lại - càng luyện càng nhớ chắc.",
+  "Làm bài Toán nhớ kiểm tra lại phép tính trước khi chốt đáp số nhé!",
+  "Vẽ hình hoặc bảng biến thiên ra giấy sẽ dễ hình dung bài Toán hơn nhiều.",
 ];
 
 function renderLoadingScreen() {

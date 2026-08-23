@@ -1,0 +1,86 @@
+{
+  "chuDeId": "c2",
+  "chuDeTitle": "Vectơ và hệ trục toạ độ trong không gian",
+  "mcq": [
+    {"id": "c2-mcq-01", "question": "Hai vectơ trong không gian được gọi là cùng phương nếu:", "options": {"A": "Giá của chúng song song hoặc trùng nhau", "B": "Giá của chúng vuông góc với nhau", "C": "Chúng có cùng độ dài", "D": "Chúng cùng hướng"}, "answer": "A"},
+    {"id": "c2-mcq-02", "question": "Hai vectơ a⃗ và b⃗ trong không gian bằng nhau khi và chỉ khi:", "options": {"A": "Chúng cùng độ dài và cùng hướng", "B": "Chúng cùng phương và cùng độ dài", "C": "Chúng có cùng giá", "D": "Chúng cùng độ dài"}, "answer": "A"},
+    {"id": "c2-mcq-03", "question": "Cho hình hộp ABCD.A'B'C'D'. Theo quy tắc hình hộp, khẳng định nào sau đây đúng?", "options": {"A": "vectơ AB + vectơ AD + vectơ AA' = vectơ AC'", "B": "vectơ AB + vectơ AD + vectơ AA' = vectơ AC", "C": "vectơ AB + vectơ AD - vectơ AA' = vectơ AC'", "D": "vectơ AB - vectơ AD + vectơ AA' = vectơ AC'"}, "answer": "A"},
+    {"id": "c2-mcq-04", "question": "Cho tứ diện ABCD, gọi G là trọng tâm của tam giác BCD. Khẳng định nào sau đây đúng?", "options": {"A": "vectơ AB + vectơ AC + vectơ AD = 3 vectơ AG", "B": "vectơ AB + vectơ AC + vectơ AD = vectơ AG", "C": "vectơ AB + vectơ AC + vectơ AD = 2 vectơ AG", "D": "vectơ AB + vectơ AC + vectơ AD = 4 vectơ AG"}, "answer": "A"},
+    {"id": "c2-mcq-05", "question": "Cho hình hộp chữ nhật ABCD.A'B'C'D' có AB = 2, AD = 3, AA' = 4. Độ dài của vectơ BD bằng:", "options": {"A": "√13", "B": "5", "C": "√29", "D": "√7"}, "answer": "A"},
+    {"id": "c2-mcq-06", "question": "Cho hình hộp chữ nhật ABCD.A'B'C'D' có AB = 2, AD = 3, AA' = 4. Độ dài của vectơ BD' bằng:", "options": {"A": "√29", "B": "√13", "C": "5", "D": "29"}, "answer": "A"},
+    {"id": "c2-mcq-07", "question": "Cho hình chóp tứ giác đều S.ABCD có tất cả các cạnh bằng a. Tích vô hướng vectơ AS · vectơ BC bằng:", "options": {"A": "a<sup>2</sup>/2", "B": "a<sup>2</sup>", "C": "a<sup>2</sup>√2/2", "D": "0"}, "answer": "A"},
+    {"id": "c2-mcq-08", "question": "Cho hình chóp tứ giác đều S.ABCD có tất cả các cạnh bằng a. Tích vô hướng vectơ AS · vectơ AC bằng:", "options": {"A": "a<sup>2</sup>", "B": "a<sup>2</sup>/2", "C": "a<sup>2</sup>√2", "D": "2a<sup>2</sup>"}, "answer": "A"},
+    {"id": "c2-mcq-09", "question": "Cho hình lập phương ABCD.A'B'C'D'. Góc giữa vectơ AC và vectơ A'D' bằng:", "options": {"A": "45°", "B": "90°", "C": "60°", "D": "0°"}, "answer": "A"},
+    {"id": "c2-mcq-10", "question": "Trong không gian Oxyz, các mặt phẳng (Oxy), (Oyz), (Ozx) có tính chất gì?", "options": {"A": "Đôi một vuông góc với nhau", "B": "Đôi một song song với nhau", "C": "Đôi một trùng nhau", "D": "Đôi một cắt nhau theo góc 45°"}, "answer": "A"},
+    {"id": "c2-mcq-11", "question": "Trong không gian Oxyz, hình chiếu vuông góc của điểm M(2; -3; 5) lên mặt phẳng (Oxy) có toạ độ là:", "options": {"A": "(2; -3; 0)", "B": "(2; 0; 5)", "C": "(0; -3; 5)", "D": "(2; -3; 5)"}, "answer": "A"},
+    {"id": "c2-mcq-12", "question": "Trong không gian Oxyz, vectơ đơn vị j⃗ có toạ độ là:", "options": {"A": "(0; 1; 0)", "B": "(1; 0; 0)", "C": "(0; 0; 1)", "D": "(1; 1; 1)"}, "answer": "A"},
+    {"id": "c2-mcq-13", "question": "Trong không gian Oxyz, cho A(1; 0; 2) và B(3; 2; 5). Toạ độ của vectơ AB là:", "options": {"A": "(2; 2; 3)", "B": "(4; 2; 7)", "C": "(2; 2; 7)", "D": "(-2; -2; -3)"}, "answer": "A"},
+    {"id": "c2-mcq-14", "question": "Trong không gian Oxyz, cho A(1; 2; 3), B(3; 2; 1). Toạ độ trung điểm M của đoạn thẳng AB là:", "options": {"A": "(2; 2; 2)", "B": "(4; 4; 4)", "C": "(1; 0; -1)", "D": "(2; 2; 4)"}, "answer": "A"},
+    {"id": "c2-mcq-15", "question": "Trong không gian Oxyz, cho tam giác ABC có A(1; 2; 3), B(3; 2; 1), C(2; -1; 5). Toạ độ trọng tâm G của tam giác ABC là:", "options": {"A": "(2; 1; 3)", "B": "(6; 3; 9)", "C": "(2; 1; 9)", "D": "(3; 1; 3)"}, "answer": "A"},
+    {"id": "c2-mcq-16", "question": "Trong không gian Oxyz, cho a⃗ = (1; 4; 2), b⃗ = (-4; 1; 0). Tích vô hướng a⃗ · b⃗ bằng:", "options": {"A": "0", "B": "4", "C": "-4", "D": "9"}, "answer": "A"},
+    {"id": "c2-mcq-17", "question": "Trong không gian Oxyz, độ dài của vectơ a⃗ = (1; 4; 2) bằng:", "options": {"A": "√21", "B": "21", "C": "7", "D": "√7"}, "answer": "A"},
+    {"id": "c2-mcq-18", "question": "Trong không gian Oxyz, vectơ a⃗ = (2; -4; 6) cùng phương với vectơ nào sau đây?", "options": {"A": "(1; -2; 3)", "B": "(1; 2; 3)", "C": "(2; -4; 5)", "D": "(4; -8; 6)"}, "answer": "A"},
+    {"id": "c2-mcq-19", "question": "Trong không gian Oxyz, cho a⃗ = (1; 1; 0), b⃗ = (1; 0; 1). Góc giữa hai vectơ a⃗ và b⃗ bằng:", "options": {"A": "60°", "B": "45°", "C": "90°", "D": "120°"}, "answer": "A"},
+    {"id": "c2-mcq-20", "question": "Trong không gian Oxyz, cho A(1; 0; -1), B(0; -1; 2). Độ dài đoạn thẳng AB bằng:", "options": {"A": "√11", "B": "11", "C": "√14", "D": "3"}, "answer": "A"},
+    {"id": "c2-mcq-21", "question": "Vectơ đối của vectơ a⃗ = (3; -5; 2) là:", "options": {"A": "(-3; 5; -2)", "B": "(3; 5; 2)", "C": "(3; -5; -2)", "D": "(-3; -5; 2)"}, "answer": "A"},
+    {"id": "c2-mcq-22", "question": "Cho tứ diện ABCD có trọng tâm là điểm I (thoả mãn vectơ IA + vectơ IB + vectơ IC + vectơ ID = 0⃗). Nếu G là trọng tâm của tam giác BCD thì hệ thức nào sau đây đúng?", "options": {"A": "vectơ AI = 3 vectơ IG", "B": "vectơ AI = (1/3) vectơ IG", "C": "vectơ AI = 2 vectơ IG", "D": "vectơ AI = 4 vectơ IG"}, "answer": "A"},
+    {"id": "c2-mcq-23", "question": "Một phòng học dạng hình hộp chữ nhật có chiều dài 8 m, chiều rộng 6 m, chiều cao 3 m. Một chiếc đèn được treo tại chính giữa trần nhà. Chọn hệ trục toạ độ Oxyz có gốc O trùng với một góc phòng (tại sàn), mặt phẳng (Oxy) trùng mặt sàn, hai trục Ox, Oy dọc theo hai cạnh sàn (dài 8 m và rộng 6 m). Toạ độ điểm treo đèn là:", "options": {"A": "(4; 3; 3)", "B": "(4; 3; 0)", "C": "(8; 6; 3)", "D": "(4; 3; 1,5)"}, "answer": "A"},
+    {"id": "c2-mcq-24", "question": "Trong không gian Oxyz, cho ba vectơ a⃗, b⃗, c⃗ đều khác 0⃗ và có giá đôi một vuông góc. Luôn có thể lập được một hệ toạ độ Oxyz sao cho:", "options": {"A": "Các vectơ i⃗, j⃗, k⃗ lần lượt cùng phương với a⃗, b⃗, c⃗", "B": "Các vectơ i⃗, j⃗, k⃗ lần lượt bằng a⃗, b⃗, c⃗", "C": "Trục Ox vuông góc với giá của a⃗", "D": "Gốc O không thể chọn trùng điểm đầu của a⃗"}, "answer": "A"}
+  ],
+  "trueFalse": [
+    {
+      "id": "c2-tf-01",
+      "stimulus": "Cho hình hộp ABCD.A'B'C'D'. Xét tính đúng/sai của các khẳng định sau:",
+      "statements": [
+        {"key": "a", "text": "vectơ AB + vectơ AD + vectơ AA' = vectơ AC'", "answer": true},
+        {"key": "b", "text": "vectơ BD = vectơ B'D' + vectơ AA'", "answer": false},
+        {"key": "c", "text": "vectơ BC - vectơ CC' + vectơ DC = vectơ A'C", "answer": true},
+        {"key": "d", "text": "vectơ AA' + vectơ A'C' = vectơ AC", "answer": false}
+      ]
+    },
+    {
+      "id": "c2-tf-02",
+      "stimulus": "Trong không gian Oxyz, cho ba điểm A(1; -2; 3), B(3; 0; 1), C(-1; 2; 5). Xét tính đúng/sai của các khẳng định sau:",
+      "statements": [
+        {"key": "a", "text": "Toạ độ của vectơ AB là (2; 2; -2)", "answer": true},
+        {"key": "b", "text": "Ba điểm A, B, C thẳng hàng", "answer": false},
+        {"key": "c", "text": "Toạ độ trung điểm của đoạn thẳng AC là (0; 0; 4)", "answer": true},
+        {"key": "d", "text": "Độ dài đoạn thẳng AB bằng 2√3", "answer": true}
+      ]
+    },
+    {
+      "id": "c2-tf-03",
+      "stimulus": "Trong không gian Oxyz, cho hai vectơ a⃗ = (2; -1; 2) và b⃗ = (0; 2; 1). Xét tính đúng/sai của các khẳng định sau:",
+      "statements": [
+        {"key": "a", "text": "a⃗ vuông góc với b⃗", "answer": true},
+        {"key": "b", "text": "Độ dài của vectơ a⃗ bằng 3", "answer": true},
+        {"key": "c", "text": "Góc giữa hai vectơ a⃗ và b⃗ bằng 60°", "answer": false},
+        {"key": "d", "text": "a⃗ + b⃗ = (2; 1; 3)", "answer": true}
+      ]
+    }
+  ],
+  "shortAnswer": [
+    {"id": "c2-sa-01", "question": "Cho hình hộp chữ nhật ABCD.A'B'C'D' có AB = 2, AD = 3, AA' = 4. Tính độ dài của vectơ BB'.", "answer": "4", "unit": null, "tolerance": 0.01},
+    {"id": "c2-sa-02", "question": "Cho hình hộp chữ nhật ABCD.A'B'C'D' có AB = 2, AD = 3, AA' = 4. Tính độ dài của vectơ BD (làm tròn đến chữ số thập phân thứ hai).", "answer": "3.61", "unit": null, "tolerance": 0.02},
+    {"id": "c2-sa-03", "question": "Cho hình hộp chữ nhật ABCD.A'B'C'D' có AB = 2, AD = 3, AA' = 4. Tính độ dài của vectơ BD' (làm tròn đến chữ số thập phân thứ hai).", "answer": "5.39", "unit": null, "tolerance": 0.02},
+    {"id": "c2-sa-04", "question": "Cho hình lập phương ABCD.A'B'C'D' có độ dài mỗi cạnh bằng 1. Tính độ dài của vectơ BC + vectơ DD' (làm tròn đến chữ số thập phân thứ hai).", "answer": "1.41", "unit": null, "tolerance": 0.02},
+    {"id": "c2-sa-05", "question": "Trong không gian Oxyz, cho hình lập phương ABCD.A'B'C'D' với A(0;0;0), B(1;0;0), C(1;1;0), D(0;1;0), A'(0;0;1), B'(1;0;1), C'(1;1;1), D'(0;1;1). Tính độ dài của vectơ AC + vectơ C'D'.", "answer": "1", "unit": null, "tolerance": 0.01},
+    {"id": "c2-sa-06", "question": "Cho tứ diện ABCD với A(0;0;0), B(2;0;0), C(0;2;0), D(0;0;2). Gọi I là trọng tâm của tứ diện ABCD. Tính độ dài đoạn thẳng AI (làm tròn đến chữ số thập phân thứ hai).", "answer": "0.87", "unit": null, "tolerance": 0.01},
+    {"id": "c2-sa-07", "question": "Một khối rubik hình tứ diện đều (đồng chất) có chiều cao 8 cm. Gọi I là trọng tâm của tứ diện. Tính khoảng cách từ I đến một mặt của tứ diện.", "answer": "2", "unit": "cm", "tolerance": 0.05},
+    {"id": "c2-sa-08", "question": "Rađa phát hiện một máy bay di chuyển thẳng đều từ điểm A(800; 500; 7) đến điểm B(940; 550; 8) (đơn vị km) trong 10 phút. Nếu máy bay giữ nguyên vận tốc và hướng bay, tính cao độ (toạ độ z) của máy bay sau 5 phút tiếp theo (tính từ B).", "answer": "8.5", "unit": "km", "tolerance": 0.05},
+    {"id": "c2-sa-09", "question": "Với giả thiết như trên (máy bay bay từ A(800;500;7) đến B(940;550;8) trong 10 phút, giữ nguyên vận tốc và hướng bay), tính hoành độ (toạ độ x) của máy bay sau 10 phút tiếp theo (tính từ B).", "answer": "1080", "unit": "km", "tolerance": 0.5},
+    {"id": "c2-sa-10", "question": "Hai khinh khí cầu có toạ độ lần lượt là (2; 1; 0,5) và (-1; -1,5; 0,8) (đơn vị km). Tính khoảng cách giữa hai khinh khí cầu (làm tròn đến chữ số thập phân thứ hai).", "answer": "3.92", "unit": "km", "tolerance": 0.01},
+    {"id": "c2-sa-11", "question": "Trong hệ toạ độ Oxyz đặt tại một giàn khoan, một chiếc tàu thám hiểm có toạ độ (25; 15; -10) (đơn vị km). Tính khoảng cách từ giàn khoan (gốc toạ độ) đến chiếc tàu (làm tròn đến chữ số thập phân thứ hai).", "answer": "30.82", "unit": "km", "tolerance": 0.02},
+    {"id": "c2-sa-12", "question": "Trong không gian Oxyz, cho A(2; 9; -1), B(9; 4; 5) và G(3; 0; 4) là trọng tâm của tam giác ABC. Tính hoành độ (toạ độ x) của điểm C.", "answer": "-2", "unit": null, "tolerance": 0.01},
+    {"id": "c2-sa-13", "question": "Trong không gian Oxyz, cho tam giác ABC với A(1; 0; 1), B(0; -3; 1), C(4; -1; 4). Tính cao độ (toạ độ z) của trọng tâm tam giác ABC.", "answer": "2", "unit": null, "tolerance": 0.01},
+    {"id": "c2-sa-14", "question": "Với tam giác ABC ở trên (A(1;0;1), B(0;-3;1), C(4;-1;4)), tính độ dài cạnh AB (làm tròn đến chữ số thập phân thứ hai).", "answer": "3.16", "unit": null, "tolerance": 0.01},
+    {"id": "c2-sa-15", "question": "Trong không gian Oxyz, cho a⃗ = (2; 1; -3), b⃗ = (-2; -1; 2). Tính tích vô hướng a⃗ · b⃗.", "answer": "-11", "unit": null, "tolerance": 0.01},
+    {"id": "c2-sa-16", "question": "Trong không gian Oxyz, cho a⃗ = (2; 1; -2), b⃗ = (0; -1; 1). Tính số đo góc giữa hai vectơ a⃗ và b⃗ (đơn vị độ).", "answer": "135", "unit": "độ", "tolerance": 0.5},
+    {"id": "c2-sa-17", "question": "Trong không gian Oxyz, cho a⃗ = (-2; 2; 2), b⃗ = (1; -1; -2). Tính côsin của góc giữa hai vectơ a⃗ và b⃗ (làm tròn đến 4 chữ số thập phân).", "answer": "-0.9428", "unit": null, "tolerance": 0.001},
+    {"id": "c2-sa-18", "question": "Trong không gian Oxyz, cho u⃗ = (1; 8; 6), v⃗ = (-1; 3; -2), w⃗ = (0; 5; 4). Tính độ dài của vectơ u⃗ - 2v⃗ + w⃗ (làm tròn đến chữ số thập phân thứ hai).", "answer": "15.94", "unit": null, "tolerance": 0.01},
+    {"id": "c2-sa-19", "question": "Trong không gian Oxyz, biết vectơ a⃗ = (2; -4; 6) cùng phương với vectơ b⃗ = (1; -2; 3) và a⃗ = k·b⃗. Tìm k.", "answer": "2", "unit": null, "tolerance": 0.01},
+    {"id": "c2-sa-20", "question": "Trong không gian Oxyz, cho hình hộp chữ nhật OABC.O'A'B'C' với O là gốc toạ độ, A(4; 0; 0), C(0; 3; 0), O'(0; 0; 5) (các cạnh OA, OC, OO' đôi một vuông góc). Tính độ dài đường chéo OB' (làm tròn đến chữ số thập phân thứ hai).", "answer": "7.07", "unit": null, "tolerance": 0.01},
+    {"id": "c2-sa-21", "question": "Trong không gian Oxyz, cho a⃗ = (3; 1; 2), b⃗ = (-3; 0; 4), c⃗ = (6; -1; 0). Tính độ dài của vectơ a⃗ + b⃗ + c⃗ (làm tròn đến chữ số thập phân thứ hai).", "answer": "8.49", "unit": null, "tolerance": 0.01},
+    {"id": "c2-sa-22", "question": "Với a⃗ = (3; 1; 2) và b⃗ = (-3; 0; 4) như trên, tính tích vô hướng a⃗ · (-b⃗).", "answer": "1", "unit": null, "tolerance": 0.01}
+  ]
+}

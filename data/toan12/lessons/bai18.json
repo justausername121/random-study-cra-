@@ -1,0 +1,60 @@
+{
+  "id": "bai18",
+  "chuDeId": "c6",
+  "chuDeTitle": "Xác suất có điều kiện",
+  "baiNumber": 18,
+  "title": "Xác suất có điều kiện",
+  "objectives": [
+    "Nhận biết khái niệm xác suất có điều kiện P(A|B) và tính được P(A|B) bằng định nghĩa hoặc bằng công thức P(A|B) = P(A∩B)/P(B).",
+    "Nhận biết mối liên hệ giữa xác suất có điều kiện và tính độc lập của hai biến cố.",
+    "Đọc và tính các xác suất có điều kiện từ bảng dữ liệu thống kê 2 × 2.",
+    "Vận dụng công thức nhân xác suất P(A∩B) = P(A)·P(B|A) = P(B)·P(A|B) và sơ đồ hình cây để tính xác suất của biến cố giao."
+  ],
+  "sections": [
+    {
+      "heading": "I. Xác suất có điều kiện",
+      "summary": "Trong thực tế, ta thường cần cập nhật lại xác suất của một biến cố khi biết thêm một thông tin nào đó đã xảy ra. Xác suất của biến cố A, được tính khi biết biến cố B đã xảy ra, gọi là xác suất của A với điều kiện B, kí hiệu P(A|B). Với hai biến cố A, B bất kì mà P(B) > 0, ta có công thức: P(A|B) = P(A∩B)/P(B).",
+      "keyPoints": [
+        "Kí hiệu P(A|B): xác suất của biến cố A, tính trong điều kiện biết biến cố B đã xảy ra.",
+        "Công thức: P(A|B) = P(A∩B)/P(B), với P(B) > 0.",
+        "Có thể tính P(A|B) bằng định nghĩa cổ điển: sau khi B xảy ra, không gian mẫu được thu hẹp lại, rồi đếm số kết quả thuận lợi cho A trong không gian mẫu đã thu hẹp đó.",
+        "Nếu A, B là hai biến cố độc lập (với P(A) > 0, P(B) > 0) thì P(A|B) = P(A) và P(B|A) = P(B); ngược lại, từ định nghĩa xác suất có điều kiện và tính độc lập cũng suy ra được điều này."
+      ],
+      "example": "Một hộp có 20 viên bi trắng và 10 viên bi đen (30 viên, cùng kích thước, khối lượng). Bình lấy ngẫu nhiên 1 viên, không trả lại; sau đó An lấy ngẫu nhiên 1 viên trong 29 viên còn lại. Gọi A: “An lấy được viên bi trắng”, B: “Bình lấy được viên bi trắng”. Cách 1 (định nghĩa): nếu B xảy ra thì hộp còn lại 29 viên với 19 trắng, 10 đen, do đó P(A|B) = 19/29 ≈ 0,655. Cách 2 (công thức): P(B) = 20/30; P(A∩B) = (20·19)/(30·29); suy ra P(A|B) = P(A∩B)/P(B) = 19/29 — hai cách cho cùng một kết quả."
+    },
+    {
+      "heading": "II. Bảng dữ liệu thống kê 2 × 2",
+      "summary": "Khi khảo sát một tập hợp đối tượng theo hai tiêu chí phân loại, mỗi tiêu chí có hai khả năng, kết quả có thể trình bày dưới dạng bảng dữ liệu thống kê 2 × 2 (2 dòng, 2 cột). Từ các số liệu trong bảng, ta có thể trực tiếp tính các xác suất có điều kiện bằng cách chỉ xét trong dòng (hoặc cột) tương ứng với điều kiện đã cho, mà không cần dùng công thức P(A|B) = P(A∩B)/P(B) một cách tường minh.",
+      "keyPoints": [
+        "Bảng dữ liệu thống kê 2 × 2 trình bày kết quả khảo sát theo hai tiêu chí phân loại, mỗi tiêu chí có hai khả năng.",
+        "Từ bảng: P(A|B) = (số đối tượng vừa thuộc A vừa thuộc B) / (tổng số đối tượng thuộc B), tức là chỉ tính trong phạm vi dòng (hoặc cột) ứng với điều kiện B.",
+        "So sánh hai xác suất có điều kiện ứng với hai điều kiện đối lập nhau (ví dụ P(A|B) và P(A|B̄)) giúp đánh giá một yếu tố có thực sự làm thay đổi đáng kể khả năng xảy ra của biến cố A hay không."
+      ],
+      "example": "Khảo sát 577 006 vụ tai nạn giao thông ô tô: trong số người lái xe có thắt dây an toàn, có 510 người tử vong và 412 368 người sống sót; trong số người lái xe không thắt dây an toàn, có 1 601 người tử vong và 162 527 người sống sót. Gọi A: “người lái xe đó tử vong”, B: “người lái xe đó không thắt dây an toàn”. Vì 1601 + 162527 = 164128 nên P(B) = 164128/577006, còn P(A∩B) = 1601/577006, do đó P(A|B) = 1601/164128 ≈ 0,009755. Tương tự, P(A|B̄) = 510/412878 ≈ 0,001235. Vì P(A|B)/P(A|B̄) ≈ 7,9 nên việc không thắt dây an toàn làm tăng nguy cơ tử vong lên khoảng 7,9 lần so với khi có thắt dây an toàn."
+    },
+    {
+      "heading": "III. Công thức nhân xác suất",
+      "summary": "Từ công thức xác suất có điều kiện, ta suy ra công thức nhân xác suất: với hai biến cố A, B bất kì, P(A∩B) = P(B)·P(A|B) = P(A)·P(B|A) (công thức vẫn đúng cả khi P(A) = 0 hoặc P(B) = 0). Một cách trực quan để tính toán và trình bày lời giải theo công thức nhân xác suất là dùng sơ đồ hình cây: mỗi nhánh ghi một xác suất, và xác suất của biến cố giao bằng tích các xác suất trên đường đi từ gốc tới nhánh tương ứng.",
+      "keyPoints": [
+        "Công thức nhân xác suất: P(A∩B) = P(B)·P(A|B) = P(A)·P(B|A), đúng với mọi biến cố A, B.",
+        "Sơ đồ hình cây: tầng nhánh đầu ghi P(A), P(Ā) (hoặc P(B), P(B̄)); tầng nhánh sau ghi các xác suất có điều kiện tương ứng; nhân các xác suất trên một đường đi để được xác suất của biến cố giao ứng với đường đi đó.",
+        "Ứng dụng nổi tiếng của công thức nhân xác suất và sơ đồ hình cây: bài toán “Ô cửa bí mật” (Monty Hall) — khi người quản trò mở một cửa có con lừa, xác suất thắng nếu đổi lựa chọn cao gấp đôi xác suất thắng nếu giữ nguyên lựa chọn ban đầu."
+      ],
+      "example": "Một hộp kín có 7 chiếc bút bi xanh và 5 chiếc bút bi đen (12 chiếc). Sơn lấy ngẫu nhiên 1 chiếc, không trả lại; Tùng lấy ngẫu nhiên 1 trong 11 chiếc còn lại. Gọi A: “Sơn lấy được bút bi đen”, B: “Tùng lấy được bút bi xanh”. Ta có P(A) = 5/12. Nếu A xảy ra thì trong hộp còn 11 chiếc với 7 chiếc xanh, nên P(B|A) = 7/11. Theo công thức nhân xác suất: P(A∩B) = P(A)·P(B|A) = (5/12)·(7/11) = 35/132 ≈ 0,265."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Xác suất có điều kiện",
+      "definition": "Xác suất của biến cố A, được tính khi biết biến cố B đã xảy ra, kí hiệu là P(A|B). Với P(B) > 0: P(A|B) = P(A∩B)/P(B)."
+    },
+    {
+      "term": "Công thức nhân xác suất",
+      "definition": "Với hai biến cố A, B bất kì: P(A∩B) = P(B)·P(A|B) = P(A)·P(B|A)."
+    },
+    {
+      "term": "Bảng dữ liệu thống kê 2 × 2",
+      "definition": "Bảng gồm 2 dòng và 2 cột dùng để trình bày kết quả thống kê theo hai tiêu chí phân loại, mỗi tiêu chí có hai khả năng; từ bảng có thể tính trực tiếp các xác suất có điều kiện liên quan."
+    }
+  ]
+}

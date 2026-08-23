@@ -1,0 +1,42 @@
+{
+  "id": "bai05",
+  "chuDeId": "c1",
+  "chuDeTitle": "Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số",
+  "baiNumber": 5,
+  "title": "Ứng dụng đạo hàm để giải quyết một số vấn đề liên quan đến thực tiễn",
+  "objectives": [
+    "Vận dụng đạo hàm và khảo sát hàm số để giải quyết một số vấn đề liên quan đến thực tiễn."
+  ],
+  "sections": [
+    {
+      "heading": "1. Tốc độ thay đổi của một đại lượng",
+      "summary": "Giả sử y là một hàm số của x, viết y = f(x). Nếu x thay đổi từ x₁ đến x₂ thì sự thay đổi của x là Δx = x₂ − x₁ và sự thay đổi tương ứng của y là Δy = f(x₂) − f(x₁). Tỉ số Δy/Δx = [f(x₂) − f(x₁)]/(x₂ − x₁) gọi là tốc độ thay đổi trung bình của y đối với x trên đoạn [x₁; x₂]. Giới hạn lim(Δx→0) Δy/Δx (chính là đạo hàm f'(x₁)) gọi là tốc độ thay đổi tức thời của y đối với x tại x = x₁. Nhiều đại lượng quen thuộc là tốc độ thay đổi tức thời: nếu s = s(t) là hàm vị trí của một vật chuyển động trên một đường thẳng thì v = s'(t) là vận tốc tức thời và a(t) = v'(t) = s''(t) là gia tốc tức thời của vật; nếu C = C(t) là nồng độ của một chất tham gia phản ứng hoá học tại thời điểm t thì C'(t) là tốc độ phản ứng tức thời; nếu P = P(t) là số lượng cá thể trong một quần thể tại thời điểm t thì P'(t) là tốc độ tăng trưởng tức thời của quần thể; nếu C = C(x) là hàm chi phí (tổng chi phí khi sản xuất x đơn vị hàng hoá) thì C'(x) gọi là chi phí biên, xấp xỉ chi phí để sản xuất thêm một đơn vị hàng hoá tiếp theo (đơn vị thứ x+1).",
+      "keyPoints": [
+        "Tốc độ thay đổi trung bình của y theo x trên [x₁; x₂]: Δy/Δx = [f(x₂) − f(x₁)]/(x₂ − x₁).",
+        "Tốc độ thay đổi tức thời của y theo x tại x = a chính là đạo hàm f'(a).",
+        "Vận tốc tức thời v(t) = s'(t); gia tốc tức thời a(t) = v'(t) = s''(t) của một chuyển động có hàm vị trí s(t).",
+        "Chi phí biên C'(x) xấp xỉ chi phí sản xuất thêm đơn vị hàng hoá thứ x+1; nếu p(x) là hàm cầu (giá bán mỗi đơn vị khi bán được x đơn vị) thì hàm doanh thu là R(x) = x·p(x) và hàm lợi nhuận là P(x) = R(x) − C(x)."
+      ],
+      "example": "Với h(t) = 2 + 24,5t − 4,9t² (độ cao của vật được phóng thẳng đứng lên, tính bằng mét), vận tốc v(t) = h'(t) = 24,5 − 9,8t; vật đạt độ cao lớn nhất tại t = 2,5 giây (vì v(2,5) = 0), khi đó h(2,5) = 32,625 m."
+    },
+    {
+      "heading": "2. Một vài bài toán tối ưu hoá đơn giản",
+      "summary": "Đạo hàm cung cấp một phương pháp tổng quát, hiệu quả để giải các bài toán tối ưu hoá (tối đa hoá diện tích, khối lượng, lợi nhuận,... hoặc tối thiểu hoá khoảng cách, thời gian, chi phí,...). Quy trình giải một bài toán tối ưu hoá gồm ba bước: Bước 1, xác định đại lượng Q mà ta cần làm cho giá trị của nó lớn nhất hoặc nhỏ nhất và biểu diễn nó qua các đại lượng khác trong bài toán; Bước 2, chọn một đại lượng thích hợp làm biến x, biểu diễn các đại lượng khác ở Bước 1 theo x để được hàm số Q = Q(x), tìm tập xác định của hàm số này; Bước 3, tìm giá trị lớn nhất hoặc giá trị nhỏ nhất của hàm số Q = Q(x) bằng các phương pháp đã biết (lập bảng biến thiên) và kết luận theo yêu cầu bài toán thực tế.",
+      "keyPoints": [
+        "Bước 1: Xác định đại lượng Q cần tối ưu và các ràng buộc thực tế của bài toán.",
+        "Bước 2: Chọn biến x thích hợp, biểu diễn Q theo x để được hàm số Q = Q(x) và tìm tập xác định của x.",
+        "Bước 3: Dùng đạo hàm và bảng biến thiên để tìm giá trị lớn nhất hoặc nhỏ nhất của Q(x) trên miền xác định, rồi kết luận theo yêu cầu thực tế.",
+        "Kết quả đáng nhớ: nếu hình trụ có thể tích V không đổi thì diện tích toàn phần của hình trụ nhỏ nhất khi chiều cao bằng đường kính đáy."
+      ],
+      "example": "Cần làm hộp đựng hình trụ thể tích 1000 cm³: diện tích toàn phần S(r) = 2πr² + 2000/r (r > 0) đạt giá trị nhỏ nhất khi r = ∛(500/π) ≈ 5,42 cm; khi đó chiều cao h = 100/∛(250π) ≈ 10,84 cm (xấp xỉ bằng đường kính đáy 2r)."
+    }
+  ],
+  "glossary": [
+    {"term": "Tốc độ thay đổi tức thời", "definition": "Đạo hàm f'(a) của hàm số y = f(x) tại x = a, biểu thị tốc độ thay đổi của y đối với x tại thời điểm (hoặc vị trí) x = a."},
+    {"term": "Bài toán tối ưu hoá", "definition": "Bài toán tìm giá trị lớn nhất hoặc giá trị nhỏ nhất của một đại lượng thực tế (diện tích, thể tích, lợi nhuận, chi phí, khoảng cách,...) bằng cách đưa về bài toán tìm giá trị lớn nhất, nhỏ nhất của một hàm số."},
+    {"term": "Chi phí biên", "definition": "Đạo hàm C'(x) của hàm chi phí C(x), xấp xỉ bằng chi phí cần thiết để sản xuất thêm một đơn vị hàng hoá tiếp theo (đơn vị hàng hoá thứ x+1)."},
+    {"term": "Hàm cầu", "definition": "Hàm số p(x) biểu thị giá bán mỗi đơn vị sản phẩm mà công ty có thể đặt ra khi bán được x đơn vị; thường được xem là một hàm giảm theo x."},
+    {"term": "Hàm doanh thu", "definition": "Hàm số R(x) = x · p(x), biểu thị tổng doanh thu thu được khi bán được x đơn vị sản phẩm với giá bán mỗi đơn vị là p(x)."},
+    {"term": "Hàm lợi nhuận", "definition": "Hàm số P(x) = R(x) − C(x), biểu thị lợi nhuận thu được khi bán được x đơn vị sản phẩm, bằng doanh thu trừ đi chi phí."}
+  ]
+}

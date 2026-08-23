@@ -1,0 +1,49 @@
+{
+  "id": "bai03",
+  "chuDeId": "c1",
+  "chuDeTitle": "Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số",
+  "baiNumber": 3,
+  "title": "Đường tiệm cận của đồ thị hàm số",
+  "objectives": [
+    "Nhận biết hình ảnh hình học của đường tiệm cận ngang, đường tiệm cận đứng, đường tiệm cận xiên của đồ thị hàm số."
+  ],
+  "sections": [
+    {
+      "heading": "1. Đường tiệm cận ngang",
+      "summary": "Đường thẳng y = y₀ gọi là đường tiệm cận ngang (hay tiệm cận ngang) của đồ thị hàm số y = f(x) nếu lim(x→+∞) f(x) = y₀ hoặc lim(x→−∞) f(x) = y₀. Về mặt hình học, khi x dần ra vô cực theo một chiều thì khoảng cách từ điểm M(x; f(x)) trên đồ thị đến đường thẳng y = y₀ dần về 0. Một đồ thị có thể có một hoặc hai tiệm cận ngang (ứng với hai giới hạn khi x → +∞ và x → −∞), hoặc không có tiệm cận ngang nào.",
+      "keyPoints": [
+        "Định nghĩa: y = y₀ là tiệm cận ngang nếu lim(x→+∞) f(x) = y₀ hoặc lim(x→−∞) f(x) = y₀.",
+        "Hàm số phân thức y = (ax + b)/(cx + d) (c ≠ 0, ad − bc ≠ 0) có tiệm cận ngang là đường thẳng y = a/c.",
+        "Một hàm số có thể có hai tiệm cận ngang khác nhau, ứng với hai chiều x → +∞ và x → −∞ (ví dụ y = √(x² + 1)/x có hai tiệm cận ngang y = 1 và y = −1)."
+      ],
+      "example": "Hàm số y = (3x − 2)/(x + 1) có lim(x→+∞) y = lim(x→−∞) y = 3 nên đồ thị có tiệm cận ngang là đường thẳng y = 3."
+    },
+    {
+      "heading": "2. Đường tiệm cận đứng",
+      "summary": "Đường thẳng x = x₀ gọi là đường tiệm cận đứng (hay tiệm cận đứng) của đồ thị hàm số y = f(x) nếu ít nhất một trong các điều kiện sau được thoả mãn: lim(x→x₀⁺) f(x) = +∞, lim(x→x₀⁺) f(x) = −∞, lim(x→x₀⁻) f(x) = −∞, lim(x→x₀⁻) f(x) = +∞ (tức một trong bốn giới hạn một phía của f(x) tại x₀ là vô cực).",
+      "keyPoints": [
+        "Định nghĩa: x = x₀ là tiệm cận đứng nếu một trong bốn giới hạn một phía của f(x) tại x₀ bằng +∞ hoặc −∞.",
+        "Với hàm phân thức, tiệm cận đứng thường xảy ra tại các nghiệm của mẫu số mà không đồng thời là nghiệm của tử số.",
+        "Nếu một giá trị x₀ vừa là nghiệm của tử vừa là nghiệm của mẫu và giới hạn tại đó vẫn hữu hạn thì x₀ chỉ là điểm gián đoạn bỏ được, không phải là tiệm cận đứng (chẳng hạn (x²+2x−3)/(x−1) = x+3 với x ≠ 1, không có tiệm cận đứng tại x = 1).",
+        "Một đồ thị có thể có nhiều hơn một đường tiệm cận đứng."
+      ],
+      "example": "Hàm số y = (3 − x)/(x + 2) có lim(x→−2⁺) y = +∞ (và lim(x→−2⁻) y = −∞) nên đồ thị có tiệm cận đứng là đường thẳng x = −2."
+    },
+    {
+      "heading": "3. Đường tiệm cận xiên",
+      "summary": "Đường thẳng y = ax + b (a ≠ 0) gọi là đường tiệm cận xiên (hay tiệm cận xiên) của đồ thị hàm số y = f(x) nếu lim(x→+∞) [f(x) − (ax + b)] = 0 hoặc lim(x→−∞) [f(x) − (ax + b)] = 0. Khi đó có thể tính a = lim(x→±∞) f(x)/x và b = lim(x→±∞) [f(x) − ax]. Với hàm phân thức y = (ax² + bx + c)/(px + q) mà đa thức tử không chia hết cho đa thức mẫu, ta viết y = (mx + n) + r/(px + q) (r ≠ 0); khi đó y = mx + n chính là tiệm cận xiên vì r/(px+q) → 0 khi x → ±∞.",
+      "keyPoints": [
+        "Định nghĩa: y = ax + b (a ≠ 0) là tiệm cận xiên nếu lim(x→+∞) [f(x) − (ax+b)] = 0 hoặc lim(x→−∞) [f(x) − (ax+b)] = 0.",
+        "Cách tìm hệ số: a = lim f(x)/x, b = lim [f(x) − ax] (khi x → +∞ hoặc x → −∞).",
+        "Với hàm phân thức có bậc tử lớn hơn bậc mẫu đúng một bậc, chia đa thức để viết y = (phần tiệm cận xiên) + (phần dư dần về 0 khi x → ±∞).",
+        "Đồ thị hàm số dạng y = (ax²+bx+c)/(px+q) nhận giao điểm của hai đường tiệm cận (đứng và xiên) làm tâm đối xứng, nhận hai đường phân giác của các góc tạo bởi hai tiệm cận làm hai trục đối xứng."
+      ],
+      "example": "Hàm số y = (x² − x + 2)/(x + 1) = x − 2 + 4/(x + 1) có lim(x→±∞) [y − (x−2)] = 0 nên đồ thị có tiệm cận xiên là đường thẳng y = x − 2."
+    }
+  ],
+  "glossary": [
+    {"term": "Tiệm cận ngang", "definition": "Đường thẳng y = y₀ mà đồ thị hàm số tiến lại gần vô hạn khi x → +∞ hoặc x → −∞, tức lim(x→+∞) f(x) = y₀ hoặc lim(x→−∞) f(x) = y₀."},
+    {"term": "Tiệm cận đứng", "definition": "Đường thẳng x = x₀ mà đồ thị hàm số tiến ra vô cực khi x tiến tới x₀ từ một phía, tức một trong các giới hạn một phía của f(x) tại x₀ bằng +∞ hoặc −∞."},
+    {"term": "Tiệm cận xiên", "definition": "Đường thẳng y = ax + b (a ≠ 0) mà đồ thị hàm số tiến lại gần vô hạn khi x → +∞ hoặc x → −∞, tức lim [f(x) − (ax+b)] = 0 khi x → +∞ hoặc x → −∞."}
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "bai16",
+  "chuDeId": "c5",
+  "chuDeTitle": "Phương pháp toạ độ trong không gian",
+  "baiNumber": 16,
+  "title": "Công thức tính góc trong không gian",
+  "objectives": [
+    "Tính góc giữa hai đường thẳng, góc giữa đường thẳng và mặt phẳng, góc giữa hai mặt phẳng.",
+    "Vận dụng kiến thức về góc vào một số bài toán liên quan đến thực tiễn."
+  ],
+  "sections": [
+    {
+      "heading": "1. Công thức tính góc giữa hai đường thẳng",
+      "summary": "Cho hai đường thẳng Δ, Δ′ có VTCP tương ứng u⃗ = (a; b; c), u′⃗ = (a′; b′; c′). Góc giữa Δ và Δ′ (kí hiệu (Δ, Δ′)) luôn là góc không tù và được tính theo công thức cos(Δ, Δ′) = |cos(u⃗, u′⃗)| = |aa′ + bb′ + cc′| / (√(a² + b² + c²)·√(a′² + b′² + c′²)). Nếu không nói gì thêm, góc được tính theo đơn vị độ và làm tròn đến chữ số thập phân thứ nhất.",
+      "keyPoints": [
+        "cos(Δ, Δ′) = |cos(u⃗, u′⃗)| = |aa′ + bb′ + cc′| / (√(a² + b² + c²)·√(a′² + b′² + c′²)).",
+        "Góc giữa hai đường thẳng luôn nhận giá trị từ 0° đến 90°.",
+        "Công thức áp dụng được cho cả hai đường thẳng cắt nhau, song song, trùng nhau hoặc chéo nhau."
+      ],
+      "example": "Δ có u⃗ = (1; 1; 0), Δ′ có u′⃗ = (2; 2; 1): cos(Δ, Δ′) = |1·2 + 1·2 + 0·1| / (√2·√9) = 4/(3√2) = 2√2/3 ≈ 0,943, suy ra (Δ, Δ′) ≈ 19,5°."
+    },
+    {
+      "heading": "2. Công thức tính góc giữa đường thẳng và mặt phẳng",
+      "summary": "Cho đường thẳng Δ có VTCP u⃗ = (a; b; c) và mặt phẳng (P) có VTPT n⃗ = (A; B; C). Góc giữa Δ và (P) được tính theo công thức sin(Δ, (P)) = |cos(u⃗, n⃗)| = |aA + bB + cC| / (√(a² + b² + c²)·√(A² + B² + C²)).",
+      "keyPoints": [
+        "sin(Δ, (P)) = |cos(u⃗, n⃗)| = |aA + bB + cC| / (√(a² + b² + c²)·√(A² + B² + C²)).",
+        "Góc giữa đường thẳng và mặt phẳng nhận giá trị từ 0° đến 90°.",
+        "Nếu Δ vuông góc với (P) (u⃗ cùng phương n⃗) thì (Δ, (P)) = 90°; nếu Δ song song hoặc nằm trong (P) thì (Δ, (P)) = 0°."
+      ],
+      "example": "Trục Ox có i⃗ = (1; 0; 0), mặt phẳng (P): √2x - y + z + 2 = 0 có n⃗ = (√2; -1; 1): sin(Ox, (P)) = |1·√2| / (1·√4) = √2/2, suy ra Ox tạo với (P) góc 45°."
+    },
+    {
+      "heading": "3. Công thức tính góc giữa hai mặt phẳng",
+      "summary": "Cho hai mặt phẳng (P), (Q) có VTPT tương ứng n⃗ = (A; B; C), n′⃗ = (A′; B′; C′). Góc giữa (P) và (Q), kí hiệu ((P), (Q)), được tính theo công thức cos((P), (Q)) = |cos(n⃗, n′⃗)| = |AA′ + BB′ + CC′| / (√(A² + B² + C²)·√(A′² + B′² + C′²)).",
+      "keyPoints": [
+        "cos((P), (Q)) = |cos(n⃗, n′⃗)| = |AA′ + BB′ + CC′| / (√(A² + B² + C²)·√(A′² + B′² + C′²)).",
+        "Góc giữa hai mặt phẳng nhận giá trị từ 0° đến 90°.",
+        "Nếu (P) ⊥ (Q) thì AA′ + BB′ + CC′ = 0; nếu (P) // (Q) hoặc trùng nhau thì góc giữa chúng bằng 0°."
+      ],
+      "example": "(P): x + 2y + 2z - 1 = 0, (Q): x + y - z + 1 = 0 có n⃗ = (1; 2; 2), n′⃗ = (1; 1; -1): cos((P), (Q)) = |1 + 2 - 2| / (3·√3) = √3/9, suy ra ((P), (Q)) ≈ 78,9°."
+    }
+  ],
+  "glossary": [
+    {"term": "Góc giữa hai đường thẳng", "definition": "Góc không tù tạo bởi hai đường thẳng bất kì lần lượt song song (hoặc trùng) với hai đường thẳng đã cho."},
+    {"term": "Góc giữa đường thẳng và mặt phẳng", "definition": "Góc giữa đường thẳng đó và hình chiếu vuông góc của nó trên mặt phẳng (bằng 90° nếu đường thẳng vuông góc với mặt phẳng)."},
+    {"term": "Góc giữa hai mặt phẳng", "definition": "Góc giữa hai đường thẳng bất kì lần lượt vuông góc với hai mặt phẳng đó."}
+  ]
+}

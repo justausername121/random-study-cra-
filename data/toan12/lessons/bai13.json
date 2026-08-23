@@ -1,0 +1,50 @@
+{
+  "id": "bai13",
+  "chuDeId": "c4",
+  "chuDeTitle": "Nguyên hàm và tích phân",
+  "baiNumber": 13,
+  "title": "Ứng dụng hình học của tích phân",
+  "objectives": [
+    "Sử dụng tích phân để tính diện tích của một số hình phẳng.",
+    "Sử dụng tích phân để tính thể tích của một số vật thể, đặc biệt là khối tròn xoay."
+  ],
+  "sections": [
+    {
+      "heading": "I. Ứng dụng tích phân để tính diện tích hình phẳng",
+      "summary": "Diện tích S của hình phẳng giới hạn bởi đồ thị của hàm số f(x) liên tục, trục hoành và hai đường thẳng x = a, x = b (a < b) được tính bằng công thức S = ∫<sub>a</sub><sup>b</sup> |f(x)|dx. Tổng quát hơn, diện tích của hình phẳng giới hạn bởi hai đồ thị y = f(x), y = g(x) (liên tục trên [a;b]) và hai đường thẳng x = a, x = b là S = ∫<sub>a</sub><sup>b</sup> |f(x) - g(x)|dx. Nếu hiệu f(x) - g(x) không đổi dấu trên [a;b] thì có thể bỏ dấu giá trị tuyệt đối ở ngoài dấu tích phân; nếu hiệu này đổi dấu, ta phải tách cận tại các điểm mà f(x) = g(x) rồi xét dấu trên từng đoạn con.",
+      "keyPoints": [
+        "Diện tích hình phẳng giới hạn bởi y = f(x), trục hoành, x = a, x = b: S = ∫<sub>a</sub><sup>b</sup> |f(x)|dx.",
+        "Diện tích hình phẳng giới hạn bởi hai đồ thị y = f(x), y = g(x) và hai đường thẳng x = a, x = b: S = ∫<sub>a</sub><sup>b</sup> |f(x) - g(x)|dx.",
+        "Nếu f(x) - g(x) không đổi dấu trên [a;b] thì ∫<sub>a</sub><sup>b</sup> |f(x)-g(x)|dx = |∫<sub>a</sub><sup>b</sup> [f(x)-g(x)]dx|.",
+        "Khi hàm dưới dấu giá trị tuyệt đối đổi dấu trên [a;b] (ví dụ f(x) = sin x trên [0;2π]), cần tách tích phân tại các nghiệm của f(x) = g(x) rồi xét dấu từng đoạn trước khi bỏ dấu giá trị tuyệt đối."
+      ],
+      "example": "Tính diện tích hình phẳng giới hạn bởi hai parabol y = 4 - x², y = x² và hai đường thẳng x = -1, x = 1. Ta có S = ∫<sub>-1</sub><sup>1</sup> |(4-x²)-x²|dx = ∫<sub>-1</sub><sup>1</sup> |4-2x²|dx. Vì trên [-1;1], 4-2x² ≥ 4-2 = 2 > 0 nên S = ∫<sub>-1</sub><sup>1</sup>(4-2x²)dx = [4x - (2/3)x³]<sub>-1</sub><sup>1</sup> = 20/3 (đơn vị diện tích)."
+    },
+    {
+      "heading": "II. Ứng dụng tích phân để tính thể tích vật thể",
+      "summary": "Nếu một vật thể được giới hạn bởi hai mặt phẳng vuông góc với trục Ox tại x = a và x = b, và mặt phẳng vuông góc với Ox tại hoành độ x cắt vật thể theo thiết diện có diện tích S(x) (S(x) liên tục trên [a;b]), thì thể tích của vật thể là V = ∫<sub>a</sub><sup>b</sup> S(x)dx. Áp dụng công thức này, ta có thể suy ra lại các công thức thể tích khối lăng trụ (V = Sh), khối chóp (V = (1/3)Sh) đã biết. Đặc biệt, khi quay hình phẳng giới hạn bởi đồ thị y = f(x) (liên tục, không âm trên [a;b]), trục hoành và hai đường thẳng x = a, x = b quanh trục Ox, ta được một khối tròn xoay có thể tích V = π∫<sub>a</sub><sup>b</sup> f<sup>2</sup>(x)dx.",
+      "keyPoints": [
+        "Thể tích vật thể có thiết diện diện tích S(x) tại hoành độ x, giới hạn bởi hai mặt phẳng x = a và x = b: V = ∫<sub>a</sub><sup>b</sup> S(x)dx.",
+        "Khối tròn xoay: hình khối sinh ra khi quay hình phẳng giới hạn bởi y = f(x) (liên tục, không âm trên [a;b]), trục hoành và hai đường thẳng x = a, x = b quanh trục Ox.",
+        "Thể tích khối tròn xoay: V = π∫<sub>a</sub><sup>b</sup> f<sup>2</sup>(x)dx (thiết diện vuông góc với Ox là hình tròn bán kính f(x)).",
+        "Từ công thức tổng quát V = ∫S(x)dx suy ra: thể tích khối lăng trụ V = Sh; thể tích khối chóp (đáy diện tích S, chiều cao h) V = (1/3)Sh.",
+        "Thể tích khối cầu bán kính R: V = π∫<sub>-R</sub><sup>R</sup> (R²-x²)dx = (4/3)πR³."
+      ],
+      "example": "Tính thể tích khối tròn xoay sinh ra khi quay hình phẳng giới hạn bởi đồ thị y = √x, trục hoành và hai đường thẳng x = 0, x = 1 quanh trục Ox. Ta có V = π∫<sub>0</sub><sup>1</sup> (√x)²dx = π∫<sub>0</sub><sup>1</sup> x dx = π·[x²/2]<sub>0</sub><sup>1</sup> = π/2 (đơn vị thể tích)."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Hình phẳng",
+      "definition": "Miền phẳng giới hạn bởi đồ thị của một hoặc hai hàm số liên tục cùng với các đường thẳng x = a, x = b (và/hoặc trục hoành); diện tích của hình phẳng được tính bằng tích phân của trị tuyệt đối hiệu các hàm số trên đoạn [a;b]."
+    },
+    {
+      "term": "Thể tích",
+      "definition": "Thể tích của một vật thể giới hạn bởi hai mặt phẳng vuông góc với trục Ox tại x = a, x = b, có diện tích thiết diện S(x) liên tục trên [a;b], được tính bởi công thức V = ∫<sub>a</sub><sup>b</sup> S(x)dx."
+    },
+    {
+      "term": "Khối tròn xoay",
+      "definition": "Hình khối sinh ra khi quay hình phẳng giới hạn bởi đồ thị y = f(x) (liên tục, không âm trên [a;b]), trục hoành và hai đường thẳng x = a, x = b xung quanh trục hoành."
+    }
+  ]
+}

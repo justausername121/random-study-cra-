@@ -1,0 +1,66 @@
+{
+  "id": "bai04",
+  "chuDeId": "c1",
+  "chuDeTitle": "Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số",
+  "baiNumber": 4,
+  "title": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số",
+  "objectives": [
+    "Mô tả sơ đồ tổng quát để khảo sát hàm số (tìm tập xác định, xét chiều biến thiên, tìm cực trị, tìm tiệm cận, lập bảng biến thiên, vẽ đồ thị).",
+    "Khảo sát tập xác định, chiều biến thiên, cực trị, tiệm cận, bảng biến thiên và vẽ đồ thị của các hàm số: hàm bậc ba, hàm phân thức hữu tỉ đơn giản.",
+    "Nhận biết tính đối xứng (trục đối xứng, tâm đối xứng) của đồ thị các hàm số trên."
+  ],
+  "sections": [
+    {
+      "heading": "1. Sơ đồ khảo sát hàm số",
+      "summary": "Sơ đồ khảo sát hàm số y = f(x) gồm ba bước lớn: (1) Tìm tập xác định của hàm số; (2) Khảo sát sự biến thiên của hàm số: tính đạo hàm y', tìm các điểm mà tại đó y' bằng 0 hoặc không tồn tại, xét dấu y' để chỉ ra các khoảng đồng biến, nghịch biến, tìm cực trị của hàm số, tính các giới hạn tại vô cực (hoặc tại các điểm mà hàm số không xác định) để tìm tiệm cận của đồ thị (nếu có), rồi lập bảng biến thiên; (3) Vẽ đồ thị của hàm số dựa vào bảng biến thiên, có thể xác định thêm giao điểm của đồ thị với các trục toạ độ (khi việc tính toán không quá phức tạp) và lưu ý đến tính đối xứng của đồ thị (đối xứng tâm, đối xứng trục).",
+      "keyPoints": [
+        "Bước 1: Tìm tập xác định của hàm số.",
+        "Bước 2: Khảo sát sự biến thiên — tính đạo hàm, xét dấu để có chiều biến thiên và cực trị, tìm giới hạn/tiệm cận, lập bảng biến thiên.",
+        "Bước 3: Vẽ đồ thị dựa vào bảng biến thiên; nên xác định thêm giao điểm với các trục toạ độ và lưu ý tính đối xứng của đồ thị."
+      ],
+      "example": null
+    },
+    {
+      "heading": "2. Khảo sát và vẽ đồ thị hàm số đa thức bậc ba",
+      "summary": "Áp dụng sơ đồ khảo sát cho hàm số bậc ba y = ax³ + bx² + cx + d (a ≠ 0). Tập xác định của hàm đa thức luôn là R và đồ thị hàm bậc ba không có tiệm cận. Đồ thị hàm số bậc ba nhận điểm có hoành độ x = −b/(3a) (nghiệm của y'' = 0) làm tâm đối xứng. Tuỳ theo số nghiệm của phương trình y' = 0 mà đồ thị hàm bậc ba có hai điểm cực trị hoặc không có điểm cực trị nào.",
+      "keyPoints": [
+        "Tập xác định của hàm đa thức bậc ba luôn là R.",
+        "Đồ thị hàm bậc ba không có tiệm cận.",
+        "Đồ thị có tâm đối xứng là điểm có hoành độ x = −b/(3a) (nghiệm của y'' = 0).",
+        "Đồ thị có hai điểm cực trị nếu y' = 3ax² + 2bx + c có hai nghiệm phân biệt, hoặc không có cực trị nếu y' vô nghiệm hoặc có nghiệm kép."
+      ],
+      "example": "Khảo sát y = −x³ + 3x² − 4: y' = −3x² + 6x = 0 ⇔ x = 0 hoặc x = 2; hàm số đạt cực tiểu tại x = 0 (y = −4), đạt cực đại tại x = 2 (y = 0); đồ thị cắt Ox tại (−1; 0) và (2; 0) (điểm kép), nhận điểm (1; −2) làm tâm đối xứng."
+    },
+    {
+      "heading": "3. Khảo sát và vẽ đồ thị hàm số phân thức y = (ax+b)/(cx+d)",
+      "summary": "Với hàm số y = (ax + b)/(cx + d) (c ≠ 0, ad − bc ≠ 0), tập xác định là R \\ {−d/c}. Đạo hàm y' = (ad − bc)/(cx + d)² không đổi dấu trên từng khoảng xác định nên hàm số luôn đơn điệu (đồng biến nếu ad − bc > 0, nghịch biến nếu ad − bc < 0) trên từng khoảng xác định và không có cực trị. Đồ thị có tiệm cận đứng x = −d/c, tiệm cận ngang y = a/c, nhận giao điểm của hai tiệm cận làm tâm đối xứng và nhận hai đường phân giác của các góc tạo bởi hai tiệm cận làm hai trục đối xứng.",
+      "keyPoints": [
+        "Tập xác định: R \\ {−d/c}.",
+        "y' = (ad − bc)/(cx + d)² không đổi dấu trên từng khoảng xác định ⇒ hàm số đơn điệu trên từng khoảng, không có cực trị.",
+        "Tiệm cận đứng x = −d/c, tiệm cận ngang y = a/c.",
+        "Đồ thị nhận giao điểm của hai tiệm cận làm tâm đối xứng, hai đường phân giác của góc tạo bởi hai tiệm cận làm trục đối xứng."
+      ],
+      "example": "Khảo sát y = (x+1)/(x−2): tập xác định R \\ {2}; y' = −3/(x−2)² < 0 nên hàm số nghịch biến trên từng khoảng xác định; tiệm cận đứng x = 2, tiệm cận ngang y = 1; đồ thị cắt Oy tại (0; −1/2), cắt Ox tại (−1; 0), nhận I(2; 1) làm tâm đối xứng."
+    },
+    {
+      "heading": "4. Khảo sát và vẽ đồ thị hàm số phân thức y = (ax²+bx+c)/(px+q)",
+      "summary": "Với hàm số y = (ax² + bx + c)/(px + q) (a ≠ 0, p ≠ 0, đa thức tử không chia hết cho đa thức mẫu), ta viết được y = (mx + n) + r/(px + q) (r ≠ 0). Tập xác định là R \\ {−q/p}. Đồ thị có tiệm cận đứng x = −q/p và tiệm cận xiên y = mx + n, nhận giao điểm của hai tiệm cận làm tâm đối xứng và nhận hai đường phân giác của các góc tạo bởi hai tiệm cận làm hai trục đối xứng.",
+      "keyPoints": [
+        "Tập xác định: R \\ {−q/p}.",
+        "Chia đa thức để viết y = (phần tiệm cận xiên) + r/(px+q), từ đó dễ dàng tính đạo hàm và xét dấu.",
+        "Tiệm cận đứng x = −q/p; tiệm cận xiên y = mx + n (phần thương của phép chia đa thức).",
+        "Đồ thị nhận giao điểm hai tiệm cận làm tâm đối xứng, hai đường phân giác của góc tạo bởi hai tiệm cận làm trục đối xứng."
+      ],
+      "example": "Khảo sát y = (x²−x−1)/(x−2) = x + 1 + 1/(x−2): tập xác định R \\ {2}; hàm số đạt cực đại tại x = 1 (y = 1), cực tiểu tại x = 3 (y = 5); tiệm cận đứng x = 2, tiệm cận xiên y = x + 1."
+    }
+  ],
+  "glossary": [
+    {"term": "Chiều biến thiên", "definition": "Xu hướng tăng hay giảm của giá trị hàm số khi biến số tăng, thể hiện qua tính đồng biến hoặc nghịch biến của hàm số trên từng khoảng."},
+    {"term": "Bảng biến thiên", "definition": "Bảng tóm tắt tập xác định, dấu đạo hàm, cực trị, các giới hạn (tiệm cận nếu có) và chiều biến thiên của hàm số, làm cơ sở để vẽ đồ thị."},
+    {"term": "Cực trị", "definition": "Tên gọi chung của cực đại và cực tiểu của hàm số, được xác định trực tiếp từ bảng biến thiên trong quá trình khảo sát hàm số."},
+    {"term": "Tiệm cận", "definition": "Tên gọi chung của tiệm cận ngang, tiệm cận đứng và tiệm cận xiên của đồ thị hàm số, được tìm trong bước khảo sát sự biến thiên."},
+    {"term": "Đồ thị", "definition": "Hình biểu diễn tập hợp các điểm (x; f(x)) trong mặt phẳng toạ độ, được vẽ dựa vào bảng biến thiên sau khi khảo sát hàm số."},
+    {"term": "Tâm đối xứng", "definition": "Điểm mà đồ thị hàm số đối xứng qua đó, chẳng hạn điểm uốn (nghiệm của y''=0) của đồ thị hàm bậc ba, hoặc giao điểm hai tiệm cận của đồ thị hàm phân thức."},
+    {"term": "Trục đối xứng", "definition": "Đường thẳng mà đồ thị hàm số đối xứng qua đó, chẳng hạn hai đường phân giác của góc tạo bởi hai tiệm cận của đồ thị hàm phân thức."}
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "bai09",
+  "chuDeId": "c3",
+  "chuDeTitle": "Các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm",
+  "baiNumber": 9,
+  "title": "Khoảng biến thiên và khoảng tứ phân vị",
+  "objectives": [
+    "Tính khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.",
+    "Hiểu ý nghĩa, vai trò của khoảng biến thiên, khoảng tứ phân vị trong việc đo mức độ phân tán của mẫu số liệu ghép nhóm."
+  ],
+  "sections": [
+    {
+      "heading": "1. Khoảng biến thiên",
+      "summary": "Xét mẫu số liệu ghép nhóm gồm k nhóm [a<sub>1</sub>; a<sub>2</sub>), [a<sub>2</sub>; a<sub>3</sub>), ..., [a<sub>k</sub>; a<sub>k+1</sub>) với các tần số tương ứng m<sub>1</sub>, m<sub>2</sub>, ..., m<sub>k</sub> (m<sub>1</sub> > 0, m<sub>k</sub> > 0) và cỡ mẫu n = m<sub>1</sub> + ... + m<sub>k</sub>. Khoảng biến thiên của mẫu số liệu ghép nhóm là R = a<sub>k+1</sub> − a<sub>1</sub>, tức là hiệu giữa đầu mút phải của nhóm cuối cùng và đầu mút trái của nhóm đầu tiên. Khoảng biến thiên của mẫu số liệu ghép nhóm là một giá trị xấp xỉ (thường lớn hơn) cho khoảng biến thiên của mẫu số liệu gốc chưa ghép nhóm, vì ta không biết chính xác giá trị lớn nhất, nhỏ nhất của mẫu gốc mà chỉ biết chúng nằm trong nhóm đầu và nhóm cuối.",
+      "keyPoints": [
+        "Công thức: R = a<sub>k+1</sub> − a<sub>1</sub> (đầu mút phải nhóm cuối trừ đầu mút trái nhóm đầu)",
+        "R chỉ phụ thuộc vào đầu mút của nhóm đầu tiên và nhóm cuối cùng, không phụ thuộc vào các tần số",
+        "R của mẫu ghép nhóm là giá trị xấp xỉ cho R của mẫu số liệu gốc; thường R(ghép nhóm) ≥ R(gốc)",
+        "Khoảng biến thiên dùng để đo mức độ phân tán của mẫu số liệu: R càng lớn thì mẫu số liệu càng phân tán"
+      ],
+      "example": "Thời gian sử dụng mạng xã hội trong ngày (phút) của Tổ 1: [0;10) có 2 bạn, [10;30) có 4 bạn, [30;60) có 3 bạn, [60;90) có 1 bạn. Của Tổ 2: [0;10) có 5 bạn, [10;30) có 1 bạn, [30;60) có 3 bạn, [60;90) có 0 bạn. Khoảng biến thiên: R<sub>1</sub> = 90 − 0 = 90; R<sub>2</sub> = 60 − 0 = 60. Do R<sub>1</sub> > R<sub>2</sub> nên thời gian sử dụng mạng xã hội của Tổ 1 phân tán hơn Tổ 2."
+    },
+    {
+      "heading": "2. Khoảng tứ phân vị",
+      "summary": "Với mẫu số liệu ghép nhóm cỡ n như trên, tứ phân vị thứ r (r = 1, 2, 3) được tính theo công thức Q<sub>r</sub> = a<sub>p</sub> + [(r·n/4 − (m<sub>1</sub>+...+m<sub>p−1</sub>)) / m<sub>p</sub>] · (a<sub>p+1</sub> − a<sub>p</sub>), trong đó [a<sub>p</sub>; a<sub>p+1</sub>) là nhóm chứa tứ phân vị thứ r, tức là nhóm mà tần số tích lũy (tính đến hết nhóm đó) vừa vượt quá mốc r·n/4. Khoảng tứ phân vị của mẫu số liệu ghép nhóm, kí hiệu Δ<sub>Q</sub>, là hiệu số giữa tứ phân vị thứ ba Q<sub>3</sub> và tứ phân vị thứ nhất Q<sub>1</sub>: Δ<sub>Q</sub> = Q<sub>3</sub> − Q<sub>1</sub>. Do Δ<sub>Q</sub> chỉ phụ thuộc vào nửa giữa của mẫu số liệu (từ Q<sub>1</sub> đến Q<sub>3</sub>) nên không bị ảnh hưởng bởi các giá trị bất thường ở hai đầu mẫu, và có thể dùng để phát hiện, loại bỏ giá trị bất thường.",
+      "keyPoints": [
+        "Công thức tứ phân vị thứ r: Q<sub>r</sub> = a<sub>p</sub> + [(r·n/4 − tần số tích lũy trước nhóm p) / m<sub>p</sub>] · (a<sub>p+1</sub> − a<sub>p</sub>)",
+        "Khoảng tứ phân vị: Δ<sub>Q</sub> = Q<sub>3</sub> − Q<sub>1</sub>",
+        "Δ<sub>Q</sub> xấp xỉ cho khoảng tứ phân vị của mẫu số liệu gốc; Δ<sub>Q</sub> càng lớn thì mẫu số liệu càng phân tán",
+        "Δ<sub>Q</sub> không bị ảnh hưởng bởi giá trị bất thường vì chỉ phụ thuộc vào nửa giữa của mẫu số liệu"
+      ],
+      "example": "Thời gian chờ khám bệnh (phút) tại phòng khám X: [0;5) có 3 người, [5;10) có 12 người, [10;15) có 15 người, [15;20) có 8 người (n = 38). Nhóm chứa Q<sub>1</sub> là [5;10): Q<sub>1</sub> = 5 + [(38/4 − 3)/12]·5 ≈ 7,71. Nhóm chứa Q<sub>3</sub> là [10;15): Q<sub>3</sub> = 10 + [(3·38/4 − 15)/15]·5 = 14,5. Vậy Δ<sub>Q</sub> = 14,5 − 7,71 = 6,79 (phút). Nếu phòng khám Y có Δ<sub>Q</sub> = 9,23 > 6,79 thì thời gian chờ khám tại phòng khám Y phân tán hơn tại phòng khám X."
+    }
+  ],
+  "glossary": [
+    {"term": "Khoảng biến thiên", "definition": "Của mẫu số liệu ghép nhóm có nhóm đầu [a1;a2) và nhóm cuối [ak;ak+1): R = ak+1 − a1, hiệu giữa đầu mút phải của nhóm cuối cùng và đầu mút trái của nhóm đầu tiên. Dùng để đo mức độ phân tán, R càng lớn mẫu càng phân tán."},
+    {"term": "Khoảng tứ phân vị", "definition": "Kí hiệu ΔQ, là hiệu giữa tứ phân vị thứ ba và tứ phân vị thứ nhất của mẫu số liệu ghép nhóm: ΔQ = Q3 − Q1. Không bị ảnh hưởng bởi các giá trị bất thường vì chỉ phụ thuộc vào nửa giữa của mẫu số liệu."},
+    {"term": "Tứ phân vị thứ r", "definition": "Kí hiệu Qr (r = 1, 2, 3), là giá trị ước lượng theo công thức nội suy trong nhóm chứa vị trí r·n/4 của mẫu số liệu ghép nhóm đã sắp xếp: Qr = ap + [(r·n/4 − tổng tần số các nhóm trước)/mp]·(ap+1 − ap)."}
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "bai10",
+  "chuDeId": "c3",
+  "chuDeTitle": "Các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm",
+  "baiNumber": 10,
+  "title": "Phương sai và độ lệch chuẩn",
+  "objectives": [
+    "Tính phương sai, độ lệch chuẩn của mẫu số liệu ghép nhóm.",
+    "Hiểu ý nghĩa, vai trò của phương sai, độ lệch chuẩn trong việc đo mức độ phân tán của mẫu số liệu ghép nhóm."
+  ],
+  "sections": [
+    {
+      "heading": "1. Phương sai và độ lệch chuẩn",
+      "summary": "Xét mẫu số liệu ghép nhóm với các nhóm [a<sub>i</sub>; a<sub>i+1</sub>), tần số m<sub>i</sub> (i = 1, ..., k), cỡ mẫu n = m<sub>1</sub>+...+m<sub>k</sub>. Giá trị đại diện của nhóm [a<sub>i</sub>; a<sub>i+1</sub>) là trung điểm x<sub>i</sub> = (a<sub>i</sub> + a<sub>i+1</sub>)/2, và số trung bình của mẫu là x̄ = (m<sub>1</sub>x<sub>1</sub> + ... + m<sub>k</sub>x<sub>k</sub>)/n. Phương sai của mẫu số liệu ghép nhóm, kí hiệu s<sup>2</sup>, là s<sup>2</sup> = [m<sub>1</sub>(x<sub>1</sub> − x̄)<sup>2</sup> + ... + m<sub>k</sub>(x<sub>k</sub> − x̄)<sup>2</sup>] / n. Độ lệch chuẩn, kí hiệu s, là căn bậc hai số học của phương sai: s = √(s<sup>2</sup>). Trong thực hành, phương sai thường được tính nhanh hơn theo công thức tương đương s<sup>2</sup> = (1/n)(m<sub>1</sub>x<sub>1</sub><sup>2</sup> + ... + m<sub>k</sub>x<sub>k</sub><sup>2</sup>) − x̄<sup>2</sup>. Độ lệch chuẩn có cùng đơn vị đo với đơn vị của mẫu số liệu (còn phương sai có đơn vị là bình phương đơn vị của mẫu số liệu).",
+      "keyPoints": [
+        "Giá trị đại diện của nhóm: x<sub>i</sub> = (a<sub>i</sub> + a<sub>i+1</sub>)/2; số trung bình: x̄ = (m<sub>1</sub>x<sub>1</sub>+...+m<sub>k</sub>x<sub>k</sub>)/n",
+        "Phương sai: s<sup>2</sup> = [m<sub>1</sub>(x<sub>1</sub>−x̄)<sup>2</sup>+...+m<sub>k</sub>(x<sub>k</sub>−x̄)<sup>2</sup>] / n, hoặc s<sup>2</sup> = (1/n)(m<sub>1</sub>x<sub>1</sub><sup>2</sup>+...+m<sub>k</sub>x<sub>k</sub><sup>2</sup>) − x̄<sup>2</sup>",
+        "Độ lệch chuẩn: s = √(s<sup>2</sup>); s cùng đơn vị với mẫu số liệu, còn s<sup>2</sup> có đơn vị là bình phương đơn vị đó",
+        "Phương sai, độ lệch chuẩn càng lớn thì mẫu số liệu càng phân tán xung quanh số trung bình",
+        "Chú ý: một số tài liệu dùng công thức ước lượng ŝ<sup>2</sup> = [m<sub>1</sub>(x<sub>1</sub>−x̄)<sup>2</sup>+...+m<sub>k</sub>(x<sub>k</sub>−x̄)<sup>2</sup>]/(n−1) để đo mức độ phân tán"
+      ],
+      "example": "Thay đổi cân nặng (kg) sau 3 tháng ăn kiêng: nhóm [−1;0) nam 2, nữ 2; [0;1) nam 3, nữ 7; [1;2) nam 5, nữ 12; [2;3) nam 3, nữ 7; [3;4) nam 2, nữ 2. Số trung bình của nam và nữ đều bằng 1,5 kg. Phương sai và độ lệch chuẩn: nam có s<sub>1</sub><sup>2</sup> ≈ 1,47, s<sub>1</sub> ≈ 1,21; nữ có s<sub>2</sub><sup>2</sup> = 1, s<sub>2</sub> = 1. Vậy dù trung bình thay đổi cân nặng như nhau, sự biến động (phân tán) ở nam lớn hơn ở nữ vì s<sub>1</sub> > s<sub>2</sub>."
+    },
+    {
+      "heading": "2. Sử dụng phương sai, độ lệch chuẩn đo độ rủi ro",
+      "summary": "Trong tài chính, một cách đo độ rủi ro của một phương án đầu tư là dùng độ lệch chuẩn của lợi nhuận (số tiền) thu được: độ lệch chuẩn càng lớn thì phương án đầu tư càng rủi ro, vì lợi nhuận biến động càng nhiều xung quanh mức trung bình. Tuy nhiên, không phải lúc nào cũng có thể dùng phương sai hay độ lệch chuẩn để so sánh độ rủi ro giữa hai phương án: nếu số trung bình (lợi nhuận trung bình) của hai phương án khác nhau rất nhiều thì việc so sánh trực tiếp độ lệch chuẩn sẽ không phản ánh đúng mức độ rủi ro tương đối. Khi đó người ta dùng hệ số biến thiên CV = s / x̄ (s là độ lệch chuẩn, x̄ là số trung bình) để so sánh độ phân tán một cách công bằng hơn.",
+      "keyPoints": [
+        "Độ lệch chuẩn của lợi nhuận càng lớn thì phương án đầu tư càng \"rủi ro\"",
+        "Chỉ nên so sánh độ rủi ro bằng phương sai/độ lệch chu�ẩn khi lợi nhuận trung bình của các phương án xấp xỉ nhau",
+        "Không nên dùng phương sai hay độ lệch chuẩn để so sánh độ rủi ro khi số trung bình của các phương án khác nhau rất nhiều",
+        "Hệ số biến thiên: CV = s / x̄, dùng khi cần so sánh độ phân tán của các mẫu số liệu có đơn vị khác nhau hoặc có số trung bình chênh lệch lớn"
+      ],
+      "example": "Anh An đầu tư số tiền như nhau vào hai lĩnh vực A, B trong 60 tháng, số tiền thu được mỗi tháng có cùng trung bình x̄<sub>A</sub> = x̄<sub>B</sub> = 17,5 triệu đồng, nhưng độ lệch chuẩn s<sub>A</sub> = 5 và s<sub>B</sub> ≈ 8,42. Vì s<sub>B</sub> > s<sub>A</sub> nên đầu tư vào lĩnh vực B rủi ro hơn. Ngược lại, khi so sánh lợi nhuận của nhà đầu tư nhỏ (trung bình 35 triệu đồng, s ≈ 10,95) với nhà đầu tư lớn (trung bình 535 triệu đồng, s ≈ 13,78) thì dù độ lệch chuẩn của nhà đầu tư lớn cao hơn, không nên kết luận nhà đầu tư lớn rủi ro hơn vì hai mức lợi nhuận trung bình chênh lệch quá lớn."
+    }
+  ],
+  "glossary": [
+    {"term": "Phương sai", "definition": "Của mẫu số liệu ghép nhóm, kí hiệu s2, là s2 = [m1(x1−x̄)2+...+mk(xk−x̄)2]/n (xi là giá trị đại diện nhóm i, x̄ là số trung bình). Đo mức độ phân tán của mẫu số liệu xung quanh số trung bình; có đơn vị là bình phương đơn vị của mẫu số liệu."},
+    {"term": "Độ lệch chuẩn", "definition": "Kí hiệu s, là căn bậc hai số học của phương sai: s = √(s2). Cùng đơn vị đo với mẫu số liệu; độ lệch chuẩn càng lớn thì mẫu số liệu càng phân tán."},
+    {"term": "Hệ số biến thiên (CV)", "definition": "CV = s/x̄, trong đó s là độ lệch chuẩn và x̄ là số trung bình của mẫu số liệu. Dùng để so sánh độ phân tán giữa các mẫu số liệu có đơn vị khác nhau hoặc có số trung bình khác nhau nhiều."}
+  ]
+}

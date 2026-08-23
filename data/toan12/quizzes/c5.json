@@ -1,0 +1,107 @@
+{
+  "chuDeId": "c5",
+  "chuDeTitle": "Phương pháp toạ độ trong không gian",
+  "mcq": [
+    {"id": "c5-mcq-01", "question": "Trong không gian Oxyz, cho mặt phẳng (P): x - 2y - 3z + 1 = 0. Một vectơ pháp tuyến của (P) là", "options": {"A": "(1; 2; 3)", "B": "(1; -2; 3)", "C": "(1; 2; -3)", "D": "(1; -2; -3)"}, "answer": "D"},
+    {"id": "c5-mcq-02", "question": "Trong không gian Oxyz, phương trình mặt phẳng (P) đi qua điểm I(1; -1; 2) và nhận vectơ n⃗ = (2; 1; -1) làm một vectơ pháp tuyến là", "options": {"A": "x - y + 2z + 1 = 0", "B": "x - y + 2z - 6 = 0", "C": "2x + y - z - 1 = 0", "D": "2x + y - z + 1 = 0"}, "answer": "D"},
+    {"id": "c5-mcq-03", "question": "Trong không gian Oxyz, cho đường thẳng d: (x-1)/2 = y/1 = (z-3)/(-2). Một vectơ chỉ phương của d có toạ độ là", "options": {"A": "(1; -2; 3)", "B": "(2; 1; -2)", "C": "(2; 1; 2)", "D": "(1; 2; 3)"}, "answer": "B"},
+    {"id": "c5-mcq-04", "question": "Trong không gian Oxyz, cho đường thẳng d: x = 1 + 2t, y = -2 + t, z = 3 - t. Một vectơ chỉ phương của d có toạ độ là", "options": {"A": "(1; -2; 3)", "B": "(2; 0; 0)", "C": "(2; 1; -1)", "D": "(2; 1; 1)"}, "answer": "C"},
+    {"id": "c5-mcq-05", "question": "Trong không gian Oxyz, phương trình đường thẳng d đi qua I(2; -1; 1) và nhận vectơ u⃗ = (1; 2; -3) làm một vectơ chỉ phương là", "options": {"A": "(x-1)/2 = (y-2)/(-1) = (z+3)/1", "B": "(x-2)/1 = (y-1)/2 = (z-1)/(-3)", "C": "(x-2)/1 = (y+1)/2 = (z-1)/(-3)", "D": "(x-1)/2 = (y-2)/1 = (z+3)/1"}, "answer": "C"},
+    {"id": "c5-mcq-06", "question": "Trong không gian Oxyz, cho hai điểm A(-1; 0; -1), B(2; 1; 1). Phương trình đường thẳng AB là", "options": {"A": "x=1+3t, y=t, z=1+2t", "B": "x=-1+t, y=t, z=-1+2t", "C": "x=2+t, y=1+t, z=1+2t", "D": "x=-1+3t, y=t, z=-1+2t"}, "answer": "D"},
+    {"id": "c5-mcq-07", "question": "Trong không gian Oxyz, phương trình đường thẳng d đi qua I(2; 1; -3) và vuông góc với mặt phẳng (P): x - 2y + z - 3 = 0 là", "options": {"A": "(x-2)/1 = (y-1)/(-2) = (z+3)/1", "B": "(x-2)/1 = (y-1)/2 = (z-3)/1", "C": "(x-2)/1 = (y-1)/(-2) = (z-3)/1", "D": "(x-2)/1 = (y-1)/2 = (z+3)/1"}, "answer": "A"},
+    {"id": "c5-mcq-08", "question": "Trong không gian Oxyz, cho mặt cầu (S): (x+1)² + y² + (z-3)² = 4. Toạ độ tâm I và bán kính R của (S) lần lượt là", "options": {"A": "I(1;0;3), R=4", "B": "I(1;0;3), R=2", "C": "I(-1;0;3), R=2", "D": "I(-1;0;3), R=4"}, "answer": "C"},
+    {"id": "c5-mcq-09", "question": "Trong không gian Oxyz, cho mặt cầu (S): x² + y² + z² - 2x + 4y + 2z - 3 = 0. Toạ độ tâm I và bán kính R của (S) lần lượt là", "options": {"A": "I(1;-2;-1), R=3", "B": "I(1;2;1), R=9", "C": "I(1;2;1), R=3", "D": "I(1;-2;-1), R=9"}, "answer": "A"},
+    {"id": "c5-mcq-10", "question": "Trong không gian Oxyz, cho u⃗ = (1; -2; 0) và v⃗ = (3; 1; -4). Tích có hướng [u⃗, v⃗] bằng", "options": {"A": "(8; 4; 7)", "B": "(8; -4; 7)", "C": "(-8; 4; 7)", "D": "(8; 4; -7)"}, "answer": "A"},
+    {"id": "c5-mcq-11", "question": "Trong không gian Oxyz, cho u⃗ = (2; 3; 1) và v⃗ = (4; 6; 2). Tích có hướng [u⃗, v⃗] bằng", "options": {"A": "(0; 0; 0)", "B": "(2; 3; 1)", "C": "(4; 6; 2)", "D": "(1; 1; 1)"}, "answer": "A"},
+    {"id": "c5-mcq-12", "question": "Trong không gian Oxyz, cho ba điểm A(2; 1; -1), B(3; 2; 1), C(3; 1; 4). Phương trình mặt phẳng (ABC) là", "options": {"A": "5x - 3y - z - 8 = 0", "B": "5x - 3y - z + 8 = 0", "C": "5x + 3y - z - 8 = 0", "D": "3x - 5y - z - 8 = 0"}, "answer": "A"},
+    {"id": "c5-mcq-13", "question": "Trong không gian Oxyz, cho hai mặt phẳng (α): 3x - y + z + √2 = 0 và (β): 3√2x - √2y + √2z + 1 = 0. Quan hệ giữa (α) và (β) là", "options": {"A": "song song", "B": "trùng nhau", "C": "vuông góc", "D": "cắt nhau nhưng không vuông góc"}, "answer": "A"},
+    {"id": "c5-mcq-14", "question": "Trong không gian Oxyz, cho hai mặt phẳng (α): x - 3y + 2z + 1 = 0 và (β): 5x + y - z + 2 = 0. Quan hệ giữa (α) và (β) là", "options": {"A": "song song", "B": "vuông góc", "C": "trùng nhau", "D": "cắt nhau nhưng không vuông góc"}, "answer": "B"},
+    {"id": "c5-mcq-15", "question": "Trong không gian Oxyz, cho hai mặt phẳng (α): 3x + y - z + 1 = 0 và (β): 9x + 3y - 3z + 3 = 0. Quan hệ giữa (α) và (β) là", "options": {"A": "song song (không trùng nhau)", "B": "trùng nhau", "C": "vuông góc", "D": "cắt nhau nhưng không vuông góc"}, "answer": "B"},
+    {"id": "c5-mcq-16", "question": "Trong không gian Oxyz, khoảng cách từ gốc toạ độ O đến mặt phẳng (P): 2x + 2y - z + 1 = 0 bằng", "options": {"A": "1/3", "B": "1/9", "C": "1", "D": "3"}, "answer": "A"},
+    {"id": "c5-mcq-17", "question": "Trong không gian Oxyz, khoảng cách giữa hai mặt phẳng song song (P): x + y + z + 2 = 0 và (Q): x + y + z + 6 = 0 bằng", "options": {"A": "4√3/3", "B": "4/3", "C": "2√3/3", "D": "4"}, "answer": "A"},
+    {"id": "c5-mcq-18", "question": "Trong không gian Oxyz, cho hai đường thẳng Δ có VTCP u⃗ = (1;1;0) và Δ′ có VTCP u′⃗ = (2;2;1). Góc (Δ, Δ′) xấp xỉ bằng", "options": {"A": "19,5°", "B": "45°", "C": "60,5°", "D": "70,5°"}, "answer": "A"},
+    {"id": "c5-mcq-19", "question": "Trong không gian Oxyz, góc tạo bởi trục Ox và mặt phẳng (P): √2x - y + z + 2 = 0 bằng", "options": {"A": "30°", "B": "45°", "C": "60°", "D": "90°"}, "answer": "B"},
+    {"id": "c5-mcq-20", "question": "Trong không gian Oxyz, góc giữa hai mặt phẳng (P): x + 2y + 2z - 1 = 0 và (Q): x + y - z + 1 = 0 xấp xỉ bằng", "options": {"A": "11,1°", "B": "45°", "C": "78,9°", "D": "90°"}, "answer": "C"},
+    {"id": "c5-mcq-21", "question": "Trong không gian Oxyz, cho A(0;0;4), B(0;-3;0), C(0;3;0), D(3;0;0). Góc giữa hai mặt phẳng (ABD) và (ACD) xấp xỉ bằng", "options": {"A": "77,3°", "B": "12,7°", "C": "45°", "D": "90°"}, "answer": "A"},
+    {"id": "c5-mcq-22", "question": "Trong không gian Oxyz, cho mặt cầu (S): (x-1)² + (y+3)² + z² = 5. Tâm của (S) là", "options": {"A": "(1; -3; 0)", "B": "(-1; 3; 0)", "C": "(1; 3; 0)", "D": "(-1; -3; 0)"}, "answer": "A"},
+    {"id": "c5-mcq-23", "question": "Trong không gian Oxyz, cho mặt cầu (S): x² + y² + z² - 2x + 4y - 6z - 2 = 0. Bán kính của (S) bằng", "options": {"A": "4", "B": "16", "C": "2", "D": "√14"}, "answer": "A"},
+    {"id": "c5-mcq-24", "question": "Trong không gian Oxyz, cho mặt cầu (S): x² + y² + z² - 4x + 5y - 2z - 3/4 = 0. Bán kính của (S) bằng", "options": {"A": "2√3", "B": "√7", "C": "3√2", "D": "4"}, "answer": "A"},
+    {"id": "c5-mcq-25", "question": "Trong không gian Oxyz, cho Δ1 qua A1(1;2;-1) với u1⃗=(1;-1;2) và Δ2 qua A2(4;-1;0) với u2⃗=(3;1;-1). Hai đường thẳng Δ1, Δ2 có quan hệ", "options": {"A": "song song", "B": "cắt nhau", "C": "chéo nhau", "D": "trùng nhau"}, "answer": "C"},
+    {"id": "c5-mcq-26", "question": "Trong không gian Oxyz, cho Δ1: x=1-t, y=2+t, z=-1+2t và Δ2: x=-6+s, y=5+s, z=5+2s. Hai đường thẳng Δ1, Δ2 có quan hệ", "options": {"A": "song song", "B": "cắt nhau", "C": "chéo nhau", "D": "trùng nhau"}, "answer": "B"},
+    {"id": "c5-mcq-27", "question": "Trong không gian Oxyz, cho hai điểm A(1; 2; -1), B(2; 4; 0). Một vectơ chỉ phương của đường thẳng AB là", "options": {"A": "(1; 2; 1)", "B": "(1; 2; -1)", "C": "(2; 4; 0)", "D": "(3; 6; -1)"}, "answer": "A"},
+    {"id": "c5-mcq-28", "question": "Trong không gian Oxyz, mặt phẳng đi qua ba điểm A(2;0;0), B(0;3;0), C(0;0;4) (không đi qua gốc toạ độ) có phương trình đoạn chắn là", "options": {"A": "x/2 + y/3 + z/4 = 1", "B": "2x + 3y + 4z = 1", "C": "x/2 + y/3 + z/4 = 0", "D": "4x + 3y + 2z = 1"}, "answer": "A"},
+    {"id": "c5-mcq-29", "question": "Trong không gian Oxyz, khoảng cách từ điểm M(x0;y0;z0) đến mặt phẳng (P): Ax + By + Cz + D = 0 (A²+B²+C²>0) được tính bởi công thức", "options": {"A": "d = |Ax0+By0+Cz0+D| / √(A²+B²+C²)", "B": "d = (Ax0+By0+Cz0+D) / (A²+B²+C²)", "C": "d = |Ax0+By0+Cz0| / √(A²+B²+C²)", "D": "d = √(A²+B²+C²) / |Ax0+By0+Cz0+D|"}, "answer": "A"},
+    {"id": "c5-mcq-30", "question": "Trong không gian Oxyz, cho hai đường thẳng Δ1, Δ2 có vectơ chỉ phương tương ứng u1⃗=(a1;b1;c1), u2⃗=(a2;b2;c2). Δ1 vuông góc với Δ2 khi và chỉ khi", "options": {"A": "a1a2 + b1b2 + c1c2 = 0", "B": "a1/a2 = b1/b2 = c1/c2", "C": "a1a2 - b1b2 - c1c2 = 0", "D": "a1+a2 = b1+b2 = c1+c2 = 0"}, "answer": "A"}
+  ],
+  "trueFalse": [
+    {
+      "id": "c5-tf-01",
+      "stimulus": "Trong không gian Oxyz, cho mặt phẳng (P): 2x - y + 2z - 6 = 0 và điểm A(1; 2; -1). Xét tính đúng/sai của các khẳng định sau:",
+      "statements": [
+        {"key": "a", "text": "(P) nhận vectơ n⃗ = (2; -1; 2) làm một vectơ pháp tuyến.", "answer": true},
+        {"key": "b", "text": "Điểm A thuộc mặt phẳng (P).", "answer": false},
+        {"key": "c", "text": "Khoảng cách từ A đến (P) bằng 8/3.", "answer": true},
+        {"key": "d", "text": "Vectơ m⃗ = (4; -2; 4) cũng là một vectơ pháp tuyến của (P).", "answer": true}
+      ]
+    },
+    {
+      "id": "c5-tf-02",
+      "stimulus": "Trong không gian Oxyz, cho hai đường thẳng Δ1: x=1+2t, y=-1-3t, z=2-t và Δ2: x=2+s, y=1-2s, z=3+8s. Xét tính đúng/sai của các khẳng định sau:",
+      "statements": [
+        {"key": "a", "text": "Δ1 có một vectơ chỉ phương là u1⃗ = (2; -3; -1).", "answer": true},
+        {"key": "b", "text": "Δ1 vuông góc với Δ2.", "answer": true},
+        {"key": "c", "text": "Δ2 đi qua điểm (2; 1; 3).", "answer": true},
+        {"key": "d", "text": "Δ1 và Δ2 song song với nhau.", "answer": false}
+      ]
+    },
+    {
+      "id": "c5-tf-03",
+      "stimulus": "Trong không gian Oxyz, cho hai mặt phẳng (P): x + 2y + 2z - 1 = 0 và (Q): x + y - z + 1 = 0. Xét tính đúng/sai của các khẳng định sau:",
+      "statements": [
+        {"key": "a", "text": "(P) có một vectơ pháp tuyến là n⃗ = (1; 2; 2).", "answer": true},
+        {"key": "b", "text": "cos((P), (Q)) = √3/9.", "answer": true},
+        {"key": "c", "text": "Góc giữa (P) và (Q) xấp xỉ bằng 78,9°.", "answer": true},
+        {"key": "d", "text": "(P) và (Q) vuông góc với nhau.", "answer": false}
+      ]
+    },
+    {
+      "id": "c5-tf-04",
+      "stimulus": "Trong không gian Oxyz, cho mặt cầu (S): x² + y² + z² - 2x + 4y - 6z - 2 = 0. Xét tính đúng/sai của các khẳng định sau:",
+      "statements": [
+        {"key": "a", "text": "(S) có tâm I(1; -2; 3).", "answer": true},
+        {"key": "b", "text": "(S) có bán kính R = 4.", "answer": true},
+        {"key": "c", "text": "Điểm O(0; 0; 0) thuộc mặt cầu (S).", "answer": false},
+        {"key": "d", "text": "Khoảng cách từ tâm I đến điểm O bằng √14.", "answer": true}
+      ]
+    }
+  ],
+  "shortAnswer": [
+    {"id": "c5-sa-01", "question": "Trong không gian Oxyz, tính khoảng cách từ gốc toạ độ O đến mặt phẳng (P): 2x + 2y - z + 1 = 0.", "answer": "0.3333", "unit": null, "tolerance": 0.001},
+    {"id": "c5-sa-02", "question": "Trong không gian Oxyz, cho hai mặt phẳng song song (P): x + y + z + 2 = 0 và (Q): x + y + z + 6 = 0. Tính khoảng cách giữa (P) và (Q).", "answer": "2.3094", "unit": null, "tolerance": 0.01},
+    {"id": "c5-sa-03", "question": "Trong không gian Oxyz, tính khoảng cách từ điểm M(1; 2; -1) đến mặt phẳng (P): x + 2y - 2z + 5 = 0.", "answer": "4", "unit": null, "tolerance": 0.01},
+    {"id": "c5-sa-04", "question": "Trong không gian Oxyz, tính góc giữa trục Oz và đường thẳng Δ: (x-3)/1 = (y+1)/2 = (z-1)/(-2).", "answer": "48.2", "unit": "độ", "tolerance": 0.3},
+    {"id": "c5-sa-05", "question": "Trong không gian Oxyz, tính góc giữa đường thẳng Δ: (x+2)/(-1) = (y-4)/2 = (z+1)/1 và mặt phẳng (P): x - y + z - 1 = 0.", "answer": "28.1", "unit": "độ", "tolerance": 0.3},
+    {"id": "c5-sa-06", "question": "Trong không gian Oxyz, tính góc giữa mặt phẳng (P): x - √2y + z - 2 = 0 và mặt phẳng (Oxz).", "answer": "45", "unit": "độ", "tolerance": 0.2},
+    {"id": "c5-sa-07", "question": "Trong không gian Oxyz, cho Δ1: x=1+2t, y=1-t, z=2+3t và Δ2: (x-2)/(-1) = (y+1)/1 = (z-2)/2. Tính góc giữa Δ1 và Δ2.", "answer": "70.9", "unit": "độ", "tolerance": 0.3},
+    {"id": "c5-sa-08", "question": "Trong không gian Oxyz, tính góc giữa trục Oz và mặt phẳng (P): x + 2y - z - 1 = 0.", "answer": "24.1", "unit": "độ", "tolerance": 0.3},
+    {"id": "c5-sa-09", "question": "Trong không gian Oxyz, tính góc giữa đường thẳng Δ: (x+1)/(-1) = (y-3)/2 = (z+2)/3 và mặt phẳng (P): x + y + z + 3 = 0.", "answer": "38.1", "unit": "độ", "tolerance": 0.3},
+    {"id": "c5-sa-10", "question": "Trong không gian Oxyz, mặt cầu (S) có tâm I(3/2; 0; -3) và bán kính R = 9/4 có phương trình (x-3/2)² + y² + (z+3)² = m. Tính m.", "answer": "5.0625", "unit": null, "tolerance": 0.001},
+    {"id": "c5-sa-11", "question": "Trong không gian Oxyz, tính bán kính mặt cầu (S) nhận AB làm đường kính, với A(1; 2; 1), B(3; 1; 5).", "answer": "2.2913", "unit": null, "tolerance": 0.01},
+    {"id": "c5-sa-12", "question": "Trong không gian Oxyz, cho mặt cầu (S): x² + y² + z² + 4x - 5y + 6z + 25/4 = 0. Tính bán kính R của (S).", "answer": "3.6056", "unit": null, "tolerance": 0.01},
+    {"id": "c5-sa-13", "question": "Trong không gian Oxyz, cho mặt cầu (S): (x-1/2)² + (y+1)² + z² = 9. Tính bán kính R của (S).", "answer": "3", "unit": null, "tolerance": 0.01},
+    {"id": "c5-sa-14", "question": "Trong không gian Oxyz, mặt cầu (S) có tâm I(0; 3; -1) và bán kính bằng khoảng cách từ I đến mặt phẳng (P): 3x + 2y - z = 0. Tính bán kính R của (S).", "answer": "1.8708", "unit": null, "tolerance": 0.01},
+    {"id": "c5-sa-15", "question": "Trong không gian Oxyz, cho mặt cầu (S): x² + y² + z² + 2x - 2y + 8z - 18 = 0. Tính bán kính R của (S).", "answer": "6", "unit": null, "tolerance": 0.01},
+    {"id": "c5-sa-16", "question": "Trong không gian Oxyz, cho mặt phẳng (P): x - 2y + 2z - 1 = 0 và điểm A(1; -1; 2). Tính khoảng cách từ A đến (P).", "answer": "2", "unit": null, "tolerance": 0.01},
+    {"id": "c5-sa-17", "question": "Trong không gian Oxyz, cho A(1; -2; 3), B(-3; 0; 1). Tính độ dài đoạn thẳng AB.", "answer": "4.899", "unit": null, "tolerance": 0.01},
+    {"id": "c5-sa-18", "question": "Trong không gian Oxyz, mặt phẳng đi qua M(1; 2; -4) và vuông góc với trục Oz có phương trình dạng z + D = 0. Tìm D.", "answer": "4", "unit": null, "tolerance": 0.01},
+    {"id": "c5-sa-19", "question": "Trong không gian Oxyz, mặt phẳng (α) đi qua A(1; -2; -1), song song với trục Oy và song song với đường thẳng BC (với B(4;1;2), C(2;3;1)) có phương trình dạng x - 2z + D = 0. Tìm D.", "answer": "-3", "unit": null, "tolerance": 0.01},
+    {"id": "c5-sa-20", "question": "Trong không gian Oxyz, cho hình hộp ABCD.A′B′C′D′ với A(1;-1;3), B(0;2;4), D(2;-1;1). Gọi (x;y;z) là toạ độ điểm C. Tính x + y + z.", "answer": "5", "unit": null, "tolerance": 0.01},
+    {"id": "c5-sa-21", "question": "Trong không gian Oxyz, cho u⃗ = (1; -2; 0) và v⃗ = (3; 1; -4). Gọi (p;q;r) = [u⃗,v⃗]. Tính p + q + r.", "answer": "19", "unit": null, "tolerance": 0.01},
+    {"id": "c5-sa-22", "question": "Trong không gian Oxyz, cho u1⃗ = (2; -3; -1) và u2⃗ = (1; -2; 8). Tính u1⃗·u2⃗.", "answer": "0", "unit": null, "tolerance": 0.01},
+    {"id": "c5-sa-23", "question": "Trong không gian Oxyz, cho A1(1;2;-1) với u1⃗=(1;-1;2) và A2(4;-1;0) với u2⃗=(3;1;-1). Tính A1A2⃗·[u1⃗,u2⃗].", "answer": "-20", "unit": null, "tolerance": 0.01},
+    {"id": "c5-sa-24", "question": "Trong không gian Oxyz, cho A1(1;2;-1) với u1⃗=(-1;1;2) và A2(-6;5;5) với u2⃗=(1;1;2). Tính A1A2⃗·[u1⃗,u2⃗].", "answer": "0", "unit": null, "tolerance": 0.01},
+    {"id": "c5-sa-25", "question": "Một vị trí P trên mặt cầu đơn vị x²+y²+z²=1 có vĩ độ α°N với sinα° = √7/4 (0 < α < 90). Tính α (theo độ).", "answer": "41.41", "unit": "độ", "tolerance": 0.05},
+    {"id": "c5-sa-26", "question": "Tính khoảng cách trên mặt đất (theo km, bán kính Trái Đất 6371 km) từ vị trí P: 10°N, 15°E đến vị trí Q: 80°N, 70°E.", "answer": "8271.7", "unit": "km", "tolerance": 5},
+    {"id": "c5-sa-27", "question": "Tính khoảng cách trên mặt đất (theo km, bán kính Trái Đất 6371 km) từ vị trí A là giao giữa kinh tuyến gốc và xích đạo (0°N, 0°E) đến vị trí B: 45°N, 30°E.", "answer": "5808.7", "unit": "km", "tolerance": 10}
+  ]
+}

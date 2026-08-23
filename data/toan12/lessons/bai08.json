@@ -1,0 +1,53 @@
+{
+  "id": "bai08",
+  "chuDeId": "c2",
+  "chuDeTitle": "Vectơ và hệ trục toạ độ trong không gian",
+  "baiNumber": 8,
+  "title": "Biểu thức toạ độ của các phép toán vectơ",
+  "objectives": [
+    "Nhận biết biểu thức toạ độ của các phép toán vectơ trong không gian: phép cộng, phép trừ, phép nhân một số với một vectơ và tích vô hướng.",
+    "Xác định độ dài của một vectơ và khoảng cách giữa hai điểm khi biết toạ độ hai đầu mút.",
+    "Tính toạ độ trung điểm đoạn thẳng, toạ độ trọng tâm tam giác trong không gian Oxyz.",
+    "Vận dụng biểu thức toạ độ của các phép toán vectơ để giải quyết một số bài toán có liên quan đến thực tiễn."
+  ],
+  "sections": [
+    {
+      "heading": "1. Biểu thức toạ độ của phép cộng, phép trừ hai vectơ và phép nhân một số với một vectơ",
+      "summary": "Trong không gian Oxyz, cho hai vectơ a⃗ = (x; y; z) và b⃗ = (x'; y'; z'). Các phép toán vectơ được thực hiện tương ứng trên từng thành phần toạ độ: cộng, trừ toạ độ tương ứng khi cộng, trừ vectơ; nhân toạ độ với k khi nhân vectơ với số thực k.",
+      "keyPoints": [
+        "a⃗ + b⃗ = (x + x'; y + y'; z + z'); a⃗ - b⃗ = (x - x'; y - y'; z - z'); k·a⃗ = (kx; ky; kz) với k là số thực.",
+        "Vectơ a⃗ = (x; y; z) cùng phương với vectơ b⃗ = (x'; y'; z') ≠ 0⃗ khi và chỉ khi tồn tại số thực k sao cho x = kx', y = ky', z = kz'.",
+        "Toạ độ trung điểm M của đoạn thẳng AB bằng trung bình cộng toạ độ tương ứng của A và B.",
+        "Toạ độ trọng tâm G của tam giác ABC bằng trung bình cộng toạ độ tương ứng của ba đỉnh A, B, C."
+      ],
+      "example": "Trong không gian Oxyz, cho ba điểm A(1; 2; 3), B(3; 2; 1), C(2; -1; 5). Trung điểm M của đoạn thẳng AB có toạ độ ((1+3)/2; (2+2)/2; (3+1)/2) = (2; 2; 2); trọng tâm G của tam giác ABC có toạ độ ((1+3+2)/3; (2+2-1)/3; (3+1+5)/3) = (2; 1; 3)."
+    },
+    {
+      "heading": "2. Biểu thức toạ độ của tích vô hướng",
+      "summary": "Trong không gian Oxyz, tích vô hướng của hai vectơ a⃗ = (x; y; z) và b⃗ = (x'; y'; z') được xác định bởi công thức a⃗ · b⃗ = xx' + yy' + zz'. Từ đó có thể tính độ dài vectơ, khoảng cách giữa hai điểm và góc giữa hai vectơ hoàn toàn bằng toạ độ.",
+      "keyPoints": [
+        "a⃗ · b⃗ = xx' + yy' + zz'; hai vectơ a⃗, b⃗ vuông góc khi và chỉ khi xx' + yy' + zz' = 0.",
+        "Độ dài vectơ: |a⃗| = √(x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>).",
+        "Nếu a⃗, b⃗ khác 0⃗ thì cos(a⃗, b⃗) = (xx' + yy' + zz')/(√(x<sup>2</sup>+y<sup>2</sup>+z<sup>2</sup>)·√(x'<sup>2</sup>+y'<sup>2</sup>+z'<sup>2</sup>)).",
+        "Nếu A(x<sub>A</sub>; y<sub>A</sub>; z<sub>A</sub>) và B(x<sub>B</sub>; y<sub>B</sub>; z<sub>B</sub>) thì AB = |vectơ AB| = √((x<sub>B</sub>-x<sub>A</sub>)<sup>2</sup> + (y<sub>B</sub>-y<sub>A</sub>)<sup>2</sup> + (z<sub>B</sub>-z<sub>A</sub>)<sup>2</sup>); đặc biệt khi B trùng O thì OA = √(x<sub>A</sub><sup>2</sup> + y<sub>A</sub><sup>2</sup> + z<sub>A</sub><sup>2</sup>)."
+      ],
+      "example": "Cho hình chóp S.ABCD có đáy ABCD là hình chữ nhật, SA vuông góc với đáy, SA = 2, AB = 3, AD = 4. Xét hệ toạ độ Oxyz với O trùng A, các tia Ox, Oy, Oz lần lượt trùng AB, AD, AS. Khi đó S(0;0;2), B(3;0;0), D(0;4;0), C(3;4;0), suy ra vectơ BD = (-3;4;0), vectơ SC = (3;4;-2); vì vectơ BD · vectơ SC = -9+16+0 = 7 nên cos(vectơ BD, vectơ SC) = 7/(5√29) ≈ 0,13, tức là góc giữa hai vectơ đó xấp xỉ 74,9°."
+    },
+    {
+      "heading": "3. Vận dụng toạ độ của vectơ trong một số bài toán thực tiễn",
+      "summary": "Toạ độ của điểm và của vectơ trong không gian có thể được dùng để mô tả và giải quyết các bài toán thực tế như xác định vị trí, hướng bay của máy bay, khinh khí cầu, phạm vi theo dõi của radar,... Bước quan trọng là chọn một hệ trục toạ độ Oxyz phù hợp với tình huống (chọn gốc toạ độ và hướng các trục hợp lí), sau đó biểu diễn các đại lượng đã biết dưới dạng toạ độ và sử dụng các công thức toạ độ để tính toán.",
+      "keyPoints": [
+        "Có thể xác định vị trí tiếp theo của một vật chuyển động thẳng đều bằng cách dùng tính cùng hướng, cùng tỉ lệ của các vectơ độ dịch chuyển.",
+        "Khoảng cách giữa hai vị trí trong không gian bằng độ dài của vectơ nối hai điểm đó, tính theo công thức toạ độ.",
+        "Việc chọn hệ trục toạ độ phù hợp (gốc toạ độ, hướng các trục) giúp đơn giản hoá việc tính toán trong bài toán thực tiễn."
+      ],
+      "example": "Một máy bay bay thẳng đều từ điểm A(800; 500; 7) đến điểm B(940; 550; 8) (đơn vị kilômét) trong 10 phút. Nếu giữ nguyên vận tốc và hướng bay thì sau 5 phút tiếp theo, vectơ dịch chuyển bằng một nửa vectơ AB, tức là vectơ BC = (1/2) vectơ AB = (70; 25; 0,5), từ đó tìm được vị trí máy bay lúc đó là C(1010; 575; 8,5)."
+    }
+  ],
+  "glossary": [
+    {"term": "Biểu thức toạ độ của phép cộng (trừ) hai vectơ", "definition": "Công thức tính toạ độ của tổng (hiệu) hai vectơ bằng cách cộng (trừ) các toạ độ tương ứng: a⃗ ± b⃗ = (x±x'; y±y'; z±z')."},
+    {"term": "Biểu thức toạ độ của tích vô hướng", "definition": "Công thức a⃗ · b⃗ = xx' + yy' + zz', dùng để tính tích vô hướng của hai vectơ khi biết toạ độ của chúng."},
+    {"term": "Toạ độ trung điểm đoạn thẳng", "definition": "Toạ độ của trung điểm M đoạn AB bằng trung bình cộng toạ độ tương ứng của A và B."},
+    {"term": "Toạ độ trọng tâm tam giác", "definition": "Toạ độ của trọng tâm G của tam giác ABC bằng trung bình cộng toạ độ tương ứng của ba đỉnh A, B, C."}
+  ]
+}

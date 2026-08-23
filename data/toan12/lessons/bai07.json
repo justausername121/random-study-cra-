@@ -1,0 +1,52 @@
+{
+  "id": "bai07",
+  "chuDeId": "c2",
+  "chuDeTitle": "Vectơ và hệ trục toạ độ trong không gian",
+  "baiNumber": 7,
+  "title": "Hệ trục toạ độ trong không gian",
+  "objectives": [
+    "Nhận biết hệ trục toạ độ Oxyz trong không gian, gốc toạ độ và các mặt phẳng toạ độ.",
+    "Xác định toạ độ của một điểm và toạ độ của một vectơ đối với hệ trục toạ độ Oxyz.",
+    "Tìm toạ độ của vectơ khi biết toạ độ hai điểm đầu mút.",
+    "Vận dụng toạ độ của vectơ để giải một số bài toán có liên quan đến thực tiễn."
+  ],
+  "sections": [
+    {
+      "heading": "1. Hệ trục toạ độ trong không gian",
+      "summary": "Trong không gian, xét ba trục Ox, Oy, Oz đôi một vuông góc với nhau tại gốc O, gọi i⃗, j⃗, k⃗ lần lượt là các vectơ đơn vị trên ba trục đó (mỗi vectơ có độ dài bằng 1). Hệ ba trục như vậy được gọi là hệ trục toạ độ Descartes vuông góc Oxyz, hay đơn giản là hệ toạ độ Oxyz; điểm O gọi là gốc toạ độ. Không gian với hệ toạ độ Oxyz còn được gọi là không gian Oxyz.",
+      "keyPoints": [
+        "Ba trục Ox, Oy, Oz đôi một vuông góc với nhau tại gốc O.",
+        "Các mặt phẳng (Oxy), (Oyz), (Ozx) được gọi là các mặt phẳng toạ độ; chúng đôi một vuông góc với nhau.",
+        "Các vectơ đơn vị i⃗, j⃗, k⃗ trên Ox, Oy, Oz đều có độ dài bằng 1 và đôi một vuông góc."
+      ],
+      "example": "Cho hình lập phương ABCD.A'B'C'D' có độ dài mỗi cạnh bằng 1. Vì các cạnh B'A', B'C', B'B đôi một vuông góc và đều có độ dài bằng 1 nên có thể lập một hệ toạ độ Oxyz có gốc O trùng với đỉnh B' và các vectơ i⃗, j⃗, k⃗ lần lượt là các vectơ B'A', B'C', B'B."
+    },
+    {
+      "heading": "2. Toạ độ của điểm và của vectơ trong không gian",
+      "summary": "Trong không gian Oxyz, với mỗi điểm M, tồn tại duy nhất bộ ba số (x; y; z) sao cho vectơ OM = x·i⃗ + y·j⃗ + z·k⃗; bộ ba đó gọi là toạ độ của điểm M, viết M(x; y; z) hoặc M = (x; y; z), trong đó x là hoành độ, y là tung độ, z là cao độ của M. Tương tự, với mỗi vectơ a⃗, tồn tại duy nhất bộ ba (x; y; z) sao cho a⃗ = x·i⃗ + y·j⃗ + z·k⃗, gọi là toạ độ của vectơ a⃗, viết a⃗ = (x; y; z).",
+      "keyPoints": [
+        "Toạ độ của vectơ a⃗ cũng chính là toạ độ của điểm M sao cho vectơ OM = a⃗.",
+        "Hai vectơ a⃗ = (x; y; z) và b⃗ = (x'; y'; z') bằng nhau khi và chỉ khi x = x', y = y' và z = z'.",
+        "Toạ độ của các vectơ đơn vị: i⃗ = (1; 0; 0), j⃗ = (0; 1; 0), k⃗ = (0; 0; 1).",
+        "Hình chiếu vuông góc của điểm M(x; y; z) trên các trục Ox, Oy, Oz lần lượt có toạ độ (x; 0; 0), (0; y; 0), (0; 0; z); hình chiếu của M trên các mặt phẳng (Oxy), (Oyz), (Ozx) lần lượt có toạ độ (x; y; 0), (0; y; z), (x; 0; z)."
+      ],
+      "example": "Trong không gian Oxyz với các hình vuông đơn vị cạnh 1 như hình vẽ, nếu vectơ OM = 3·i⃗ + 4·j⃗ + 3·k⃗ thì toạ độ của điểm M là (3; 4; 3)."
+    },
+    {
+      "heading": "3. Toạ độ của vectơ theo toạ độ hai điểm đầu mút",
+      "summary": "Trong không gian Oxyz, cho hai điểm M(x<sub>M</sub>; y<sub>M</sub>; z<sub>M</sub>) và N(x<sub>N</sub>; y<sub>N</sub>; z<sub>N</sub>). Khi đó vectơ MN có toạ độ bằng hiệu toạ độ của điểm cuối trừ điểm đầu: vectơ MN = (x<sub>N</sub> - x<sub>M</sub>; y<sub>N</sub> - y<sub>M</sub>; z<sub>N</sub> - z<sub>M</sub>).",
+      "keyPoints": [
+        "Công thức: vectơ MN = (x<sub>N</sub> - x<sub>M</sub>; y<sub>N</sub> - y<sub>M</sub>; z<sub>N</sub> - z<sub>M</sub>).",
+        "Đây là công cụ quan trọng để chuyển các bài toán hình học không gian (khoảng cách, phương, hướng,...) về tính toán trên toạ độ.",
+        "Có thể áp dụng công thức này để tìm toạ độ một đỉnh còn thiếu của một hình (hình hộp, lăng trụ,...) khi biết toạ độ các đỉnh khác."
+      ],
+      "example": "Cho hình lăng trụ tam giác ABC.A'B'C' có A(1; 0; 2), B(3; 2; 5), C(7; -3; 9) và A'(5; 0; 1). Ta có vectơ AA' = (5-1; 0-0; 1-2) = (4; 0; -1); vì ABC.A'B'C' là hình lăng trụ nên vectơ BB' = vectơ AA', từ đó tìm được B'(7; 2; 4) và tương tự C'(11; -3; 8)."
+    }
+  ],
+  "glossary": [
+    {"term": "Hệ trục toạ độ trong không gian (hệ toạ độ Oxyz)", "definition": "Hệ gồm ba trục Ox, Oy, Oz đôi một vuông góc với nhau tại gốc O, cùng với ba vectơ đơn vị i⃗, j⃗, k⃗ trên ba trục đó."},
+    {"term": "Toạ độ của điểm trong không gian", "definition": "Bộ ba số (x; y; z) duy nhất sao cho vectơ OM = x·i⃗ + y·j⃗ + z·k⃗, trong đó O là gốc toạ độ."},
+    {"term": "Toạ độ của vectơ trong không gian", "definition": "Bộ ba số (x; y; z) duy nhất sao cho a⃗ = x·i⃗ + y·j⃗ + z·k⃗."},
+    {"term": "Mặt phẳng toạ độ", "definition": "Mỗi cặp trục toạ độ (Ox và Oy, Oy và Oz, Oz và Ox) xác định một mặt phẳng toạ độ, kí hiệu lần lượt là (Oxy), (Oyz), (Ozx)."}
+  ]
+}

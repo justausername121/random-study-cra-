@@ -1,0 +1,133 @@
+{
+  "chuDeId": "c1",
+  "chuDeTitle": "Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số",
+  "mcq": [
+    {"id": "c1-mcq-01", "question": "Cho hàm số y = f(x) có đạo hàm trên khoảng (a; b). Phát biểu nào sau đây đúng?", "options": {"A": "Nếu f'(x) ≥ 0 với mọi x thuộc (a; b) thì hàm số y = f(x) đồng biến trên (a; b).", "B": "Nếu f'(x) > 0 với mọi x thuộc (a; b) thì hàm số y = f(x) đồng biến trên (a; b).", "C": "Hàm số y = f(x) đồng biến trên (a; b) khi và chỉ khi f'(x) ≥ 0 với mọi x thuộc (a; b).", "D": "Hàm số y = f(x) đồng biến trên (a; b) khi và chỉ khi f'(x) > 0 với mọi x thuộc (a; b)."}, "answer": "B"},
+    {"id": "c1-mcq-02", "question": "Hàm số nào sau đây nghịch biến trên R?", "options": {"A": "y = −x³ + 3x² − 9x.", "B": "y = −x³ + x + 1.", "C": "y = (x−1)/(x−2).", "D": "y = 2x² + 3x + 2."}, "answer": "A"},
+    {"id": "c1-mcq-03", "question": "Hàm số nào dưới đây không có cực trị?", "options": {"A": "y = |x|.", "B": "y = x⁴.", "C": "y = −x³ + x.", "D": "y = (2x−1)/(x+1)."}, "answer": "D"},
+    {"id": "c1-mcq-04", "question": "Giá trị cực đại của hàm số y = 2x³ − 9x² + 12x − 5 bằng", "options": {"A": "−1.", "B": "0.", "C": "1.", "D": "2."}, "answer": "B"},
+    {"id": "c1-mcq-05", "question": "Hàm số y = x⁴ − 4x² + 2 có giá trị cực tiểu bằng", "options": {"A": "−2.", "B": "2.", "C": "0.", "D": "−4."}, "answer": "A"},
+    {"id": "c1-mcq-06", "question": "Hàm số y = (2x−1)/(x+2) đồng biến trên khoảng nào sau đây?", "options": {"A": "(−∞; −2).", "B": "(−2; +∞).", "C": "Cả hai khoảng (−∞; −2) và (−2; +∞).", "D": "Không có khoảng nào."}, "answer": "C"},
+    {"id": "c1-mcq-07", "question": "Hàm số y = (x²+x+4)/(x−3) nghịch biến trên khoảng nào sau đây?", "options": {"A": "(−∞; −1).", "B": "(−1; 3).", "C": "(7; +∞).", "D": "(−∞; +∞)."}, "answer": "B"},
+    {"id": "c1-mcq-08", "question": "Giá trị lớn nhất của hàm số y = −x² + 4x + 3 trên R bằng", "options": {"A": "3.", "B": "7.", "C": "4.", "D": "−1."}, "answer": "B"},
+    {"id": "c1-mcq-09", "question": "Giá trị lớn nhất của hàm số y = √(2−x²) bằng", "options": {"A": "√2.", "B": "2.", "C": "1.", "D": "0."}, "answer": "A"},
+    {"id": "c1-mcq-10", "question": "Giá trị lớn nhất của hàm số y = x·e⁻ˣ trên R bằng", "options": {"A": "1/e.", "B": "e.", "C": "0.", "D": "−1/e."}, "answer": "A"},
+    {"id": "c1-mcq-11", "question": "Giá trị nhỏ nhất của hàm số y = x·ln x (x > 0) bằng", "options": {"A": "0.", "B": "−1/e.", "C": "1/e.", "D": "−e."}, "answer": "B"},
+    {"id": "c1-mcq-12", "question": "Giá trị lớn nhất của hàm số y = (x−2)²·eˣ trên đoạn [1; 3] là", "options": {"A": "0.", "B": "e³.", "C": "e⁴.", "D": "e."}, "answer": "B"},
+    {"id": "c1-mcq-13", "question": "Giá trị cực tiểu của hàm số y = x²·ln x là", "options": {"A": "1/e.", "B": "−1/e.", "C": "−1/(2e).", "D": "1/(2e)."}, "answer": "C"},
+    {"id": "c1-mcq-14", "question": "Đường tiệm cận ngang của đồ thị hàm số y = (3x−2)/(x+1) là", "options": {"A": "y = 3.", "B": "y = −2.", "C": "x = 3.", "D": "x = −1."}, "answer": "A"},
+    {"id": "c1-mcq-15", "question": "Đường tiệm cận đứng của đồ thị hàm số y = (3−x)/(x+2) là", "options": {"A": "x = 2.", "B": "x = −2.", "C": "y = −1.", "D": "y = 3."}, "answer": "B"},
+    {"id": "c1-mcq-16", "question": "Đường tiệm cận xiên của đồ thị hàm số y = (x²−x+2)/(x+1) là", "options": {"A": "y = x − 2.", "B": "y = x + 2.", "C": "y = x.", "D": "y = 2x − 1."}, "answer": "A"},
+    {"id": "c1-mcq-17", "question": "Tiệm cận xiên của đồ thị hàm số y = (x²+2x−2)/(x+2) là", "options": {"A": "y = −2.", "B": "y = 1.", "C": "y = x + 2.", "D": "y = x."}, "answer": "D"},
+    {"id": "c1-mcq-18", "question": "Cho hàm số y = f(x) xác định trên R \\ {1; 3}, liên tục trên mỗi khoảng xác định, biết lim(x→1⁻) f(x) = −1, lim(x→1⁺) f(x) = 7, lim(x→3⁻) f(x) = +∞, lim(x→3⁺) f(x) = −4, lim(x→−∞) f(x) = 1, lim(x→+∞) f(x) = −1. Khẳng định nào sau đây SAI?", "options": {"A": "Đường thẳng y = 1 là tiệm cận ngang của đồ thị hàm số.", "B": "Đường thẳng y = −1 là tiệm cận ngang của đồ thị hàm số.", "C": "Đường thẳng x = 3 là tiệm cận đứng của đồ thị hàm số.", "D": "Đường thẳng x = 1 là tiệm cận đứng của đồ thị hàm số."}, "answer": "D"},
+    {"id": "c1-mcq-19", "question": "Đồ thị của một hàm số có tiệm cận đứng x = −1, tiệm cận ngang y = 2 và đi qua điểm (0; 1). Đồ thị đó là đồ thị của hàm số nào sau đây?", "options": {"A": "y = (x+2)/(x+1).", "B": "y = (2x+1)/(x+1).", "C": "y = (x−1)/(x+1).", "D": "y = (x+3)/(1−x)."}, "answer": "B"},
+    {"id": "c1-mcq-20", "question": "Đồ thị của một hàm số có tiệm cận đứng x = −1, tiệm cận xiên y = x và đi qua điểm (−2; −3). Đồ thị đó là đồ thị của hàm số nào sau đây?", "options": {"A": "y = x − 1/(x+1).", "B": "y = (2x+1)/(x+1).", "C": "y = (x²−x+1)/(x+1).", "D": "y = (x²+x+1)/(x+1)."}, "answer": "D"},
+    {"id": "c1-mcq-21", "question": "Xét hàm số y = (x²+2x−3)/(x−1). Khẳng định nào sau đây đúng?", "options": {"A": "x = 1 là tiệm cận đứng của đồ thị vì mẫu số bằng 0 tại x = 1.", "B": "x = 1 không phải là tiệm cận đứng, vì đó chỉ là điểm gián đoạn bỏ được (giới hạn tại x = 1 hữu hạn).", "C": "x = 1 là tiệm cận đứng vì tử số cũng bằng 0 tại x = 1.", "D": "Không thể kết luận được vì hàm số không xác định tại x = 1."}, "answer": "B"},
+    {"id": "c1-mcq-22", "question": "Nồng độ KOH trong một cốc dung dịch được cho bởi C(x) = (3000+8x)/(30+x) (mg/ml), x ≥ 0. Khi x → +∞, nồng độ C(x) dần tới giá trị nào?", "options": {"A": "100.", "B": "8.", "C": "30.", "D": "0."}, "answer": "B"},
+    {"id": "c1-mcq-23", "question": "Hàm số y = x³ − 3x² + 3x − 1 có bao nhiêu điểm cực trị?", "options": {"A": "0.", "B": "1.", "C": "2.", "D": "3."}, "answer": "A"},
+    {"id": "c1-mcq-24", "question": "Giá trị cực tiểu của hàm số y = x⁴ − 2x² − 1 bằng", "options": {"A": "−1.", "B": "−2.", "C": "0.", "D": "1."}, "answer": "B"},
+    {"id": "c1-mcq-25", "question": "Đồ thị hàm số y = x³ − 3x + 1 nhận điểm nào sau đây làm tâm đối xứng?", "options": {"A": "(0; 1).", "B": "(1; −1).", "C": "(−1; 3).", "D": "(0; −1)."}, "answer": "A"},
+    {"id": "c1-mcq-26", "question": "Đồ thị hàm số y = (x+1)/(x−2) có tiệm cận đứng và tiệm cận ngang lần lượt là", "options": {"A": "x = 2 và y = 1.", "B": "x = −2 và y = 1.", "C": "x = 1 và y = 2.", "D": "x = 2 và y = −1."}, "answer": "A"},
+    {"id": "c1-mcq-27", "question": "Đồ thị hàm số y = (x²−x−1)/(x−2) có tiệm cận xiên là", "options": {"A": "y = x + 1.", "B": "y = x − 1.", "C": "y = 2x + 1.", "D": "y = x + 2."}, "answer": "A"},
+    {"id": "c1-mcq-28", "question": "Một vật được phóng thẳng đứng lên với độ cao h(t) = 2 + 24,5t − 4,9t² (m). Vật đạt độ cao lớn nhất tại thời điểm", "options": {"A": "t = 2 s.", "B": "t = 2,5 s.", "C": "t = 5 s.", "D": "t = 5,08 s."}, "answer": "B"},
+    {"id": "c1-mcq-29", "question": "Với hàm độ cao h(t) = 2 + 24,5t − 4,9t² (m) ở trên, độ cao lớn nhất mà vật đạt được là", "options": {"A": "32,625 m.", "B": "24,5 m.", "C": "30 m.", "D": "2 m."}, "answer": "A"},
+    {"id": "c1-mcq-30", "question": "Chi phí để sản xuất x đơn vị hàng hoá là C(x) = 30000 + 300x − 2,5x² + 0,125x³ (nghìn đồng). Chi phí biên tại x = 200 là", "options": {"A": "14300 nghìn đồng.", "B": "13300 nghìn đồng.", "C": "15300 nghìn đồng.", "D": "12300 nghìn đồng."}, "answer": "A"},
+    {"id": "c1-mcq-31", "question": "Một sân vận động 55 000 chỗ, giá vé 100 nghìn đồng thì trung bình có 27 000 khán giả; cứ giảm giá vé 10 nghìn đồng thì có thêm khoảng 3 000 khán giả. Giá vé nào (nghìn đồng) làm doanh thu bán vé lớn nhất?", "options": {"A": "90.", "B": "95.", "C": "100.", "D": "85."}, "answer": "B"},
+    {"id": "c1-mcq-32", "question": "Lợi nhuận (nghìn đồng) khi sản xuất và bán x máy xay sinh tố mỗi tháng là P(x) = −0,3x³ + 36x² + 1800x − 48000. Hằng tháng công ty cần sản xuất ít nhất bao nhiêu máy xay sinh tố để hoà vốn?", "options": {"A": "10.", "B": "20.", "C": "30.", "D": "100."}, "answer": "B"},
+    {"id": "c1-mcq-33", "question": "Với hàm lợi nhuận P(x) = −0,3x³ + 36x² + 1800x − 48000 (nghìn đồng) ở trên, lợi nhuận lớn nhất công ty có thể đạt được là", "options": {"A": "192 triệu đồng.", "B": "48 triệu đồng.", "C": "100 triệu đồng.", "D": "200 triệu đồng."}, "answer": "A"},
+    {"id": "c1-mcq-34", "question": "Một khu chung cư có 100 căn hộ cho thuê, giá 8 triệu đồng/tháng thì thuê hết; cứ tăng giá thêm 100 nghìn đồng thì có thêm một căn bị bỏ trống. Giá thuê mỗi căn hộ (triệu đồng/tháng) để doanh thu lớn nhất là", "options": {"A": "8.", "B": "8,5.", "C": "9.", "D": "9,5."}, "answer": "C"},
+    {"id": "c1-mcq-35", "question": "Một nhà sản xuất cần làm hộp đựng hình trụ có thể tích 1 lít. Bán kính đáy r (cm, làm tròn đến chữ số thập phân thứ hai) để diện tích toàn phần nhỏ nhất là", "options": {"A": "5,42.", "B": "10,84.", "C": "4,92.", "D": "6,20."}, "answer": "A"},
+    {"id": "c1-mcq-36", "question": "Hàm số y = −x³ + 2x² − 5x + 3", "options": {"A": "đồng biến trên R.", "B": "nghịch biến trên R.", "C": "đồng biến trên (0; +∞), nghịch biến trên (−∞; 0).", "D": "có hai khoảng đơn điệu khác nhau."}, "answer": "B"},
+    {"id": "c1-mcq-37", "question": "Hàm số y = √(4−x²) đồng biến trên khoảng nào sau đây?", "options": {"A": "(−2; 0).", "B": "(0; 2).", "C": "(−2; 2).", "D": "(−∞; 0)."}, "answer": "A"},
+    {"id": "c1-mcq-38", "question": "Trong các hình chữ nhật có diện tích bằng 144 m², chu vi nhỏ nhất của hình chữ nhật đó là", "options": {"A": "46 m.", "B": "48 m.", "C": "50 m.", "D": "52 m."}, "answer": "B"},
+    {"id": "c1-mcq-39", "question": "Khi mắc song song điện trở 8 Ω với một biến trở x (Ω), điện trở tương đương là R(x) = 8x/(8+x). Khi x → +∞, điện trở tương đương R(x) dần tới giá trị nào?", "options": {"A": "0 Ω.", "B": "4 Ω.", "C": "8 Ω.", "D": "+∞."}, "answer": "C"}
+  ],
+  "trueFalse": [
+    {
+      "id": "c1-tf-01",
+      "stimulus": "Cho hàm số y = x³ − 3x² + 2. Xét tính đúng, sai của các khẳng định sau:",
+      "statements": [
+        {"key": "a", "text": "Hàm số đồng biến trên khoảng (0; 2).", "answer": false},
+        {"key": "b", "text": "Hàm số đạt cực đại tại x = 0 với giá trị cực đại bằng 2.", "answer": true},
+        {"key": "c", "text": "Hàm số đạt cực tiểu tại x = 2 với giá trị cực tiểu bằng −2.", "answer": true},
+        {"key": "d", "text": "Hàm số nghịch biến trên khoảng (2; +∞).", "answer": false}
+      ]
+    },
+    {
+      "id": "c1-tf-02",
+      "stimulus": "Cho hàm số y = x⁴ − 2x² + 3 trên đoạn [−2; 2]. Xét tính đúng, sai của các khẳng định sau:",
+      "statements": [
+        {"key": "a", "text": "Giá trị lớn nhất của hàm số trên đoạn [−2; 2] bằng 11.", "answer": true},
+        {"key": "b", "text": "Giá trị nhỏ nhất của hàm số trên đoạn [−2; 2] bằng 2.", "answer": true},
+        {"key": "c", "text": "Hàm số đạt giá trị nhỏ nhất tại x = 0.", "answer": false},
+        {"key": "d", "text": "Hàm số đạt giá trị lớn nhất tại cả hai đầu mút x = −2 và x = 2.", "answer": true}
+      ]
+    },
+    {
+      "id": "c1-tf-03",
+      "stimulus": "Cho hàm số y = (2x+1)/(x−3). Xét tính đúng, sai của các khẳng định sau:",
+      "statements": [
+        {"key": "a", "text": "Đồ thị hàm số có tiệm cận ngang là đường thẳng y = 2.", "answer": true},
+        {"key": "b", "text": "Đồ thị hàm số có tiệm cận đứng là đường thẳng x = 3.", "answer": true},
+        {"key": "c", "text": "Đồ thị hàm số có tiệm cận đứng là đường thẳng x = −3.", "answer": false},
+        {"key": "d", "text": "Đồ thị hàm số không có tiệm cận xiên.", "answer": true}
+      ]
+    },
+    {
+      "id": "c1-tf-04",
+      "stimulus": "Cho hàm số y = x³ − 3x + 1. Xét tính đúng, sai của các khẳng định sau:",
+      "statements": [
+        {"key": "a", "text": "Đồ thị hàm số nhận điểm (0; 1) làm tâm đối xứng.", "answer": true},
+        {"key": "b", "text": "Hàm số đạt cực đại tại x = −1 với giá trị cực đại bằng 3.", "answer": true},
+        {"key": "c", "text": "Đồ thị hàm số có tiệm cận.", "answer": false},
+        {"key": "d", "text": "Hàm số đạt cực tiểu tại x = 1 với giá trị cực tiểu bằng −1.", "answer": true}
+      ]
+    },
+    {
+      "id": "c1-tf-05",
+      "stimulus": "Nồng độ KOH trong một cốc dung dịch sau khi trộn thêm x (ml) dung dịch KOH 8 mg/ml là C(x) = (3000+8x)/(30+x), x ≥ 0. Xét tính đúng, sai của các khẳng định sau:",
+      "statements": [
+        {"key": "a", "text": "Hàm số C(x) nghịch biến trên nửa khoảng [0; +∞).", "answer": true},
+        {"key": "b", "text": "lim(x→+∞) C(x) = 8, do đó nồng độ KOH trong cốc luôn lớn hơn 8 mg/ml.", "answer": true},
+        {"key": "c", "text": "C(0) = 100 (mg/ml).", "answer": true},
+        {"key": "d", "text": "Đồ thị hàm số y = C(x) có tiệm cận đứng là đường thẳng x = 8.", "answer": false}
+      ]
+    }
+  ],
+  "shortAnswer": [
+    {"id": "c1-sa-01", "question": "Tìm giá trị cực đại của hàm số y = x³ − 6x² + 9x + 30.", "answer": "34", "unit": null, "tolerance": 0.5},
+    {"id": "c1-sa-02", "question": "Tìm giá trị cực tiểu của hàm số y = x³ − 6x² + 9x + 30.", "answer": "30", "unit": null, "tolerance": 0.5},
+    {"id": "c1-sa-03", "question": "Cho hàm số y = (x²−2x+9)/(x−2). Tính giá trị cực tiểu của hàm số.", "answer": "8", "unit": null, "tolerance": 0.5},
+    {"id": "c1-sa-04", "question": "Với hàm số y = (x²−2x+9)/(x−2) ở trên, tính giá trị cực đại của hàm số.", "answer": "-4", "unit": null, "tolerance": 0.5},
+    {"id": "c1-sa-05", "question": "Một vật được phóng thẳng đứng lên với độ cao h(t) = 2 + 24,5t − 4,9t² (m). Tính vận tốc của vật sau 2 giây.", "answer": "4.9", "unit": "m/s", "tolerance": 0.05},
+    {"id": "c1-sa-06", "question": "Với hàm độ cao h(t) = 2 + 24,5t − 4,9t² (m) ở trên, tính độ cao lớn nhất mà vật đạt được.", "answer": "32.625", "unit": "m", "tolerance": 0.01},
+    {"id": "c1-sa-07", "question": "Chi phí sản xuất x đơn vị hàng hoá là C(x) = 30000 + 300x − 2,5x² + 0,125x³ (nghìn đồng). Tính chi phí biên C'(200).", "answer": "14300", "unit": "nghìn đồng", "tolerance": 1},
+    {"id": "c1-sa-08", "question": "Lợi nhuận (nghìn đồng) khi sản xuất và bán x máy xay sinh tố mỗi tháng là P(x) = −0,3x³ + 36x² + 1800x − 48000. Hằng tháng công ty cần sản xuất ít nhất bao nhiêu máy xay sinh tố để hoà vốn?", "answer": "20", "unit": "chiếc", "tolerance": 0.5},
+    {"id": "c1-sa-09", "question": "Với hàm lợi nhuận P(x) ở trên, lợi nhuận lớn nhất công ty có thể đạt được là bao nhiêu nghìn đồng?", "answer": "192000", "unit": "nghìn đồng", "tolerance": 100},
+    {"id": "c1-sa-10", "question": "Một sân vận động 55 000 chỗ, giá vé 100 nghìn đồng có 27 000 khán giả trung bình; cứ giảm giá vé 10 nghìn đồng thì có thêm khoảng 3 000 khán giả. Với giá vé tối ưu, doanh thu lớn nhất từ tiền bán vé (nghìn đồng) là bao nhiêu?", "answer": "2707500", "unit": "nghìn đồng", "tolerance": 500},
+    {"id": "c1-sa-11", "question": "Với bài toán bán vé sân vận động ở trên, ban tổ chức nên đặt giá vé bao nhiêu nghìn đồng để doanh thu từ bán vé lớn nhất?", "answer": "95", "unit": "nghìn đồng", "tolerance": 0.5},
+    {"id": "c1-sa-12", "question": "Một khu chung cư có 100 căn hộ, giá thuê 8 triệu đồng/tháng thì thuê hết; cứ tăng giá thêm 100 nghìn đồng thì có thêm một căn bị bỏ trống. Người quản lí nên đặt giá thuê mỗi căn hộ bao nhiêu triệu đồng/tháng để doanh thu lớn nhất?", "answer": "9", "unit": "triệu đồng", "tolerance": 0.1},
+    {"id": "c1-sa-13", "question": "Với bài toán khu chung cư ở trên, doanh thu lớn nhất (triệu đồng/tháng) mà khu chung cư có thể đạt được là bao nhiêu?", "answer": "810", "unit": "triệu đồng", "tolerance": 1},
+    {"id": "c1-sa-14", "question": "Một nhà sản xuất cần làm hộp đựng hình trụ có thể tích 1 lít. Tìm bán kính đáy r (cm, làm tròn đến chữ số thập phân thứ hai) để diện tích toàn phần nhỏ nhất.", "answer": "5.42", "unit": "cm", "tolerance": 0.02},
+    {"id": "c1-sa-15", "question": "Với hộp trụ ở trên, chiều cao h (cm, làm tròn đến chữ số thập phân thứ hai) tương ứng là bao nhiêu?", "answer": "10.84", "unit": "cm", "tolerance": 0.02},
+    {"id": "c1-sa-16", "question": "Trong các hình chữ nhật có diện tích 144 m², tìm độ dài cạnh x (m) để chu vi nhỏ nhất.", "answer": "12", "unit": "m", "tolerance": 0.1},
+    {"id": "c1-sa-17", "question": "Với bài toán mảnh vườn hình chữ nhật diện tích 144 m² ở trên, chu vi nhỏ nhất là bao nhiêu mét?", "answer": "48", "unit": "m", "tolerance": 0.1},
+    {"id": "c1-sa-18", "question": "Một đường dây điện nối từ nhà máy A đến đảo C qua điểm M trên bờ biển AB (AB = 10 km, khoảng cách từ C đến B là 4 km, CB vuông góc AB). Chi phí lắp đặt là 50 triệu đồng/km trên biển (đoạn CM) và 30 triệu đồng/km trên đất liền (đoạn MA). Tìm khoảng cách BM (km) để tổng chi phí lắp đặt nhỏ nhất.", "answer": "3", "unit": "km", "tolerance": 0.1},
+    {"id": "c1-sa-19", "question": "Với bài toán đường dây điện ở trên, tổng chi phí lắp đặt nhỏ nhất là bao nhiêu triệu đồng?", "answer": "460", "unit": "triệu đồng", "tolerance": 1},
+    {"id": "c1-sa-20", "question": "Một cốc chứa 30 ml dung dịch KOH nồng độ 100 mg/ml. Trộn thêm 90 ml dung dịch KOH nồng độ 8 mg/ml vào cốc. Tính nồng độ KOH trong cốc sau khi trộn.", "answer": "31", "unit": "mg/ml", "tolerance": 0.1},
+    {"id": "c1-sa-21", "question": "Với cốc dung dịch KOH ở trên, nếu trộn một lượng rất lớn dung dịch KOH nồng độ 8 mg/ml vào cốc thì nồng độ KOH trong cốc tiến gần tới giá trị nào (mg/ml)?", "answer": "8", "unit": "mg/ml", "tolerance": 0.05},
+    {"id": "c1-sa-22", "question": "Một nhà sản xuất bán trung bình 1000 ti vi/tuần với giá 14 triệu đồng/chiếc; khảo sát cho thấy cứ giảm giá bán 0,5 triệu đồng thì số ti vi bán ra tăng thêm khoảng 100 chiếc/tuần. Nhà sản xuất nên giảm giá bao nhiêu triệu đồng so với giá ban đầu để doanh thu lớn nhất?", "answer": "4.5", "unit": "triệu đồng", "tolerance": 0.1},
+    {"id": "c1-sa-23", "question": "Với bài toán bán ti vi ở trên, doanh thu lớn nhất (triệu đồng) mỗi tuần là bao nhiêu?", "answer": "18050", "unit": "triệu đồng", "tolerance": 10},
+    {"id": "c1-sa-24", "question": "Nếu chi phí hằng tuần để sản xuất x chiếc ti vi là C(x) = 12000 − 3x (triệu đồng), lợi nhuận lớn nhất (triệu đồng) mỗi tuần nhà sản xuất có thể đạt được là bao nhiêu?", "answer": "12200", "unit": "triệu đồng", "tolerance": 10},
+    {"id": "c1-sa-25", "question": "Với bài toán lợi nhuận bán ti vi ở trên, giá bán mỗi chiếc ti vi (triệu đồng) để lợi nhuận lớn nhất là bao nhiêu?", "answer": "8", "unit": "triệu đồng", "tolerance": 0.1},
+    {"id": "c1-sa-26", "question": "Tìm giá trị lớn nhất của hàm số y = x⁴ − 4x² + 3 trên đoạn [0; 4].", "answer": "195", "unit": null, "tolerance": 0.5},
+    {"id": "c1-sa-27", "question": "Tìm giá trị nhỏ nhất của hàm số y = x⁴ − 4x² + 3 trên đoạn [0; 4].", "answer": "-1", "unit": null, "tolerance": 0.1},
+    {"id": "c1-sa-28", "question": "Tìm giá trị lớn nhất của hàm số y = sin x + cos x trên đoạn [0; 2π].", "answer": "1.414", "unit": null, "tolerance": 0.01},
+    {"id": "c1-sa-29", "question": "Tìm giá trị nhỏ nhất của hàm số y = sin x + cos x trên đoạn [0; 2π].", "answer": "-1.414", "unit": null, "tolerance": 0.01},
+    {"id": "c1-sa-30", "question": "Tìm hoành độ x₀ của đường tiệm cận đứng của đồ thị hàm số y = (2x+1)/(x−4).", "answer": "4", "unit": null, "tolerance": 0.1},
+    {"id": "c1-sa-31", "question": "Tìm tung độ y₀ của đường tiệm cận ngang của đồ thị hàm số y = (2x+1)/(x−4).", "answer": "2", "unit": null, "tolerance": 0.1},
+    {"id": "c1-sa-32", "question": "Dân số một quốc gia sau t năm kể từ 2023 được ước tính bởi N(t) = 100e<sup>0,012t</sup> (triệu người). Ước tính dân số quốc gia này vào năm 2030 (làm tròn đến chữ số thập phân thứ ba).", "answer": "108.763", "unit": "triệu người", "tolerance": 0.05},
+    {"id": "c1-sa-33", "question": "Với hàm dân số N(t) = 100e<sup>0,012t</sup> ở trên, ước tính dân số quốc gia này vào năm 2035 (làm tròn đến chữ số thập phân thứ ba).", "answer": "115.488", "unit": "triệu người", "tolerance": 0.05},
+    {"id": "c1-sa-34", "question": "Với hàm dân số N(t) = 100e<sup>0,012t</sup> ở trên, vào năm nào (làm tròn đến năm gần nhất) thì tốc độ tăng dân số của quốc gia đó là 1,6 triệu người/năm?", "answer": "2047", "unit": null, "tolerance": 1}
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "bai06",
+  "chuDeId": "c2",
+  "chuDeTitle": "Vectơ và hệ trục toạ độ trong không gian",
+  "baiNumber": 6,
+  "title": "Vectơ trong không gian",
+  "objectives": [
+    "Nhận biết vectơ trong không gian, giá và độ dài của một vectơ.",
+    "Nhận biết hai vectơ cùng phương, cùng hướng, ngược hướng và hai vectơ bằng nhau trong không gian.",
+    "Thực hiện các phép toán vectơ trong không gian: phép cộng, phép trừ, phép nhân một số với một vectơ.",
+    "Xác định góc giữa hai vectơ và tính tích vô hướng của hai vectơ trong không gian."
+  ],
+  "sections": [
+    {
+      "heading": "1. Vectơ trong không gian",
+      "summary": "Vectơ trong không gian là một đoạn thẳng có hướng, dùng để biểu diễn các đại lượng có hướng như vận tốc, lực,... Vectơ có điểm đầu A và điểm cuối B được kí hiệu là vectơ AB; khi không cần chỉ rõ điểm đầu, điểm cuối, vectơ còn được kí hiệu là a⃗, b⃗, x⃗, y⃗,... Độ dài của vectơ AB, kí hiệu |vectơ AB|, là khoảng cách giữa điểm đầu và điểm cuối; độ dài của vectơ a⃗ kí hiệu là |a⃗|. Đường thẳng đi qua điểm đầu và điểm cuối của một vectơ gọi là giá của vectơ đó.",
+      "keyPoints": [
+        "Vectơ trong không gian là một đoạn thẳng có hướng.",
+        "Hai vectơ được gọi là cùng phương nếu giá của chúng song song hoặc trùng nhau; nếu cùng phương thì chúng cùng hướng hoặc ngược hướng.",
+        "Hai vectơ a⃗ và b⃗ bằng nhau (kí hiệu a⃗ = b⃗) nếu chúng cùng độ dài và cùng hướng.",
+        "Các vectơ có điểm đầu và điểm cuối trùng nhau gọi là vectơ-không, kí hiệu 0⃗; vectơ-không có độ dài bằng 0 và được quy ước cùng hướng (do đó cùng phương) với mọi vectơ."
+      ],
+      "example": "Tứ diện ABCD có độ dài mỗi cạnh bằng 1. Có ba vectơ có điểm đầu là A và điểm cuối là một đỉnh còn lại: vectơ AB, vectơ AC, vectơ AD; trong đó vectơ AB và vectơ AC có giá nằm trong mặt phẳng (ABC); cả ba vectơ đều có độ dài bằng 1."
+    },
+    {
+      "heading": "2. Tổng và hiệu của hai vectơ trong không gian",
+      "summary": "Trong không gian, tổng của hai vectơ a⃗ và b⃗ được xác định như trong mặt phẳng: lấy điểm A bất kì, vẽ vectơ AB = a⃗, vectơ BC = b⃗, khi đó vectơ AC = a⃗ + b⃗. Hiệu a⃗ - b⃗ được định nghĩa là a⃗ + (-b⃗), trong đó -b⃗ là vectơ đối của b⃗ (cùng độ dài, ngược hướng với b⃗). Quy tắc ba điểm và quy tắc hình bình hành trong mặt phẳng vẫn đúng trong không gian; ngoài ra không gian còn có thêm quy tắc hình hộp.",
+      "keyPoints": [
+        "Quy tắc ba điểm: với ba điểm A, B, C bất kì, vectơ AB + vectơ BC = vectơ AC.",
+        "Quy tắc hình bình hành: nếu ABCD là hình bình hành thì vectơ AB + vectơ AD = vectơ AC.",
+        "Quy tắc hình hộp: cho hình hộp ABCD.A'B'C'D', ta có vectơ AB + vectơ AD + vectơ AA' = vectơ AC'.",
+        "Phép cộng vectơ có tính chất giao hoán, kết hợp và cộng với vectơ-không; với ba điểm O, A, B bất kì, vectơ OB - vectơ OA = vectơ AB. Vectơ đối của vectơ AB là vectơ BA, kí hiệu -vectơ AB."
+      ],
+      "example": "Cho hình lập phương ABCD.A'B'C'D' có độ dài mỗi cạnh bằng 1. Vì tứ giác ABCD là hình vuông nên vectơ BC = vectơ AD, do đó vectơ BC + vectơ DD' = vectơ AD + vectơ DD' = vectơ AD'; vì tứ giác ADD'A' là hình vuông nên AD' = √(AD<sup>2</sup> + DD'<sup>2</sup>) = √2, suy ra |vectơ BC + vectơ DD'| = √2."
+    },
+    {
+      "heading": "3. Tích của một số với một vectơ trong không gian",
+      "summary": "Tích của một số thực k ≠ 0 với một vectơ a⃗ ≠ 0⃗ trong không gian là một vectơ, kí hiệu ka⃗, được xác định như sau: cùng hướng với a⃗ nếu k > 0, ngược hướng với a⃗ nếu k < 0, và có độ dài bằng |k|·|a⃗|. Phép toán này có các tính chất giống như trong mặt phẳng và cho phép biểu diễn điều kiện hai vectơ cùng phương.",
+      "keyPoints": [
+        "Quy ước: 0·a⃗ = 0⃗ và k·0⃗ = 0⃗; nếu k·a⃗ = 0⃗ thì k = 0 hoặc a⃗ = 0⃗.",
+        "Điều kiện cần và đủ để hai vectơ a⃗ và b⃗ (với b⃗ ≠ 0⃗) cùng phương là có một số thực k sao cho a⃗ = k·b⃗.",
+        "Tính chất: h(ka⃗) = (hk)a⃗; (h + k)a⃗ = ha⃗ + ka⃗; k(a⃗ + b⃗) = ka⃗ + kb⃗; 1·a⃗ = a⃗ và (-1)·a⃗ = -a⃗.",
+        "Nếu G là trọng tâm của tam giác BCD thì với tứ diện ABCD ta có vectơ AB + vectơ AC + vectơ AD = 3 vectơ AG; điểm I trên đoạn AG sao cho vectơ AI = 3 vectơ IG được gọi là trọng tâm của tứ diện ABCD, khi đó vectơ IA + vectơ IB + vectơ IC + vectơ ID = 0⃗."
+      ],
+      "example": "Cho tứ diện ABCD, gọi G là trọng tâm của tam giác BCD. Vì vectơ GB + vectơ GC + vectơ GD = 0⃗ nên vectơ AB + vectơ AC + vectơ AD = (vectơ AG + vectơ GB) + (vectơ AG + vectơ GC) + (vectơ AG + vectơ GD) = 3 vectơ AG."
+    },
+    {
+      "heading": "4. Tích vô hướng của hai vectơ trong không gian",
+      "summary": "Góc giữa hai vectơ a⃗, b⃗ khác 0⃗ trong không gian, kí hiệu (a⃗, b⃗), là góc AOB (0° ≤ AOB ≤ 180°), trong đó O là một điểm bất kì và vectơ OA = a⃗, vectơ OB = b⃗. Tích vô hướng của hai vectơ a⃗ và b⃗ là số thực a⃗ · b⃗ = |a⃗|·|b⃗|·cos(a⃗, b⃗).",
+      "keyPoints": [
+        "Nếu góc giữa a⃗ và b⃗ bằng 90° thì a⃗ và b⃗ vuông góc, kí hiệu a⃗ ⊥ b⃗; khi đó a⃗ · b⃗ = 0 (và ngược lại).",
+        "Với mọi vectơ a⃗, ta có a⃗<sup>2</sup> = |a⃗|<sup>2</sup>.",
+        "Nếu a⃗, b⃗ khác 0⃗ thì cos(a⃗, b⃗) = (a⃗ · b⃗)/(|a⃗|·|b⃗|).",
+        "Tích vô hướng có tính chất giao hoán a⃗ · b⃗ = b⃗ · a⃗, tính chất k(a⃗ · b⃗) = (ka⃗) · b⃗ = a⃗ · (kb⃗), và tính chất phân phối a⃗ · (b⃗ + c⃗) = a⃗ · b⃗ + a⃗ · c⃗."
+      ],
+      "example": "Cho hình chóp tứ giác đều S.ABCD có tất cả các cạnh bằng a. Vì tam giác SAD đều nên góc SAD = 60°, và vì AD = BC nên (vectơ AS, vectơ BC) = (vectơ AS, vectơ AD) = 60°, suy ra vectơ AS · vectơ BC = a·a·cos60° = a<sup>2</sup>/2."
+    }
+  ],
+  "glossary": [
+    {"term": "Vectơ trong không gian", "definition": "Một đoạn thẳng có hướng trong không gian; độ dài của vectơ là khoảng cách giữa điểm đầu và điểm cuối của nó."},
+    {"term": "Giá của vectơ", "definition": "Đường thẳng đi qua điểm đầu và điểm cuối của vectơ đó."},
+    {"term": "Vectơ-không", "definition": "Vectơ có điểm đầu và điểm cuối trùng nhau, có độ dài bằng 0, được quy ước cùng phương, cùng hướng với mọi vectơ, kí hiệu 0⃗."},
+    {"term": "Vectơ đối", "definition": "Vectơ có cùng độ dài và ngược hướng với vectơ a⃗, kí hiệu -a⃗."},
+    {"term": "Góc giữa hai vectơ trong không gian", "definition": "Góc AOB (0° ≤ AOB ≤ 180°) tạo bởi hai vectơ OA = a⃗ và OB = b⃗ với O là điểm bất kì, kí hiệu (a⃗, b⃗)."},
+    {"term": "Tích vô hướng", "definition": "Số thực a⃗ · b⃗ = |a⃗|·|b⃗|·cos(a⃗, b⃗), xác định cho hai vectơ khác 0⃗."}
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "bai01",
+  "chuDeId": "c1",
+  "chuDeTitle": "Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số",
+  "baiNumber": 1,
+  "title": "Tính đơn điệu và cực trị của hàm số",
+  "objectives": [
+    "Nhận biết tính đồng biến, nghịch biến của một hàm số trên một khoảng dựa vào dấu đạo hàm cấp một của nó.",
+    "Thể hiện tính đồng biến, nghịch biến của hàm số trong bảng biến thiên.",
+    "Nhận biết tính đơn điệu của hàm số thông qua bảng biến thiên hoặc thông qua hình ảnh hình học của đồ thị hàm số.",
+    "Nhận biết điểm cực trị, giá trị cực trị của hàm số thông qua bảng biến thiên hoặc thông qua hình ảnh hình học của đồ thị hàm số."
+  ],
+  "sections": [
+    {
+      "heading": "1. Tính đơn điệu của hàm số",
+      "summary": "Với K là một khoảng, một đoạn hoặc một nửa khoảng, hàm số y = f(x) xác định trên K được gọi là đồng biến trên K nếu x₁, x₂ ∈ K, x₁ < x₂ thì f(x₁) < f(x₂); được gọi là nghịch biến trên K nếu x₁ < x₂ thì f(x₁) > f(x₂). Đồ thị hàm số đồng biến 'đi lên' còn đồ thị hàm số nghịch biến 'đi xuống' khi nhìn từ trái sang phải. Nếu f'(x) > 0 với mọi x thuộc K thì f đồng biến trên K; nếu f'(x) < 0 với mọi x thuộc K thì f nghịch biến trên K. Người ta còn chứng minh được: nếu f'(x) ≥ 0 (hoặc f'(x) ≤ 0) với mọi x ∈ K và f'(x) = 0 chỉ tại một số hữu hạn điểm của K thì f vẫn đồng biến (nghịch biến) trên K; còn nếu f'(x) = 0 với mọi x ∈ K thì f không đổi trên K.",
+      "keyPoints": [
+        "Đồng biến trên K: ∀x₁, x₂ ∈ K, x₁ < x₂ ⇒ f(x₁) < f(x₂).",
+        "Nghịch biến trên K: ∀x₁, x₂ ∈ K, x₁ < x₂ ⇒ f(x₁) > f(x₂).",
+        "Nếu f'(x) > 0 với mọi x ∈ K thì f đồng biến trên K; nếu f'(x) < 0 với mọi x ∈ K thì f nghịch biến trên K.",
+        "Nếu f'(x) = 0 với mọi x ∈ K thì f không đổi (là hằng số) trên K."
+      ],
+      "example": "Xét y = x² − 4x + 2 có y' = 2x − 4; y' > 0 với x ∈ (2; +∞), y' < 0 với x ∈ (−∞; 2) nên hàm số đồng biến trên (2; +∞), nghịch biến trên (−∞; 2)."
+    },
+    {
+      "heading": "2. Xét tính đơn điệu của hàm số bằng bảng biến thiên",
+      "summary": "Việc tìm các khoảng đồng biến, nghịch biến của hàm số còn gọi là xét chiều biến thiên của hàm số. Các bước xét tính đơn điệu của y = f(x): tìm tập xác định của hàm số; tính đạo hàm f'(x) và tìm các điểm xᵢ (i = 1, 2, ...) mà tại đó đạo hàm bằng 0 hoặc không tồn tại; sắp xếp các điểm xᵢ theo thứ tự tăng dần và lập bảng biến thiên; từ bảng biến thiên nêu kết luận về các khoảng đồng biến, nghịch biến của hàm số.",
+      "keyPoints": [
+        "Bước 1: Tìm tập xác định của hàm số.",
+        "Bước 2: Tính f'(x); tìm các điểm xᵢ mà tại đó f'(xᵢ) = 0 hoặc f' không xác định.",
+        "Bước 3: Lập bảng biến thiên (xét dấu f' và chiều biến thiên của f trên từng khoảng).",
+        "Bước 4: Kết luận các khoảng đồng biến, nghịch biến từ bảng biến thiên."
+      ],
+      "example": "Hàm số y = (x² − 2x + 5)/(x − 1) có y' = (x² − 2x − 3)/(x − 1)², y' = 0 ⇔ x = −1 hoặc x = 3; lập bảng biến thiên suy ra hàm số đồng biến trên (−∞; −1) và (3; +∞), nghịch biến trên (−1; 1) và (1; 3)."
+    },
+    {
+      "heading": "3. Cực trị của hàm số",
+      "summary": "Cho hàm số y = f(x) xác định và liên tục trên khoảng (a; b) (a có thể là −∞, b có thể là +∞) và điểm x₀ ∈ (a; b). Nếu tồn tại số h > 0 sao cho f(x) < f(x₀) với mọi x ∈ (x₀ − h; x₀ + h) ⊂ (a; b) và x ≠ x₀ thì ta nói hàm số f(x) đạt cực đại tại x₀. Nếu tồn tại số h > 0 sao cho f(x) > f(x₀) với mọi x trong khoảng đó và x ≠ x₀ thì ta nói hàm số đạt cực tiểu tại x₀. Khi đó x₀ gọi là điểm cực đại (hoặc điểm cực tiểu) của hàm số, f(x₀) gọi là giá trị cực đại (kí hiệu fCĐ hay yCĐ) hoặc giá trị cực tiểu (kí hiệu fCT hay yCT), điểm M₀(x₀; f(x₀)) gọi là điểm cực đại (cực tiểu) của đồ thị. Các điểm cực đại và cực tiểu gọi chung là điểm cực trị; giá trị cực đại và giá trị cực tiểu gọi chung là giá trị cực trị (hay cực trị) của hàm số.",
+      "keyPoints": [
+        "x₀ là điểm cực đại nếu tồn tại h > 0: f(x) < f(x₀) với mọi x ∈ (x₀ − h; x₀ + h), x ≠ x₀.",
+        "x₀ là điểm cực tiểu nếu tồn tại h > 0: f(x) > f(x₀) với mọi x ∈ (x₀ − h; x₀ + h), x ≠ x₀.",
+        "Điểm cực đại và điểm cực tiểu gọi chung là điểm cực trị; giá trị tương ứng gọi là giá trị cực trị (cực trị) của hàm số.",
+        "Cực trị là một khái niệm có tính chất địa phương (chỉ xét trong một lân cận nhỏ của x₀), khác với giá trị lớn nhất, giá trị nhỏ nhất trên toàn tập xác định."
+      ],
+      "example": null
+    },
+    {
+      "heading": "4. Cách tìm cực trị của hàm số",
+      "summary": "Giả sử hàm số y = f(x) liên tục trên khoảng (a; b) chứa điểm x₀ và có đạo hàm trên các khoảng (a; x₀) và (x₀; b). Nếu f'(x) < 0 với mọi x ∈ (a; x₀) và f'(x) > 0 với mọi x ∈ (x₀; b) thì x₀ là một điểm cực tiểu của f(x). Nếu f'(x) > 0 với mọi x ∈ (a; x₀) và f'(x) < 0 với mọi x ∈ (x₀; b) thì x₀ là một điểm cực đại của f(x). Nếu f'(x₀) = 0 nhưng f'(x) không đổi dấu khi x qua x₀ thì x₀ không phải là điểm cực trị của hàm số (chẳng hạn y = x³ tại x = 0). Các bước tìm cực trị: tìm tập xác định; tính f'(x), tìm các điểm mà tại đó đạo hàm bằng 0 hoặc không tồn tại; lập bảng biến thiên; từ bảng biến thiên suy ra các điểm cực trị.",
+      "keyPoints": [
+        "f' đổi dấu từ âm sang dương khi x qua x₀ ⇒ x₀ là điểm cực tiểu.",
+        "f' đổi dấu từ dương sang âm khi x qua x₀ ⇒ x₀ là điểm cực đại.",
+        "f' không đổi dấu khi x qua x₀ ⇒ x₀ không phải là điểm cực trị (ví dụ y = x³ tại x = 0, f'(0) = 0 nhưng f'(x) = 3x² ≥ 0 không đổi dấu).",
+        "Quy trình 4 bước: tìm tập xác định → tính f' và tìm điểm mà f' = 0 hoặc không xác định → lập bảng biến thiên → kết luận cực trị."
+      ],
+      "example": "Hàm số y = x³ − 6x² + 9x + 30 có y' = 3x² − 12x + 9 = 0 ⇔ x = 1 hoặc x = 3; lập bảng biến thiên: hàm số đạt cực đại tại x = 1 với yCĐ = 34, đạt cực tiểu tại x = 3 với yCT = 30."
+    }
+  ],
+  "glossary": [
+    {"term": "Bảng biến thiên", "definition": "Bảng tổng hợp tập xác định, dấu của đạo hàm và chiều biến thiên (tăng, giảm) của hàm số trên từng khoảng, dùng để mô tả toàn bộ sự biến thiên của hàm số."},
+    {"term": "Đồng biến", "definition": "Tính chất của hàm số trên một khoảng K: khi biến x tăng thì giá trị hàm số cũng tăng, tức x₁ < x₂ ⇒ f(x₁) < f(x₂) với mọi x₁, x₂ ∈ K."},
+    {"term": "Nghịch biến", "definition": "Tính chất của hàm số trên một khoảng K: khi biến x tăng thì giá trị hàm số giảm, tức x₁ < x₂ ⇒ f(x₁) > f(x₂) với mọi x₁, x₂ ∈ K."},
+    {"term": "Cực đại", "definition": "Giá trị f(x₀) mà hàm số đạt được lớn hơn giá trị tại mọi điểm x lân cận x₀ (x ≠ x₀); x₀ khi đó gọi là điểm cực đại của hàm số."},
+    {"term": "Cực tiểu", "definition": "Giá trị f(x₀) mà hàm số đạt được nhỏ hơn giá trị tại mọi điểm x lân cận x₀ (x ≠ x₀); x₀ khi đó gọi là điểm cực tiểu của hàm số."},
+    {"term": "Cực trị", "definition": "Tên gọi chung cho cực đại và cực tiểu (cả điểm cực trị lẫn giá trị cực trị) của hàm số."}
+  ]
+}

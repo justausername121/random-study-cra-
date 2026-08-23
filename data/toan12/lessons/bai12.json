@@ -1,0 +1,53 @@
+{
+  "id": "bai12",
+  "chuDeId": "c4",
+  "chuDeTitle": "Nguyên hàm và tích phân",
+  "baiNumber": 12,
+  "title": "Tích phân",
+  "objectives": [
+    "Nhận biết định nghĩa và ý nghĩa hình học của tích phân.",
+    "Nhận biết và vận dụng các tính chất của tích phân để tính tích phân trong những trường hợp đơn giản.",
+    "Vận dụng tích phân để giải một số bài toán liên quan đến thực tiễn."
+  ],
+  "sections": [
+    {
+      "heading": "I. Khái niệm tích phân",
+      "summary": "Hình thang cong là hình phẳng giới hạn bởi đồ thị y = f(x) (với f(x) liên tục, không âm trên đoạn [a;b]), trục hoành và hai đường thẳng x = a, x = b. Người ta chứng minh được: nếu F(x) là một nguyên hàm bất kì của f(x) trên [a;b] thì diện tích S của hình thang cong này bằng F(b) - F(a), và hiệu số này không phụ thuộc vào việc chọn nguyên hàm nào. Từ đó, với f(x) là hàm số liên tục trên đoạn [a;b], ta định nghĩa tích phân từ a đến b của f(x), kí hiệu ∫<sub>a</sub><sup>b</sup> f(x)dx, là hiệu số F(b) - F(a), trong đó F(x) là một nguyên hàm bất kì của f(x) trên [a;b]. Khi f(x) ≥ 0 liên tục trên [a;b], tích phân này chính là diện tích của hình thang cong tương ứng — đó là ý nghĩa hình học của tích phân.",
+      "keyPoints": [
+        "Hình thang cong: hình phẳng giới hạn bởi đồ thị y = f(x) (liên tục, không âm trên [a;b]), trục hoành và hai đường thẳng x = a, x = b.",
+        "Định nghĩa: nếu f(x) liên tục trên [a;b] và F(x) là một nguyên hàm của f(x) trên [a;b] thì ∫<sub>a</sub><sup>b</sup> f(x)dx = F(b) - F(a), kí hiệu gọn là F(x)|<sub>a</sub><sup>b</sup>.",
+        "a gọi là cận dưới, b gọi là cận trên, f(x)dx gọi là biểu thức dưới dấu tích phân, f(x) gọi là hàm số dưới dấu tích phân.",
+        "Tích phân không phụ thuộc vào kí hiệu của biến số: ∫<sub>a</sub><sup>b</sup> f(x)dx = ∫<sub>a</sub><sup>b</sup> f(t)dt = ∫<sub>a</sub><sup>b</sup> f(u)du.",
+        "Quy ước: ∫<sub>a</sub><sup>a</sup> f(x)dx = 0 và ∫<sub>b</sub><sup>a</sup> f(x)dx = -∫<sub>a</sub><sup>b</sup> f(x)dx.",
+        "Ý nghĩa hình học: nếu f(x) liên tục, không âm trên [a;b] thì diện tích S của hình thang cong giới hạn bởi y = f(x), trục hoành, x = a, x = b là S = ∫<sub>a</sub><sup>b</sup> f(x)dx."
+      ],
+      "example": "Tính ∫<sub>1</sub><sup>2</sup> x³dx. Một nguyên hàm của f(x) = x³ là F(x) = x⁴/4. Do đó ∫<sub>1</sub><sup>2</sup> x³dx = F(2) - F(1) = 2⁴/4 - 1⁴/4 = 4 - 1/4 = 15/4."
+    },
+    {
+      "heading": "II. Tính chất của tích phân",
+      "summary": "Cho f(x), g(x) là các hàm số liên tục trên đoạn [a;b] và k là hằng số. Tích phân có các tính chất tuyến tính (tương tự nguyên hàm) và tính chất cộng theo cận, cho phép tách một tích phân phức tạp (chẳng hạn hàm có dấu giá trị tuyệt đối hoặc hàm cho bởi nhiều công thức trên từng đoạn) thành tổng của các tích phân đơn giản hơn trên các đoạn con.",
+      "keyPoints": [
+        "∫<sub>a</sub><sup>b</sup> kf(x)dx = k∫<sub>a</sub><sup>b</sup> f(x)dx (k là hằng số).",
+        "∫<sub>a</sub><sup>b</sup> [f(x) + g(x)]dx = ∫<sub>a</sub><sup>b</sup> f(x)dx + ∫<sub>a</sub><sup>b</sup> g(x)dx.",
+        "∫<sub>a</sub><sup>b</sup> [f(x) - g(x)]dx = ∫<sub>a</sub><sup>b</sup> f(x)dx - ∫<sub>a</sub><sup>b</sup> g(x)dx.",
+        "∫<sub>a</sub><sup>b</sup> f(x)dx = ∫<sub>a</sub><sup>c</sup> f(x)dx + ∫<sub>c</sub><sup>b</sup> f(x)dx với a < c < b (dùng để tách cận khi hàm dưới dấu tích phân đổi công thức hoặc đổi dấu tại c).",
+        "Giá trị trung bình của hàm số liên tục f(x) trên đoạn [a;b] được định nghĩa là (1/(b-a))∫<sub>a</sub><sup>b</sup> f(x)dx."
+      ],
+      "example": "Tính ∫<sub>0</sub><sup>3</sup> |x-2|dx. Vì |x-2| = 2-x trên [0;2] và |x-2| = x-2 trên [2;3], ta tách cận tại c = 2: ∫<sub>0</sub><sup>3</sup> |x-2|dx = ∫<sub>0</sub><sup>2</sup>(2-x)dx + ∫<sub>2</sub><sup>3</sup>(x-2)dx = [2x - x²/2]<sub>0</sub><sup>2</sup> + [x²/2 - 2x]<sub>2</sub><sup>3</sup> = 2 + 1/2 = 5/2."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Tích phân",
+      "definition": "Tích phân từ a đến b của hàm số liên tục f(x), kí hiệu ∫<sub>a</sub><sup>b</sup> f(x)dx, là hiệu số F(b) - F(a), trong đó F(x) là một nguyên hàm của f(x) trên đoạn [a;b]."
+    },
+    {
+      "term": "Cận tích phân",
+      "definition": "Trong tích phân ∫<sub>a</sub><sup>b</sup> f(x)dx, a gọi là cận dưới, b gọi là cận trên của tích phân."
+    },
+    {
+      "term": "Hàm số dưới dấu tích phân",
+      "definition": "Trong tích phân ∫<sub>a</sub><sup>b</sup> f(x)dx, f(x) gọi là hàm số dưới dấu tích phân (và f(x)dx gọi là biểu thức dưới dấu tích phân)."
+    }
+  ]
+}

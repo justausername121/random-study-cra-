@@ -1,0 +1,250 @@
+{
+  "chuDeId": "c6",
+  "chuDeTitle": "Xác suất có điều kiện",
+  "mcq": [
+    {
+      "id": "c6-mcq-01",
+      "question": "Công thức P(A|B) = P(A∩B)/P(B) chỉ áp dụng được khi nào?",
+      "options": {"A": "P(B) = 0", "B": "P(B) > 0", "C": "P(A) = 0", "D": "A và B độc lập"},
+      "answer": "B"
+    },
+    {
+      "id": "c6-mcq-02",
+      "question": "Một hộp kín đựng 20 tấm thẻ giống hệt nhau đánh số từ 1 đến 20. Rút ngẫu nhiên một tấm thẻ, biết thẻ rút ra mang số chẵn. Xác suất để rút được thẻ số 10 là",
+      "options": {"A": "1/20", "B": "1/10", "C": "1/4", "D": "1/2"},
+      "answer": "B"
+    },
+    {
+      "id": "c6-mcq-03",
+      "question": "Cho P(A) = 0,2; P(B) = 0,51; P(B|A) = 0,8. Giá trị của P(A|B) gần nhất với số nào sau đây?",
+      "options": {"A": "0,157", "B": "0,314", "C": "0,408", "D": "0,510"},
+      "answer": "B"
+    },
+    {
+      "id": "c6-mcq-04",
+      "question": "Gieo hai con xúc xắc cân đối, đồng chất. Biết rằng ít nhất một con xúc xắc xuất hiện mặt 5 chấm. Xác suất để tổng số chấm trên hai con xúc xắc bằng 7 là",
+      "options": {"A": "1/6", "B": "2/11", "C": "1/3", "D": "5/36"},
+      "answer": "B"
+    },
+    {
+      "id": "c6-mcq-05",
+      "question": "Gieo hai con xúc xắc cân đối, đồng chất. Biết tổng số chấm xuất hiện trên hai con xúc xắc bằng 7. Xác suất để có ít nhất một con xúc xắc xuất hiện mặt 5 chấm là",
+      "options": {"A": "1/6", "B": "1/4", "C": "1/3", "D": "2/3"},
+      "answer": "C"
+    },
+    {
+      "id": "c6-mcq-06",
+      "question": "Gieo hai con xúc xắc cân đối, đồng chất. Biết rằng có ít nhất một con xúc xắc xuất hiện mặt 5 chấm. Xác suất để tổng số chấm trên hai con xúc xắc không nhỏ hơn 10 là",
+      "options": {"A": "1/11", "B": "2/11", "C": "3/11", "D": "4/11"},
+      "answer": "C"
+    },
+    {
+      "id": "c6-mcq-07",
+      "question": "Bạn An thực hiện hai thí nghiệm liên tiếp. Xác suất thí nghiệm thứ nhất thành công là 0,7. Nếu thí nghiệm thứ nhất thành công thì xác suất thí nghiệm thứ hai thành công là 0,9; nếu thí nghiệm thứ nhất không thành công thì xác suất thí nghiệm thứ hai thành công là 0,4. Xác suất để cả hai thí nghiệm đều thành công là",
+      "options": {"A": "0,36", "B": "0,63", "C": "0,70", "D": "0,90"},
+      "answer": "B"
+    },
+    {
+      "id": "c6-mcq-08",
+      "question": "Với dữ kiện như câu trên (về hai thí nghiệm của bạn An), xác suất để cả hai thí nghiệm đều không thành công là",
+      "options": {"A": "0,12", "B": "0,18", "C": "0,28", "D": "0,30"},
+      "answer": "B"
+    },
+    {
+      "id": "c6-mcq-09",
+      "question": "Một máy bay chiến đấu của đối phương xuất hiện ở vị trí X với xác suất 0,55; nếu không xuất hiện ở X thì nó xuất hiện ở vị trí Y. Nếu máy bay ở X thì bên phòng thủ bắn 2 quả tên lửa, nếu ở Y thì bắn 1 quả tên lửa; xác suất bắn trúng của mỗi quả tên lửa là 0,8 và các quả tên lửa hoạt động độc lập nhau. Máy bay bị bắn hạ nếu trúng ít nhất 1 quả tên lửa. Xác suất bắn hạ được máy bay đối phương là",
+      "options": {"A": "0,80", "B": "0,84", "C": "0,888", "D": "0,96"},
+      "answer": "C"
+    },
+    {
+      "id": "c6-mcq-10",
+      "question": "Tại nhà máy X, tỉ lệ sản phẩm đạt tiêu chuẩn là 80%. Sản phẩm đạt tiêu chuẩn được đóng dấu OTK với xác suất 0,99; sản phẩm không đạt tiêu chuẩn vẫn bị đóng dấu OTK (do sai sót kiểm tra) với xác suất 0,05. Chọn ngẫu nhiên một sản phẩm của nhà máy X, xác suất sản phẩm đó được đóng dấu OTK là",
+      "options": {"A": "0,792", "B": "0,800", "C": "0,802", "D": "0,810"},
+      "answer": "C"
+    },
+    {
+      "id": "c6-mcq-11",
+      "question": "Thử nghiệm hai loại thuốc X, Y trị bệnh mất ngủ trên 4000 bệnh nhân: dùng thuốc X có 1600 người khỏi bệnh và 800 người không khỏi; dùng thuốc Y có 1200 người khỏi bệnh và 400 người không khỏi. Chọn ngẫu nhiên 1 bệnh nhân trong số những người đã khỏi bệnh, xác suất người đó đã dùng thuốc Y là",
+      "options": {"A": "1/3", "B": "3/8", "C": "3/7", "D": "3/10"},
+      "answer": "C"
+    },
+    {
+      "id": "c6-mcq-12",
+      "question": "Đội I có 5 vận động viên với xác suất đạt huy chương vàng của mỗi người là 0,65; đội II có 7 vận động viên với xác suất đạt huy chương vàng của mỗi người là 0,55. Chọn ngẫu nhiên 1 vận động viên trong tổng số 12 vận động viên của hai đội. Xác suất vận động viên đó đạt huy chương vàng là",
+      "options": {"A": "0,50", "B": "0,5917", "C": "0,65", "D": "0,70"},
+      "answer": "B"
+    },
+    {
+      "id": "c6-mcq-13",
+      "question": "Với dữ kiện câu trên (về hai đội thi đấu bắn súng), giả sử vận động viên được chọn đạt huy chương vàng. Xác suất để vận động viên đó thuộc đội I là",
+      "options": {"A": "0,417", "B": "0,4577", "C": "0,500", "D": "0,600"},
+      "answer": "B"
+    },
+    {
+      "id": "c6-mcq-14",
+      "question": "Một bộ lọc thư rác: thư rác bị chặn với xác suất 0,95; thư đúng (không phải thư rác) vẫn bị chặn với xác suất 0,01. Thống kê cho thấy tỉ lệ thư rác là 3%. Chọn ngẫu nhiên một thư bị chặn, xác suất thư đó là thư rác là",
+      "options": {"A": "0,650", "B": "0,7461", "C": "0,800", "D": "0,950"},
+      "answer": "B"
+    },
+    {
+      "id": "c6-mcq-15",
+      "question": "Cho P(A) = 2/5; P(B|A) = 1/3; P(B|Ā) = 1/4. Giá trị của P(A∩B) là",
+      "options": {"A": "2/15", "B": "3/16", "C": "1/5", "D": "4/15"},
+      "answer": "A"
+    },
+    {
+      "id": "c6-mcq-16",
+      "question": "Với dữ kiện câu trên (P(A) = 2/5; P(B|A) = 1/3; P(B|Ā) = 1/4), giá trị của P(B) là",
+      "options": {"A": "19/60", "B": "17/60", "C": "9/20", "D": "7/30"},
+      "answer": "B"
+    },
+    {
+      "id": "c6-mcq-17",
+      "question": "Bạn An có một túi kẹo gồm 6 chiếc kẹo sô cô la đen và 4 chiếc kẹo sô cô la trắng (10 chiếc, cùng loại, chỉ khác màu). An lấy ngẫu nhiên lần lượt 2 chiếc kẹo (không hoàn lại) đưa cho Bình. Xác suất để Bình nhận được 2 chiếc kẹo cùng là màu đen là",
+      "options": {"A": "1/3", "B": "1/4", "C": "2/5", "D": "3/7"},
+      "answer": "A"
+    },
+    {
+      "id": "c6-mcq-18",
+      "question": "Với dữ kiện câu trên (túi kẹo của bạn An), xác suất để Bình nhận được 2 chiếc kẹo cùng là màu trắng là",
+      "options": {"A": "1/5", "B": "2/15", "C": "3/16", "D": "4/17"},
+      "answer": "B"
+    }
+  ],
+  "trueFalse": [
+    {
+      "id": "c6-tf-01",
+      "stimulus": "Ông An hằng ngày đi làm bằng xe máy hoặc xe buýt. Nếu hôm nay ông đi làm bằng xe buýt thì xác suất để hôm sau ông đi làm bằng xe máy là 0,4. Nếu hôm nay ông đi làm bằng xe máy thì xác suất để hôm sau ông đi làm bằng xe buýt là 0,7. Biết thứ Hai trong tuần ông An đi làm bằng xe buýt. Xét tính đúng/sai của các khẳng định sau:",
+      "statements": [
+        {"key": "a", "text": "Xác suất để thứ Ba ông An đi làm bằng xe máy là 0,4.", "answer": true},
+        {"key": "b", "text": "Xác suất để thứ Tư ông An đi làm bằng xe máy, biết thứ Ba ông đi làm bằng xe máy, bằng 0,7.", "answer": false},
+        {"key": "c", "text": "Xác suất để thứ Tư ông An đi làm bằng xe máy, biết thứ Ba ông đi làm bằng xe buýt, bằng 0,7.", "answer": false},
+        {"key": "d", "text": "Xác suất để thứ Tư ông An đi làm bằng xe máy là 0,36.", "answer": true}
+      ]
+    },
+    {
+      "id": "c6-tf-02",
+      "stimulus": "Thống kê cho thấy tỉ lệ dân số mắc bệnh hiểm nghèo X là 0,2%. Nếu một người mắc bệnh X thì xác suất xét nghiệm cho kết quả dương tính là 0,95; nếu một người không mắc bệnh X thì xác suất xét nghiệm cho kết quả dương tính là 0,01. Ông M đi xét nghiệm bệnh X và nhận được kết quả dương tính. Xét tính đúng/sai của các khẳng định sau:",
+      "statements": [
+        {"key": "a", "text": "Trước khi tiến hành xét nghiệm, xác suất ông M mắc bệnh X là 0,2%.", "answer": true},
+        {"key": "b", "text": "Xác suất để một người mắc bệnh X có xét nghiệm cho kết quả dương tính là 0,01.", "answer": false},
+        {"key": "c", "text": "Sau khi có kết quả xét nghiệm dương tính, xác suất ông M mắc bệnh X là khoảng 16%.", "answer": true},
+        {"key": "d", "text": "Xác suất để một người không mắc bệnh X nhưng vẫn có xét nghiệm cho kết quả dương tính là 0,95.", "answer": false}
+      ]
+    }
+  ],
+  "shortAnswer": [
+    {
+      "id": "c6-sa-01",
+      "question": "Một hộp có 20 viên bi trắng và 10 viên bi đen, các viên bi cùng kích thước và khối lượng. Bình lấy ngẫu nhiên 1 viên bi trong hộp, không trả lại; sau đó An lấy ngẫu nhiên 1 viên bi trong các viên còn lại. Biết Bình đã lấy được viên bi trắng, tính xác suất để An cũng lấy được viên bi trắng (làm tròn đến hàng phần nghìn).",
+      "answer": "0.655",
+      "unit": null,
+      "tolerance": 0.005
+    },
+    {
+      "id": "c6-sa-02",
+      "question": "Một hộp kín có 7 chiếc bút bi xanh và 5 chiếc bút bi đen, các chiếc bút có cùng kích thước và khối lượng. Bạn Sơn lấy ngẫu nhiên 1 chiếc bút, không trả lại; sau đó bạn Tùng lấy ngẫu nhiên 1 trong 11 chiếc bút còn lại. Tính xác suất để Sơn lấy được bút bi đen và Tùng lấy được bút bi xanh (làm tròn đến hàng phần nghìn).",
+      "answer": "0.265",
+      "unit": null,
+      "tolerance": 0.005
+    },
+    {
+      "id": "c6-sa-03",
+      "question": "Với hộp bút ở câu trên (7 chiếc bút bi xanh, 5 chiếc bút bi đen; Sơn lấy trước không trả lại, Tùng lấy sau trong các chiếc còn lại), tính xác suất để hai chiếc bút Sơn và Tùng lấy ra có cùng màu (làm tròn đến hàng phần nghìn).",
+      "answer": "0.470",
+      "unit": null,
+      "tolerance": 0.005
+    },
+    {
+      "id": "c6-sa-04",
+      "question": "Một viện nghiên cứu khảo sát 577 006 vụ tai nạn giao thông ô tô. Trong số những người lái xe không thắt dây an toàn khi xảy ra tai nạn, có 1601 người tử vong và 162527 người sống sót. Tính xác suất để một người lái xe bị tử vong, biết rằng người đó không thắt dây an toàn (kết quả gần đúng, làm tròn đến 6 chữ số thập phân).",
+      "answer": "0.009755",
+      "unit": null,
+      "tolerance": 0.0001
+    },
+    {
+      "id": "c6-sa-05",
+      "question": "Trong một thử nghiệm so sánh thuốc M và thuốc N trên 4000 bệnh nhân: dùng thuốc M có 1600 người khỏi bệnh và 800 người không khỏi; dùng thuốc N có 1200 người khỏi bệnh và 400 người không khỏi. Chọn ngẫu nhiên 1 bệnh nhân trong số những người đã khỏi bệnh, tính xác suất người đó đã dùng thuốc M (làm tròn đến hàng phần nghìn).",
+      "answer": "0.571",
+      "unit": null,
+      "tolerance": 0.005
+    },
+    {
+      "id": "c6-sa-06",
+      "question": "Trò chơi Ô cửa bí mật có 3 cửa, mỗi cửa có xác suất 1/3 là nơi giấu ô tô. Người chơi chọn cửa số 1. Người quản trò sẽ mở một trong hai cửa còn lại để lộ ra con lừa: nếu ô tô ở sau cửa số 1 thì người quản trò chọn ngẫu nhiên một trong hai cửa còn lại để mở (xác suất mở đúng cửa để lộ con lừa mà đề bài quan tâm là 1/2); nếu ô tô ở sau cửa số 2 thì người quản trò chắc chắn phải mở cửa số 3 (xác suất bằng 1). Biết người quản trò đã mở một cửa (không phải cửa đã chọn) và để lộ con lừa, tính xác suất để ô tô ở sau cửa số 2 (làm tròn đến hàng phần nghìn).",
+      "answer": "0.667",
+      "unit": null,
+      "tolerance": 0.005
+    },
+    {
+      "id": "c6-sa-07",
+      "question": "Số khán giả đến xem một buổi biểu diễn ca nhạc ngoài trời phụ thuộc vào thời tiết. Nếu trời không mưa thì xác suất bán hết vé là 0,9; nếu trời mưa thì xác suất bán hết vé chỉ là 0,4. Dự báo thời tiết cho thấy xác suất để trời mưa vào buổi biểu diễn là 0,75. Tính xác suất để bán được hết vé.",
+      "answer": "0.525",
+      "unit": null,
+      "tolerance": 0.005
+    },
+    {
+      "id": "c6-sa-08",
+      "question": "Trong một kì thi tốt nghiệp trung học phổ thông, một tỉnh X có 80% học sinh chọn tổ hợp A00. Nếu một học sinh chọn tổ hợp A00 thì xác suất đỗ đại học là 0,6; nếu học sinh không chọn tổ hợp A00 thì xác suất đỗ đại học là 0,7. Chọn ngẫu nhiên một học sinh của tỉnh X đã tốt nghiệp, biết học sinh đó đã đỗ đại học. Tính xác suất để học sinh đó đã chọn tổ hợp A00 (làm tròn đến hàng phần nghìn).",
+      "answer": "0.774",
+      "unit": null,
+      "tolerance": 0.005
+    },
+    {
+      "id": "c6-sa-09",
+      "question": "Tỉ lệ dân số mắc bệnh hiểm nghèo Y là 0,5%. Nếu mắc bệnh Y thì xác suất xét nghiệm cho kết quả dương tính là 0,94; nếu không mắc bệnh Y thì xác suất xét nghiệm cho kết quả âm tính là 0,97. Một người đi xét nghiệm bệnh Y và nhận được kết quả âm tính. Tính xác suất để người đó không mắc bệnh Y (kết quả gần đúng, làm tròn đến 4 chữ số thập phân).",
+      "answer": "0.9997",
+      "unit": null,
+      "tolerance": 0.0005
+    },
+    {
+      "id": "c6-sa-10",
+      "question": "Trong một kho rượu có 30% là rượu loại I. Chọn ngẫu nhiên một chai rượu đưa cho ông Tùng (một người sành rượu) nếm thử. Biết một chai rượu loại I có xác suất 0,9 để ông Tùng xác nhận đúng đây là loại I; một chai rượu không phải loại I có xác suất 0,95 để ông Tùng xác nhận đây không phải là loại I. Sau khi nếm, ông Tùng xác nhận đây là rượu loại I. Tính xác suất để chai rượu đó đúng là rượu loại I (làm tròn đến hàng phần nghìn).",
+      "answer": "0.885",
+      "unit": null,
+      "tolerance": 0.005
+    },
+    {
+      "id": "c6-sa-11",
+      "question": "Khi lai hai cây đậu Hà Lan, cây con lấy ngẫu nhiên và độc lập một gene từ cây bố và một gene từ cây mẹ để hình thành một cặp gene. Giả sử cây bố và cây mẹ được chọn ngẫu nhiên từ một quần thể mà trong đó tỉ lệ cây mang kiểu gene bb là 40%, kiểu gene Bb là 60% (không có kiểu gene BB). Tính xác suất để cây con có kiểu gene bb.",
+      "answer": "0.49",
+      "unit": null,
+      "tolerance": 0.005
+    },
+    {
+      "id": "c6-sa-12",
+      "question": "Với giả thiết như câu trên (tỉ lệ cây bố và cây mẹ mang kiểu gene bb là 40%, Bb là 60%, không có kiểu gene BB), hãy ước lượng tỉ lệ cây con mang kiểu gene BB.",
+      "answer": "0.09",
+      "unit": null,
+      "tolerance": 0.005
+    },
+    {
+      "id": "c6-sa-13",
+      "question": "Với hai câu trên (về quần thể đậu Hà Lan mà cây bố, mẹ mang kiểu gene bb là 40%, Bb là 60%), hãy ước lượng tỉ lệ cây con mang kiểu gene Bb.",
+      "answer": "0.42",
+      "unit": null,
+      "tolerance": 0.005
+    },
+    {
+      "id": "c6-sa-14",
+      "question": "Trong một túi có một số chiếc kẹo cùng loại, chỉ khác màu, trong đó có 6 chiếc kẹo màu cam, còn lại là kẹo màu vàng. Hà lấy ngẫu nhiên một chiếc kẹo từ trong túi, không trả lại, rồi lấy ngẫu nhiên thêm một chiếc kẹo khác từ trong túi. Biết rằng xác suất Hà lấy được cả hai chiếc kẹo màu cam là 1/3. Hỏi ban đầu trong túi có bao nhiêu chiếc kẹo?",
+      "answer": "10",
+      "unit": "chiếc kẹo",
+      "tolerance": 0
+    },
+    {
+      "id": "c6-sa-15",
+      "question": "Có hai chuồng thỏ. Chuồng I có 5 con thỏ đen và 10 con thỏ trắng. Chuồng II có 7 con thỏ đen và 3 con thỏ trắng. Trước tiên, từ chuồng II lấy ra ngẫu nhiên 1 con thỏ rồi cho vào chuồng I. Sau đó, từ chuồng I lấy ra ngẫu nhiên 1 con thỏ. Tính xác suất để con thỏ được lấy ra là con thỏ trắng (làm tròn đến hàng phần nghìn).",
+      "answer": "0.644",
+      "unit": null,
+      "tolerance": 0.005
+    },
+    {
+      "id": "c6-sa-16",
+      "question": "Một loại vaccine được tiêm ở địa phương X, nơi có 18% dân số có bệnh nền. Người có bệnh nền thì với xác suất 0,35 có phản ứng phụ sau tiêm; người không có bệnh nền thì chỉ có phản ứng phụ sau tiêm với xác suất 0,16. Chọn ngẫu nhiên một người được tiêm vaccine và người này có phản ứng phụ. Tính xác suất để người này có bệnh nền (làm tròn đến hàng phần nghìn).",
+      "answer": "0.324",
+      "unit": null,
+      "tolerance": 0.005
+    }
+  ]
+}
