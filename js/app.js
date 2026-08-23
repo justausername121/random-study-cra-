@@ -158,9 +158,20 @@ function wireSoundToggle() {
 function nodeJitter(seed, maxY, maxRot) {
   let h = 0;
   for (let i = 0; i < seed.length; i++) h = (h * 31 + seed.charCodeAt(i)) >>> 0;
+  // Sequential ids like "vlc1-1"/"vlc1-2" only differ by 1 at this point, which
+  // would barely move the modulo below - scramble the bits so nearby seeds
+  // still land on visibly different jitter.
+  h = Math.imul(h ^ (h >>> 16), 0x45d9f3b) >>> 0;
+  h = Math.imul(h ^ (h >>> 16), 0x45d9f3b) >>> 0;
+  h = (h ^ (h >>> 16)) >>> 0;
   const a = ((h % 1000) / 1000) * 2 - 1;
-  const b = (((h >> 5) % 1000) / 1000) * 2 - 1;
+  const b = (((h >>> 5) % 1000) / 1000) * 2 - 1;
   return { ty: Math.round(a * maxY), rot: Math.round(b * maxRot) };
+}
+
+// Winding left-right-left sway for a vertical trail of nodes, Duolingo-style.
+function zigzagX(index, amplitude) {
+  return Math.round(Math.sin(index * (Math.PI / 2)) * amplitude);
 }
 
 function renderHome() {
@@ -189,13 +200,14 @@ function renderHome() {
       <div class="path">
     `;
 
-    bais.forEach((b) => {
+    bais.forEach((b, i) => {
       const globalIndex = baiList.findIndex((x) => x.id === b.id);
       const unlocked = isBaiUnlocked(subjectId, globalIndex, baiList);
       const completed = isBaiCompleted(subjectId, b.id);
       const available = isBaiAvailable(subjectId, b.id);
       const isNext = globalIndex === nextIndex;
-      const jitter = nodeJitter(`${cd.id}-${b.baiNumber}`, 16, 5);
+      const jitter = nodeJitter(`${cd.id}-${b.baiNumber}`, 10, 6);
+      const zx = zigzagX(i, 78);
       let cls = "node";
       let inner = `${icon("book", "node-icon")}<span class="node-num">${b.baiNumber}</span>`;
       let clickable = false;
@@ -212,11 +224,12 @@ function renderHome() {
         clickable = true;
       }
       if (isNext && available) cls += " next-up";
-      const bg = completed ? cd.color : unlocked && available ? cd.color : undefined;
+      const rockColor = shadeColor(cd.color, -38);
+      const bg = completed ? rockColor : unlocked && available ? rockColor : undefined;
       html += `
-        <div class="node-wrap" style="transform:translateY(${jitter.ty}px) rotate(${jitter.rot}deg)">
+        <div class="node-wrap" style="transform:translate(${zx}px, ${jitter.ty}px) rotate(${jitter.rot}deg)">
           ${isNext && available ? `<div class="start-badge">Bắt đầu</div>` : ""}
-          <button class="${cls}" style="${bg ? `background-color:${bg}` : ""}" data-bai="${b.id}" ${clickable ? "" : "disabled"}>
+          <button class="${cls}" style="${bg ? `background-color:${bg};--node-rim:${cd.color}` : ""}" data-bai="${b.id}" ${clickable ? "" : "disabled"}>
             ${inner}
             ${completed ? `<span class="stars">${renderStars(subjectState(S, subjectId).completedBai[b.id].stars)}</span>` : ""}
           </button>
@@ -243,7 +256,7 @@ function renderHome() {
     }
     html += `
       <div class="node-wrap boss-wrap">
-        <button class="${bossCls}" style="${bossClickable || bossCompleted ? `background-color:${cd.color}` : ""}" data-boss="${cd.id}" ${bossClickable ? "" : "disabled"}>
+        <button class="${bossCls}" style="${bossClickable || bossCompleted ? `background-color:${shadeColor(cd.color, -38)};--node-rim:${cd.color}` : ""}" data-boss="${cd.id}" ${bossClickable ? "" : "disabled"}>
           <span class="boss-ring"></span>
           ${bossInner}
         </button>
