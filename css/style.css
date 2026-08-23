@@ -370,6 +370,32 @@ body {
   letter-spacing: 0.03em;
 }
 
+/* ---------- Subject final-boss entry (home screen) ---------- */
+
+.subject-boss-section { padding: 8px 16px 28px; }
+.subject-boss-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 16px;
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, #2a1a26, #1c1420);
+  box-shadow: 0 6px 0 0 #140d12, 0 8px 18px rgba(0,0,0,0.2);
+}
+.subject-boss-card.locked { background: #e5e5e5; box-shadow: 0 6px 0 0 #cfcfcf; }
+.subject-boss-card.won { background: linear-gradient(135deg, #2b4a2f, #1a2e1c); box-shadow: 0 6px 0 0 #14240f, 0 8px 18px rgba(0,0,0,0.2); }
+.subject-boss-sprite { width: 54px; height: 54px; flex-shrink: 0; }
+.subject-boss-card.locked .subject-boss-sprite { opacity: 0.5; filter: grayscale(1); }
+.subject-boss-info { flex: 1; min-width: 0; }
+.subject-boss-label { font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.04em; color: #ff8a5c; }
+.subject-boss-card.locked .subject-boss-label { color: var(--ink-light); }
+.subject-boss-card.won .subject-boss-label { color: #7ed957; }
+.subject-boss-title { font-size: 16px; font-weight: 800; color: white; }
+.subject-boss-card.locked .subject-boss-title { color: var(--ink); }
+.subject-boss-desc { font-size: 12px; color: rgba(255,255,255,0.75); margin-top: 1px; }
+.subject-boss-card.locked .subject-boss-desc { color: var(--ink-light); }
+.subject-boss-card button.btn svg { width: 20px; height: 20px; }
+
 /* ---------- Lesson screen ---------- */
 
 .lesson-screen { flex: 1; display: flex; flex-direction: column; }
@@ -392,6 +418,72 @@ body {
   background: var(--lesson-accent, var(--green));
   border-radius: 8px;
   transition: width 0.3s ease;
+}
+
+/* ---------- Subject boss-fight in-lesson HUD ---------- */
+
+.boss-sprite-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 16px 0;
+}
+.boss-sprite { width: 88px; height: 88px; transition: transform 0.15s ease; }
+.boss-sprite-wrap.hurt .boss-sprite { animation: boss-hurt 0.4s ease; }
+@keyframes boss-hurt {
+  0%, 100% { transform: translateX(0) scale(1); filter: none; }
+  25% { transform: translateX(-6px) scale(0.96); filter: brightness(1.6) saturate(0.4); }
+  50% { transform: translateX(6px) scale(0.96); filter: brightness(1.3); }
+  75% { transform: translateX(-3px) scale(0.98); }
+}
+.boss-sprite-wrap.attacking .boss-sprite { animation: boss-attack-pose 0.9s ease-in-out infinite; }
+@keyframes boss-attack-pose {
+  0%, 100% { transform: scale(1) rotate(0deg); }
+  50% { transform: scale(1.08) rotate(-3deg); }
+}
+.boss-attack-banner {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 800;
+  color: #b80000;
+  background: #ffe4e4;
+  border: 1px solid #ffb3b3;
+  border-radius: 999px;
+  padding: 4px 12px;
+  animation: attack-banner-pop 0.3s ease;
+}
+.boss-attack-banner svg { width: 14px; height: 14px; }
+@keyframes attack-banner-pop {
+  0% { transform: scale(0.8); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+.boss-hp-bar {
+  flex: 1;
+  height: 16px;
+  background: var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+.boss-hp-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #ff8a5c, #ff4b4b);
+  border-radius: 8px;
+  transition: width 0.4s ease;
+}
+.boss-hp-text {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10.5px;
+  font-weight: 800;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.4);
 }
 .nav-arrow {
   flex-shrink: 0;
@@ -959,6 +1051,7 @@ body {
 .summary-screen .mascot { width: 120px; height: 120px; margin-bottom: 8px; }
 .summary-screen .btn-block + .btn-block { margin-top: 10px; }
 .fail-screen h1 { color: var(--red); }
+.bossfight-victory h1 { color: #ff8a5c; }
 
 /* ---------- Narrow / phone screens ---------- */
 

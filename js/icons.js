@@ -20,6 +20,7 @@ const ICONS = {
   flash: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L4 14h6l-1 8 9-12h-6l1-8z"/></svg>`,
   book: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.2V5.8C4 4.8 4.8 4 5.8 4H12v16H5.8c-1 0-1.8-.8-1.8-1.8z"/><path d="M20 19.2V5.8c0-1-.8-1.8-1.8-1.8H12v16h6.2c1 0 1.8-.8 1.8-1.8z"/></svg>`,
   notes: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h13l3 3v13H4z"/><path d="M17 4v3h3"/><path d="M8 10h8M8 14h8M8 18h4"/></svg>`,
+  sword: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 3.5L21 10l-8.5 8.5-4-1-1-4z"/><path d="M9 15l-5.5 5.5"/><path d="M17 6l-8.5 8.5"/></svg>`,
 };
 
 function icon(name, cls) {
@@ -258,6 +259,27 @@ function mascotSvg(pose, capColor, species) {
 
 function mascot(pose, cls, capColor, species) {
   return `<div class="mascot ${cls || ""}">${mascotSvg(pose, capColor, species)}</div>`;
+}
+
+// A single original "rock golem" boss monster, distinct from the player's
+// own mascot species. Gets angrier (narrower glowing eyes, jagged frown) the
+// lower its HP falls - hpPct is 0..1.
+function bossSvg(hpPct) {
+  const angry = hpPct < 0.4;
+  const eyeColor = angry ? "#ff2e2e" : "#ff8a5c";
+  const mouth = angry
+    ? `<path d="M72 130 L92 118 L108 130 L128 118" stroke="#1c1420" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`
+    : `<path d="M74 120 Q100 138 126 120" stroke="#1c1420" stroke-width="7" fill="none" stroke-linecap="round"/>`;
+  return `<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <path d="M100 10 L126 38 L156 26 L152 60 L182 78 L154 100 L182 122 L152 140 L156 174 L126 162 L100 190 L74 162 L44 174 L48 140 L18 122 L46 100 L18 78 L48 60 L44 26 L74 38 Z" fill="#362734"/>
+    <circle cx="100" cy="100" r="60" fill="#4a3648"/>
+    <circle cx="100" cy="100" r="60" fill="none" stroke="#241a26" stroke-width="4"/>
+    <ellipse cx="76" cy="90" rx="15" ry="${angry ? 8 : 15}" fill="${eyeColor}"/>
+    <ellipse cx="124" cy="90" rx="15" ry="${angry ? 8 : 15}" fill="${eyeColor}"/>
+    <circle cx="76" cy="90" r="5" fill="#241a26"/>
+    <circle cx="124" cy="90" r="5" fill="#241a26"/>
+    ${mouth}
+  </svg>`;
 }
 
 function shadeColor(hex, percent) {

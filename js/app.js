@@ -79,6 +79,16 @@ function isBossCompleted(subjectId, chuDeId) {
   return !!subjectState(S, subjectId).completedBoss[chuDeId];
 }
 
+// The subject-wide final boss unlocks once every chapter's own boss/review
+// round has been cleared - a capstone fight, not a per-lesson one.
+function isSubjectBossUnlocked(subjectId) {
+  return SUBJECTS[subjectId].chuDe.every((cd) => isBossCompleted(subjectId, cd.id));
+}
+
+function isSubjectBossAvailable(subjectId) {
+  return Object.values(content[subjectId].quizzes).some((q) => q);
+}
+
 // ---------------- Rendering: chrome tab bar ----------------
 
 function renderTabBar() {
@@ -268,6 +278,8 @@ function renderHome() {
     html += `</div></div>`;
   }
 
+  html += renderSubjectBossEntry(subjectId, subj);
+
   html += `</div>`;
   els.app.innerHTML = html;
 
@@ -277,6 +289,10 @@ function renderHome() {
   document.querySelectorAll("[data-boss]").forEach((btn) => {
     btn.addEventListener("click", () => startBossSession(btn.getAttribute("data-boss")));
   });
+  const subjectBossBtn = document.querySelector("[data-subject-boss]");
+  if (subjectBossBtn) {
+    subjectBossBtn.addEventListener("click", () => startSubjectBossFight(subjectBossBtn.getAttribute("data-subject-boss")));
+  }
   wireTabBar();
   wireTopbarExtras();
 
@@ -285,6 +301,37 @@ function renderHome() {
     await loadAllContent({ onlyMissing: true });
     if (document.getElementById("home-scroll")) renderHome();
   }, 15000);
+}
+
+function renderSubjectBossEntry(subjectId, subj) {
+  const available = isSubjectBossAvailable(subjectId);
+  const unlocked = isSubjectBossUnlocked(subjectId);
+  const won = isSubjectBossWon(S, subjectId);
+  // Having already won is proof it was unlocked at some point - never show
+  // the locked state (or its message) once that's true.
+  const locked = !won && (!available || !unlocked);
+  const desc = won
+    ? "Đã đánh bại - đấu lại để luyện tập thêm"
+    : !available
+    ? "Nội dung đang cập nhật"
+    : !unlocked
+    ? `Hoàn thành hết Ôn tập ${subj.unitLabel.toLowerCase()} để mở khoá`
+    : "Đấu trùm với câu hỏi tổng hợp toàn môn!";
+  return `
+    <div class="subject-boss-section">
+      <div class="subject-boss-card ${locked ? "locked" : ""} ${won ? "won" : ""}">
+        <div class="subject-boss-sprite">${bossSvg(won ? 0.15 : 1)}</div>
+        <div class="subject-boss-info">
+          <div class="subject-boss-label">${won ? "Trùm cuối - Đã hạ gục" : "Trùm cuối"}</div>
+          <div class="subject-boss-title">${subj.name}</div>
+          <div class="subject-boss-desc">${desc}</div>
+        </div>
+        <button class="btn ${locked ? "btn-secondary" : "btn-danger"} btn-small" data-subject-boss="${subjectId}" ${locked ? "disabled" : ""}>
+          ${locked ? icon("lock") : icon("sword")}
+        </button>
+      </div>
+    </div>
+  `;
 }
 
 const GREETINGS = [
@@ -532,15 +579,96 @@ function startBossSession(chuDeId) {
   renderCard();
 }
 
+const SUBJECT_BOSS_MAX_HP = 100;
+const SUBJECT_BOSS_ATTACK_EVERY = 3;
+
+// Pools every quiz across the whole subject into three difficulty tiers -
+// there's no explicit difficulty tag in the data, so the question *kind*
+// stands in for it: multiple-choice is easiest, true/false groups are the
+// middle ground, and free-typed short answers (no options to lean on) are
+// the hardest, reserved for the boss's own "attack" turns.
+function buildSubjectBossPool(subjectId) {
+  const quizzes = Object.values(content[subjectId].quizzes).filter(Boolean);
+  const easy = [];
+  const medium = [];
+  const hard = [];
+  quizzes.forEach((quiz) => {
+    (quiz.mcq || []).forEach((q) => easy.push({ kind: "mcq", ...q }));
+    (quiz.trueFalse || []).forEach((q) => medium.push({ kind: "tf", ...q }));
+    (quiz.shortAnswer || []).forEach((q) => hard.push({ kind: "short", ...q }));
+  });
+  return { easy, medium, hard };
+}
+
+// Builds `count` more cards, forcing every SUBJECT_BOSS_ATTACK_EVERY-th one
+// to be a harder "boss attack" question (flagged so the UI can telegraph
+// it). Which tier counts as "harder" adapts to what the subject actually
+// has: short-answer if any exist (KTPL has none), otherwise true/false
+// groups - so every subject gets a real difficulty spike, not just the
+// numeric ones.
+function buildSubjectBossQueue(pool, count) {
+  const attackTier = pool.hard.length ? "hard" : pool.medium.length ? "medium" : null;
+  const attackPool = shuffle(attackTier ? pool[attackTier] : []);
+  const normalPool = shuffle(attackTier === "hard" ? [...pool.easy, ...pool.medium] : pool.easy);
+  const queue = [];
+  let ni = 0;
+  let ai = 0;
+  for (let i = 0; i < count; i++) {
+    const attackTurn = (i + 1) % SUBJECT_BOSS_ATTACK_EVERY === 0;
+    if (attackTurn && attackPool.length) {
+      queue.push({ ...attackPool[ai % attackPool.length], bossAttack: true });
+      ai++;
+    } else if (normalPool.length) {
+      queue.push({ ...normalPool[ni % normalPool.length] });
+      ni++;
+    } else if (attackPool.length) {
+      queue.push({ ...attackPool[ai % attackPool.length], bossAttack: true });
+      ai++;
+    }
+  }
+  return queue;
+}
+
+function extendBossQueue(sess, count) {
+  sess.queue = sess.queue.concat(buildSubjectBossQueue(sess.bossPool, count));
+}
+
+function startSubjectBossFight(subjectId) {
+  const pool = buildSubjectBossPool(subjectId);
+  const totalQuestions = pool.easy.length + pool.medium.length + pool.hard.length;
+  if (totalQuestions < 5) return;
+  const queue = buildSubjectBossQueue(pool, 15);
+  session = {
+    mode: "subjectBoss",
+    subjectId,
+    lessonTitle: `Trùm cuối: ${SUBJECTS[subjectId].name}`,
+    queue,
+    index: 0,
+    maxIndex: 0,
+    snapshots: {},
+    totalUnits: totalScoreUnits(queue),
+    correctUnits: 0,
+    xpEarned: 0,
+    hearts: effectiveMaxHearts(S),
+    usedIds: [],
+    bossPool: pool,
+    bossHp: SUBJECT_BOSS_MAX_HP,
+    bossMaxHp: SUBJECT_BOSS_MAX_HP,
+  };
+  clearInterval(homeRefreshTimer);
+  renderCard();
+}
+
 function currentCard() {
   return session.queue[session.index];
 }
 
 function renderCard() {
   const card = currentCard();
+  const isBossFight = session.mode === "subjectBoss";
   const progressPct = Math.round((session.index / session.queue.length) * 100);
   const cd = chuDeById(session.subjectId, session.chuDeId);
-  const accent = cd ? cd.color : null;
+  const accent = isBossFight ? "#ff4b4b" : cd ? cd.color : null;
 
   if ((card.kind === "mcq" || card.kind === "gloss" || card.kind === "tf") && card._style === undefined) {
     card._style = Math.random() < 0.5 ? (card.kind === "tf" ? "sort" : "bubbles") : (card.kind === "tf" ? "toggle" : "list");
@@ -562,6 +690,7 @@ function renderCard() {
   els.app.innerHTML = `
     <div class="lesson-screen" style="${accent ? `--lesson-accent:${accent}` : ""}">
       ${renderTopbar(true)}
+      ${isBossFight ? renderBossSprite(card) : ""}
       ${renderProgressRow(progressPct)}
       <div class="card-area pop-in" id="card-area">${bodyHtml}</div>
       <div id="footer-slot"></div>
@@ -578,15 +707,45 @@ function renderCard() {
   wireCardInteractions(card);
 }
 
+function renderBossSprite(card) {
+  const hpPct = session.bossHp / session.bossMaxHp;
+  const attacking = !!(card && card.bossAttack);
+  return `
+    <div class="boss-sprite-wrap ${attacking ? "attacking" : ""}" id="boss-sprite-wrap">
+      <div class="boss-sprite">${bossSvg(hpPct)}</div>
+      ${attacking ? `<div class="boss-attack-banner">${icon("flash")} Boss tấn công! Câu tiếp theo khó hơn!</div>` : ""}
+    </div>
+  `;
+}
+
 function renderProgressRow(progressPct) {
+  const isBossFight = session.mode === "subjectBoss";
+  const middle = isBossFight
+    ? `<div class="boss-hp-bar" title="Máu Trùm"><div class="boss-hp-fill" id="boss-hp-fill" style="width:${(session.bossHp / session.bossMaxHp) * 100}%"></div><span class="boss-hp-text" id="boss-hp-text">${session.bossHp}/${session.bossMaxHp}</span></div>`
+    : `<div class="progress-bar"><div class="progress-bar-fill" style="width:${progressPct}%"></div></div>`;
   return `
     <div class="progress-row">
       <button class="nav-arrow" id="btn-card-prev" title="Câu trước">${icon("back")}</button>
-      <div class="progress-bar"><div class="progress-bar-fill" style="width:${progressPct}%"></div></div>
+      ${middle}
       <button class="nav-arrow nav-arrow-next" id="btn-card-next" title="Câu sau">${icon("back")}</button>
     </div>
     <div class="review-tag">Đang xem lại - không tính điểm</div>
   `;
+}
+
+function updateBossHud() {
+  if (!session || session.mode !== "subjectBoss") return;
+  const fill = document.getElementById("boss-hp-fill");
+  const text = document.getElementById("boss-hp-text");
+  const hpPct = Math.max(0, session.bossHp / session.bossMaxHp);
+  if (fill) fill.style.width = `${hpPct * 100}%`;
+  if (text) text.textContent = `${session.bossHp}/${session.bossMaxHp}`;
+  const spriteWrap = document.getElementById("boss-sprite-wrap");
+  if (spriteWrap) {
+    spriteWrap.querySelector(".boss-sprite").innerHTML = bossSvg(hpPct);
+    spriteWrap.classList.add("hurt");
+    setTimeout(() => spriteWrap.classList.remove("hurt"), 400);
+  }
 }
 
 // Only let the learner step away from a card once it's settled (a concept
@@ -663,6 +822,15 @@ function renderFromSnapshot(index, isFrontier) {
   if (heartEl) heartEl.innerHTML = `${icon("heart")}${session.hearts}`;
   const xpEl = document.querySelector(".stat-xp");
   if (xpEl) xpEl.innerHTML = `${icon("flash")}${S.xp + session.xpEarned}`;
+  if (session.mode === "subjectBoss") {
+    const hpPct = Math.max(0, session.bossHp / session.bossMaxHp);
+    const fill = document.getElementById("boss-hp-fill");
+    const text = document.getElementById("boss-hp-text");
+    if (fill) fill.style.width = `${hpPct * 100}%`;
+    if (text) text.textContent = `${session.bossHp}/${session.bossMaxHp}`;
+    const sprite = document.querySelector("#boss-sprite-wrap .boss-sprite");
+    if (sprite) sprite.innerHTML = bossSvg(hpPct);
+  }
 
   if (isFrontier) {
     const continueBtn = document.getElementById("btn-continue");
@@ -955,6 +1123,18 @@ function parseNumericInput(raw) {
   return Number.isNaN(n) ? null : n;
 }
 
+// Only meaningful in a "subjectBoss" session - every other mode leaves
+// session.bossHp undefined and this is a no-op.
+function applyBossDamage(kind, correctCount) {
+  if (!session || session.mode !== "subjectBoss") return;
+  let dmg = 0;
+  if (kind === "mcq") dmg = correctCount > 0 ? 9 : 0;
+  else if (kind === "short") dmg = correctCount > 0 ? 16 : 0;
+  else if (kind === "tf") dmg = correctCount * 4;
+  session.bossHp = Math.max(0, session.bossHp - dmg);
+  updateBossHud();
+}
+
 function gradeShort(card, input) {
   session.answered = true;
   const userVal = parseNumericInput(input.value);
@@ -970,6 +1150,7 @@ function gradeShort(card, input) {
   } else {
     loseSessionHeart();
   }
+  applyBossDamage("short", isCorrect ? 1 : 0);
   const answerText = `${card.answer}${card.unit ? " " + card.unit : ""}`;
   showFeedback(isCorrect, isCorrect ? null : `Đáp án đúng: ${answerText}`);
 }
@@ -991,6 +1172,7 @@ function gradeMcq(card, selectedKey, btns) {
   } else {
     loseSessionHeart();
   }
+  applyBossDamage("mcq", isCorrect ? 1 : 0);
   showFeedback(isCorrect, null);
 }
 
@@ -1022,6 +1204,7 @@ function gradeTf(card, answers) {
   session.correctUnits += correctCount;
   session.xpEarned += correctCount * 5;
   if (correctCount < card.statements.length) loseSessionHeart();
+  applyBossDamage("tf", correctCount);
   const allCorrect = correctCount === card.statements.length;
   allCorrect ? playCorrect() : playIncorrect();
   showFeedback(allCorrect, `Bạn đúng ${correctCount}/${card.statements.length} ý.`);
@@ -1084,12 +1267,19 @@ function loseSessionHeart() {
 function advanceCard() {
   snapshotIndex(session.index);
   session.answered = false;
+  if (session.mode === "subjectBoss" && session.bossHp <= 0) {
+    renderBossVictoryScreen();
+    return;
+  }
   if (session.hearts <= 0) {
     renderFailScreen();
     return;
   }
   session.index += 1;
   if (session.index > session.maxIndex) session.maxIndex = session.index;
+  if (session.index >= session.queue.length && session.mode === "subjectBoss") {
+    extendBossQueue(session, 12);
+  }
   if (session.index >= session.queue.length) {
     finishSession();
   } else {
@@ -1097,15 +1287,42 @@ function advanceCard() {
   }
 }
 
+function renderBossVictoryScreen() {
+  playComplete();
+  const bonusXp = 80;
+  const bonusXu = 40;
+  addXp(S, bonusXp);
+  addCurrency(S, bonusXu);
+  recordSubjectBossWin(S, session.subjectId);
+  saveState(S);
+  els.app.innerHTML = `
+    <div class="summary-screen pop-in bossfight-victory">
+      ${mascot("celebrate", "", null, currentMascotSpecies(S))}
+      <h1>Hạ gục Trùm cuối!</h1>
+      <div class="sub">${SUBJECTS[session.subjectId].name} - bạn đã đánh bại con trùm!</div>
+      <div class="summary-stats">
+        <div class="summary-stat"><div class="val">+${bonusXp}</div><div class="lbl">Điểm KN</div></div>
+        <div class="summary-stat"><div class="val">+${bonusXu}</div><div class="lbl">Xu</div></div>
+      </div>
+      <button class="btn btn-primary btn-block" id="btn-boss-victory-done">Tuyệt vời!</button>
+    </div>
+  `;
+  document.getElementById("btn-boss-victory-done").addEventListener("click", () => {
+    session = null;
+    switchToHome();
+  });
+}
+
 function renderFailScreen() {
   playFail();
+  const isBossFight = session.mode === "subjectBoss";
   els.app.innerHTML = `
     <div class="summary-screen pop-in fail-screen">
       ${mascot("sad", "", null, currentMascotSpecies(S))}
-      <h1>Hết tim rồi!</h1>
+      <h1>${isBossFight ? "Trùm đánh bại bạn rồi!" : "Hết tim rồi!"}</h1>
       <div class="sub">${session.lessonTitle} - đừng lo, thử lại là qua thôi!</div>
       <div class="summary-stats">
-        <div class="summary-stat"><div class="val">${session.correctUnits}</div><div class="lbl">Câu đúng</div></div>
+        ${isBossFight ? `<div class="summary-stat"><div class="val">${Math.round((session.bossHp / session.bossMaxHp) * 100)}%</div><div class="lbl">Máu trùm còn lại</div></div>` : `<div class="summary-stat"><div class="val">${session.correctUnits}</div><div class="lbl">Câu đúng</div></div>`}
       </div>
       <button class="btn btn-primary btn-block" id="btn-retry">Thử lại</button>
       <button class="btn btn-secondary btn-block" id="btn-fail-home">Về trang chủ</button>
@@ -1113,6 +1330,7 @@ function renderFailScreen() {
   `;
   document.getElementById("btn-retry").addEventListener("click", () => {
     if (session.mode === "lesson") startBaiSession(session.baiId);
+    else if (session.mode === "subjectBoss") startSubjectBossFight(session.subjectId);
     else startBossSession(session.chuDeId);
   });
   document.getElementById("btn-fail-home").addEventListener("click", () => {

@@ -24,6 +24,7 @@ function defaultSubjectState() {
     completedBai: {},
     completedBoss: {},
     seenQuestionIds: {},
+    subjectBossWon: false,
   };
 }
 
@@ -149,6 +150,14 @@ function recordBaiCompletion(s, subjectId, baiId, accuracy) {
 
 function recordBossCompletion(s, subjectId, chuDeId) {
   subjectState(s, subjectId).completedBoss[chuDeId] = true;
+}
+
+function isSubjectBossWon(s, subjectId) {
+  return !!subjectState(s, subjectId).subjectBossWon;
+}
+
+function recordSubjectBossWin(s, subjectId) {
+  subjectState(s, subjectId).subjectBossWon = true;
 }
 
 function getSeenSet(s, subjectId, chuDeId) {
