@@ -293,6 +293,10 @@ function renderHome() {
   if (subjectBossBtn) {
     subjectBossBtn.addEventListener("click", () => startSubjectBossFight(subjectBossBtn.getAttribute("data-subject-boss")));
   }
+  const subjectBossPreviewBtn = document.querySelector("[data-subject-boss-preview]");
+  if (subjectBossPreviewBtn) {
+    subjectBossPreviewBtn.addEventListener("click", () => startSubjectBossFight(subjectBossPreviewBtn.getAttribute("data-subject-boss-preview")));
+  }
   wireTabBar();
   wireTopbarExtras();
 
@@ -325,6 +329,7 @@ function renderSubjectBossEntry(subjectId, subj) {
           <div class="subject-boss-label">${won ? "Trùm cuối - Đã hạ gục" : "Trùm cuối"}</div>
           <div class="subject-boss-title">${subj.name}</div>
           <div class="subject-boss-desc">${desc}</div>
+          ${locked && available ? `<button class="link-btn" data-subject-boss-preview="${subjectId}">Thử ngay để xem trước (bỏ qua điều kiện mở khoá)</button>` : ""}
         </div>
         <button class="btn ${locked ? "btn-secondary" : "btn-danger"} btn-small" data-subject-boss="${subjectId}" ${locked ? "disabled" : ""}>
           ${locked ? icon("lock") : icon("sword")}
