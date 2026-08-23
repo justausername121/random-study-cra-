@@ -481,6 +481,8 @@ function startBaiSession(baiId) {
     lessonTitle: lesson.title,
     queue,
     index: 0,
+    maxIndex: 0,
+    snapshots: {},
     totalUnits: totalScoreUnits(queue),
     correctUnits: 0,
     xpEarned: 0,
@@ -505,6 +507,8 @@ function startBossSession(chuDeId) {
     lessonTitle: `Ôn tập: ${cd.title}`,
     queue,
     index: 0,
+    maxIndex: 0,
+    snapshots: {},
     totalUnits: totalScoreUnits(queue),
     correctUnits: 0,
     xpEarned: 0,
@@ -545,7 +549,7 @@ function renderCard() {
   els.app.innerHTML = `
     <div class="lesson-screen" style="${accent ? `--lesson-accent:${accent}` : ""}">
       ${renderTopbar(true)}
-      <div class="progress-bar"><div class="progress-bar-fill" style="width:${progressPct}%"></div></div>
+      ${renderProgressRow(progressPct)}
       <div class="card-area pop-in" id="card-area">${bodyHtml}</div>
       <div id="footer-slot"></div>
     </div>
@@ -556,8 +560,104 @@ function renderCard() {
     switchToHome();
   });
   wireTopbarExtras();
+  wireNavArrows();
 
   wireCardInteractions(card);
+}
+
+function renderProgressRow(progressPct) {
+  return `
+    <div class="progress-row">
+      <button class="nav-arrow" id="btn-card-prev" title="Câu trước">${icon("back")}</button>
+      <div class="progress-bar"><div class="progress-bar-fill" style="width:${progressPct}%"></div></div>
+      <button class="nav-arrow nav-arrow-next" id="btn-card-next" title="Câu sau">${icon("back")}</button>
+    </div>
+    <div class="review-tag">Đang xem lại - không tính điểm</div>
+  `;
+}
+
+// Only let the learner step away from a card once it's settled (a concept
+// card has nothing to "finish", everything else must already be graded) -
+// this keeps an in-progress question from ever being abandoned and
+// re-entered, which would risk double-scoring it.
+function isCurrentCardSettled() {
+  // Already-completed history is always safe to step through; the "must be
+  // answered first" gate only matters right at the live frontier.
+  if (session.index < session.maxIndex) return true;
+  const card = currentCard();
+  if (!card) return true;
+  return card.kind === "concept" || !!session.answered;
+}
+
+function wireNavArrows() {
+  const prevBtn = document.getElementById("btn-card-prev");
+  const nextBtn = document.getElementById("btn-card-next");
+  if (prevBtn) {
+    prevBtn.disabled = session.index <= 0 || !isCurrentCardSettled();
+    prevBtn.onclick = goBackCard;
+  }
+  if (nextBtn) {
+    nextBtn.disabled = session.index >= session.maxIndex;
+    nextBtn.onclick = goForwardCard;
+  }
+}
+
+// Freezes whatever is currently on screen for this queue index so the
+// learner can flip back to it later without re-triggering any grading.
+function snapshotIndex(idx) {
+  const screen = document.querySelector(".lesson-screen");
+  if (screen) session.snapshots[idx] = screen.innerHTML;
+}
+
+function goBackCard() {
+  if (!session || session.index <= 0) return;
+  snapshotIndex(session.index);
+  session.index -= 1;
+  renderFromSnapshot(session.index, false);
+}
+
+function goForwardCard() {
+  if (!session || session.index >= session.maxIndex) return;
+  snapshotIndex(session.index);
+  session.index += 1;
+  renderFromSnapshot(session.index, session.index === session.maxIndex);
+}
+
+// Restores a frozen card. Past cards (isFrontier=false) stay read-only -
+// their inputs are already `disabled` in the captured markup, and we don't
+// rewire any grading logic. Returning to the live frontier (isFrontier=true)
+// re-attaches whichever "keep going" control that card actually has, so
+// progress can continue normally from exactly where it was left.
+function renderFromSnapshot(index, isFrontier) {
+  const snap = session.snapshots[index];
+  const screen = document.querySelector(".lesson-screen");
+  if (snap == null || !screen) {
+    renderCard();
+    return;
+  }
+  screen.innerHTML = snap;
+  screen.classList.toggle("review-mode", !isFrontier);
+
+  document.getElementById("btn-back").addEventListener("click", () => {
+    session = null;
+    switchToHome();
+  });
+  wireTopbarExtras();
+  wireNavArrows();
+  // The frozen markup carries whatever heart/XP counts were true back when
+  // it was captured - resync them to the live session values.
+  const heartEl = document.querySelector(".stat-heart");
+  if (heartEl) heartEl.innerHTML = `${icon("heart")}${session.hearts}`;
+  const xpEl = document.querySelector(".stat-xp");
+  if (xpEl) xpEl.innerHTML = `${icon("flash")}${S.xp + session.xpEarned}`;
+
+  if (isFrontier) {
+    const continueBtn = document.getElementById("btn-continue");
+    const feedbackNextBtn = document.getElementById("btn-next");
+    if (continueBtn) continueBtn.addEventListener("click", advanceCard);
+    else if (feedbackNextBtn) feedbackNextBtn.addEventListener("click", advanceCard);
+    else wireCardInteractions(currentCard());
+  }
 }
 
 function renderConceptCard(card) {
@@ -961,6 +1061,7 @@ function showFeedback(isCorrect, detail) {
   const heartEl = document.querySelector(".stat-heart");
   if (heartEl) heartEl.innerHTML = `${icon("heart")}${session.hearts}`;
   document.querySelector(".stat-xp").innerHTML = `${icon("flash")}${S.xp + session.xpEarned}`;
+  wireNavArrows();
 }
 
 function loseSessionHeart() {
@@ -968,12 +1069,14 @@ function loseSessionHeart() {
 }
 
 function advanceCard() {
+  snapshotIndex(session.index);
   session.answered = false;
   if (session.hearts <= 0) {
     renderFailScreen();
     return;
   }
   session.index += 1;
+  if (session.index > session.maxIndex) session.maxIndex = session.index;
   if (session.index >= session.queue.length) {
     finishSession();
   } else {
