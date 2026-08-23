@@ -693,7 +693,7 @@ function renderCard() {
   }
 
   els.app.innerHTML = `
-    <div class="lesson-screen" style="${accent ? `--lesson-accent:${accent}` : ""}">
+    <div class="lesson-screen ${isBossFight ? "boss-fight-screen" : ""}" style="${accent ? `--lesson-accent:${accent}` : ""}">
       ${renderTopbar(true)}
       ${isBossFight ? renderBossSprite(card) : ""}
       ${renderProgressRow(progressPct)}

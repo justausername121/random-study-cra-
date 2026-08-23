@@ -413,6 +413,23 @@ body {
 
 .lesson-screen { flex: 1; display: flex; flex-direction: column; }
 
+/* A dramatic dark battle-arena backdrop for the boss fight, instead of the
+   plain white lesson background. The question itself still sits inside a
+   light floating panel so none of the existing card styling needs to
+   change to stay legible on top of it. */
+.boss-fight-screen {
+  background:
+    radial-gradient(circle at 50% -10%, rgba(255,138,92,0.35), transparent 55%),
+    linear-gradient(180deg, #3a2230 0%, #1c1420 55%, #120d14 100%);
+}
+.boss-fight-screen .card-area {
+  background: var(--bg);
+  border-radius: var(--radius);
+  margin: 4px 14px 16px;
+  padding: 16px 18px 20px;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.35);
+}
+
 .progress-row {
   display: flex;
   align-items: center;
@@ -526,6 +543,7 @@ body {
   margin: -4px 16px 6px;
 }
 .review-mode .review-tag { display: block; }
+.boss-fight-screen .review-tag { color: #ffcfc2; }
 .review-mode .footer-bar button,
 .review-mode .feedback-banner button {
   pointer-events: none;
