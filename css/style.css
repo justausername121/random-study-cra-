@@ -931,6 +931,62 @@ body {
 .mission-progress-bar { height: 8px; background: var(--border); border-radius: 6px; overflow: hidden; }
 .mission-progress-fill { height: 100%; background: var(--green); border-radius: 6px; }
 .mission-progress-text { font-size: 11.5px; color: var(--ink-light); font-weight: 700; margin-top: 3px; }
+
+.exam-list { display: flex; flex-direction: column; gap: 10px; }
+.exam-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border: 2px solid var(--border);
+  border-radius: 14px;
+  padding: 14px 16px;
+  background: white;
+  cursor: pointer;
+  text-align: left;
+  transition: transform 0.08s ease, border-color 0.1s;
+}
+.exam-item:hover:not(:disabled) { border-color: var(--blue); }
+.exam-item:active:not(:disabled) { transform: scale(0.98); }
+.exam-item:disabled { cursor: default; opacity: 0.55; }
+.exam-item-icon {
+  width: 38px; height: 38px;
+  border-radius: 50%;
+  background: var(--bg-soft);
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+  color: var(--blue);
+}
+.exam-item:disabled .exam-item-icon { color: var(--ink-light); }
+.exam-item-icon svg { width: 20px; height: 20px; }
+.exam-item-body { flex: 1; min-width: 0; }
+.exam-item-title { font-weight: 800; font-size: 14.5px; }
+.exam-item-sub { font-size: 11.5px; color: var(--ink-light); font-weight: 700; margin-top: 3px; }
+
+.exam-result .exam-score-big {
+  font-size: 40px;
+  font-weight: 900;
+  color: var(--green);
+  margin: 12px 0 4px;
+}
+.exam-result .exam-score-max { font-size: 16px; font-weight: 700; color: var(--ink-light); }
+.exam-breakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  max-width: 320px;
+  margin: 8px 0 16px;
+}
+.exam-part-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--ink-light);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 6px;
+}
+.exam-part-row b { color: var(--ink); }
 .mission-reward {
   display: flex; align-items: center; gap: 3px;
   font-weight: 800; color: #d99b00; font-size: 14px; flex-shrink: 0;

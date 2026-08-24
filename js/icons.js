@@ -21,6 +21,7 @@ const ICONS = {
   book: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.2V5.8C4 4.8 4.8 4 5.8 4H12v16H5.8c-1 0-1.8-.8-1.8-1.8z"/><path d="M20 19.2V5.8c0-1-.8-1.8-1.8-1.8H12v16h6.2c1 0 1.8-.8 1.8-1.8z"/></svg>`,
   notes: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h13l3 3v13H4z"/><path d="M17 4v3h3"/><path d="M8 10h8M8 14h8M8 18h4"/></svg>`,
   sword: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 3.5L21 10l-8.5 8.5-4-1-1-4z"/><path d="M9 15l-5.5 5.5"/><path d="M17 6l-8.5 8.5"/></svg>`,
+  examPaper: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2h9l3 3v17H6z"/><path d="M15 2v3h3"/><path d="M9 12l2 2 4-4"/><path d="M9 17h6"/></svg>`,
 };
 
 function icon(name, cls) {

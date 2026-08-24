@@ -126,13 +126,14 @@ function renderTopbar(showBack) {
       <div class="topbar-actions">
         ${showBack ? `<button class="back-btn" id="btn-back">${ICONS.back}</button>` : `
           <button class="icon-btn" id="btn-missions" title="Nhiệm vụ hằng ngày">${icon("target")}</button>
+          <button class="icon-btn" id="btn-exam" title="Đề ôn thi">${icon("examPaper")}</button>
           <button class="icon-btn" id="btn-shop" title="Cửa hàng">${icon("bag")}</button>`}
         <button class="icon-btn" id="btn-notes" title="Ghi chú">${icon("notes")}</button>
       </div>
       <div class="stat-group">
         <button class="icon-btn" id="btn-sound" title="${S.soundOn ? "Tắt âm thanh" : "Bật âm thanh"}">${icon(S.soundOn ? "soundOn" : "soundOff")}</button>
         <span class="stat-pill stat-fire">${icon("fire")}${S.streak}${S.streakFreezes > 0 ? `<sup class="freeze-badge">x${S.streakFreezes}</sup>` : ""}</span>
-        ${inSession ? `<span class="stat-pill stat-heart">${icon("heart")}${session.hearts}</span>` : ""}
+        ${inSession && session.mode !== "exam" ? `<span class="stat-pill stat-heart">${icon("heart")}${session.hearts}</span>` : ""}
         ${inSession ? `<span class="stat-pill stat-streak" id="stat-streak" style="${session.streak > 0 ? "" : "display:none"}">${icon("star")}${session.streak}</span>` : ""}
         <span class="stat-pill stat-coin">${icon("gem")}${S.currency}</span>
         <span class="stat-pill stat-xp">${icon("flash")}${S.xp}</span>
@@ -144,8 +145,10 @@ function renderTopbar(showBack) {
 function wireTopbarExtras() {
   const mBtn = document.getElementById("btn-missions");
   const sBtn = document.getElementById("btn-shop");
+  const eBtn = document.getElementById("btn-exam");
   if (mBtn) mBtn.addEventListener("click", renderMissionsScreen);
   if (sBtn) sBtn.addEventListener("click", renderShopScreen);
+  if (eBtn) eBtn.addEventListener("click", renderExamListScreen);
   document.getElementById("btn-notes").addEventListener("click", openNotes);
   wireSoundToggle();
 }
@@ -529,6 +532,78 @@ function wireShopButtons() {
   }
 }
 
+// ---------------- Rendering: exam (đề ôn thi) list ----------------
+
+// How many questions of each kind a "full" paper targets - deliberately
+// matched to the real THPT exam's own part sizes (12 mcq @ 0.25đ, 4
+// true/false groups @ up to 1đ each, 6 short-answer @ 0.5đ) so a full paper
+// naturally totals out of a genuine 10 điểm. Smaller chapters just get a
+// proportionally smaller paper (and a smaller, honestly-labelled max).
+const EXAM_TARGET = { mcq: 12, tf: 4, short: 6 };
+
+function examQuestionCounts(subjectId, chuDeId) {
+  if (chuDeId) {
+    const quiz = content[subjectId].quizzes[chuDeId];
+    if (!quiz) return { mcq: 0, tf: 0, short: 0 };
+    return { mcq: (quiz.mcq || []).length, tf: (quiz.trueFalse || []).length, short: (quiz.shortAnswer || []).length };
+  }
+  const pool = buildSubjectBossPool(subjectId);
+  return { mcq: pool.easy.length, tf: pool.medium.length, short: pool.hard.length };
+}
+
+function renderExamListScreen() {
+  const subjectId = S.currentSubjectId;
+  const subj = SUBJECTS[subjectId];
+  const entries = [{ chuDeId: null, title: `Đề tổng hợp - ${subj.name}`, sub: "Trộn câu hỏi từ mọi chương" }];
+  subj.chuDe.forEach((cd) => {
+    entries.push({ chuDeId: cd.id, title: `${subj.unitLabel} ${cd.order}: ${cd.title}`, sub: null });
+  });
+
+  els.app.innerHTML = `
+    <div class="lesson-screen">
+      ${renderTopbar(true)}
+      <div class="card-area pop-in">
+        <div class="panel-header">
+          ${icon("examPaper", "panel-icon")}
+          <div>
+            <h2>Đề ôn thi</h2>
+            <div class="sub">Luyện đề như thi thật - không mất tim, không giới hạn thời gian</div>
+          </div>
+        </div>
+        <div class="exam-list">
+          ${entries
+            .map((e) => {
+              const counts = examQuestionCounts(subjectId, e.chuDeId);
+              const total = counts.mcq + counts.tf + counts.short;
+              const available = total >= 5;
+              const countText = available
+                ? `${Math.min(EXAM_TARGET.mcq, counts.mcq)} câu TN · ${Math.min(EXAM_TARGET.tf, counts.tf)} câu Đúng/Sai${counts.short ? ` · ${Math.min(EXAM_TARGET.short, counts.short)} câu trả lời ngắn` : ""}`
+                : "Nội dung đang cập nhật";
+              return `
+                <button class="exam-item ${available ? "" : "disabled"}" data-exam="${e.chuDeId ?? "all"}" ${available ? "" : "disabled"}>
+                  <div class="exam-item-icon">${icon(available ? "examPaper" : "lock")}</div>
+                  <div class="exam-item-body">
+                    <div class="exam-item-title">${e.title}</div>
+                    <div class="exam-item-sub">${e.sub || countText}</div>
+                  </div>
+                </button>
+              `;
+            })
+            .join("")}
+        </div>
+      </div>
+    </div>
+  `;
+  document.getElementById("btn-back").addEventListener("click", renderHome);
+  wireTopbarExtras();
+  document.querySelectorAll("[data-exam]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const val = btn.getAttribute("data-exam");
+      startExamSession(subjectId, val === "all" ? null : val);
+    });
+  });
+}
+
 // ---------------- Rendering: lesson session ----------------
 
 function startBaiSession(baiId) {
@@ -669,6 +744,135 @@ function startSubjectBossFight(subjectId) {
   renderCard();
 }
 
+// Builds one exam paper: mcq first, then true/false groups, then short
+// answer - kept in that order (each part internally shuffled) rather than
+// interleaved, so it reads like an actual exam paper (Phần I, II, III)
+// instead of a random quiz.
+function buildExamQueue(subjectId, chuDeId) {
+  let easy = [];
+  let medium = [];
+  let hard = [];
+  if (chuDeId) {
+    const quiz = content[subjectId].quizzes[chuDeId];
+    if (quiz) {
+      easy = (quiz.mcq || []).map((q) => ({ kind: "mcq", ...q }));
+      medium = (quiz.trueFalse || []).map((q) => ({ kind: "tf", ...q }));
+      hard = (quiz.shortAnswer || []).map((q) => ({ kind: "short", ...q }));
+    }
+  } else {
+    const pool = buildSubjectBossPool(subjectId);
+    easy = pool.easy;
+    medium = pool.medium;
+    hard = pool.hard;
+  }
+  return [
+    ...pick(easy, Math.min(EXAM_TARGET.mcq, easy.length)),
+    ...pick(medium, Math.min(EXAM_TARGET.tf, medium.length)),
+    ...pick(hard, Math.min(EXAM_TARGET.short, hard.length)),
+  ];
+}
+
+function startExamSession(subjectId, chuDeId) {
+  const queue = buildExamQueue(subjectId, chuDeId);
+  if (queue.length === 0) return;
+  const cd = chuDeId ? chuDeById(subjectId, chuDeId) : null;
+  session = {
+    mode: "exam",
+    subjectId,
+    chuDeId: chuDeId || null,
+    lessonTitle: cd ? `Đề ôn thi: ${cd.title}` : `Đề ôn thi tổng hợp: ${SUBJECTS[subjectId].name}`,
+    queue,
+    index: 0,
+    maxIndex: 0,
+    snapshots: {},
+    totalUnits: totalScoreUnits(queue),
+    correctUnits: 0,
+    xpEarned: 0,
+    // Revision mode has no fail state - a very high heart count means the
+    // "out of hearts" check in advanceCard never fires in practice, and the
+    // heart pill itself is hidden for this mode anyway (see renderTopbar).
+    hearts: 999,
+    usedIds: [],
+    streak: 0,
+    examScore: { mcqCorrect: 0, mcqTotal: 0, shortCorrect: 0, shortTotal: 0, tfGroups: [] },
+  };
+  clearInterval(homeRefreshTimer);
+  renderCard();
+}
+
+// Only meaningful in "exam" sessions - tallies per-part correctness so the
+// result screen can show a genuine Phần I/II/III breakdown.
+function recordExamAnswer(kind, correctCount, total) {
+  if (!session || session.mode !== "exam") return;
+  if (kind === "mcq") {
+    session.examScore.mcqTotal += 1;
+    session.examScore.mcqCorrect += correctCount;
+  } else if (kind === "short") {
+    session.examScore.shortTotal += 1;
+    session.examScore.shortCorrect += correctCount;
+  } else if (kind === "tf") {
+    session.examScore.tfGroups.push({ correct: correctCount, total });
+  }
+}
+
+// Mirrors the real THPT true/false scoring, which is NOT linear per
+// statement: a 4-statement group is worth 0.1/0.25/0.5/1.0đ for 1/2/3/4
+// correct. Falls back to a plain proportion for any group that (unusually)
+// isn't exactly 4 statements.
+const TF_GROUP_TIER_4 = { 0: 0, 1: 0.1, 2: 0.25, 3: 0.5, 4: 1 };
+
+function computeExamScore(sess) {
+  const es = sess.examScore;
+  const mcqPoints = es.mcqCorrect * 0.25;
+  const mcqMax = es.mcqTotal * 0.25;
+  const shortPoints = es.shortCorrect * 0.5;
+  const shortMax = es.shortTotal * 0.5;
+  let tfPoints = 0;
+  let tfMax = 0;
+  es.tfGroups.forEach((g) => {
+    tfMax += 1;
+    tfPoints += g.total === 4 ? TF_GROUP_TIER_4[g.correct] || 0 : (g.correct / g.total) * 1;
+  });
+  const totalPoints = mcqPoints + tfPoints + shortPoints;
+  const totalMax = mcqMax + tfMax + shortMax;
+  return { totalPoints, totalMax, mcqPoints, mcqMax, tfPoints, tfMax, shortPoints, shortMax };
+}
+
+function renderExamResult() {
+  const score = computeExamScore(session);
+  const pct = score.totalMax > 0 ? score.totalPoints / score.totalMax : 0;
+  playComplete();
+  const tier = pct >= 0.9 ? "great" : pct >= 0.7 ? "good" : pct >= 0.5 ? "okay" : "low";
+  const label = { great: "Xuất sắc!", good: "Khá tốt!", okay: "Cần cố gắng thêm!", low: "Nên ôn lại nhé!" }[tier];
+  const bonusXp = Math.round(pct * 40);
+  const bonusXu = Math.round(pct * 20);
+  addXp(S, bonusXp);
+  addCurrency(S, bonusXu);
+  saveState(S);
+  els.app.innerHTML = `
+    <div class="summary-screen pop-in exam-result">
+      ${mascot(pct >= 0.7 ? "celebrate" : "sad", "", null, currentMascotSpecies(S))}
+      <h1>${label}</h1>
+      <div class="sub">${session.lessonTitle}</div>
+      <div class="exam-score-big">${score.totalPoints.toFixed(2)}<span class="exam-score-max">/${score.totalMax.toFixed(2)} điểm</span></div>
+      <div class="exam-breakdown">
+        ${score.mcqMax > 0 ? `<div class="exam-part-row"><span>Phần I - Trắc nghiệm</span><b>${score.mcqPoints.toFixed(2)}/${score.mcqMax.toFixed(2)}</b></div>` : ""}
+        ${score.tfMax > 0 ? `<div class="exam-part-row"><span>Phần II - Đúng/Sai</span><b>${score.tfPoints.toFixed(2)}/${score.tfMax.toFixed(2)}</b></div>` : ""}
+        ${score.shortMax > 0 ? `<div class="exam-part-row"><span>Phần III - Trả lời ngắn</span><b>${score.shortPoints.toFixed(2)}/${score.shortMax.toFixed(2)}</b></div>` : ""}
+      </div>
+      <div class="summary-stats">
+        <div class="summary-stat"><div class="val">+${bonusXp}</div><div class="lbl">Điểm KN</div></div>
+        <div class="summary-stat"><div class="val">+${bonusXu}</div><div class="lbl">Xu</div></div>
+      </div>
+      <button class="btn btn-primary btn-block" id="btn-exam-done">Xong</button>
+    </div>
+  `;
+  document.getElementById("btn-exam-done").addEventListener("click", () => {
+    session = null;
+    renderExamListScreen();
+  });
+}
+
 function currentCard() {
   return session.queue[session.index];
 }
@@ -678,7 +882,7 @@ function renderCard() {
   const isBossFight = session.mode === "subjectBoss";
   const progressPct = Math.round((session.index / session.queue.length) * 100);
   const cd = chuDeById(session.subjectId, session.chuDeId);
-  const accent = isBossFight ? "#ff4b4b" : cd ? cd.color : null;
+  const accent = isBossFight ? "#ff4b4b" : cd ? cd.color : session.mode === "exam" ? SUBJECTS[session.subjectId].color : null;
 
   if ((card.kind === "mcq" || card.kind === "gloss" || card.kind === "tf") && card._style === undefined) {
     card._style = Math.random() < 0.5 ? (card.kind === "tf" ? "sort" : "bubbles") : (card.kind === "tf" ? "toggle" : "list");
@@ -1222,6 +1426,7 @@ function gradeShort(card, input) {
     loseSessionHeart();
   }
   applyBossDamage("short", isCorrect ? 1 : 0);
+  recordExamAnswer("short", isCorrect ? 1 : 0);
   updateAnswerStreak(isCorrect);
   const answerText = `${card.answer}${card.unit ? " " + card.unit : ""}`;
   showFeedback(isCorrect, isCorrect ? null : `Đáp án đúng: ${answerText}`);
@@ -1245,6 +1450,7 @@ function gradeMcq(card, selectedKey, btns) {
     loseSessionHeart();
   }
   applyBossDamage("mcq", isCorrect ? 1 : 0);
+  recordExamAnswer("mcq", isCorrect ? 1 : 0);
   updateAnswerStreak(isCorrect);
   showFeedback(isCorrect, null);
 }
@@ -1278,6 +1484,7 @@ function gradeTf(card, answers) {
   session.xpEarned += correctCount * 5;
   if (correctCount < card.statements.length) loseSessionHeart();
   applyBossDamage("tf", correctCount);
+  recordExamAnswer("tf", correctCount, card.statements.length);
   const allCorrect = correctCount === card.statements.length;
   allCorrect ? playCorrect() : playIncorrect();
   updateAnswerStreak(allCorrect);
@@ -1345,7 +1552,7 @@ function advanceCard() {
     renderBossVictoryScreen();
     return;
   }
-  if (session.hearts <= 0) {
+  if (session.mode !== "exam" && session.hearts <= 0) {
     renderFailScreen();
     return;
   }
@@ -1355,7 +1562,11 @@ function advanceCard() {
     extendBossQueue(session, 12);
   }
   if (session.index >= session.queue.length) {
-    finishSession();
+    if (session.mode === "exam") {
+      renderExamResult();
+    } else {
+      finishSession();
+    }
   } else {
     renderCard();
   }
